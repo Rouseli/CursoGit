@@ -1,0 +1,7 @@
+2016-12-19 15:01:23:472|SyncServer|300|0x10dc16f60|Logging|Info| Logging initialized, engine version 673.6 : log level 3
+2016-12-19 15:01:24:587|AddressBookSync|296|0x10d11b760|Stats|Stats| com.apple.AddressBook: refresh sync com.apple.contacts.ImageTransformationInfo, com.apple.contacts.Related Name, com.apple.contacts.Group, com.apple.contacts.SmartGroup, com.apple.contacts.URL, com.apple.contacts.IM, com.apple.contacts.Street Address, com.apple.contacts.Phone Number, com.apple.contacts.Date, com.apple.contacts.CalendarURI, com.apple.contacts.Contact, com.apple.contacts.Email Address
+2016-12-19 15:01:24:587|AddressBookSync|296|0x10d11b760|ISyncSession|Info| com.apple.AddressBook: prepare to refresh com.apple.contacts.ImageTransformationInfo,com.apple.contacts.Related Name,com.apple.contacts.Group,com.apple.contacts.SmartGroup,com.apple.contacts.URL,com.apple.contacts.IM,com.apple.contacts.Street Address,com.apple.contacts.Phone Number,com.apple.contacts.Date,com.apple.contacts.CalendarURI,com.apple.contacts.Contact,com.apple.contacts.Email Address
+2016-12-19 15:01:27:973|DockSyncClient|309|0x10bd16b90|Stats|Stats| com.apple.Dock: refresh sync com.apple.dock.itemlist, com.apple.dock.item
+2016-12-19 15:01:27:973|DockSyncClient|309|0x10bd16b90|ISyncSession|Info| com.apple.Dock: prepare to refresh com.apple.dock.itemlist,com.apple.dock.item
+2016-12-19 15:03:28:076|SyncServer|300|0x10dc16f60|Server|Info| Cancelling all sync plans.
+2016-12-19 15:03:28:097|SyncServer|300|0x10dc16f60|Server|Info| Goodnight, Gracie.

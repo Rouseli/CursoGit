@@ -1,0 +1,725 @@
+
+  
+  
+<div class='customer-ratings'>
+  <h4>Valoraciones de clientes</h4>
+  <div class="ratings-container">
+    <div class="histogram-container">
+      
+      
+      No hemos recibido suficientes valoraciones para poder mostrar un promedio de la versión actual de este artículo.
+
+      
+        
+        
+        
+<div class="ratings-histogram">
+  <a href="#" aria-label='4 estrellas, Promedio de valoración de todas las versiones:'>Promedio de valoración de todas las versiones:</a>
+
+  
+    <div class='rating' role='img' tabindex='-1' aria-label='4 estrellas, 416 valoraciones'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div><span class="rating-count">416 valoraciones</span>
+</div>
+
+  
+
+  <div class="vote" role="text" aria-label='5 estrellas, 287 valoraciones'>
+    <div class='stars' role='img' tabindex='-1' aria-label='5 estrellas'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span></div></div>
+
+    <div class="graph">
+      <span class="bar" style="width: 100%;"></span>
+    </div>
+    <span class="total">287</span>
+  </div>
+
+  <div class="vote" role="text" aria-label='4 estrellas, 36 valoraciones'>
+    <div class='stars' role='img' tabindex='-1' aria-label='4 estrellas'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div></div>
+
+    <div class="graph">
+      <span class="bar" style="width: 12%;"></span>
+    </div>
+    <span class="total">36</span>
+  </div>
+
+  <div class="vote" role="text" aria-label='3 estrellas, 23 valoraciones'>
+    <div class='stars' role='img' tabindex='-1' aria-label='3 estrellas'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div></div>
+
+    <div class="graph">
+      <span class="bar" style="width: 8%;"></span>
+    </div>
+    <span class="total">23</span>
+  </div>
+
+  <div class="vote" role="text" aria-label='2 estrellas, 17 valoraciones'>
+    <div class='stars' role='img' tabindex='-1' aria-label='2 estrellas'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div></div>
+
+    <div class="graph">
+      <span class="bar" style="width: 5%;"></span>
+    </div>
+    <span class="total">17</span>
+  </div>
+
+  <div class="vote" role="text" aria-label='1 estrella, 53 valoraciones'>
+    <div class='stars' role='img' tabindex='-1' aria-label='1 estrella'><div><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div></div>
+
+    <div class="graph">
+      <span class="bar" style="width: 18%;"></span>
+    </div>
+    <span class="total">53</span>
+  </div>
+
+</div>
+
+      
+    </div>
+
+    <div class="rating-widget-container">
+      <div rating-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/userRateContent?id=497799835&displayable-kind=30' class="rate-stars"><h5 class="rating-label">Valora esta app:</h5><div role=""><span star-count="1" role="radio" aria-checked="false" aria-label="dar 1 estrella: horrible"></span><span star-count="2" role="radio" aria-checked="false" aria-label="evaluar 2 estrellas, no me gusta"></span><span star-count="3" role="radio" aria-checked="false" aria-label="evaluar 3 estrellas, no está mal"></span><span star-count="4" role="radio" aria-checked="false" aria-label="evaluar 4 estrellas, está bien"></span><span star-count="5" role="radio" aria-checked="false" aria-label="evaluar 5 estrellas, está estupendo"></span></div><span class="rating-desc" aria-hidden="true"></span></div>
+
+      <div class="has-not-purchased">Para valorar esta app, debes haberla comprado en Mac App Store.</div>
+    </div>
+  </div>
+</div>
+
+  
+
+
+
+
+<div class="customer-reviews" >
+  <div class="title hidden"><h4>Escribir una reseña</h4></div>
+  <div class="inline-review" content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/writeUserReview?id=497799835&amp;displayable-kind=30'></div>
+  <div class="title">
+    <h4>Reseñas de usuarios</h4>
+  </div>
+  <div class="pill"><button class="active"><span>Versión actual (0)</span></button><button><span>Todas las versiones (56)</span></button></div>
+
+  <div class="paginate all-reviews" goto-page-href='https://itunes.apple.com/mx/customer-reviews?displayable-kind=30&amp;id=497799835&amp;update=1'>
+  
+  <div class="write-a-review">
+    
+    <a href='#' class="write-a-review-link see-all">Escribir una reseña</a>
+    <div class="has-not-purchased">Para reseñar esta app, debes haberla comprado en Mac App Store.</div>
+  </div>
+  
+
+
+
+  <div class="controls-container">
+
+    
+    <div class="select"><label class="select">Ordenar por:<select name="sort">
+      <option value='1'>Más útiles</option><option value='2'>Más favorables</option><option value='3'>Más críticas</option><option value='4'>Más recientes</option>
+    </select></label></div>
+    
+
+    
+    <div class="pagination-controls">
+    </div>
+    
+
+  </div>
+
+  <div class="paginated-container">
+    <div class="paginated-content" page-number='1' sort-key='1' total-number-of-pages='6' pill-identifier="0">
+
+  
+    
+<div class="da-review customer-review">
+
+ <div class="review-header">
+  <div class="review-meta">
+   <h5>
+    <span class="customerReviewTitle">Perfecto</span>
+    <div class='rating' role='img' tabindex='-1' aria-label='5 estrellas'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span></div></div>
+
+   </h5>
+   <span class="user-info">por
+    <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=381238541' class="reviewer">Jesus Gpe. Celis</a>
+     -
+     Versión
+     5.1.1
+    
+    -
+     03/07/2014
+   </span>
+  </div>
+  <div class="review-see-all">
+   <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=381238541' class="see-all">
+   Todas las reseñas por este usuario
+   </a>
+  </div>
+ </div>
+ <p class="content" data-text-truncate-lines="6">
+  Me encanta el mejor editor de código, algo que seria de poco de ayuda seria si lo pudiese ponerse en español. No tengo problemas con el ingles uno se acostumbra a ver las cosas en español
+ </p>
+ 
+ 
+ 
+ <div class="feedback">
+   <div class="helpful-wrapper">
+    
+     <div class="stats">89 
+      de 
+      121
+      usuarios consideraron útil esta reseña
+     </div>
+    
+    <div class="rate" reviewer-dsid='' content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?userReviewId=1021677516'>¿Te pareció útil esta reseña? 
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='Sí'
+        class='helpful-vote' vote="1">Sí</a> |
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='No'
+        class='helpful-vote' vote="0">No</a>
+    </div>
+   </div>
+   <div class="report-a-concern" report-a-concern-fragment-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportAConcernFragment?userReviewId=1021677516'>
+    <a href="javascript:void(0)" oncontextmenu="return false;" class="report" alt='Reportar un problema'>Reportar un problema</a>
+   </div>
+ </div>
+</div>
+
+  
+    
+<div class="da-review customer-review">
+
+ <div class="review-header">
+  <div class="review-meta">
+   <h5>
+    <span class="customerReviewTitle">El mejor IDE que hay</span>
+    <div class='rating' role='img' tabindex='-1' aria-label='5 estrellas'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span></div></div>
+
+   </h5>
+   <span class="user-info">por
+    <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=128586259' class="reviewer">Gidrek</a>
+     -
+     Versión
+     4.3.2
+    
+    -
+     10/04/2012
+   </span>
+  </div>
+  <div class="review-see-all">
+   <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=128586259' class="see-all">
+   Todas las reseñas por este usuario
+   </a>
+  </div>
+ </div>
+ <p class="content" data-text-truncate-lines="6">
+  Este es el mejor IDE que he probado, al comienzo te puede parecer poco práctico pero una vez que agarras todo puedes hacer gran uso de él. He usado Visual Studio, Eclipse y otros IDE menos conocidos y me quedo con este
+ </p>
+ 
+ 
+ 
+ <div class="feedback">
+   <div class="helpful-wrapper">
+    
+     <div class="stats">49 
+      de 
+      62
+      usuarios consideraron útil esta reseña
+     </div>
+    
+    <div class="rate" reviewer-dsid='' content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?userReviewId=560835212'>¿Te pareció útil esta reseña? 
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='Sí'
+        class='helpful-vote' vote="1">Sí</a> |
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='No'
+        class='helpful-vote' vote="0">No</a>
+    </div>
+   </div>
+   <div class="report-a-concern" report-a-concern-fragment-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportAConcernFragment?userReviewId=560835212'>
+    <a href="javascript:void(0)" oncontextmenu="return false;" class="report" alt='Reportar un problema'>Reportar un problema</a>
+   </div>
+ </div>
+</div>
+
+  
+    
+<div class="da-review customer-review">
+
+ <div class="review-header">
+  <div class="review-meta">
+   <h5>
+    <span class="customerReviewTitle">¡Buen cambio!</span>
+    <div class='rating' role='img' tabindex='-1' aria-label='5 estrellas'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span></div></div>
+
+   </h5>
+   <span class="user-info">por
+    <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=42673802' class="reviewer">Marco Gessler</a>
+     -
+     Versión
+     4.3
+    
+    -
+     21/02/2012
+   </span>
+  </div>
+  <div class="review-see-all">
+   <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=42673802' class="see-all">
+   Todas las reseñas por este usuario
+   </a>
+  </div>
+ </div>
+ <p class="content" data-text-truncate-lines="6">
+  Mucho más fácil de administrar con este cambio. En lugar de un instalador, una sola aplicación.<br/><br/>Por lo demás, no hay muchos cambios.<br/><br/>Vale la pena la descarga.
+ </p>
+ 
+ 
+ 
+ <div class="feedback">
+   <div class="helpful-wrapper">
+    
+     <div class="stats">33 
+      de 
+      36
+      usuarios consideraron útil esta reseña
+     </div>
+    
+    <div class="rate" reviewer-dsid='' content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?userReviewId=531423818'>¿Te pareció útil esta reseña? 
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='Sí'
+        class='helpful-vote' vote="1">Sí</a> |
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='No'
+        class='helpful-vote' vote="0">No</a>
+    </div>
+   </div>
+   <div class="report-a-concern" report-a-concern-fragment-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportAConcernFragment?userReviewId=531423818'>
+    <a href="javascript:void(0)" oncontextmenu="return false;" class="report" alt='Reportar un problema'>Reportar un problema</a>
+   </div>
+ </div>
+</div>
+
+  
+    
+<div class="da-review customer-review">
+
+ <div class="review-header">
+  <div class="review-meta">
+   <h5>
+    <span class="customerReviewTitle">Xcode se cierra inesperadamente</span>
+    <div class='rating' role='img' tabindex='-1' aria-label='1 estrella'><div><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div></div>
+
+   </h5>
+   <span class="user-info">por
+    <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=497755596' class="reviewer">El desarrollador que actualizó</a>
+     -
+     Versión
+     7.3
+    
+    -
+     23/03/2016
+   </span>
+  </div>
+  <div class="review-see-all">
+   <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=497755596' class="see-all">
+   Todas las reseñas por este usuario
+   </a>
+  </div>
+ </div>
+ <p class="content" data-text-truncate-lines="6">
+  Cuando ejecuto mi proyecto Xcode se cierra si llega a un break point. Califico de esta manera para que corrijan el problema a la brevedad. Si deja de cerrarse inesperadamente entonces este comentario queda invalidado y la puntuación merecida será de 5 estrellas.
+ </p>
+ 
+ 
+ 
+ <div class="feedback">
+   <div class="helpful-wrapper">
+    
+     <div class="stats">22 
+      de 
+      27
+      usuarios consideraron útil esta reseña
+     </div>
+    
+    <div class="rate" reviewer-dsid='' content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?userReviewId=1352296684'>¿Te pareció útil esta reseña? 
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='Sí'
+        class='helpful-vote' vote="1">Sí</a> |
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='No'
+        class='helpful-vote' vote="0">No</a>
+    </div>
+   </div>
+   <div class="report-a-concern" report-a-concern-fragment-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportAConcernFragment?userReviewId=1352296684'>
+    <a href="javascript:void(0)" oncontextmenu="return false;" class="report" alt='Reportar un problema'>Reportar un problema</a>
+   </div>
+ </div>
+</div>
+
+  
+    
+<div class="da-review customer-review">
+
+ <div class="review-header">
+  <div class="review-meta">
+   <h5>
+    <span class="customerReviewTitle">Demasiado lento!!!</span>
+    <div class='rating' role='img' tabindex='-1' aria-label='1 estrella'><div><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div></div>
+
+   </h5>
+   <span class="user-info">por
+    <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=366888724' class="reviewer">Iree García</a>
+     -
+     Versión
+     6.1.1
+    
+    -
+     05/12/2014
+   </span>
+  </div>
+  <div class="review-see-all">
+   <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=366888724' class="see-all">
+   Todas las reseñas por este usuario
+   </a>
+  </div>
+ </div>
+ <p class="content" data-text-truncate-lines="6">
+  No he probado todas las funcionalidades, pero esperaba que en esta actualización mejorara el desempeño.<br/><br/>En la versión 6 se volvió increiblemente lento, cada vez que corro mi aplicación en el simulador tarda casi un minuto, no se puede trabajar así. Es desesperante. Incluso usando los dispositivos tengo que esperar demasiado para que compile el proyecto antes de que se instale.<br/><br/>Aprecio las nuevas características que voy encontrando, se ve que le están poniendo mucha atención al Interface Builder, pero definitivamente tiene una estrella hasta que lo arreglen. Yo siempre sentí que era el mejor IDE del mundo, pero así es peor que el de la competencia...
+ </p>
+ 
+ 
+ 
+ <div class="feedback">
+   <div class="helpful-wrapper">
+    
+     <div class="stats">23 
+      de 
+      45
+      usuarios consideraron útil esta reseña
+     </div>
+    
+    <div class="rate" reviewer-dsid='' content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?userReviewId=1108384058'>¿Te pareció útil esta reseña? 
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='Sí'
+        class='helpful-vote' vote="1">Sí</a> |
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='No'
+        class='helpful-vote' vote="0">No</a>
+    </div>
+   </div>
+   <div class="report-a-concern" report-a-concern-fragment-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportAConcernFragment?userReviewId=1108384058'>
+    <a href="javascript:void(0)" oncontextmenu="return false;" class="report" alt='Reportar un problema'>Reportar un problema</a>
+   </div>
+ </div>
+</div>
+
+  
+    
+<div class="da-review customer-review">
+
+ <div class="review-header">
+  <div class="review-meta">
+   <h5>
+    <span class="customerReviewTitle">Lo mejor</span>
+    <div class='rating' role='img' tabindex='-1' aria-label='5 estrellas'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span></div></div>
+
+   </h5>
+   <span class="user-info">por
+    <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=105205379' class="reviewer">ToGusDS</a>
+     -
+     Versión
+     4.6
+    
+    -
+     01/02/2013
+   </span>
+  </div>
+  <div class="review-see-all">
+   <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=105205379' class="see-all">
+   Todas las reseñas por este usuario
+   </a>
+  </div>
+ </div>
+ <p class="content" data-text-truncate-lines="6">
+  Definitivamente el mejor IDE que he probado :D
+ </p>
+ 
+ 
+ 
+ <div class="feedback">
+   <div class="helpful-wrapper">
+    
+     <div class="stats">18 
+      de 
+      22
+      usuarios consideraron útil esta reseña
+     </div>
+    
+    <div class="rate" reviewer-dsid='' content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?userReviewId=741364436'>¿Te pareció útil esta reseña? 
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='Sí'
+        class='helpful-vote' vote="1">Sí</a> |
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='No'
+        class='helpful-vote' vote="0">No</a>
+    </div>
+   </div>
+   <div class="report-a-concern" report-a-concern-fragment-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportAConcernFragment?userReviewId=741364436'>
+    <a href="javascript:void(0)" oncontextmenu="return false;" class="report" alt='Reportar un problema'>Reportar un problema</a>
+   </div>
+ </div>
+</div>
+
+  
+    
+<div class="da-review customer-review">
+
+ <div class="review-header">
+  <div class="review-meta">
+   <h5>
+    <span class="customerReviewTitle">Excelente IDE</span>
+    <div class='rating' role='img' tabindex='-1' aria-label='5 estrellas'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span></div></div>
+
+   </h5>
+   <span class="user-info">por
+    <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=86477160' class="reviewer">iLuis007</a>
+     -
+     Versión
+     4.3.3
+    
+    -
+     14/07/2012
+   </span>
+  </div>
+  <div class="review-see-all">
+   <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=86477160' class="see-all">
+   Todas las reseñas por este usuario
+   </a>
+  </div>
+ </div>
+ <p class="content" data-text-truncate-lines="6">
+  Vengo de desarrollar en otros lenguages y con otros IDE`s pero este es el que mas me ha gustado. La verdad de vez en cuando cierra sin explicación. Pero no obstante el trabajo siempre se autosalva y en general es muy seguro el desarrollo. Lo recomiendo ampliamente.
+ </p>
+ 
+ 
+ 
+ <div class="feedback">
+   <div class="helpful-wrapper">
+    
+     <div class="stats">16 
+      de 
+      18
+      usuarios consideraron útil esta reseña
+     </div>
+    
+    <div class="rate" reviewer-dsid='' content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?userReviewId=622232226'>¿Te pareció útil esta reseña? 
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='Sí'
+        class='helpful-vote' vote="1">Sí</a> |
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='No'
+        class='helpful-vote' vote="0">No</a>
+    </div>
+   </div>
+   <div class="report-a-concern" report-a-concern-fragment-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportAConcernFragment?userReviewId=622232226'>
+    <a href="javascript:void(0)" oncontextmenu="return false;" class="report" alt='Reportar un problema'>Reportar un problema</a>
+   </div>
+ </div>
+</div>
+
+  
+    
+<div class="da-review customer-review">
+
+ <div class="review-header">
+  <div class="review-meta">
+   <h5>
+    <span class="customerReviewTitle">El mejor IDE</span>
+    <div class='rating' role='img' tabindex='-1' aria-label='4 estrellas'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div></div>
+
+   </h5>
+   <span class="user-info">por
+    <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=100398328' class="reviewer">abrajam2004</a>
+     -
+     Versión
+     4.5.2
+    
+    -
+     12/01/2013
+   </span>
+  </div>
+  <div class="review-see-all">
+   <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=100398328' class="see-all">
+   Todas las reseñas por este usuario
+   </a>
+  </div>
+ </div>
+ <p class="content" data-text-truncate-lines="6">
+  Todas las funciones de autocompletado son excelentes, y desde la primera vez que lo usé me ha encantado, pero sería genial que quienes hablamos español pudiéramos contar con la documentación en nuestro idioma. Gracias.
+ </p>
+ 
+ 
+ 
+ <div class="feedback">
+   <div class="helpful-wrapper">
+    
+     <div class="stats">15 
+      de 
+      20
+      usuarios consideraron útil esta reseña
+     </div>
+    
+    <div class="rate" reviewer-dsid='' content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?userReviewId=727459896'>¿Te pareció útil esta reseña? 
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='Sí'
+        class='helpful-vote' vote="1">Sí</a> |
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='No'
+        class='helpful-vote' vote="0">No</a>
+    </div>
+   </div>
+   <div class="report-a-concern" report-a-concern-fragment-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportAConcernFragment?userReviewId=727459896'>
+    <a href="javascript:void(0)" oncontextmenu="return false;" class="report" alt='Reportar un problema'>Reportar un problema</a>
+   </div>
+ </div>
+</div>
+
+  
+    
+<div class="da-review customer-review">
+
+ <div class="review-header">
+  <div class="review-meta">
+   <h5>
+    <span class="customerReviewTitle">Como utilizo el gcc</span>
+    <div class='rating' role='img' tabindex='-1' aria-label='4 estrellas'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div></div>
+
+   </h5>
+   <span class="user-info">por
+    <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=240256894' class="reviewer">Louis Silva</a>
+     -
+     Versión
+     4.4.1
+    
+    -
+     15/08/2012
+   </span>
+  </div>
+  <div class="review-see-all">
+   <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=240256894' class="see-all">
+   Todas las reseñas por este usuario
+   </a>
+  </div>
+ </div>
+ <p class="content" data-text-truncate-lines="6">
+  Pues si trae bastantes utilidades lo que aún no logro es poder compilar mis programas en C desde la terminal. Y a que cuando lo quiero compilar me aparece que el comando gcc no fue encontrado, ¿alguién me podría sacar de esa duda?
+ </p>
+ 
+ 
+ 
+ <div class="feedback">
+   <div class="helpful-wrapper">
+    
+     <div class="stats">15 
+      de 
+      25
+      usuarios consideraron útil esta reseña
+     </div>
+    
+    <div class="rate" reviewer-dsid='' content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?userReviewId=641129667'>¿Te pareció útil esta reseña? 
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='Sí'
+        class='helpful-vote' vote="1">Sí</a> |
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='No'
+        class='helpful-vote' vote="0">No</a>
+    </div>
+   </div>
+   <div class="report-a-concern" report-a-concern-fragment-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportAConcernFragment?userReviewId=641129667'>
+    <a href="javascript:void(0)" oncontextmenu="return false;" class="report" alt='Reportar un problema'>Reportar un problema</a>
+   </div>
+ </div>
+</div>
+
+  
+    
+<div class="da-review customer-review">
+
+ <div class="review-header">
+  <div class="review-meta">
+   <h5>
+    <span class="customerReviewTitle">Jamas se me termina de instalar</span>
+    <div class='rating' role='img' tabindex='-1' aria-label='1 estrella'><div><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div></div>
+
+   </h5>
+   <span class="user-info">por
+    <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=150870428' class="reviewer">Zombi 000</a>
+     -
+     Versión
+     7.3
+    
+    -
+     11/04/2016
+   </span>
+  </div>
+  <div class="review-see-all">
+   <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=150870428' class="see-all">
+   Todas las reseñas por este usuario
+   </a>
+  </div>
+ </div>
+ <p class="content" data-text-truncate-lines="6">
+  Llevo como 2 dias queriendo instalarla y no me deja, se queda en instalando y ya de hay no se mueve!!! Sin contar que tarda una noche entera en descargarse, no creo que sea cosa de mi Mac o de mi internet!!!!!!.
+ </p>
+ 
+ 
+ 
+ <div class="feedback">
+   <div class="helpful-wrapper">
+    
+     <div class="stats">14 
+      de 
+      21
+      usuarios consideraron útil esta reseña
+     </div>
+    
+    <div class="rate" reviewer-dsid='' content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?userReviewId=1361971197'>¿Te pareció útil esta reseña? 
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='Sí'
+        class='helpful-vote' vote="1">Sí</a> |
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='No'
+        class='helpful-vote' vote="0">No</a>
+    </div>
+   </div>
+   <div class="report-a-concern" report-a-concern-fragment-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportAConcernFragment?userReviewId=1361971197'>
+    <a href="javascript:void(0)" oncontextmenu="return false;" class="report" alt='Reportar un problema'>Reportar un problema</a>
+   </div>
+ </div>
+</div>
+
+  
+
+</div>
+  </div>
+
+  <div class="footer">
+
+
+  
+  <div class="pagination-controls">
+  </div>
+  
+
+  </div>
+
+  </div>
+
+  
+  <div class=" current-reviews" goto-page-href='https://itunes.apple.com/mx/customer-reviews?displayable-kind=30&amp;id=497799835&amp;update=1&amp;appVersion=current'>
+  
+  <div class="write-a-review">
+    No hay reseñas de la versión actual de esta aplicación. <a href='#' class='previous-reviews-link'>Ver todas las 56 reseñas</a> para versiones anteriores.<br/>
+    <a href='#' class="write-a-review-link see-all">Sé el primero en escribir una reseña</a>
+    <div class="has-not-purchased">Para reseñar esta app, debes haberla comprado en Mac App Store.</div>
+  </div>
+  
+
+  </div>
+  
+</div>
+

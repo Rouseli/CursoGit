@@ -1,0 +1,1317 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/frameworks-4ba00b1aa0227e4b7a7961544c3b7938afb2720757a471735991ec4475c829e0.css" media="all" rel="stylesheet" />
+  <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github-58379f1df1b69ce1dd2c61fdcd18a968b8f18cc04ef12fc651d97fa2202f7b82.css" media="all" rel="stylesheet" />
+  
+  
+  
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>GitHub · Where software is built</title>
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    <meta property="og:url" content="https://github.com">
+    <meta property="og:site_name" content="GitHub">
+    <meta property="og:title" content="Build software better, together">
+    <meta property="og:description" content="GitHub is where people build software. More than 22 million people use GitHub to discover, fork, and contribute to over 61 million projects.">
+    <meta property="og:image" content="https://assets-cdn.github.com/images/modules/open_graph/github-logo.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image" content="https://assets-cdn.github.com/images/modules/open_graph/github-mark.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="620">
+    <meta property="og:image" content="https://assets-cdn.github.com/images/modules/open_graph/github-octocat.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="620">
+
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MTgzMjUyMDMwOjM4MmRhZGQ5YWU3NjNlZjkzZDFiNjhhNzI3NmQyNzJhNjYyOTNhYmM1YWE0ODg1MjczYzVlOGE3ODk1MmVkZTE=--c80c2cc3d7822a9248511e10e13c49eddb86720d">
+  <meta name="pjax-timeout" content="1000">
+  <link rel="sudo-modal" href="/sessions/sudo_modal">
+  <meta name="request-id" content="E328:438A:3EF7D66:5E8C7D4:594EA6AF" data-pjax-transient>
+  
+
+  <meta name="selected-link" value="/join/plan" data-pjax-transient>
+
+  <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+<meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="https://collector.githubapp.com/github-external/browser_event" name="octolytics-event-url" /><meta content="E328:438A:3EF7D66:5E8C7D4:594EA6AF" name="octolytics-dimension-request_id" /><meta content="iad" name="octolytics-dimension-region_edge" /><meta content="iad" name="octolytics-dimension-region_render" /><meta content="29679645" name="octolytics-actor-id" /><meta content="Rouseli" name="octolytics-actor-login" /><meta content="fdbbb30a1e9eff347d715bd37de8829f940fee9d75253cd0bee147740e8d5fd7" name="octolytics-actor-hash" />
+<meta class="js-ga-set" content="Signed Up" data-pjax-transient="true" name="dimension5" />
+
+<meta content="Signup, Success, form-home" data-pjax-transient="true" name="analytics-event" />
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged In">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+  <meta name="user-login" content="Rouseli">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="OTZmODc0MGMyMTFlYzYxOWRhYWY5MmM1ODQwYWMyOTQ0MDM4NzcyM2IxYjUxY2JhYmYyMGNlZTBkNzdlMjNjZnx7InJlbW90ZV9hZGRyZXNzIjoiMTQ4LjIyOC4xMC4yNTMiLCJyZXF1ZXN0X2lkIjoiRTMyODo0MzhBOjNFRjdENjY6NUU4QzdENDo1OTRFQTZBRiIsInRpbWVzdGFtcCI6MTQ5ODMyNjcwMywiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+
+
+  <meta name="html-safe-nonce" content="d0908935bdb07c740f3b7b6d1efb050350753c26">
+
+  <meta http-equiv="x-pjax-version" content="7039cffd56d59000fe2f72ed257ce22a">
+  
+
+    <meta name="description" content="GitHub is where people build software. More than 22 million people use GitHub to discover, fork, and contribute to over 61 million projects.">
+
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+
+
+  </head>
+
+  <body class="logged-in env-production false signup">
+    
+
+
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="bg-black text-white p-3 show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+        
+<div class="header" role="banner">
+  <div class="container clearfix">
+    <a class="header-logo-invertocat" href="https://github.com/" data-hotkey="g d" aria-label="Homepage" data-ga-click="Header, go to dashboard, icon:logo">
+  <svg aria-hidden="true" class="octicon octicon-mark-github" height="32" version="1.1" viewBox="0 0 16 16" width="32"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+
+
+        <div class="header-search   js-site-search" role="search">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/search" class="js-site-search-form" data-unscoped-search-url="/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+    <label class="form-control header-search-wrapper js-chromeless-input-container">
+        <a href="/join/plan" class="header-search-scope no-underline">/join/plan</a>
+      <input type="text"
+        class="form-control header-search-input js-site-search-focus "
+        data-hotkey="s"
+        name="q"
+        value=""
+        placeholder="Search GitHub"
+        aria-label="Search GitHub"
+        data-unscoped-placeholder="Search GitHub"
+        data-scoped-placeholder="Search"
+        autocapitalize="off">
+        <input type="hidden" class="js-site-search-type-field" name="type" >
+    </label>
+</form></div>
+
+
+      <ul class="header-nav float-left" role="navigation">
+        <li class="header-nav-item">
+          <a href="/pulls" aria-label="Pull requests you created" class="js-selected-navigation-item header-nav-link" data-ga-click="Header, click, Nav menu - item:pulls context:user" data-hotkey="g p" data-selected-links="/pulls /pulls/assigned /pulls/mentioned /pulls">
+            Pull requests
+</a>        </li>
+        <li class="header-nav-item">
+          <a href="/issues" aria-label="Issues you created" class="js-selected-navigation-item header-nav-link" data-ga-click="Header, click, Nav menu - item:issues context:user" data-hotkey="g i" data-selected-links="/issues /issues/assigned /issues/mentioned /issues">
+            Issues
+</a>        </li>
+            <li class="header-nav-item">
+              <a href="/marketplace" class="js-selected-navigation-item header-nav-link" data-ga-click="Header, click, Nav menu - item:marketplace context:user" data-selected-links=" /marketplace">
+                Marketplace
+</a>            </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="https://gist.github.com/" data-ga-click="Header, go to gist, text:gist">Gist</a>
+          </li>
+      </ul>
+
+    
+<ul class="header-nav user-nav float-right" id="user-links">
+  <li class="header-nav-item">
+    
+
+  </li>
+
+  <li class="header-nav-item dropdown js-menu-container">
+    <a class="header-nav-link tooltipped tooltipped-s js-menu-target" href="/new"
+       aria-label="Create new…"
+       aria-expanded="false"
+       aria-haspopup="true"
+       data-ga-click="Header, create new, icon:add">
+      <svg aria-hidden="true" class="octicon octicon-plus float-left" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 9H7v5H5V9H0V7h5V2h2v5h5z"/></svg>
+      <span class="dropdown-caret"></span>
+    </a>
+
+    <div class="dropdown-menu-content js-menu-content">
+      <ul class="dropdown-menu dropdown-menu-sw">
+        
+<a class="dropdown-item" href="/new" data-ga-click="Header, create new repository">
+  New repository
+</a>
+
+  <a class="dropdown-item" href="/new/import" data-ga-click="Header, import a repository">
+    Import repository
+  </a>
+
+<a class="dropdown-item" href="https://gist.github.com/" data-ga-click="Header, create new gist">
+  New gist
+</a>
+
+  <a class="dropdown-item" href="/organizations/new" data-ga-click="Header, create new organization">
+    New organization
+  </a>
+
+
+
+
+      </ul>
+    </div>
+  </li>
+
+  <li class="header-nav-item dropdown js-menu-container">
+    <a class="header-nav-link name tooltipped tooltipped-sw js-menu-target" href="/Rouseli"
+       aria-label="View profile and more"
+       aria-expanded="false"
+       aria-haspopup="true"
+       data-ga-click="Header, show menu, icon:avatar">
+      <img alt="@Rouseli" class="avatar" src="https://avatars3.githubusercontent.com/u/29679645?v=3&amp;s=40" height="20" width="20">
+      <span class="dropdown-caret"></span>
+    </a>
+
+    <div class="dropdown-menu-content js-menu-content">
+      <div class="dropdown-menu dropdown-menu-sw">
+        <div class="dropdown-header header-nav-current-user css-truncate">
+          Signed in as <strong class="css-truncate-target">Rouseli</strong>
+        </div>
+
+        <div class="dropdown-divider"></div>
+
+        <a class="dropdown-item" href="/Rouseli" data-ga-click="Header, go to profile, text:your profile">
+          Your profile
+        </a>
+        <a class="dropdown-item" href="/Rouseli?tab=stars" data-ga-click="Header, go to starred repos, text:your stars">
+          Your stars
+        </a>
+        <a class="dropdown-item" href="/explore" data-ga-click="Header, go to explore, text:explore">
+          Explore
+        </a>
+        <a class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help">
+          Help
+        </a>
+
+        <div class="dropdown-divider"></div>
+
+        <a class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings">
+          Settings
+        </a>
+
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="5MJ8RNOSD22jITmsbeaifnORPq+YqQ33M0qaaBfda6pWoVRVxMS0RFy4lYzh1C/uWJL8xMpIlqNTM9nuuJ+hug==" /></div>
+          <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
+            Sign out
+          </button>
+</form>      </div>
+    </div>
+  </li>
+</ul>
+
+
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="sr-only right-0" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="XPyYVMvR/tb5KhUt0EDfA0HkKRbbQxN1mjgQe1XD2CLun7BF3IdF/wazuQ1cclKTaufrfYmiiCH6QVP9+oESMg==" /></div>
+      <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
+        Sign out
+      </button>
+</form>  </div>
+</div>
+
+
+      
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+  <div role="main">
+
+      <div id="js-pjax-container" data-pjax-container>
+        
+<div class="setup-wrapper">
+
+  <div class="setup-header setup-org">
+    <h1>Welcome to GitHub</h1>
+    <p class="lead">
+      You’ve taken your first step into a larger world, <strong>@Rouseli</strong>.
+    </p>
+
+    <!-- Show steps for the signup flow -->
+    <ol class="steps">
+      <li class="complete">
+        <svg aria-hidden="true" class="octicon octicon-check" height="32" version="1.1" viewBox="0 0 12 16" width="24"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+        <strong class="step">Completed</strong>
+        Set up a personal account
+      </li>
+      <li class="current">
+        <svg aria-hidden="true" class="octicon octicon-versions" height="32" version="1.1" viewBox="0 0 14 16" width="28"><path fill-rule="evenodd" d="M13 3H7c-.55 0-1 .45-1 1v8c0 .55.45 1 1 1h6c.55 0 1-.45 1-1V4c0-.55-.45-1-1-1zm-1 8H8V5h4v6zM4 4h1v1H4v6h1v1H4c-.55 0-1-.45-1-1V5c0-.55.45-1 1-1zM1 5h1v1H1v4h1v1H1c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1z"/></svg>
+        <strong class="step">Step 2:</strong>
+        Choose your plan
+      </li>
+      <li class="step-dashboard">
+        <svg aria-hidden="true" class="octicon octicon-gear" height="32" version="1.1" viewBox="0 0 14 16" width="28"><path fill-rule="evenodd" d="M14 8.77v-1.6l-1.94-.64-.45-1.09.88-1.84-1.13-1.13-1.81.91-1.09-.45-.69-1.92h-1.6l-.63 1.94-1.11.45-1.84-.88-1.13 1.13.91 1.81-.45 1.09L0 7.23v1.59l1.94.64.45 1.09-.88 1.84 1.13 1.13 1.81-.91 1.09.45.69 1.92h1.59l.63-1.94 1.11-.45 1.84.88 1.13-1.13-.92-1.81.47-1.09L14 8.75v.02zM7 11c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z"/></svg>
+        <strong class="step">Step 3:</strong>
+        Tailor your experience
+      </li>
+    </ol>
+  </div>
+
+  <div class="setup-main">
+    <div class="setup-form-container">
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/join/plan" autocomplete="off" class="setup-form js-braintree-encrypt" data-braintree-key="MIIBCgKCAQEA2SzHdspMUv7qGZ83HnzVhLJKhf51rtUqnbnKBu6Oqe7U5NiEALZKpXDvHEJg3RN6blnDfv0m+4cO1Po/phgYxvJ2YizVH+Q0SzO1CehITZMh8JVBgxNCw5Pl1FmWXLm+umsFXatJYqd4tHWwT1SDqRygZjjNBDWPXveOWDVoGKxBzq7aqXwfoPR+fA6rYSLXJAPYdNW1JJUchmmQBbRzSflaquUHQhV/90yNUKPjpHywRuvjjJ60DU5Wg64pWBfhCRwRMxJNLm+ftvomelFs9arz6g7hOdvOA4BIzgX7xfgaH5foEZR28GABru/BSEADHjhXhWCqs6ws4idDytIfJwIDAQAB" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="3jBGaQD6P/7jF344clgJgR210wXDm5D1zctTaSG7ijXURBboGeu9V20VgBa61MRLcGtc938TmuRLiwrLLJJnuw==" /></div>
+
+        <h2 class="setup-form-title mb-3">
+          Choose your personal plan
+        </h2>
+
+        <div class="currency-container js-details-container Details">
+          <label class="plan-choice plan-choice-top js-plan-choice-label open">
+            <input type="radio" class="plan-choice-radio js-plan-choice" name="plan" value="free" checked>
+            Unlimited public repositories for free.
+          </label>
+          <label class="plan-choice plan-choice-bottom js-plan-choice-label">
+            <input type="radio" class="plan-choice-radio js-plan-choice" name="plan" value="pro" >
+            <strong>Unlimited private repositories</strong> for
+            <span class="default-currency">$7/month.</span>
+            <span class="local-currency">$7/month.</span>
+            
+          </label>
+          <p class="note local-currency">Charges to your account will be made in <strong>US Dollars</strong>. Converted prices are
+provided as a convenience and are only an <em>estimate</em> based on <em>current</em> exchange
+rates. Local prices will change as the exchange rate fluctuates.
+</p>
+          <p class="note mb-3">Don’t worry, you can cancel or upgrade at any time.</p>
+        </div>
+
+        <div class="js-billing-section has-removed-contents">
+          <h2 class="billing-form-title mb-3">
+            <span class="secure"><svg aria-hidden="true" class="octicon octicon-lock" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M4 13H3v-1h1v1zm8-6v7c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V7c0-.55.45-1 1-1h1V4c0-2.2 1.8-4 4-4s4 1.8 4 4v2h1c.55 0 1 .45 1 1zM3.8 6h4.41V4c0-1.22-.98-2.2-2.2-2.2-1.22 0-2.2.98-2.2 2.2v2H3.8zM11 7H2v7h9V7zM4 8H3v1h1V8zm0 2H3v1h1v-1z"/></svg> Secure</span>
+            Enter your billing details
+          </h2>
+                      
+<div class="payment-methods js-payment-methods  ">
+    <span class="strong-label">Choose your payment method</span>
+
+  <div class="radio-group clearfix" role="radiogroup">
+    <input name="payment_method_Rouseli" type="radio" value="credit_card" checked=checked
+        class="js-payment-method radio-input"
+        data-selected-tab="pay-by-credit-card"
+        id="pay-by-credit-card-Rouseli">
+    <label class="radio-label" for="pay-by-credit-card-Rouseli" role="radio">
+      Credit card
+    </label>
+    <input name="payment_method_Rouseli" type="radio" value="paypal" 
+      class="js-payment-method radio-input"
+      data-selected-tab="pay-with-paypal"
+      id="pay-with-paypal-Rouseli">
+    <label class="radio-label" for="pay-with-paypal-Rouseli" role="radio">
+      PayPal account
+    </label>
+  </div>
+
+  <div class="js-selected-payment-method selected-payment-method pay-by-credit-card active">
+      <div class="setup-creditcard-form js-setup-creditcard   ">
+
+  <!--
+    These fields are encrypted with Braintree.js before shipping off to GitHub
+    servers.  The name attribute is blank for the fields that are encrypted so
+    that the unencrypted values are not sent to our servers.
+  -->
+
+  <dl class="form-group">
+    <dt class="input-label">
+      <label for="billing-number-Rouseli">Credit card number</label>
+    </dt>
+    <dd>
+      <input autocomplete="off" class="form-control short textfield card-select-number-field js-card-select-number-field" data-encrypted-name="billing[credit_card][number]" id="billing-number-Rouseli" name="" required="required" size="30" type="text" />
+    </dd>
+  </dl>
+
+  <div class="form-cards cards_select cards-select">
+    <input class="form-control js-card-select-type-field" id="credit-card-type-Rouseli" name="billing[credit_card][type]" type="hidden" value="" />
+
+    <ul class="cards">
+        <li>
+          <span class="card visa js-card" title="Visa" data-name="visa">Visa</span>
+        </li>
+        <li>
+          <span class="card mastercard js-card" title="Mastercard" data-name="mastercard">Mastercard</span>
+        </li>
+        <li>
+          <span class="card amex js-card" title="American Express" data-name="amex">American Express</span>
+        </li>
+        <li>
+          <span class="card discover js-card" title="Discover" data-name="discover">Discover</span>
+        </li>
+        <li>
+          <span class="card jcb js-card" title="JCB" data-name="jcb">JCB</span>
+        </li>
+        <li>
+          <span class="card dinersclub js-card" title="Diners Club" data-name="dinersclub">Diners Club</span>
+        </li>
+      <li class="text-small text-gray">Accepted cards</li>
+    </ul>
+  </div>
+
+  <div class="clearfix cc-extras">
+    <dl class="form-group expiration-form">
+      <dt class="input-label">
+        <label for="expiration-month-Rouseli">Expiration <small class="help-text">(MM/YY)</small></label>
+      </dt>
+      <dd>
+        <select autocomplete="off" class="form-select select" data-encrypted-name="billing[credit_card][expiration_month]" id="expiration-month-Rouseli" name="" required="required"><option value=""></option>
+<option value="01">01</option>
+<option value="02">02</option>
+<option value="03">03</option>
+<option value="04">04</option>
+<option value="05">05</option>
+<option value="06">06</option>
+<option value="07">07</option>
+<option value="08">08</option>
+<option value="09">09</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option></select>
+        /
+        <select autocomplete="off" class="form-select select" data-encrypted-name="billing[credit_card][expiration_year]" id="expiration-year-Rouseli" name="" required="required"><option value=""></option>
+<option value="2017">17</option>
+<option value="2018">18</option>
+<option value="2019">19</option>
+<option value="2020">20</option>
+<option value="2021">21</option>
+<option value="2022">22</option>
+<option value="2023">23</option>
+<option value="2024">24</option>
+<option value="2025">25</option>
+<option value="2026">26</option>
+<option value="2027">27</option></select>
+      </dd>
+    </dl>
+    <dl class="form-group cvv-form">
+      <dt class="input-label">
+        <label for="billing-cvv-Rouseli">
+          CVV
+          <span class="cvv-hint">
+  <small class="help-text cvv-hint-tooltipped">(?)</small>
+  <div class="cvv-hint-tooltip">
+    <div class="credit-card normal">
+      <div class="strap"></div>
+      <div class="text">Ut enim ad minim veniam.</div>
+      <div class="signature">Mona Lisa Octocat</div>
+      <div class="cvv"><span>1111</span>123</div>
+      <div class="text">
+        <br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      </div>
+    </div>
+    <div class="credit-card amex">
+      <div class="title">AMERICAN EXPRESS</div>
+      <div class="gladiator"></div>
+      <div class="text card-number">
+        3434 343434 34343
+        <div class="cvv">1234</div>
+      </div>
+    </div>
+
+  </div>
+</span>
+        </label>
+      </dt>
+      <dd>
+        <input autocomplete="off" class="form-control textfield input-cvv js-card-cvv" data-encrypted-name="billing[credit_card][cvv]" id="billing-cvv-Rouseli" name="" pattern="[\d]{3,4}" required="required" size="30" type="text" />
+      </dd>
+    </dl>
+  </div>
+
+  
+  <div class="clearfix">
+    <dl class="form-group country-form">
+      <dt class="input-label">
+        <label for="credit-card-Rouseli_billing_country">Country</label>
+      </dt>
+      <dd>
+        <select id="credit-card-Rouseli_billing_country" class="form-select select-country js-select-country" name="billing[billing_address][country_code_alpha3]" required>
+          <option value>Choose country</option>
+            <option value="USA" >United States of America</option>
+            <option value="CHN" >China</option>
+            <option value="DEU" >Germany</option>
+            <option value="GBR" >United Kingdom</option>
+            <option value="IND" >India</option>
+          <option disabled></option>
+            <option value="AFG" >Afghanistan</option>
+            <option value="ALA" >Åland</option>
+            <option value="ALB" >Albania</option>
+            <option value="DZA" >Algeria</option>
+            <option value="ASM" >American Samoa</option>
+            <option value="AND" >Andorra</option>
+            <option value="AGO" >Angola</option>
+            <option value="AIA" >Anguilla</option>
+            <option value="ATA" >Antarctica</option>
+            <option value="ATG" >Antigua and Barbuda</option>
+            <option value="ARG" >Argentina</option>
+            <option value="ARM" >Armenia</option>
+            <option value="ABW" >Aruba</option>
+            <option value="AUS" >Australia</option>
+            <option value="AUT" >Austria</option>
+            <option value="AZE" >Azerbaijan</option>
+            <option value="BHS" >Bahamas</option>
+            <option value="BHR" >Bahrain</option>
+            <option value="BGD" >Bangladesh</option>
+            <option value="BRB" >Barbados</option>
+            <option value="BLR" >Belarus</option>
+            <option value="BEL" >Belgium</option>
+            <option value="BLZ" >Belize</option>
+            <option value="BEN" >Benin</option>
+            <option value="BMU" >Bermuda</option>
+            <option value="BTN" >Bhutan</option>
+            <option value="BOL" >Bolivia</option>
+            <option value="BIH" >Bosnia and Herzegovina</option>
+            <option value="BWA" >Botswana</option>
+            <option value="BVT" >Bouvet Island</option>
+            <option value="BRA" >Brazil</option>
+            <option value="IOT" >British Indian Ocean Territory</option>
+            <option value="BRN" >Brunei Darussalam</option>
+            <option value="BGR" >Bulgaria</option>
+            <option value="BFA" >Burkina Faso</option>
+            <option value="BDI" >Burundi</option>
+            <option value="KHM" >Cambodia</option>
+            <option value="CMR" >Cameroon</option>
+            <option value="CAN" >Canada</option>
+            <option value="CPV" >Cape Verde</option>
+            <option value="CYM" >Cayman Islands</option>
+            <option value="CAF" >Central African Republic</option>
+            <option value="TCD" >Chad</option>
+            <option value="CHL" >Chile</option>
+            <option value="CHN" >China</option>
+            <option value="CXR" >Christmas Island</option>
+            <option value="CCK" >Cocos (Keeling) Islands</option>
+            <option value="COL" >Colombia</option>
+            <option value="COM" >Comoros</option>
+            <option value="COG" >Congo (Brazzaville)</option>
+            <option value="COD" >Congo (Kinshasa)</option>
+            <option value="COK" >Cook Islands</option>
+            <option value="CRI" >Costa Rica</option>
+            <option value="CIV" >Côte d&#39;Ivoire</option>
+            <option value="HRV" >Croatia</option>
+            <option value="CUB" >Cuba</option>
+            <option value="CYP" >Cyprus</option>
+            <option value="CZE" >Czech Republic</option>
+            <option value="DNK" >Denmark</option>
+            <option value="DJI" >Djibouti</option>
+            <option value="DMA" >Dominica</option>
+            <option value="DOM" >Dominican Republic</option>
+            <option value="ECU" >Ecuador</option>
+            <option value="EGY" >Egypt</option>
+            <option value="SLV" >El Salvador</option>
+            <option value="GNQ" >Equatorial Guinea</option>
+            <option value="ERI" >Eritrea</option>
+            <option value="EST" >Estonia</option>
+            <option value="ETH" >Ethiopia</option>
+            <option value="FLK" >Falkland Islands</option>
+            <option value="FRO" >Faroe Islands</option>
+            <option value="FJI" >Fiji</option>
+            <option value="FIN" >Finland</option>
+            <option value="FRA" >France</option>
+            <option value="GUF" >French Guiana</option>
+            <option value="PYF" >French Polynesia</option>
+            <option value="ATF" >French Southern Lands</option>
+            <option value="GAB" >Gabon</option>
+            <option value="GMB" >Gambia</option>
+            <option value="GEO" >Georgia</option>
+            <option value="DEU" >Germany</option>
+            <option value="GHA" >Ghana</option>
+            <option value="GIB" >Gibraltar</option>
+            <option value="GRC" >Greece</option>
+            <option value="GRL" >Greenland</option>
+            <option value="GRD" >Grenada</option>
+            <option value="GLP" >Guadeloupe</option>
+            <option value="GUM" >Guam</option>
+            <option value="GTM" >Guatemala</option>
+            <option value="GGY" >Guernsey</option>
+            <option value="GIN" >Guinea</option>
+            <option value="GNB" >Guinea-Bissau</option>
+            <option value="GUY" >Guyana</option>
+            <option value="HTI" >Haiti</option>
+            <option value="HMD" >Heard and McDonald Islands</option>
+            <option value="HND" >Honduras</option>
+            <option value="HKG" >Hong Kong</option>
+            <option value="HUN" >Hungary</option>
+            <option value="ISL" >Iceland</option>
+            <option value="IND" >India</option>
+            <option value="IDN" >Indonesia</option>
+            <option value="IRN" >Iran</option>
+            <option value="IRQ" >Iraq</option>
+            <option value="IRL" >Ireland</option>
+            <option value="IMN" >Isle of Man</option>
+            <option value="ISR" >Israel</option>
+            <option value="ITA" >Italy</option>
+            <option value="JAM" >Jamaica</option>
+            <option value="JPN" >Japan</option>
+            <option value="JEY" >Jersey</option>
+            <option value="JOR" >Jordan</option>
+            <option value="KAZ" >Kazakhstan</option>
+            <option value="KEN" >Kenya</option>
+            <option value="KIR" >Kiribati</option>
+            <option value="PRK" >Korea, North</option>
+            <option value="KOR" >Korea, South</option>
+            <option value="KWT" >Kuwait</option>
+            <option value="KGZ" >Kyrgyzstan</option>
+            <option value="LAO" >Laos</option>
+            <option value="LVA" >Latvia</option>
+            <option value="LBN" >Lebanon</option>
+            <option value="LSO" >Lesotho</option>
+            <option value="LBR" >Liberia</option>
+            <option value="LBY" >Libya</option>
+            <option value="LIE" >Liechtenstein</option>
+            <option value="LTU" >Lithuania</option>
+            <option value="LUX" >Luxembourg</option>
+            <option value="MAC" >Macau</option>
+            <option value="MKD" >Macedonia</option>
+            <option value="MDG" >Madagascar</option>
+            <option value="MWI" >Malawi</option>
+            <option value="MYS" >Malaysia</option>
+            <option value="MDV" >Maldives</option>
+            <option value="MLI" >Mali</option>
+            <option value="MLT" >Malta</option>
+            <option value="MHL" >Marshall Islands</option>
+            <option value="MTQ" >Martinique</option>
+            <option value="MRT" >Mauritania</option>
+            <option value="MUS" >Mauritius</option>
+            <option value="MYT" >Mayotte</option>
+            <option value="MEX" >Mexico</option>
+            <option value="FSM" >Micronesia</option>
+            <option value="MDA" >Moldova</option>
+            <option value="MCO" >Monaco</option>
+            <option value="MNG" >Mongolia</option>
+            <option value="MNE" >Montenegro</option>
+            <option value="MSR" >Montserrat</option>
+            <option value="MAR" >Morocco</option>
+            <option value="MOZ" >Mozambique</option>
+            <option value="MMR" >Myanmar</option>
+            <option value="NAM" >Namibia</option>
+            <option value="NRU" >Nauru</option>
+            <option value="NPL" >Nepal</option>
+            <option value="NLD" >Netherlands</option>
+            <option value="ANT" >Netherlands Antilles</option>
+            <option value="NCL" >New Caledonia</option>
+            <option value="NZL" >New Zealand</option>
+            <option value="NIC" >Nicaragua</option>
+            <option value="NER" >Niger</option>
+            <option value="NGA" >Nigeria</option>
+            <option value="NIU" >Niue</option>
+            <option value="NFK" >Norfolk Island</option>
+            <option value="MNP" >Northern Mariana Islands</option>
+            <option value="NOR" >Norway</option>
+            <option value="OMN" >Oman</option>
+            <option value="PAK" >Pakistan</option>
+            <option value="PLW" >Palau</option>
+            <option value="PSE" >Palestine</option>
+            <option value="PAN" >Panama</option>
+            <option value="PNG" >Papua New Guinea</option>
+            <option value="PRY" >Paraguay</option>
+            <option value="PER" >Peru</option>
+            <option value="PHL" >Philippines</option>
+            <option value="PCN" >Pitcairn</option>
+            <option value="POL" >Poland</option>
+            <option value="PRT" >Portugal</option>
+            <option value="PRI" >Puerto Rico</option>
+            <option value="QAT" >Qatar</option>
+            <option value="REU" >Reunion</option>
+            <option value="ROU" >Romania</option>
+            <option value="RUS" >Russian Federation</option>
+            <option value="RWA" >Rwanda</option>
+            <option value="BLM" >Saint Barthélemy</option>
+            <option value="SHN" >Saint Helena</option>
+            <option value="KNA" >Saint Kitts and Nevis</option>
+            <option value="LCA" >Saint Lucia</option>
+            <option value="MAF" >Saint Martin (French part)</option>
+            <option value="SPM" >Saint Pierre and Miquelon</option>
+            <option value="VCT" >Saint Vincent and the Grenadines</option>
+            <option value="WSM" >Samoa</option>
+            <option value="SMR" >San Marino</option>
+            <option value="STP" >Sao Tome and Principe</option>
+            <option value="SAU" >Saudi Arabia</option>
+            <option value="SEN" >Senegal</option>
+            <option value="SRB" >Serbia</option>
+            <option value="SYC" >Seychelles</option>
+            <option value="SLE" >Sierra Leone</option>
+            <option value="SGP" >Singapore</option>
+            <option value="SVK" >Slovakia</option>
+            <option value="SVN" >Slovenia</option>
+            <option value="SLB" >Solomon Islands</option>
+            <option value="SOM" >Somalia</option>
+            <option value="ZAF" >South Africa</option>
+            <option value="SGS" >South Georgia and South Sandwich Islands</option>
+            <option value="ESP" >Spain</option>
+            <option value="LKA" >Sri Lanka</option>
+            <option value="SDN" >Sudan</option>
+            <option value="SUR" >Suriname</option>
+            <option value="SJM" >Svalbard and Jan Mayen Islands</option>
+            <option value="SWZ" >Swaziland</option>
+            <option value="SWE" >Sweden</option>
+            <option value="CHE" >Switzerland</option>
+            <option value="SYR" >Syria</option>
+            <option value="TWN" >Taiwan</option>
+            <option value="TJK" >Tajikistan</option>
+            <option value="TZA" >Tanzania</option>
+            <option value="THA" >Thailand</option>
+            <option value="TLS" >Timor-Leste</option>
+            <option value="TGO" >Togo</option>
+            <option value="TKL" >Tokelau</option>
+            <option value="TON" >Tonga</option>
+            <option value="TTO" >Trinidad and Tobago</option>
+            <option value="TUN" >Tunisia</option>
+            <option value="TUR" >Turkey</option>
+            <option value="TKM" >Turkmenistan</option>
+            <option value="TCA" >Turks and Caicos Islands</option>
+            <option value="TUV" >Tuvalu</option>
+            <option value="UGA" >Uganda</option>
+            <option value="UKR" >Ukraine</option>
+            <option value="ARE" >United Arab Emirates</option>
+            <option value="GBR" >United Kingdom</option>
+            <option value="UMI" >United States Minor Outlying Islands</option>
+            <option value="USA" >United States of America</option>
+            <option value="URY" >Uruguay</option>
+            <option value="UZB" >Uzbekistan</option>
+            <option value="VUT" >Vanuatu</option>
+            <option value="VAT" >Vatican City</option>
+            <option value="VEN" >Venezuela</option>
+            <option value="VNM" >Vietnam</option>
+            <option value="VGB" >Virgin Islands, British</option>
+            <option value="VIR" >Virgin Islands, U.S.</option>
+            <option value="WLF" >Wallis and Futuna Islands</option>
+            <option value="ESH" >Western Sahara</option>
+            <option value="YEM" >Yemen</option>
+            <option value="ZMB" >Zambia</option>
+            <option value="ZWE" >Zimbabwe</option>
+        </select>
+      </dd>
+    </dl>
+    <dl class="form-group state-form">
+      <dt class="input-label">
+        <label for="credit-card-Rouseli_billing_region">State</label>
+      </dt>
+      <dd>
+        <select class="form-select select-state js-select-state" name="billing[billing_address][region]" id="credit-card-Rouseli_billing_region">
+          <option></option>
+            <option >Alabama</option>
+            <option >Alaska</option>
+            <option >Arizona</option>
+            <option >Arkansas</option>
+            <option >Armed Forces Americas</option>
+            <option >Armed Forces Europe</option>
+            <option >Armed Forces Pacific</option>
+            <option >California</option>
+            <option >Colorado</option>
+            <option >Connecticut</option>
+            <option >Delaware</option>
+            <option >District of Columbia</option>
+            <option >Florida</option>
+            <option >Georgia</option>
+            <option >Hawaii</option>
+            <option >Idaho</option>
+            <option >Illinois</option>
+            <option >Indiana</option>
+            <option >Iowa</option>
+            <option >Kansas</option>
+            <option >Kentucky</option>
+            <option >Louisiana</option>
+            <option >Maine</option>
+            <option >Maryland</option>
+            <option >Massachusetts</option>
+            <option >Michigan</option>
+            <option >Minnesota</option>
+            <option >Mississippi</option>
+            <option >Missouri</option>
+            <option >Montana</option>
+            <option >Nebraska</option>
+            <option >Nevada</option>
+            <option >New Hampshire</option>
+            <option >New Jersey</option>
+            <option >New Mexico</option>
+            <option >New York</option>
+            <option >North Carolina</option>
+            <option >North Dakota</option>
+            <option >Ohio</option>
+            <option >Oklahoma</option>
+            <option >Oregon</option>
+            <option >Pennsylvania</option>
+            <option >Puerto Rico</option>
+            <option >Rhode Island</option>
+            <option >South Carolina</option>
+            <option >South Dakota</option>
+            <option >Tennessee</option>
+            <option >Texas</option>
+            <option >Utah</option>
+            <option >Vermont</option>
+            <option >Virginia</option>
+            <option >Washington</option>
+            <option >West Virginia</option>
+            <option >Wisconsin</option>
+            <option >Wyoming</option>
+        </select>
+      </dd>
+    </dl>
+  </div>
+
+  <dl class="form-group postal-code-form">
+    <dt class="input-label">
+      <label for="credit-card-Rouseli_billing_billing_address_postal_code">Postal Code</label>
+    </dt>
+    <dd>
+      <input autocomplete="off" class="form-control short input-postal-code js-postal-code-field" id="credit-card-Rouseli_billing_billing_address_postal_code"
+        name="billing[billing_address][postal_code]"
+        value=""
+        required
+        size="30"
+        type="text">
+    </dd>
+  </dl>
+
+<dl class="form-group vat-field">
+  <dt class="input-label">
+    <label for="credit-card-Rouseli_billing_vat_code">VAT ID <small class="help-text js-vat-help-text"></small></label>
+  </dt>
+  <dd>
+    <input id="credit-card-Rouseli_billing_vat_code" class="form-control short input-vat" type="text" autocomplete="off" name="billing[vat_code]" value="">
+  </dd>
+</dl>
+
+<p class="vat-field"><strong>Note:</strong> Please provide your VAT number if you are purchasing GitHub for a business purpose.</p>
+
+</div>
+
+  </div>
+
+  <div class="js-selected-payment-method selected-payment-method pay-with-paypal ">
+    
+<div class="paypal-label paypal-sign-in">Sign in to</div>
+<div class="paypal-label paypal-signed-in">Charge to</div>
+
+
+<div class="loading-paypal-spinner">
+  <img alt="" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32-EAF2F5.gif" valign="top" width="16" />
+  Connecting to PayPal…
+</div>
+
+<p class="flash flash-warn paypal-down-flash">
+  Sorry, we’re having trouble with PayPal right now, please try again a bit later.
+</p>
+
+<input type="hidden" name="billing[paypal_nonce]" id="paypal-nonce-Rouseli">
+<div class="paypal-container js-paypal-container"
+  data-nonce-field="#paypal-nonce-Rouseli">
+</div>
+<svg aria-hidden="true" class="octicon octicon-x js-paypal-cancel-icon d-none" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+
+<div class="setup-creditcard-form js-setup-creditcard billing-info    ">
+  
+  <div class="clearfix">
+    <dl class="form-group country-form">
+      <dt class="input-label">
+        <label for="paypal-Rouseli_billing_country">Country</label>
+      </dt>
+      <dd>
+        <select id="paypal-Rouseli_billing_country" class="form-select select-country js-select-country" name="billing[billing_address][country_code_alpha3]" required>
+          <option value>Choose country</option>
+            <option value="USA" >United States of America</option>
+            <option value="CHN" >China</option>
+            <option value="DEU" >Germany</option>
+            <option value="GBR" >United Kingdom</option>
+            <option value="IND" >India</option>
+          <option disabled></option>
+            <option value="AFG" >Afghanistan</option>
+            <option value="ALA" >Åland</option>
+            <option value="ALB" >Albania</option>
+            <option value="DZA" >Algeria</option>
+            <option value="ASM" >American Samoa</option>
+            <option value="AND" >Andorra</option>
+            <option value="AGO" >Angola</option>
+            <option value="AIA" >Anguilla</option>
+            <option value="ATA" >Antarctica</option>
+            <option value="ATG" >Antigua and Barbuda</option>
+            <option value="ARG" >Argentina</option>
+            <option value="ARM" >Armenia</option>
+            <option value="ABW" >Aruba</option>
+            <option value="AUS" >Australia</option>
+            <option value="AUT" >Austria</option>
+            <option value="AZE" >Azerbaijan</option>
+            <option value="BHS" >Bahamas</option>
+            <option value="BHR" >Bahrain</option>
+            <option value="BGD" >Bangladesh</option>
+            <option value="BRB" >Barbados</option>
+            <option value="BLR" >Belarus</option>
+            <option value="BEL" >Belgium</option>
+            <option value="BLZ" >Belize</option>
+            <option value="BEN" >Benin</option>
+            <option value="BMU" >Bermuda</option>
+            <option value="BTN" >Bhutan</option>
+            <option value="BOL" >Bolivia</option>
+            <option value="BIH" >Bosnia and Herzegovina</option>
+            <option value="BWA" >Botswana</option>
+            <option value="BVT" >Bouvet Island</option>
+            <option value="BRA" >Brazil</option>
+            <option value="IOT" >British Indian Ocean Territory</option>
+            <option value="BRN" >Brunei Darussalam</option>
+            <option value="BGR" >Bulgaria</option>
+            <option value="BFA" >Burkina Faso</option>
+            <option value="BDI" >Burundi</option>
+            <option value="KHM" >Cambodia</option>
+            <option value="CMR" >Cameroon</option>
+            <option value="CAN" >Canada</option>
+            <option value="CPV" >Cape Verde</option>
+            <option value="CYM" >Cayman Islands</option>
+            <option value="CAF" >Central African Republic</option>
+            <option value="TCD" >Chad</option>
+            <option value="CHL" >Chile</option>
+            <option value="CHN" >China</option>
+            <option value="CXR" >Christmas Island</option>
+            <option value="CCK" >Cocos (Keeling) Islands</option>
+            <option value="COL" >Colombia</option>
+            <option value="COM" >Comoros</option>
+            <option value="COG" >Congo (Brazzaville)</option>
+            <option value="COD" >Congo (Kinshasa)</option>
+            <option value="COK" >Cook Islands</option>
+            <option value="CRI" >Costa Rica</option>
+            <option value="CIV" >Côte d&#39;Ivoire</option>
+            <option value="HRV" >Croatia</option>
+            <option value="CUB" >Cuba</option>
+            <option value="CYP" >Cyprus</option>
+            <option value="CZE" >Czech Republic</option>
+            <option value="DNK" >Denmark</option>
+            <option value="DJI" >Djibouti</option>
+            <option value="DMA" >Dominica</option>
+            <option value="DOM" >Dominican Republic</option>
+            <option value="ECU" >Ecuador</option>
+            <option value="EGY" >Egypt</option>
+            <option value="SLV" >El Salvador</option>
+            <option value="GNQ" >Equatorial Guinea</option>
+            <option value="ERI" >Eritrea</option>
+            <option value="EST" >Estonia</option>
+            <option value="ETH" >Ethiopia</option>
+            <option value="FLK" >Falkland Islands</option>
+            <option value="FRO" >Faroe Islands</option>
+            <option value="FJI" >Fiji</option>
+            <option value="FIN" >Finland</option>
+            <option value="FRA" >France</option>
+            <option value="GUF" >French Guiana</option>
+            <option value="PYF" >French Polynesia</option>
+            <option value="ATF" >French Southern Lands</option>
+            <option value="GAB" >Gabon</option>
+            <option value="GMB" >Gambia</option>
+            <option value="GEO" >Georgia</option>
+            <option value="DEU" >Germany</option>
+            <option value="GHA" >Ghana</option>
+            <option value="GIB" >Gibraltar</option>
+            <option value="GRC" >Greece</option>
+            <option value="GRL" >Greenland</option>
+            <option value="GRD" >Grenada</option>
+            <option value="GLP" >Guadeloupe</option>
+            <option value="GUM" >Guam</option>
+            <option value="GTM" >Guatemala</option>
+            <option value="GGY" >Guernsey</option>
+            <option value="GIN" >Guinea</option>
+            <option value="GNB" >Guinea-Bissau</option>
+            <option value="GUY" >Guyana</option>
+            <option value="HTI" >Haiti</option>
+            <option value="HMD" >Heard and McDonald Islands</option>
+            <option value="HND" >Honduras</option>
+            <option value="HKG" >Hong Kong</option>
+            <option value="HUN" >Hungary</option>
+            <option value="ISL" >Iceland</option>
+            <option value="IND" >India</option>
+            <option value="IDN" >Indonesia</option>
+            <option value="IRN" >Iran</option>
+            <option value="IRQ" >Iraq</option>
+            <option value="IRL" >Ireland</option>
+            <option value="IMN" >Isle of Man</option>
+            <option value="ISR" >Israel</option>
+            <option value="ITA" >Italy</option>
+            <option value="JAM" >Jamaica</option>
+            <option value="JPN" >Japan</option>
+            <option value="JEY" >Jersey</option>
+            <option value="JOR" >Jordan</option>
+            <option value="KAZ" >Kazakhstan</option>
+            <option value="KEN" >Kenya</option>
+            <option value="KIR" >Kiribati</option>
+            <option value="PRK" >Korea, North</option>
+            <option value="KOR" >Korea, South</option>
+            <option value="KWT" >Kuwait</option>
+            <option value="KGZ" >Kyrgyzstan</option>
+            <option value="LAO" >Laos</option>
+            <option value="LVA" >Latvia</option>
+            <option value="LBN" >Lebanon</option>
+            <option value="LSO" >Lesotho</option>
+            <option value="LBR" >Liberia</option>
+            <option value="LBY" >Libya</option>
+            <option value="LIE" >Liechtenstein</option>
+            <option value="LTU" >Lithuania</option>
+            <option value="LUX" >Luxembourg</option>
+            <option value="MAC" >Macau</option>
+            <option value="MKD" >Macedonia</option>
+            <option value="MDG" >Madagascar</option>
+            <option value="MWI" >Malawi</option>
+            <option value="MYS" >Malaysia</option>
+            <option value="MDV" >Maldives</option>
+            <option value="MLI" >Mali</option>
+            <option value="MLT" >Malta</option>
+            <option value="MHL" >Marshall Islands</option>
+            <option value="MTQ" >Martinique</option>
+            <option value="MRT" >Mauritania</option>
+            <option value="MUS" >Mauritius</option>
+            <option value="MYT" >Mayotte</option>
+            <option value="MEX" >Mexico</option>
+            <option value="FSM" >Micronesia</option>
+            <option value="MDA" >Moldova</option>
+            <option value="MCO" >Monaco</option>
+            <option value="MNG" >Mongolia</option>
+            <option value="MNE" >Montenegro</option>
+            <option value="MSR" >Montserrat</option>
+            <option value="MAR" >Morocco</option>
+            <option value="MOZ" >Mozambique</option>
+            <option value="MMR" >Myanmar</option>
+            <option value="NAM" >Namibia</option>
+            <option value="NRU" >Nauru</option>
+            <option value="NPL" >Nepal</option>
+            <option value="NLD" >Netherlands</option>
+            <option value="ANT" >Netherlands Antilles</option>
+            <option value="NCL" >New Caledonia</option>
+            <option value="NZL" >New Zealand</option>
+            <option value="NIC" >Nicaragua</option>
+            <option value="NER" >Niger</option>
+            <option value="NGA" >Nigeria</option>
+            <option value="NIU" >Niue</option>
+            <option value="NFK" >Norfolk Island</option>
+            <option value="MNP" >Northern Mariana Islands</option>
+            <option value="NOR" >Norway</option>
+            <option value="OMN" >Oman</option>
+            <option value="PAK" >Pakistan</option>
+            <option value="PLW" >Palau</option>
+            <option value="PSE" >Palestine</option>
+            <option value="PAN" >Panama</option>
+            <option value="PNG" >Papua New Guinea</option>
+            <option value="PRY" >Paraguay</option>
+            <option value="PER" >Peru</option>
+            <option value="PHL" >Philippines</option>
+            <option value="PCN" >Pitcairn</option>
+            <option value="POL" >Poland</option>
+            <option value="PRT" >Portugal</option>
+            <option value="PRI" >Puerto Rico</option>
+            <option value="QAT" >Qatar</option>
+            <option value="REU" >Reunion</option>
+            <option value="ROU" >Romania</option>
+            <option value="RUS" >Russian Federation</option>
+            <option value="RWA" >Rwanda</option>
+            <option value="BLM" >Saint Barthélemy</option>
+            <option value="SHN" >Saint Helena</option>
+            <option value="KNA" >Saint Kitts and Nevis</option>
+            <option value="LCA" >Saint Lucia</option>
+            <option value="MAF" >Saint Martin (French part)</option>
+            <option value="SPM" >Saint Pierre and Miquelon</option>
+            <option value="VCT" >Saint Vincent and the Grenadines</option>
+            <option value="WSM" >Samoa</option>
+            <option value="SMR" >San Marino</option>
+            <option value="STP" >Sao Tome and Principe</option>
+            <option value="SAU" >Saudi Arabia</option>
+            <option value="SEN" >Senegal</option>
+            <option value="SRB" >Serbia</option>
+            <option value="SYC" >Seychelles</option>
+            <option value="SLE" >Sierra Leone</option>
+            <option value="SGP" >Singapore</option>
+            <option value="SVK" >Slovakia</option>
+            <option value="SVN" >Slovenia</option>
+            <option value="SLB" >Solomon Islands</option>
+            <option value="SOM" >Somalia</option>
+            <option value="ZAF" >South Africa</option>
+            <option value="SGS" >South Georgia and South Sandwich Islands</option>
+            <option value="ESP" >Spain</option>
+            <option value="LKA" >Sri Lanka</option>
+            <option value="SDN" >Sudan</option>
+            <option value="SUR" >Suriname</option>
+            <option value="SJM" >Svalbard and Jan Mayen Islands</option>
+            <option value="SWZ" >Swaziland</option>
+            <option value="SWE" >Sweden</option>
+            <option value="CHE" >Switzerland</option>
+            <option value="SYR" >Syria</option>
+            <option value="TWN" >Taiwan</option>
+            <option value="TJK" >Tajikistan</option>
+            <option value="TZA" >Tanzania</option>
+            <option value="THA" >Thailand</option>
+            <option value="TLS" >Timor-Leste</option>
+            <option value="TGO" >Togo</option>
+            <option value="TKL" >Tokelau</option>
+            <option value="TON" >Tonga</option>
+            <option value="TTO" >Trinidad and Tobago</option>
+            <option value="TUN" >Tunisia</option>
+            <option value="TUR" >Turkey</option>
+            <option value="TKM" >Turkmenistan</option>
+            <option value="TCA" >Turks and Caicos Islands</option>
+            <option value="TUV" >Tuvalu</option>
+            <option value="UGA" >Uganda</option>
+            <option value="UKR" >Ukraine</option>
+            <option value="ARE" >United Arab Emirates</option>
+            <option value="GBR" >United Kingdom</option>
+            <option value="UMI" >United States Minor Outlying Islands</option>
+            <option value="USA" >United States of America</option>
+            <option value="URY" >Uruguay</option>
+            <option value="UZB" >Uzbekistan</option>
+            <option value="VUT" >Vanuatu</option>
+            <option value="VAT" >Vatican City</option>
+            <option value="VEN" >Venezuela</option>
+            <option value="VNM" >Vietnam</option>
+            <option value="VGB" >Virgin Islands, British</option>
+            <option value="VIR" >Virgin Islands, U.S.</option>
+            <option value="WLF" >Wallis and Futuna Islands</option>
+            <option value="ESH" >Western Sahara</option>
+            <option value="YEM" >Yemen</option>
+            <option value="ZMB" >Zambia</option>
+            <option value="ZWE" >Zimbabwe</option>
+        </select>
+      </dd>
+    </dl>
+    <dl class="form-group state-form">
+      <dt class="input-label">
+        <label for="paypal-Rouseli_billing_region">State</label>
+      </dt>
+      <dd>
+        <select class="form-select select-state js-select-state" name="billing[billing_address][region]" id="paypal-Rouseli_billing_region">
+          <option></option>
+            <option >Alabama</option>
+            <option >Alaska</option>
+            <option >Arizona</option>
+            <option >Arkansas</option>
+            <option >Armed Forces Americas</option>
+            <option >Armed Forces Europe</option>
+            <option >Armed Forces Pacific</option>
+            <option >California</option>
+            <option >Colorado</option>
+            <option >Connecticut</option>
+            <option >Delaware</option>
+            <option >District of Columbia</option>
+            <option >Florida</option>
+            <option >Georgia</option>
+            <option >Hawaii</option>
+            <option >Idaho</option>
+            <option >Illinois</option>
+            <option >Indiana</option>
+            <option >Iowa</option>
+            <option >Kansas</option>
+            <option >Kentucky</option>
+            <option >Louisiana</option>
+            <option >Maine</option>
+            <option >Maryland</option>
+            <option >Massachusetts</option>
+            <option >Michigan</option>
+            <option >Minnesota</option>
+            <option >Mississippi</option>
+            <option >Missouri</option>
+            <option >Montana</option>
+            <option >Nebraska</option>
+            <option >Nevada</option>
+            <option >New Hampshire</option>
+            <option >New Jersey</option>
+            <option >New Mexico</option>
+            <option >New York</option>
+            <option >North Carolina</option>
+            <option >North Dakota</option>
+            <option >Ohio</option>
+            <option >Oklahoma</option>
+            <option >Oregon</option>
+            <option >Pennsylvania</option>
+            <option >Puerto Rico</option>
+            <option >Rhode Island</option>
+            <option >South Carolina</option>
+            <option >South Dakota</option>
+            <option >Tennessee</option>
+            <option >Texas</option>
+            <option >Utah</option>
+            <option >Vermont</option>
+            <option >Virginia</option>
+            <option >Washington</option>
+            <option >West Virginia</option>
+            <option >Wisconsin</option>
+            <option >Wyoming</option>
+        </select>
+      </dd>
+    </dl>
+  </div>
+
+  <dl class="form-group postal-code-form">
+    <dt class="input-label">
+      <label for="paypal-Rouseli_billing_billing_address_postal_code">Postal Code</label>
+    </dt>
+    <dd>
+      <input autocomplete="off" class="form-control short input-postal-code js-postal-code-field" id="paypal-Rouseli_billing_billing_address_postal_code"
+        name="billing[billing_address][postal_code]"
+        value=""
+        required
+        size="30"
+        type="text">
+    </dd>
+  </dl>
+
+<dl class="form-group vat-field">
+  <dt class="input-label">
+    <label for="paypal-Rouseli_billing_vat_code">VAT ID <small class="help-text js-vat-help-text"></small></label>
+  </dt>
+  <dd>
+    <input id="paypal-Rouseli_billing_vat_code" class="form-control short input-vat" type="text" autocomplete="off" name="billing[vat_code]" value="">
+  </dd>
+</dl>
+
+<p class="vat-field"><strong>Note:</strong> Please provide your VAT number if you are purchasing GitHub for a business purpose.</p>
+
+</div>
+
+  </div>
+</div>
+
+        </div>
+
+        <div class="form-checkbox setup-organization-next">
+          <label>
+            <input class="js-setup-organization" id="setup_organization" name="setup_organization" type="checkbox" value="true" />
+            Help me set up an organization next
+            <p class="note details">
+              Organizations are separate from personal accounts and are best suited for businesses who need to manage permissions for many employees.<br>
+              <a href="https://help.github.com/categories/2/articles">Learn more about organizations.</a>
+            </p>
+          </label>
+        </div>
+
+        <button type="submit" class="btn btn-primary js-choose-plan-submit" data-org-text="Continue to setup organization">
+          Continue
+        </button>
+</form>    </div> <!-- /.setup-form-container -->
+  </div> <!-- /.setup-main -->
+
+  <div class="setup-secondary">
+    <div class="setup-info-module">
+      <h2>Both plans include:</h2>
+      <ul class="features-list">
+        <li><svg aria-hidden="true" class="octicon octicon-check" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg> Collaborative code review</li>
+        <li><svg aria-hidden="true" class="octicon octicon-check" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg> Issue tracking</li>
+        <li><svg aria-hidden="true" class="octicon octicon-check" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg> Open source community</li>
+        <li><svg aria-hidden="true" class="octicon octicon-check" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg> Unlimited public repositories</li>
+        <li><svg aria-hidden="true" class="octicon octicon-check" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg> Join any organization</li>
+      </ul>
+    </div>
+  </div>  <!-- /.setup-secondary -->
+</div> <!-- /.setup-wrapper -->
+
+
+      </div>
+      <div class="modal-backdrop js-touch-events"></div>
+  </div>
+
+      
+<div class="container site-footer-container">
+  <div class="site-footer " role="contentinfo">
+    <ul class="site-footer-links float-right">
+        <li><a href="https://github.com/contact" data-ga-click="Footer, go to contact, text:contact">Contact GitHub</a></li>
+      <li><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li><a href="https://github.com/blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a href="https://github.com/about" data-ga-click="Footer, go to about, text:about">About</a></li>
+
+    </ul>
+
+    <a href="https://github.com" aria-label="Homepage" class="site-footer-mark" title="GitHub">
+      <svg aria-hidden="true" class="octicon octicon-mark-github" height="24" version="1.1" viewBox="0 0 16 16" width="24"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+    <ul class="site-footer-links">
+      <li>&copy; 2017 <span title="0.08105s from unicorn-1981933685-1hd4f">GitHub</span>, Inc.</li>
+        <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
+        <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
+        <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a href="https://help.github.com" data-ga-click="Footer, go to help, text:help">Help</a></li>
+    </ul>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <button type="button" class="flash-close js-flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+    You can't perform that action at this time.
+  </div>
+
+
+    
+    <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-b9f891faa0e9caf23b90af04c6633548c9b4069fd1fc72bbfca809d70f0d8172.js"></script>
+    
+    <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github-29b5a05e160bbd32d7954e3dc723b01042a1917f39539e6bcdf62af7faf606e5.js"></script>
+    
+    
+      <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/billing-b4e559e6375399eba053cb1d652aedca782f5bbe2930aacbdbbc4ab305c72bfc.js"></script>
+
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+  </div>
+</div>
+
+
+  </body>
+</html>

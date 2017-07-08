@@ -1,0 +1,1752 @@
+/**
+ * JavaScript 1.8.1
+ * http://ejohn.org/blog/objectgetprototypeof/
+ */
+if (typeof Object.getPrototypeOf !== 'function') {
+    if (typeof 'test'.__proto__ === 'object') {
+        Object.getPrototypeOf = function(object) {
+            return object.__proto__;
+        };
+    } else {
+        Object.getPrototypeOf = function(object) {
+            // May break if the constructor has been tampered with
+            return object.constructor.prototype;
+        };
+    }
+}
+
+// in future this translates can be moved to some other place
+var alertsTranslates = {
+    "lending_consider_popup": {
+        "en": ["Please consider cleaning your Mac from junk."],
+        "ru": ["\u041e\u0447\u0438\u0441\u0442\u0438\u0442\u0435 \u0441\u0432\u043e\u0439 Mac \u043e\u0442 \u043d\u0435\u043d\u0443\u0436\u043d\u044b\u0445 \u0444\u0430\u0439\u043b\u043e\u0432."],
+        "sv": ["V\u00e4nligen \u00f6verv\u00e4g att rensa din Mac p\u00e5 skr\u00e4p."],
+        "pl": ["Prosim rozwa\u017cy\u0107 czyszczenia zb\u0119dnych plik\u00f3w z Maca."],
+        "nl": ["Overweeg s.v.p. om alle junk-bestanden van uw Mac te verwijderen."],
+        "es": ["Por favor, plant\u00e9ate limpiar tu Mac de basura."],
+        "fr": ["Pensez \u00e0 nettoyer votre Mac des fichiers ind\u00e9sirables."],
+        "da": ["Du b\u00f8r overveje at rense din Mac for skrammel filer."],
+        "no": ["Du b\u00f8r vurdere \u00e5 rense din Mac fra s\u00f8ppelfiler."],
+        "pt": ["Considere limpar todo o lixo do seu Mac."],
+        "tr": ["L\u00fctfen Mac\u2019\u0131n\u0131z\u0131 temizlemeyi d\u00fc\u015f\u00fcn\u00fcn"],
+        "it": ["Ti consigliamo di pulire il tuo Mac da file inutili."],
+        "ko": ["Mac\uc758 \uc815\ud06c \ud30c\uc77c\uc744 \uccad\uc18c\ud558\uc2ed\uc2dc\uc624."],
+        "cn": ["\u8bf7\u8003\u8651\u6e05\u7406Mac\u4e2d\u7684\u5783\u573e\u3002"],
+        "zh": ["\u8bf7\u8003\u8651\u6e05\u7406Mac\u4e2d\u7684\u5783\u573e\u3002"],
+        "ja": ["\u304a\u4f7f\u3044\u306eMac\u306e\u8ff7\u60d1\u30e1\u30fc\u30eb\u3092\u524a\u9664\u3059\u308b\u3053\u3068\u3092\u3054\u691c\u8a0e\u4e0b\u3055\u3044\u3002"],
+        "de": ["Vergessen Sie nicht Ihren Mac zu s\u00e4ubern."],
+        "fi": ["Harkitse Mac-tietokoneesi puhdistusta."],
+        "cs": ["Zva\u017ete vy\u010di\u0161t\u011bn\u00ed Macu od nepot\u0159ebn\u00e9ho smet\u00ed."]},
+    "lending_consider_popup_compliance": {
+        "en": ["Please consider cleaning your Mac from junk.", "Click OK to Download MacKeeper."],
+        "ru": ["\u041e\u0447\u0438\u0441\u0442\u0438\u0442\u0435 \u0441\u0432\u043e\u0439 Mac \u043e\u0442 \u043d\u0435\u043d\u0443\u0436\u043d\u044b\u0445 \u0444\u0430\u0439\u043b\u043e\u0432.", "\u041D\u0430\u0436\u043C\u0438\u0442\u0435\u0020\u041E\u041A\u002C\u0020\u0447\u0442\u043E\u0431\u044B\u0020\u0441\u043A\u0430\u0447\u0430\u0442\u044C\u0020\u004D\u0061\u0063\u004B\u0065\u0065\u0070\u0065\u0072."],
+        "sv": ["V\u00e4nligen \u00f6verv\u00e4g att rensa din Mac p\u00e5 skr\u00e4p.", "\u004B\u006C\u0069\u0063\u006B\u0061\u0020\u0070\u00E5\u0020\u004F\u004B\u0020\u0066\u00F6\u0072\u0020\u0061\u0074\u0074\u0020\u0068\u00E4\u006D\u0074\u0061\u0020\u004D\u0061\u0063\u004B\u0065\u0065\u0070\u0065\u0072."],
+        "pl": ["Prosim rozwa\u017cy\u0107 czyszczenia zb\u0119dnych plik\u00f3w z Maca.", "\u004B\u006C\u0069\u006B\u006E\u0069\u006A\u0020\u004F\u004B\u002C\u0020\u0061\u0062\u0079\u0020\u0070\u006F\u0062\u0072\u0061\u0107\u0020\u004D\u0061\u0063\u004B\u0065\u0065\u0070\u0065\u0072\u0061\u002E"],
+        "nl": ["Overweeg s.v.p. om alle junk-bestanden van uw Mac te verwijderen.", "\u004B\u006C\u0069\u006B\u0020\u006F\u0070\u0020\u004F\u004B\u0020\u006F\u006D\u0020\u004D\u0061\u0063\u004B\u0065\u0065\u0070\u0065\u0072\u0020\u0074\u0065\u0020\u0064\u006F\u0077\u006E\u006C\u006F\u0061\u0064\u0065\u006E."],
+        "es": ["Por favor, plant\u00e9ate limpiar tu Mac de basura.", "\u0048\u0061\u007A\u0020\u0063\u006C\u0069\u0063\u0020\u0061\u0071\u0075\u00ED\u0020\u0070\u0061\u0072\u0061\u0020\u0064\u0065\u0073\u0063\u0061\u0072\u0067\u0061\u0072\u0020\u004D\u0061\u0063\u004B\u0065\u0065\u0070\u0065\u0072."],
+        "fr": ["Pensez \u00e0 nettoyer votre Mac des fichiers ind\u00e9sirables.", "\u0043\u006C\u0069\u0071\u0075\u0065\u007A\u0020\u0073\u0075\u0072\u0020\u004F\u004B\u0020\u0070\u006F\u0075\u0072\u0020\u0074\u00E9\u006C\u00E9\u0063\u0068\u0061\u0072\u0067\u0065\u0072\u0020\u004D\u0061\u0063\u004B\u0065\u0065\u0070\u0065\u0072\u002E"],
+        "da": ["Du b\u00f8r overveje at rense din Mac for skrammel filer.", "\u004B\u006C\u0069\u006B\u0020\u0070\u00E5\u0020\u004F\u004B\u0020\u0066\u006F\u0072\u0020\u0061\u0074\u0020\u0064\u006F\u0077\u006E\u006C\u006F\u0061\u0064\u0065\u0020\u004D\u0061\u0063\u004B\u0065\u0065\u0070\u0065\u0072."],
+        "no": ["Du b\u00f8r vurdere \u00e5 rense din Mac fra s\u00f8ppelfiler.", "\u004B\u006C\u0069\u006B\u006B\u0020\u0070\u00E5\u0020\u004F\u004B\u0020\u0066\u006F\u0072\u0020\u00E5\u0020\u006C\u0061\u0073\u0074\u0065\u0020\u006E\u0065\u0064\u0020\u004D\u0061\u0063\u004B\u0065\u0065\u0070\u0065\u0072."],
+        "pt": ["Considere limpar todo o lixo do seu Mac.", "\u0043\u006C\u0069\u0071\u0075\u0065\u0020\u0065\u006D\u0020\u004F\u004B\u0020\u0070\u0061\u0072\u0061\u0020\u0066\u0061\u007A\u0065\u0072\u0020\u006F\u0020\u0064\u006F\u0077\u006E\u006C\u006F\u0061\u0064\u0020\u0064\u006F\u0020\u004D\u0061\u0063\u004B\u0065\u0065\u0070\u0065\u0072."],
+        "tr": ["L\u00fctfen Mac\u2019\u0131n\u0131z\u0131 temizlemeyi d\u00fc\u015f\u00fcn\u00fcn", "\u004D\u0061\u0063\u004B\u0065\u0065\u0070\u0065\u0072\u2019\u0131\u0020\u0130\u006E\u0064\u0069\u0072\u006D\u0065\u006B\u0020\u0069\u00E7\u0069\u006E\u0020\u0054\u0061\u006D\u0061\u006D\u2019\u0131\u0020\u0054\u0131\u006B\u006C\u0061\u0079\u0131\u006E."],
+        "it": ["Ti consigliamo di pulire il tuo Mac da file inutili.", "\u0046\u0061\u0063\u0063\u0069\u0061\u0020\u0063\u006C\u0069\u0063\u0020\u0073\u0075\u0020\u004F\u004B\u0020\u0070\u0065\u0072\u0020\u0073\u0063\u0061\u0072\u0069\u0063\u0061\u0072\u0065\u0020\u004D\u0061\u0063\u004B\u0065\u0065\u0070\u0065\u0072."],
+        "ko": ["Mac\uc758 \uc815\ud06c \ud30c\uc77c\uc744 \uccad\uc18c\ud558\uc2ed\uc2dc\uc624.", "\u004D\u0061\u0063\u004B\u0065\u0065\u0070\u0065\u0072\uB97C\u0020\uB2E4\uC6B4\uB85C\uB4DC\uD558\uB824\uBA74\u0020\uD655\uC778\u0028\u004F\u004B\u0029\u0020\uBC84\uD2BC\uC744\u0020\uD074\uB9AD\uD558\uC2ED\uC2DC\uC624\u002E"],
+        "cn": ["\u8bf7\u8003\u8651\u6e05\u7406Mac\u4e2d\u7684\u5783\u573e\u3002", "\u70B9\u6309\u201C\u786E\u5B9A\u201D\u4E0B\u8F7D\u0020\u004D\u0061\u0063\u004B\u0065\u0065\u0070\u0065\u0072\u3002"],
+        "zh": ["\u8bf7\u8003\u8651\u6e05\u7406Mac\u4e2d\u7684\u5783\u573e\u3002", "\u70B9\u6309\u201C\u786E\u5B9A\u201D\u4E0B\u8F7D\u0020\u004D\u0061\u0063\u004B\u0065\u0065\u0070\u0065\u0072\u3002"],
+        "ja": ["\u304a\u4f7f\u3044\u306eMac\u306e\u8ff7\u60d1\u30e1\u30fc\u30eb\u3092\u524a\u9664\u3059\u308b\u3053\u3068\u3092\u3054\u691c\u8a0e\u4e0b\u3055\u3044\u3002", "\u300C\u004F\u004B\u300D\u3092\u30AF\u30EA\u30C3\u30AF\u3057\u3066\u0020\u004D\u0061\u0063\u004B\u0065\u0065\u0070\u0065\u0072\u0020\u3092\u30C0\u30A6\u30F3\u30ED\u30FC\u30C9\u3057\u307E\u3059\u3002"],
+        "de": ["Vergessen Sie nicht Ihren Mac zu s\u00e4ubern.", "\u004B\u006C\u0069\u0063\u006B\u0065\u006E\u0020\u0073\u0069\u0065\u0020\u0061\u0075\u0066\u0020\u004F\u004B\u002C\u0020\u0075\u006D\u0020\u004D\u0061\u0063\u004B\u0065\u0065\u0070\u0065\u0072\u0020\u0068\u0065\u0072\u0075\u006E\u0074\u0065\u0072\u007A\u0075\u006C\u0061\u0064\u0065\u006E."],
+        "fi": ["Harkitse Mac-tietokoneesi puhdistusta.", "\u004C\u0061\u0074\u0061\u0061\u0020\u004D\u0061\u0063\u004B\u0065\u0065\u0070\u0065\u0072\u0020\u006B\u006C\u0069\u006B\u006B\u0061\u0061\u006D\u0061\u006C\u006C\u0061\u0020\u004F\u004B."],
+        "cs": ["Zva\u017ete vy\u010di\u0161t\u011bn\u00ed Macu od nepot\u0159ebn\u00e9ho smet\u00ed.", "\u0043\u0068\u0063\u0065\u0074\u0065\u002D\u006C\u0069\u0020\u0073\u0074\u00E1\u0068\u006E\u006F\u0075\u0074\u0020\u004D\u0061\u0063\u004B\u0065\u0065\u0070\u0065\u0072\u002C\u0020\u006B\u006C\u0069\u006B\u006E\u011B\u0074\u0065\u0020\u006E\u0061\u0020\u0074\u006C\u0061\u010D\u00ED\u0074\u006B\u006F\u0020\u004F\u004B."]},
+    "lending_recommend_download": {
+        "en": ["RECOMMENDED DOWNLOAD", "We recommend to clean your Mac with MacKeeper - award-winning system utility."],
+        "ru": ["\u0420\u0415\u041a\u041e\u041c\u0415\u041d\u0414\u0423\u0415\u0422\u0421\u042f \u041a \u0421\u041a\u0410\u0427\u0418\u0412\u0410\u041d\u0418\u042e", "\u0420\u0435\u043a\u043e\u043c\u0435\u043d\u0434\u0443\u0435\u043c \u043e\u0447\u0438\u0441\u0442\u043a\u0443 \u0412\u0430\u0448\u0435\u0433\u043e \u043a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u0430 \u0441 \u043f\u043e\u043c\u043e\u0449\u044c\u044e MacKeeper - \u0441\u0438\u0441\u0442\u0435\u043c\u043d\u043e\u0439 \u0443\u0442\u0438\u043b\u0438\u0442\u044b \u043d\u043e\u043c\u0435\u0440 \u043e\u0434\u0438\u043d."],
+        "sv": ["REKOMMENDERAD NEDLADDNING", "Vi rekommenderar en reng\u00f6ring av din Mac med MacKeeper - prisbel\u00f6nt systemverktyg."],
+        "pl": ["Polecamy za\u0142adowanie", "Polecamy do czyszczenia Mac komputera MacKeeperem - nagradzane narz\u0119dzie systemowe."],
+        "nl": ["AANBEVOLEN DOWNLOAD", "We raden u aan om uw Mac op te schonen met Mackeeper - prijswinnende hulpprogramma."],
+        "es": ["DESCARGA RECOMENDADA", "Recomendamos limpiar tu Mac con la premiada utilidad de limpieza MacKeeper."],
+        "fr": ["T\u00c9L\u00c9CHARGEMENT RECOMMAND\u00c9", "Nous vous recommandons de nettoyer votre Mac avec Mackeeper - l'utilitaire syst\u00e8me prim\u00e9."],
+        "da": ["ANBEFALET DOWNLOAD", "Vi anbefaler at rense din Mac med MacKeeper - prisbel\u00f8nnede systemfunktionsprogrammer."],
+        "no": ["ANBEFALT NEDLASTING", "Vi anbefaler \u00e5 rense din Mac med MacKeeper - prisbel\u00f8nt systemverkt\u00f8y."],
+        "pt": ["DESCARGA RECOMENDADA", "Recomendamos que limpe o seu Mac com o MacKeeper - utilit\u00e1rio de sistema galardoado."],
+        "tr": ["TAVS\u0130YE ED\u0130LEN B\u0130R Y\u00dcKLEMED\u0130R", "Mac\u2019\u0131n\u0131z\u0131 MacKeeper ile temizlemenizi tavsiye ediyoruz \u2013 \u00f6d\u00fcl alm\u0131\u015f bir uygulama. "],
+        "it": ["DOWNLOAD CONSIGLIATO", "Consigliamo di pulire il tuo Mac con MacKeeper - premiata utility di sistema. "],
+        "ko": ["\uad8c\uc7a5 \ub2e4\uc6b4\ub85c\ub4dc ", "\uc218\uc0c1 \uacbd\ub825\uc774 \uc788\ub294 \uc2dc\uc2a4\ud15c \uc720\ud2f8\ub9ac\ud2f0\uc778 MacKeeper\ub85c Mac\uc744 \uccad\uc18c\ud558\uc2e4 \uac83\uc744 \uad8c\uc7a5\ud569\ub2c8\ub2e4."],
+        "cn": ["\u63a8\u8350\u4e0b\u8f7d", "\u6211\u4eec\u63a8\u8350\u4f7f\u7528MacKeeper\u2014\u83b7\u5956\u7cfb\u7edf\u5e94\u7528\u7a0b\u5e8f\u6765\u6e05\u7406Mac\u3002\n"],
+        "zh": ["\u63a8\u8350\u4e0b\u8f7d", "\u6211\u4eec\u63a8\u8350\u4f7f\u7528MacKeeper\u2014\u83b7\u5956\u7cfb\u7edf\u5e94\u7528\u7a0b\u5e8f\u6765\u6e05\u7406Mac\u3002\n"],
+        "ja": ["\u63a8\u5968\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9", "MacKeeper\uff08\u53d7\u8cde\u6b74\u306e\u3042\u308b\u30b7\u30b9\u30c6\u30e0\u30e6\u30fc\u30c6\u30a3\u30ea\u30c6\u30a3\uff09\u306b\u3088\u308bMac\u306e\u30af\u30ea\u30fc\u30f3\u30a2\u30c3\u30d7\u3092\u304a\u52e7\u3081\u3057\u307e\u3059\u3002"],
+        "de": ["EMPFOHLENER DOWNLOAD", "Wir empfehlen Ihnen, Ihren Mac dem preisgekr\u00f6nbten Systemprogramm MacKeeper zu s\u00e4ubern."],
+        "fi": ["SUOSITELTU LATAUS", "Suosittelemme puhdistamaan Mac-tietokoneesi MacKeeperill\u00e4, palkitulla j\u00e4rjestelm\u00e4apuohjelmalla."],
+        "cs": ["DOPORU\u010cEN\u00c9 STAHOV\u00c1N\u00cd", "Doporu\u010dujeme vy\u010di\u0161t\u011bn\u00ed Va\u0161eho po\u010d\u00edta\u010de Mac pomoc\u00ed aplikace MacKeeper \u2013syst\u00e9mov\u00e9ho n\u00e1stroje, kter\u00fd z\u00edskal mnoho ocen\u011bn\u00ed."]
+    },
+    "lending_mcprotection_4free": {
+        "en": ["WAIT BEFORE YOU GO!", "STAY ON THIS PAGE AND GET FULL MAC PROTECTION NOW!"],
+        "ru": ["ПОДОЖДИТЕ!", "ОСТАНЬТЕСЬ НА ЭТОЙ СТРАНИЦЕ, ЧТОБЫ ПОЛУЧИТЬ ПОЛНУЮ ЗАЩИТУ ВАШЕГО MAC ПРЯМО СЕЙЧАС!"],
+        "sv": ["VÄNTA LITE!", "STANNA KVAR PÅ SIDAN OCH FÅ FULLT MAC-SKYDD NU!"],
+        "pl": ["ZATRZYMAJ SIĘ NIM WYRUSZYSZ!", "ZOSTAŃ NA TEJ STRONIE I ZDOBĄDŹ KOMPLEKSOWĄ OCHRONĘ DLA SWOJEGO MACA!"],
+        "nl": ["WACHT NOG EVEN.", "BLIJF OP DEZE PAGINA EN SCHAF NU DE VOLLEDIGE MAC-BEVEILIGING AAN."],
+        "es": ["¡ESPERA UN MOMENTO!", "QUÉDATE EN ESTA PÁGINA Y CONSIGUE UNA PROTECCIÓN COMPLETA PARA TU MAC AHORA MISMO."],
+        "fr": ["NE PARTEZ PAS !", "RESTEZ SUR CETTE PAGE POUR PROFITER D'UNE PROTECTION INTÉGRALE MAC DÈS MAINTENANT!"],
+        "da": ["VENT LIDT MED AT GÅ!", "BLIV PÅ DENNE SIDE, OG FÅ KOMPLET BESKYTTELSE AF DIN MAC NU!"],
+        "no": ["VENT FØR DU GÅR!", "BLI PÅ DENNE SIDEN OG FÅ FULL MAC-BESKYTTELSE NÅ!"],
+        "pt": ["ESPERE ANTES DE SAIR!", "FIQUE NESTA PÁGINA E TENHA A PROTEÇÃO COMPLETA DO SEU MAC AGORA!"],
+        "tr": ["DURUN, HEMEN GİTMEYİN!", "BU SAYFADA KALIN VE TAM KAPSAMLI MAC KORUMASINI HEMEN EDİNİN!"],
+        "it": ["ASPETTA UN MOMENTO!", "RIMANI SU QUESTA PAGINA E RICEVI UNA PROTEZIONE COMPLETA PER IL MAC ORA!"],
+        "ko": ["잠시만요!", "이 페이지를 통해 지금 바로 완벽한 MAC 보호 기능을 이용해 보세요!"],
+        "cn": ["离开前请稍等！", "停留在此页并立即获取 MAC 全面保护！"],
+        "zh": ["离开前请稍等！", "停留在此页并立即获取 MAC 全面保护！"],
+        "ja": ["お待ちください！", "MAC の保護を強化しましょう！"],
+        "de": ["GEHEN SIE NOCH NICHT!", "BLEIBEN SIE AUF DIESER SEITE UND HOLEN SIE SICH JETZT RUNDUMSCHUTZ FÜR IHREN MAC!"],
+        "fi": ["ODOTA VIELÄ!", "PYSY TÄLLÄ SIVULLA JA HANKI NYT HETI TÄYSSUOJAUS MACILLE!"],
+        "cs": ["JEŠTĚ NEODCHÁZEJTE!", "ZŮSTAŇTE NA TÉTO STRÁNCE A ZÍSKEJTE KOMPLETNÍ OCHRANU PRO SVŮJ MAC!"]
+    },
+    "landing_longtext_popup":{
+        'en': ["Be aware that the Internet is full of potential threats to", "the security and well-being for your Mac or any other", "device. Download MacKeeper and scan your Mac for", "viruses and malware."]
+    },
+    "preland_alert":{
+        'en': ["ATTENTION!<br><br>Your mac might be exposed to malware attacks because of unsafe browser extensions.<br><br>Personal photos, Facebook passwords, and bank account information might be at risk.<br><br><span>Press \"OK\" to proceed security scan.</span>"],
+        "ru": ["ВНИМАНИЕ!<br><br>Ваш Mac может быть подвержен атакам вредоносного ПО из-за установленных расширений браузера.<br><br>Ваши личные фото, пароли для Facebook и банковские данные могут быть под угрозой.<br><br><span>Нажмите \'OK\', чтобы продолжить проверку безопасности.</span>"],
+        "sv": ["OBS!<br><br>Din mac kan vara exponerad för attacker från skadliga program på grund av osäkra webbläsartillägg.<br><br>Personliga foton, Facebook-lösenord och bankkontoinformation kan vara i riskzonen.<br><br><span>Tryck på \'OK\' för att gå vidare med säkerhetsgenomsökningen.</span>"],
+        "pl": ["UWAGA!<br><br>Mac może być narażony na działanie złośliwego oprogramowania ze względu na niezabezpieczone rozszerzenia przeglądarki.<br><br>Zagrożone mogą być prywatne zdjęcia, hasła do kont na Facebooku oraz dane kont bankowych.<br><br><span>Naciśnij „OK”, aby kontynuować skanowanie zabezpieczeń.</span>"],
+        "nl": ["LET OP!<br><br>Door onveilige browserextensies is uw Mac mogelijk blootgesteld aan malware-aanvallen.<br><br>Uw foto's, Facebook-wachtwoorden en bankrekeninggegevens lopen mogelijk gevaar.<br><br><span>Klik op OK om de beveiligingsscan uit te voeren.</span>"],
+        "es": ["¡ATENCIÓN!<br><br>Tu Mac podría estar expuesto a ataques de malware porque usa extensiones de navegador no seguras.<br><br>Fotos personales, contraseñas de Facebook e información sobre cuentas bancarias podrían correr riesgos.<br><br><span>Pulse 'Aceptar' para realizar un análisis de seguridad.</span>"],
+        "fr": ["ATTENTION !<br><br>Votre Mac n\'est peut-être pas correctement protégé contre les attaques de programmes malveillants, en raison d\'extensions de navigateur dangereuses.<br><br>Vos photos personnelles, vos mots de passe Facebook et vos coordonnées bancaires sont peut-être en danger.<br><br><span>Appuyez sur 'OK' pour lancer une analyse de sécurité.</span>"],
+        "da": ["BEMÆRK!<br><br>Din mac kan være sårbar over for malware-angreb pga. usikre browserudvidelser.<br><br>Personlige fotografier, adgangskoder til Facebook og oplysninger om bankkonti kan være i fare.<br><br><span>Tryk på “OK” for at fortsætte med sikkerhedsscanningen.</span>"],
+        "no": ["VIKTIG BESKJED!<br><br>Mac-en din kan være utsatt for angrep av skadevare på grunn av usikre nettleserutvidelser.<br><br>Personlige bilder, Facebook-passord og bankkontoinformasjon kan være utsatt for risiko.<br><br><span>Trykk «OK» for å fortsette med sikkerhetsskanningen.</span>"],
+        "pt": ["ATENÇÃO!<br><br>Seu Mac pode estar exposto a ataques de malware devido a extensões inseguras de navegador.<br><br>Fotos pessoais, senhas do Facebook e dados bancários podem estar em risco.<br><br><span>Pressione “OK” para prosseguir com a verificação de segurança.</span>"],
+        "tr": ["DİKKAT!<br><br>Mac\'iniz güvenilir olmayan tarayıcı uzantıları nedeniyle kötü amaçlı yazılım saldırılarına maruz kalıyor olabilir.<br><br>Kişisel fotoğraflar, Facebook parolaları ve banka hesabı bilgileri risk altında olabilir.<br><br><span>Güvenlik taraması yapmak için 'Tamam'a basın.</span>"],
+        "it": ["ATTENZIONE<br><br>Il tuo Mac potrebbe essere esposto ad attacchi dovuti al malware a causa di estensioni del browser non sicure.<br><br>Foto personali, password di Facebook e dati dei conti bancari potrebbero essere a rischio.<br><br><span>Premi 'OK' per eseguire una scansione e individuare le minacce alla sicurezza.</span>"],
+        "ko": ["주의!<br><br>비보호 브라우저 확장 프로그램들로 인해 Mac이</br>멀웨어에 노출될 수 있습니다.<br><br>개인 사진, 페이스북 비밀번호, 은행계좌 정보 등이</br> 유출될 위험이 있습니다.<br><br><span>“확인”을 눌러 보안 스캔을 시작하십시오.</span>"],
+        "cn": ["注意！<br><br>由于存在不安全的浏览器扩展插件，</br>您的 Mac 可能会遭受恶意软件攻击。<br><br>个人照片、Facebook </br>密码以及银行账户可能处于风险之中。<br><br><span>点按“好”继续安全扫描。</span>"],
+        "zh": ["注意！<br><br>由于存在不安全的浏览器扩展插件， 您的 Mac 可能会遭受恶意软件攻击。<br><br>个人照片、Facebook 密码以及银行账户可能处于风险之中。<br><br><span>点按“好”继续安全扫描。</span>"],
+        "ja": ["注意！!<br><br>ブラウザの拡張子は安全でないため、あなたの Mac がマルウェアの脅威にさらされる可能性があります。<br><br>プライベートな写真、Facebook のパスワード、銀行口座情報が危険にさらされる恐れがあります。<br><br><span>「OK」をクリックして、 セキュリティスキャンを実行してください。</span>"],
+        "de": ["ACHTUNG!<br><br>Ihr Mac ist möglicherweise aufgrund von unsicheren Browser-Erweiterungen Malware-Attacken ausgesetzt.<br><br>Persönliche Fotos, Facebook-Kennwörter und Kontoinformationen könnten in Gefahr sein.<br><br><span>Klicken Sie auf 'OK', um mit dem Sicherheitsscan fortzufahren.</span>"],
+        "fi": ["HUOMIO!<br><br>Macisi saattaa olla altis haittaohjelmahyökkäyksille, sillä siinä on epäluotettavia selainlaajennuksia.<br><br>Henkilökohtaiset kuvat, Facebookin salasanat ja pankkitiedot saattavat olla vaarassa.<br><br><span>Suorita tietoturvatarkistus painamalla OK.</span>"],
+        "cs": ["POZOR!<br><br>Váš Mac může být vystaven útokům malwaru kvůli nebezpečným rozšířením prohlížeče.<br><br>Ohroženy mohou být osobní fotografie, hesla na Facebook a údaje pro přístup k bankovním účtům.<br><br><span>Kliknutím na „OK“ spustíte kontrolu zabezpečení.</span>"]
+    },
+    "preland_alert_with_chekbox":{
+        'en':["ATTENTION!<br><br>Your mac might be exposed to malware attacks because of unsafe browser extensions.<br><br>Personal photos, Facebook passwords, and bank account information might be at risk.<br><br><label><input class='checkbox-alert' id='toggle' type='checkbox' > To leave your mac vulnerable to possible threats please check the box and press ok</label><br><br><span class='alert-text'>Press \"Scan Now\" to proceed scan</span>"]
+    },
+    "preland_alert_with_ignore":{
+        'en': ["ATTENTION!<br><br>Your mac might be exposed to malware attacks because of unsafe browser extensions.<br><br>Personal photos, Facebook passwords, and bank account information might be at risk.<br>Click cancel if you would like to ignore this message.<br><br><span>Press 'OK' to proceed security scan</span>"]
+    }
+};
+
+
+window.alertManager = window.alertManager || {
+    translates: null,
+    defaultBehavior: 0,
+    defaultLang: 'en',
+    commomCookieName: 'popupShowed',
+    // behavior: [popUpId_1, ... ,popUpId_n]
+    behaviors: {
+        0:  [],
+        1:  [1],
+        2:  [2],
+        3:  [1, 2],
+        7:  [10, 6],
+        10: [6],
+        11: [7],
+        12: [9],
+        13: [5],
+        14: [10],
+        15: [11],
+        17: [17],
+        18: [18],
+        19: [19],
+        20: [20],
+        21: [21],
+        22: [22],
+        23: [23],
+        24: [24],
+        25: [25],
+        26: [26],
+        27: [27],
+        28: [28],
+        29: [29],
+        30: [30],
+        31: [31],
+        32: [32],
+        33: [10, 26],
+        34: [10, 27],
+        35: [18, 26],
+        36: [18, 27],
+        37: [37],
+        38: [38],
+        39: [39],
+        40: [40],
+        41: [41],
+        42: [42],
+        43: [43],
+        44: [40, 2],
+        45: [41, 2],
+        46: [10, 6],
+        47: [47],
+        52: [52],
+        53: [53]
+    },
+    abstractPopUp: {
+        isEnabled: true,
+        isShowed: false,
+        event: null,
+        name: null,
+        manager: null,
+        delimeter: "\n",
+        setManager: function(manager) {
+            this.manager = manager;
+            return this;
+        },
+        getName: function() {
+            return this.name;
+        },
+        getText: function() {
+            return this.manager.getText(this.getName()).join(this.delimeter);
+        },
+        enabled: function(val) {
+            if (undefined !== val) {
+                this.isEnabled = val;
+            }
+            return this.isEnabled;
+        },
+        showed: function(val) {
+            if (undefined !== val) {
+                this.isShowed = val;
+            }
+            return this.isShowed;
+        },
+        run: function(data) {
+            if (!this.enabled()) {
+                return null;
+            }
+            var result = confirm(this.getText());
+            this.showed(result);
+            return result;
+        },
+        registerOnBeforeUnload: function(result, popUp) {
+            var self = popUp || this;
+            $('a,button,input,select').bind('click', function(e) {
+                var target = $(this).attr('target');
+                if (!target || target.toLowerCase() === '_self') {
+                    self.enabled(false);
+                }
+            });
+            $('select').bind('mouseover', function(e) {
+                self.enabled(false);
+            }).bind('mouseout', function(e) {
+                self.enabled(true);
+            });
+
+            window.onbeforeunload = function(e) {
+                if (!self.enabled()) {
+                    return null;
+                }
+                self.showed(true);
+                var str = self.getText();
+                var e = e || window.event;
+                // For IE and Firefox
+                if (e) {
+                    e.returnValue = str;
+                }
+                // For Safari
+                return str;
+            };
+        },
+        // reuseful additional functions
+        showedOnce: function(val) {
+            if (undefined !== val) {
+                alertManager.cookie(this.cookieName, 1, {expires: 1});
+            }
+            return alertManager.cookie(this.cookieName);
+        },
+        showedWhileCancel: function(val) {
+            if (undefined !== val && val) {
+                alertManager.cookie(this.cookieName, 1 * val, {expires: 1});
+            }
+            return alertManager.cookie(this.cookieName);
+        },
+        enabledWithShowed: function(val) {
+            this.parentEnabled = Object.getPrototypeOf(this).enabled;
+            this.parentEnabled(val);
+            return this.isEnabled && !this.showed();
+        }
+    },
+    // type: constructor
+    popUpsCollection: {
+        // classic onLoad. Show once on common cookie
+        1: function() {
+            this.name = 'lending_consider_popup';
+            this.cookieName = this.manager.commomCookieName;
+            this.showed = this.showedOnce;
+            this.enabled = this.enabledWithShowed;
+        },
+        // classic on Close. Persistent
+        2: function() {
+            this.name = 'lending_mcprotection_4free';
+            this.run = function(result) {
+                this.registerOnBeforeUnload(result);
+            }
+        },
+        // onLoad. if cancel show again
+        3: function() {
+            this.name = 'lending_consider_popup';
+            this.cookieName = 'popup3';
+            this.showed = this.showedWhileCancel;
+            this.enabled = this.enabledWithShowed;
+        },
+        // classic on Close. Only once
+        4: function() {
+            this.name = 'lending_mcprotection_4free';
+            this.cookieName = 'popup4';
+            this.showed = this.showedOnce;
+            this.enabled = this.enabledWithShowed;
+            this.run = function(result) {
+                this.registerOnBeforeUnload(result);
+            }
+        },
+        // like 1. if press 'ok' go to postdownload
+        5: function() {
+            var firstPopUp = this.manager.getPopUp(1);
+
+            for (var p in firstPopUp) {
+                this[p] = firstPopUp[p];
+            }
+
+            this.cookieName = 'popup5';
+
+            this.run = function() {
+                this.run = Object.getPrototypeOf(this).run;
+                if (this.run()) {
+                    var downloadAnchor = $('.download, .js-download');
+                    if (!downloadAnchor.length) {
+                        downloadAnchor = $('a.btn[href*="/download"]');
+                    }
+                    if (downloadAnchor.length) {
+                        downloadAnchor.parent().find('a')[0].click();
+                    } else {
+                    }
+                }
+            };
+        },
+        // onClose. Text from classic onLoad, but to upper case. Persistent
+        6: function() {
+            this.name = 'lending_consider_popup';
+            this.getText = function() {
+                this.parentGetText = Object.getPrototypeOf(this).getText;
+                return this.manager.toUpperCase(
+                        this.parentGetText()
+                        );
+            };
+            this.run = function(result) {
+                this.registerOnBeforeUnload(result);
+            }
+        },
+        // onLoad. Init popUp by click in any free place
+        7: function() {
+            this.name = 'lending_consider_popup';
+            this.cookieName = 'popup7';
+            this.showed = this.showedOnce;
+            this.enabled = this.enabledWithShowed;
+            this.run = function() {
+                $('a,button,input,select,.js-imgslider__btn').click(function(event) {
+                    event.stopPropagation();
+                });
+                var self = this;
+                $(document.body).click(function() {
+                    if (!self.enabled()) {
+                        return null;
+                    }
+                    confirm(self.getText());
+                    self.showed(1);
+                });
+            };
+        },
+        // onClose. Text from classic onLoad, but to upper case. Once
+        8: function() {
+            this.name = 'lending_consider_popup';
+            this.cookieName = 'popup8';
+            this.getText = function() {
+                this.parentGetText = Object.getPrototypeOf(this).getText;
+                return this.manager.toUpperCase(
+                        this.parentGetText()
+                        );
+            };
+            this.showed = this.showedOnce;
+            this.enabled = this.enabledWithShowed;
+            this.run = function(result) {
+                this.registerOnBeforeUnload(result);
+            }
+        },
+        // onLoad. Custom pop-up
+        9: function() {
+            this.name = 'lending_consider_popup';
+            this.cookieName = 'popup9';
+            this.showed = this.showedOnce;
+            this.enabled = this.enabledWithShowed;
+            this.run = function() {
+                var self = this;
+                $.get(window.location.protocol + '//' + window.location.hostname + "/landings/libs/alert/alerts/safari/index.html", function(data) {
+                    $(document.body).append(data);
+                    var popUp = $('#js-popup_dialog');
+                    popUp .fadeIn(700);
+                    popUp.find('.text').text(self.getText());
+                    popUp.find('button').click(function() {
+                        popUp.fadeOut(300);
+                    });
+                    self.showed(1);
+                });
+            };
+        },
+        10: function() {
+            this.name = 'lending_consider_popup_compliance';
+            this.cookieName = 'popup10';
+            this.delimeter = "<br>";
+            //this.showed = this.showedOnce;
+            this.enabled = this.enabledWithShowed;
+            this.run = function() {
+                var self = this, browser = alertManager.getBrowser(),
+                    subPath = (browser === 'safari' ? 'safari_2': browser);
+
+                $.get(window.location.protocol + '//' + window.location.hostname + "/landings/libs/alert/alerts/" + subPath + "/index.html", function(data) {
+                    var $body = $(document.body),
+                        classOpen = 'popup_dialog-open';
+                    $body.addClass(classOpen).append(data);
+                    var popUp = $('#js-popup_dialog, #popup_dialog');
+                    popUp.fadeIn(700);
+                    popUp.find('.text').html(self.getText());
+                    popUp.find('button').click(function() {
+                        var downloadAnchor;
+
+                        if ($(this).hasClass('ok')) {
+                            downloadAnchor = $('.download, .js-download');
+                            if (!downloadAnchor.length) {
+                                downloadAnchor = $('a[href*="/download"]');
+                            }
+                            if (downloadAnchor.length) {
+                                var target = downloadAnchor.parent().find('a')[0];
+
+                                if(target.click){
+                                    target.click();
+
+                                 //for Safari 5.1.10
+                                }else if(document.createEvent) {
+                                    var eventObj = document.createEvent('MouseEvents');
+                                    eventObj.initEvent('click',true,true);
+                                    target.dispatchEvent(eventObj);
+                                }
+                            } else {
+                            }
+                        }
+                        $body.removeClass(classOpen);
+                        popUp.fadeOut(300);
+                    });
+
+                    self.showed(1);
+                });
+            };
+        },
+        11: function() {
+            this.name = 'lending_consider_popup';
+            this.enabled = this.enabledWithShowed;
+            this.run = function() {
+                var self = this;
+                $.get(window.location.protocol + '//' + window.location.hostname + '/landings/libs/alert/alerts/safari/index.html', function(data) {
+
+                    $(document.body).append(data);
+                    var popUp = $('#js-popup_dialog');
+                    if (popUp.length) {
+                        popUp .fadeIn(700);
+
+                        popUp.find('.text').text(self.getText());
+
+                        popUp.find('button').click(function() {
+                            popUp.fadeOut(300);
+                        });
+
+                        self.showed(1);
+                    }
+                });
+            };
+        },
+        //при отмене редирект на страницу http://mackeeper.com/
+        12: function() {
+            this.name = 'lending_consider_popup';
+            this.enabled = this.enabledWithShowed;
+            this.run = function() {
+                this.run = Object.getPrototypeOf(this).run;
+                if (!this.run()) {
+                    // var search = window.location.search.replace('alert=', 'exalert=');
+                    // window.location.assign('http://mackeeperapp.com/landings/81/' + search);
+                    window.location.assign('http://mackeeper.com/');
+                }
+            };
+        },
+        17: function() {
+            this.name = 'lending_consider_popup';
+            this.enabled = this.enabledWithShowed;
+            this.run = function() {
+                var self = this;
+
+                $.get(window.location.protocol + '//' + window.location.hostname + '/landings/libs/alert/alerts/safari/index.html', function(data) {
+
+                    $(document.body).append(data);
+                    var popUp = $('#js-popup_dialog');
+                    if (popUp.length) {
+                        popUp .fadeIn(700);
+
+                        popUp.find('.text').text(self.getText());
+
+                        popUp.find('button').click(function() {
+
+                            if ($(this).hasClass('ok')) {
+                                var downloadAnchor = $('.download, .js-download');
+                                if (!downloadAnchor.length) {
+                                    downloadAnchor = $('a.btn[href*="/download"]');
+                                }
+                                if (downloadAnchor.length) {
+                                    var target = downloadAnchor.parent().find('a')[0];
+
+                                    if(target.click){
+                                        target.click();
+
+                                        //for Safari 5.1.10
+                                    }else if(document.createEvent) {
+                                        var eventObj = document.createEvent('MouseEvents');
+                                        eventObj.initEvent('click',true,true);
+                                        target.dispatchEvent(eventObj);
+                                    }
+                                } else {
+                                }
+                            }
+                            popUp.fadeOut(300);
+                            return false;
+                        });
+
+                        self.showed(1);
+                    }
+                });
+            };
+        },
+        18: function() {
+            this.name = 'lending_consider_popup';
+            this.enabled = this.enabledWithShowed;
+            this.run = function() {
+                var self = this, browser = alertManager.getBrowser(),
+                    subPath = (browser === 'safari' ? 'safari_2': browser);
+                $.get(window.location.protocol + '//' + window.location.hostname + '/landings/libs/alert/alerts/' + subPath + '/index.html', function(data) {
+                    var popUp,
+                        $body = $(document.body),
+                        classOpen = 'popup_dialog-open';
+                    $body.addClass(classOpen).append(data);
+                    popUp = $('#js-popup_dialog');
+                    if (popUp.length) {
+                        popUp .fadeIn(700);
+
+                        popUp.find('.text').text(self.getText());
+
+                        popUp.find('button').click(function() {
+                            $body.removeClass(classOpen);
+                            popUp.fadeOut(300);
+                        });
+
+                        self.showed(1);
+                    }
+                });
+            };
+        },
+        // like 1 and 5 - on enter, standart alert, other text, 'ok' to postdownload
+        19: function() {
+            this.name = 'landing_mcprotection';
+            this.cookieName = 'popup19';
+            this.showed     = this.showedOnce;
+            this.enabled    = this.enabledWithShowed;
+            this.getText    = function() {
+                return "Mac Users Warning\nFreezing, colour wheel, slow internet might be caused by different issues that are affecting your Mac. Find out what's usually slows a Mac down for free.";
+            };
+            this.run = function() {
+                this.run = Object.getPrototypeOf(this).run;
+                if (this.run()) {
+                    var downloadAnchor = $('.download, .js-download');
+                    if (!downloadAnchor.length) {
+                        downloadAnchor = $('a.btn[href*="/download"]');
+                    }
+                    if (downloadAnchor.length) {
+                        downloadAnchor.parent().find('a')[0].click();
+                    } else {
+                    }
+                }
+            };
+        },
+        // like 2 - on close, standart onLeave, other text
+        20: function() {
+            this.name = 'landing_mcprotection';
+            this.getText = function() {
+                return "Before leaving this page please consider improving your Mac's Security System with Certified Assistance Service";
+            };
+            this.run = function(result) {
+                this.registerOnBeforeUnload(result);
+            }
+        },
+        21: function() {
+            this.name = 'landing_longtext_popup';
+            this.cookieName = 'popup21';
+            this.showed = this.showedOnce;
+            this.enabled = this.enabledWithShowed;
+        },
+        //clone 18 with enable scroll on page
+        22: function() {
+            this.name = 'lending_consider_popup';
+            this.enabled = this.enabledWithShowed;
+            this.run = function() {
+                var self = this, browser = alertManager.getBrowser(),
+                    subPath = (browser === 'safari' ? 'safari_2': browser);
+                $.get(window.location.protocol + '//' + window.location.hostname + '/landings/libs/alert/alerts/' + subPath + '/index.html', function(data) {
+                    var popUp,
+                        $body = $(document.body),
+                        classOpen = 'popup_dialog-open';
+                    $body.append(data);
+                    popUp = $('#js-popup_dialog');
+                    if (popUp.length) {
+                        popUp .fadeIn(700);
+
+                        popUp.find('.text').text(self.getText());
+
+                        popUp.find('button').click(function() {
+                            popUp.fadeOut(300);
+                        });
+
+                        self.showed(1);
+                    }
+                });
+            };
+        },
+        // onLoad. Custom PreLand pop-up with start scan
+        23: function() {
+            this.name = 'preland_alert';
+            this.cookieName = 'popup9';
+            //this.enabled = this.enabledWithShowed;
+            this.run = function() {
+                var self = this, browser = alertManager.getBrowser(),
+                    subPath = (browser === 'safari' ? 'safari_2': browser);
+                $.get(window.location.protocol + '//' + window.location.hostname + '/landings/libs/alert/alerts/' + subPath + '/index.html', function(data) {
+                    var popUp,
+                        $body = $(document.body);
+                    $body.append(data);
+                    popUp = $('#js-popup_dialog');
+                    popUp.addClass('alert-popup-big-23');
+                    if (popUp.length) {
+                        popUp .fadeIn(700);
+                        popUp.find('.text').html(self.getText());
+                        var bodyLang = $body.attr('lang');
+                        if(bodyLang == 'es' || window.lang_param == 'es'){
+                            popUp.find('.ok').text('Aceptar');
+                        }
+                        if (bodyLang == 'tr' || window.lang_param == 'tr') {
+                            popUp.find('.ok').text("Tamam'a");
+                        }
+                        popUp.find('button').click(function() {
+                            popUp.fadeOut(300);
+                        });
+                        popUp.find('.ok').click(function() {
+                            $('#start').trigger('click');
+                        });
+                        self.showed(1);
+                    }
+                });
+            };
+        },
+        24: function() {
+            this.name = 'preland_alert_with_chekbox';
+            this.cookieName = 'popup9';
+            //this.enabled = this.enabledWithShowed;
+            this.run = function() {
+                var self = this, browser = alertManager.getBrowser(),
+                    subPath = (browser === 'safari' ? 'safari_2': browser);
+
+                function disableButton () {
+                    if ($('#toggle').is(':checked')) {
+                        $('button.ok').removeAttr('disabled');//enable input
+                        $('button.ok').css({'opacity' : '1', 'cursor' : 'pointer'});
+                        $('button.cancel').attr('disabled', 'disabled'); //disable input
+                        $('button.cancel').css({'opacity' : '0.5', 'cursor' : 'default'});
+                    } else {
+                        $('button.cancel').removeAttr('disabled'); //enable input
+                        $('button.cancel').css({'opacity' : '1', 'cursor' : 'pointer'});
+                        $('button.ok').attr('disabled', 'disabled'); //disable input
+                        $('button.ok').css({'opacity' : '0.5', 'cursor' : 'default'});
+                    }
+                };
+
+                $.get(window.location.protocol + '//' + window.location.hostname + '/landings/libs/alert/alerts/' + subPath + '/index.html', function(data) {
+                    var popUp,
+                        $body = $(document.body);
+                    $body.append(data);
+                    popUp = $('#js-popup_dialog');
+                    popUp.addClass('alert-popup-big-24');
+                    $('img.alert-logo').attr('src','../libs/alert/alerts/chrome/img/guard.png');
+                    $('img.logo-popup').attr('src','../libs/alert/alerts/safari_2/img/guard.png');
+                    if (popUp.length) {
+                        popUp .fadeIn(700);
+                        popUp.find('.text').html(self.getText());
+
+                        $('button').click(function() {
+                            var $this = $(this);
+                            if ($this.hasClass('cancel')) {
+                                $('#start').trigger('click');
+                            }
+
+                            popUp.fadeOut(300);
+                        });
+
+                        self.showed(1);
+                    };
+                    $('button.cancel', popUp).focus();
+                    $('button.ok').html("OK");
+                    $('button.cancel').html("Scan Now");
+
+                    disableButton();
+                    $('#toggle').click(disableButton);
+                });
+            };
+        },
+        25: function() {
+            this.name = 'preland_alert_with_ignore';
+            this.cookieName = 'popup9';
+            //this.enabled = this.enabledWithShowed;
+            this.run = function() {
+                var self = this, browser = alertManager.getBrowser(),
+                    subPath = (browser === 'safari' ? 'safari_2': browser);
+                $.get(window.location.protocol + '//' + window.location.hostname + '/landings/libs/alert/alerts/' + subPath + '/index.html', function(data) {
+                    var popUp,
+                        $body = $(document.body);
+                    $body.append(data);
+                    popUp = $('#js-popup_dialog');
+                    popUp.addClass('alert-popup-big-23');
+                    popUp.addClass('alert-popup-big-25');
+                    if (popUp.length) {
+                        popUp .fadeIn(700);
+                        popUp.find('.text').html(self.getText());
+                        popUp.find('.text span').addClass('bold');
+                        popUp.find('button').click(function() {
+                            popUp.fadeOut(300);
+                        });
+                        popUp.find('.ok').click(function() {
+                            $('#start').trigger('click');
+                        });
+                        self.showed(1);
+                    }
+                });
+            };
+        },
+        26: function() {
+            this.name = 'lending_consider_popup';
+            this.enabled = this.enabledWithShowed;
+            this.run = function() {
+                var self = this, browser = alertManager.getBrowser();
+                $.get(window.location.protocol + '//' + window.location.hostname + '/landings/libs/alert/alerts/exitpopup/index.php?lang=' + self.manager.lang, function(data) {
+                    var popUpExit,
+                        $body = $(document.body),
+                        classOpen = 'popup_dialog-open';
+                    $body.append(data);
+                    popUpExit = $('#js-popup_dialog-exit');
+
+                    var link = $body.find('.js-download').attr('href');
+                    popUpExit.find('#startDownload').attr('href', link);
+
+                    var showed = false;
+
+                    if (popUpExit) {
+
+                        $body.find('.js-exitPopup__trigger')
+                            .bind('mouseenter', function (event) {
+                                posY = event.clientY;
+                            })
+
+                            .bind('mouseleave', function (event) {
+                                if (event.clientY < posY && !showed) {
+                                    popUpExit .fadeIn(200);
+                                    showed = true;
+                                }
+                            });
+                        $('.js-exitPopup__close').click(function() {
+                            popUpExit.fadeOut(300);
+
+                        });
+                        $('#startDownload').bind('click', function(){
+                            $body.find('.js-download:first').trigger('click');
+                            popUpExit.fadeOut(300);
+                        });
+                        $('.js-download').click(function() {
+                            $('.js-exitPopup__trigger').hide();
+                        });
+                    }
+                });
+            };
+        },
+        27: function() {
+            this.name = 'lending_consider_popup';
+            this.enabled = this.enabledWithShowed;
+            this.run = function() {
+                var self = this, browser = alertManager.getBrowser();
+                $.get(window.location.protocol + '//' + window.location.hostname + '/landings/libs/alert/alerts/exitpopup2/index.php?lang=' + self.manager.lang, function(data) {
+                    var popUp,
+                        $body = $(document.body),
+                        classOpen = 'popup_dialog-open';
+                    $body.append(data);
+                    popUp = $('#js-popup_dialog-exit');
+
+                    var link = $body.find('.js-download').attr('href');
+                    popUp.find('#startDownload').attr('href', link);
+
+                    var showed = false;
+
+                    if (popUp.length) {
+
+                        $body.find('.js-exitPopup__trigger')
+                            .bind('mouseenter', function (event) {
+                                posY = event.clientY;
+                            })
+
+                            .bind('mouseleave', function (event) {
+                                if (event.clientY < posY && !showed) {
+                                    popUp .fadeIn(200);
+                                    showed = true;
+                                }
+                            });
+                        $('.js-exitPopup__close').click(function() {
+                            popUp.fadeOut(300);
+                        });
+                        $('#startDownload').click(function(){
+                            $body.find('.js-download:first').trigger('click');
+                            popUp.fadeOut(300);
+                        });
+                        $('.download, .js-download').click(function() {
+                            $('.js-exitPopup__trigger').hide();
+                        });
+                    }
+                });
+
+            };
+        },
+        28: function() {
+            this.name = 'lending_consider_popup_compliance';
+            this.cookieName = 'popup28';
+            this.enabled    = this.enabledWithShowed;
+            this.run = function() {
+                this.run = Object.getPrototypeOf(this).run;
+                if (this.run()) {
+                    var downloadAnchor = $('.download, .js-download');
+                    if (!downloadAnchor.length) {
+                        downloadAnchor = $('a.btn[href*="/download"]');
+                    }
+                    if (downloadAnchor.length) {
+                        downloadAnchor.parent().find('a')[0].click();
+                    } else {
+                    }
+                }
+            };
+        },
+        29: function() {
+            this.name = 'lending_consider_popup';
+            this.cookieName = 'popup29';
+            this.showed = this.showedOnce;
+            this.enabled = this.enabledWithShowed;
+            this.run = function(data) {
+                if (!this.enabled()) {
+                    return null;
+                }
+                var result = confirm(this.getText());
+                this.showed(result);
+
+
+                var self = this, browser = alertManager.getBrowser();
+                $.get(window.location.protocol + '//' + window.location.hostname + '/landings/libs/alert/alerts/exitpopup/index.php?lang=' + self.manager.lang, function(data) {
+                    var popUpExit,
+                        $body = $(document.body);
+
+                    $body.append(data);
+                    popUpExit = $('#js-popup_dialog-exit');
+
+                    var link = $body.find('.js-download').attr('href');
+                    popUpExit.find('#startDownload').attr('href', link);
+
+                    if (result == true) {
+                        $(popUpExit).fadeIn(200);
+                    }
+                    else {
+                        $(popUpExit).fadeIn(200);
+                    }
+
+                    $('.js-exitPopup__close').click(function() {
+                        popUpExit.fadeOut(300);
+                    });
+
+                    $('#startDownload').click(function(){
+                        $body.find('.js-download:first').trigger('click');
+                        popUpExit.fadeOut(300);
+                    });
+                });
+            };
+        },
+
+        30: function() {
+            this.name = 'lending_consider_popup';
+            this.cookieName = 'popup30';
+            this.showed = this.showedOnce;
+            this.enabled = this.enabledWithShowed;
+            this.run = function() {
+                if (!this.enabled()) {
+                    return null;
+                }
+                var result = confirm(this.getText());
+                this.showed(result);
+
+
+                var self = this, browser = alertManager.getBrowser();
+                $.get(window.location.protocol + '//' + window.location.hostname + '/landings/libs/alert/alerts/exitpopup2/index.php?lang=' + self.manager.lang, function(data) {
+                    var popUpExit,
+                        $body = $(document.body);
+
+                    $body.append(data);
+                    popUpExit = $('#js-popup_dialog-exit');
+
+                    var link = $body.find('.js-download').attr('href');
+                    popUpExit.find('#startDownload').attr('href', link);
+
+                    if (result == true) {
+                        $(popUpExit).fadeIn(200);
+                    }
+                    else {
+                        $(popUpExit).fadeIn(200);
+                    }
+
+                    $('.js-exitPopup__close').click(function() {
+                        popUpExit.fadeOut(300);
+                    });
+
+                    $('#startDownload').click(function(){
+                        $body.find('.js-download:first').trigger('click');
+                        popUpExit.fadeOut(300);
+                    });
+                });
+            };
+        },
+
+        31: function() {
+            this.name = 'lending_consider_popup';
+            this.cookieName = 'popup31';
+            this.showed = this.showedOnce;
+            this.enabled = this.enabledWithShowed;
+
+            this.run = function () {
+
+                if (!this.enabled()) {
+                    return null;
+                }
+                var result = confirm(this.getText());
+                this.showed(result);
+
+                var self = this, browser = alertManager.getBrowser();
+                $.get(window.location.protocol + '//' + window.location.hostname + '/landings/libs/alert/alerts/exitpopup/index.php?lang=' + self.manager.lang, function (data) {
+                    var popUpExit,
+                        $body = $(document.body);
+                    $body.append(data);
+                    popUpExit = $('#js-popup_dialog-exit');
+
+                    var link = $body.find('.js-download').attr('href');
+                    popUpExit.find('#startDownload').attr('href', link);
+
+                    if (result == true) {
+                        var downloadAnchor = $('.download, .js-download');
+                        if (!downloadAnchor.length) {
+                            downloadAnchor = $('a.btn[href*="/download"]');
+                        }
+                        if (downloadAnchor.length) {
+                            downloadAnchor.parent().find('a')[0].click();
+                        } else {
+                        }
+                    }
+                    else {
+                        popUpExit.fadeIn(200);
+                    }
+                    $('.js-exitPopup__close').click(function() {
+                        popUpExit.fadeOut(300);
+                    });
+                    $('#startDownload').click(function(){
+                        $body.find('.js-download:first').trigger('click');
+                        popUpExit.fadeOut(300);
+                    });
+                });
+            };
+        },
+
+        32: function() {
+            this.name = 'lending_consider_popup';
+            this.cookieName = 'popup32';
+            this.showed = this.showedOnce;
+            this.enabled = this.enabledWithShowed;
+
+            this.run = function () {
+
+                if (!this.enabled()) {
+                    return null;
+                }
+                var result = confirm(this.getText());
+                this.showed(result);
+
+                var self = this, browser = alertManager.getBrowser();
+                $.get(window.location.protocol + '//' + window.location.hostname + '/landings/libs/alert/alerts/exitpopup2/index.php?lang=' + self.manager.lang, function(data) {
+                    var popUpExit,
+                        $body = $(document.body);
+                    $body.append(data);
+                    popUpExit = $('#js-popup_dialog-exit');
+
+                    var link = $body.find('.js-download').attr('href');
+                    popUpExit.find('#startDownload').attr('href', link);
+
+                    if (result == true) {
+                        var downloadAnchor = $('.download, .js-download');
+                        if (!downloadAnchor.length) {
+                            downloadAnchor = $('a.btn[href*="/download"]');
+                        }
+                        if (downloadAnchor.length) {
+                            downloadAnchor.parent().find('a')[0].click();
+                        } else {
+                        }
+                    } else {
+                        popUpExit.css('display', 'block');
+                    }
+                    $('.js-exitPopup__close').click(function() {
+                        popUpExit.fadeOut(300);
+                    });
+                    $('#startDownload').click(function(){
+                        $body.find('.js-download:first').trigger('click');
+                        popUpExit.fadeOut(300);
+                    });
+                });
+            };
+        },
+        37: function() {
+            this.name = 'lending_consider_popup';
+            this.enabled = this.enabledWithShowed;
+            this.run = function() {
+                $.get(window.location.protocol + '//' + window.location.hostname + '/landings/libs/alert/alerts/exitpopup3/index_no-yes.html', function(data) {
+                    var popUp,
+                        $body = $(document.body);
+                    $body.append(data);
+                    popUp = $('#js-popup_dialog');
+
+                    var link = $body.find('.js-download').attr('href');
+                    popUp.find('#startDownload').attr('href', link);
+
+                    var showed = false;
+
+                    if (popUp.length) {
+
+                        $body.find('.js-exitPopup__trigger')
+                            .bind('mouseenter', function (event) {
+                                posY = event.clientY;
+                            })
+
+                            .bind('mouseleave', function (event) {
+                                if (event.clientY < posY && !showed) {
+                                    popUp .fadeIn(200);
+                                    showed = true;
+                                }
+                            });
+                        $('.js-exitPopup__close').click(function() {
+                            popUp.fadeOut(300);
+                        });
+                        $('#startDownload').click(function(){
+                            $body.find('.js-download:first').trigger('click');
+                            popUp.fadeOut(300);
+                        });
+                    }
+                });
+
+            };
+        },
+        38: function() {
+            this.name = 'lending_consider_popup';
+            this.enabled = this.enabledWithShowed;
+            this.run = function() {
+                $.get(window.location.protocol + '//' + window.location.hostname + '/landings/libs/alert/alerts/exitpopup3/index_yes-no.html', function(data) {
+                    var popUp,
+                        $body = $(document.body);
+                    $body.append(data);
+                    popUp = $('#js-popup_dialog');
+
+                    var link = $body.find('.js-download').attr('href');
+                    popUp.find('#startDownload').attr('href', link);
+
+                    var showed = false;
+
+                    if (popUp.length) {
+
+                        $body.find('.js-exitPopup__trigger')
+                            .bind('mouseenter', function (event) {
+                                posY = event.clientY;
+                            })
+
+                            .bind('mouseleave', function (event) {
+                                if (event.clientY < posY && !showed) {
+                                    popUp .fadeIn(200);
+                                    showed = true;
+                                }
+                            });
+                        $('.js-exitPopup__close').click(function() {
+                            popUp.fadeOut(300);
+                        });
+                        $('#startDownload').click(function(){
+                            $body.find('.js-download:first').trigger('click');
+                            popUp.fadeOut(300);
+                        });
+                    }
+                });
+
+            };
+        },
+        39: function() {
+            this.name = 'lending_consider_popup';
+            this.enabled = this.enabledWithShowed;
+            this.run = function() {
+                $.get(window.location.protocol + '//' + window.location.hostname + '/landings/libs/alert/alerts/exitpopup4/index.html', function(data) {
+                    var popUp,
+                        $body = $(document.body);
+                    $body.append(data);
+                    popUp = $('#js-popup_dialog');
+
+                    var link = $body.find('.js-download').attr('href');
+                    popUp.find('#startDownload').attr('href', link);
+
+                    var showed = false;
+
+                    if (popUp.length) {
+
+                        $body.find('.js-exitPopup__trigger')
+                            .bind('mouseenter', function (event) {
+                                posY = event.clientY;
+                            })
+
+                            .bind('mouseleave', function (event) {
+                                if (event.clientY < posY && !showed) {
+                                    popUp .fadeIn(200);
+                                    showed = true;
+                                }
+                            });
+                        $('.js-exitPopup__close').click(function() {
+                            popUp.fadeOut(300);
+                        });
+                        $('#startDownload').click(function(){
+                            $body.find('.js-download:first').trigger('click');
+                            popUp.fadeOut(300);
+                        });
+                    }
+                });
+
+            };
+        },
+
+        40: function() {
+            this.name = 'lending_consider_popup';
+            this.cookieName = 'popup29';
+            this.showed = this.showedOnce;
+            this.enabled = this.enabledWithShowed;
+
+            this.run = function () {
+
+                if (!this.enabled()) {
+                    return null;
+                }
+                var result = confirm(this.getText());
+                this.showed(result);
+
+                var self = this, browser = alertManager.getBrowser();
+                $.get(window.location.protocol + '//' + window.location.hostname + '/landings/libs/alert/alerts/exitpopup/index.php?lang=' + self.manager.lang, function(data) {
+                    var popUp,
+                        $body = $(document.body);
+                    $body.append(data);
+                    popUp = $('#js-popup_dialog-exit');
+
+
+                    var link = $body.find('.js-download').attr('href');
+                    popUp.find('#startDownload').attr('href', link);
+
+                    var showed = false;
+
+                    if (popUp.length) {
+
+                        $body.find('.js-exitPopup__trigger')
+                            .bind('mouseenter', function (event) {
+                                posY = event.clientY;
+                            })
+
+                            .bind('mouseleave', function (event) {
+                                if (event.clientY < posY && !showed) {
+                                    popUp .fadeIn(200);
+                                    showed = true;
+                                }
+                            });
+                        $('.js-exitPopup__close').click(function() {
+                            popUp.fadeOut(300);
+                        });
+                    }
+                    $('#startDownload').click(function(){
+                        $body.find('.js-download:first').trigger('click');
+                        popUp.fadeOut(300);
+                    });
+                    $('.download, .js-download').click(function() {
+                        $('.js-exitPopup__trigger').hide();
+                    });
+                });
+            };
+        },
+
+        41: function() {
+            this.name = 'lending_consider_popup';
+            this.cookieName = 'popup30';
+            this.showed = this.showedOnce;
+            this.enabled = this.enabledWithShowed;
+
+            this.run = function () {
+
+                if (!this.enabled()) {
+                    return null;
+                }
+                var result = confirm(this.getText());
+                this.showed(result);
+
+                var self = this, browser = alertManager.getBrowser();
+                $.get(window.location.protocol + '//' + window.location.hostname + '/landings/libs/alert/alerts/exitpopup2/index.php?lang=' + self.manager.lang, function(data) {
+                    var popUp,
+                        $body = $(document.body);
+                    $body.append(data);
+                    popUp = $('#js-popup_dialog-exit');
+
+
+                    var link = $body.find('.js-download').attr('href');
+                    popUp.find('#startDownload').attr('href', link);
+
+                    var showed = false;
+
+                    if (popUp.length) {
+
+                        $body.find('.js-exitPopup__trigger')
+                            .bind('mouseenter', function (event) {
+                                posY = event.clientY;
+                            })
+
+                            .bind('mouseleave', function (event) {
+                                if (event.clientY < posY && !showed) {
+                                    popUp .fadeIn(200);
+                                    showed = true;
+                                }
+                            });
+                        $('.js-exitPopup__close').click(function() {
+                            popUp.fadeOut(300);
+                        });
+                    }
+                    $('#startDownload').click(function(){
+                        $body.find('.js-download:first').trigger('click');
+                        popUp.fadeOut(300);
+                    });
+                    $('.download, .js-download').click(function() {
+                        $('.js-exitPopup__trigger').hide();
+                    });
+                });
+            };
+        },
+
+        42: function() {
+            this.name = 'lending_consider_popup';
+            this.cookieName = 'popup31';
+            this.showed = this.showedOnce;
+            this.enabled = this.enabledWithShowed;
+
+            this.run = function () {
+
+                if (!this.enabled()) {
+                    return null;
+                }
+                var result = confirm(this.getText());
+                this.showed(result);
+
+                var self = this, browser = alertManager.getBrowser();
+                $.get(window.location.protocol + '//' + window.location.hostname + '/landings/libs/alert/alerts/exitpopup/index.php?lang=' + self.manager.lang, function (data) {
+                    var popUpExit,
+                        $body = $(document.body);
+                    $body.append(data);
+                    popUpExit = $('#js-popup_dialog-exit');
+
+                    var link = $body.find('.js-download').attr('href');
+                    popUpExit.find('#startDownload').attr('href', link);
+
+                    var showed = false;
+
+                    if (popUpExit.length) {
+
+                        $body.find('.js-exitPopup__trigger')
+                            .bind('mouseenter', function (event) {
+                                posY = event.clientY;
+                            })
+
+                            .bind('mouseleave', function (event) {
+                                if (event.clientY < posY && !showed) {
+                                    popUpExit.fadeIn(200);
+                                    showed = true;
+                                }
+                            });
+                        $('.js-exitPopup__close').click(function() {
+                            popUpExit.fadeOut(300);
+                        });
+                    }
+
+                    if (result == true) {
+                        var downloadAnchor = $('.download, .js-download');
+                        if (!downloadAnchor.length) {
+                            downloadAnchor = $('a.btn[href*="/download"]');
+                        }
+                        if (downloadAnchor.length) {
+                            downloadAnchor.parent().find('a')[0].click();
+                            $('.js-exitPopup__trigger').hide();
+                        } else {
+                        }
+                    }
+
+                    $('.js-exitPopup__close').click(function() {
+                        popUpExit.fadeOut(300);
+                    });
+                    $('#startDownload').click(function(){
+                        $body.find('.js-download:first').trigger('click');
+                        popUpExit.fadeOut(300);
+                    });
+                    $('.download, .js-download').click(function() {
+                        $('.js-exitPopup__trigger').hide();
+                    });
+                });
+            };
+        },
+
+        43: function() {
+            this.name = 'lending_consider_popup';
+            this.cookieName = 'popup31';
+            this.showed = this.showedOnce;
+            this.enabled = this.enabledWithShowed;
+
+            this.run = function () {
+
+                if (!this.enabled()) {
+                    return null;
+                }
+                var result = confirm(this.getText());
+                this.showed(result);
+
+                var self = this, browser = alertManager.getBrowser();
+                $.get(window.location.protocol + '//' + window.location.hostname + '/landings/libs/alert/alerts/exitpopup2/index.php?lang=' + self.manager.lang, function (data) {
+                    var popUpExit,
+                        $body = $(document.body);
+                    $body.append(data);
+                    popUpExit = $('#js-popup_dialog-exit');
+
+                    var link = $body.find('.js-download').attr('href');
+                    popUpExit.find('#startDownload').attr('href', link);
+
+                    var showed = false;
+
+                    if (popUpExit.length) {
+
+                        $body.find('.js-exitPopup__trigger')
+                            .bind('mouseenter', function (event) {
+                                posY = event.clientY;
+                            })
+
+                            .bind('mouseleave', function (event) {
+                                if (event.clientY < posY && !showed) {
+                                    popUpExit.fadeIn(200);
+                                    showed = true;
+                                }
+                            });
+                        $('.js-exitPopup__close').click(function() {
+                            popUpExit.fadeOut(300);
+                        });
+                    }
+
+                    if (result == true) {
+                        var downloadAnchor = $('.download, .js-download');
+                        if (!downloadAnchor.length) {
+                            downloadAnchor = $('a.btn[href*="/download"]');
+                        }
+                        if (downloadAnchor.length) {
+                            downloadAnchor.parent().find('a')[0].click();
+                            $('.js-exitPopup__trigger').hide();
+                        } else {
+                        }
+                    }
+
+                    $('.js-exitPopup__close').click(function() {
+                        popUpExit.fadeOut(300);
+                    });
+                    $('#startDownload').click(function(){
+                        $body.find('.js-download:first').trigger('click');
+                        popUpExit.fadeOut(300);
+                    });
+                    $('.download, .js-download').click(function() {
+                        $('.js-exitPopup__trigger').hide();
+                    });
+                });
+            };
+        },
+        47: function() {
+            this.name = 'lending_consider_popup';
+            this.enabled = this.enabledWithShowed;
+            this.run = function() {
+                var self = this, browser = alertManager.getBrowser();
+                $.get(window.location.protocol + '//' + window.location.hostname + '/landings/libs/alert/alerts/exitpopup5/index.html?lang=' + self.manager.lang + '&r=' + Math.random(), function(data) {
+                    var popUp,
+                        $body = $(document.body),
+                        classOpen = 'popup_dialog-open';
+                    $body.append(data);
+                    popUp = $('#js-popup_dialog-exit');
+
+                    var link = $body.find('.js-download').attr('href');
+                    popUp.find('#startDownload').attr('href', link);
+
+                    var showed = false;
+
+                    if (popUp.length) {
+
+                        $body.find('.js-exitPopup__trigger')
+                            .bind('mouseenter', function (event) {
+                                posY = event.clientY;
+                            })
+
+                            .bind('mouseleave', function (event) {
+                                if (event.clientY < posY && !showed) {
+                                    popUp .fadeIn(200);
+                                    showed = true;
+                                }
+                            });
+                        $('.js-exitPopup__close').click(function() {
+                            popUp.fadeOut(300);
+                        });
+                        $('#startDownload').click(function(){
+                            $body.find('.js-download:first').trigger('click');
+                            popUp.fadeOut(300);
+                        });
+                        $('.download, .js-download').click(function() {
+                            $('.js-exitPopup__trigger').hide();
+                        });
+                    }
+                });
+
+            };
+        },
+        52: function() {
+            this.name = 'lending_consider_popup';
+            this.enabled = this.enabledWithShowed;
+            this.run = function() {
+                var self = this, browser = alertManager.getBrowser();
+                $.get(window.location.protocol + '//' + window.location.hostname + '/landings/libs/alert/alerts/exitpopupclone26/index.php?lang=' + self.manager.lang, function(data) {
+                    var popUpExit,
+                        $body = $(document.body),
+                        classOpen = 'popup_dialog-open';
+                    $body.append(data);
+                    popUpExit = $('#js-popup_dialog-exit');
+
+                    var link = $body.find('.js-download').attr('href');
+                    popUpExit.find('#startDownload').attr('href', link);
+                    popUpExit.find('#startDownload2').attr('href', link);
+
+                    var showed = false;
+
+                    if (popUpExit) {
+
+                        $body.find('.js-exitPopup__trigger')
+                            .bind('mouseenter', function (event) {
+                                posY = event.clientY;
+                            })
+
+                            .bind('mouseleave', function (event) {
+                                if (event.clientY < posY && !showed) {
+                                    popUpExit .fadeIn(200);
+                                    showed = true;
+                                }
+                            });
+                        $('.js-exitPopup__close').click(function() {
+                            popUpExit.fadeOut(300);
+
+                        });
+                        $('#startDownload').bind('click', function(){
+                            $body.find('.js-download:first').trigger('click');
+                            popUpExit.fadeOut(300);
+                        });
+                        $('#startDownload2').bind('click', function(){
+                            $body.find('.js-download:first').trigger('click');
+                            popUpExit.fadeOut(300);
+                        });
+                        $('.js-download').click(function() {
+                            $('.js-exitPopup__trigger').hide();
+                        });
+                    }
+                });
+            };
+        },
+        53: function() {
+            this.name = 'lending_consider_popup';
+            this.enabled = this.enabledWithShowed;
+            this.run = function() {
+                var self = this, browser = alertManager.getBrowser();
+                $.get(window.location.protocol + '//' + window.location.hostname + '/landings/libs/alert/alerts/exitpopupclone27/index.php?lang=' + self.manager.lang, function(data) {
+                    var popUp,
+                        $body = $(document.body),
+                        classOpen = 'popup_dialog-open';
+                    $body.append(data);
+                    popUp = $('#js-popup_dialog-exit');
+
+                    var link = $body.find('.js-download').attr('href');
+                    popUp.find('#startDownload').attr('href', link);
+                    popUp.find('#startDownload2').attr('href', link);
+
+                    var showed = false;
+
+                    if (popUp.length) {
+
+                        $body.find('.js-exitPopup__trigger')
+                            .bind('mouseenter', function (event) {
+                                posY = event.clientY;
+                            })
+
+                            .bind('mouseleave', function (event) {
+                                if (event.clientY < posY && !showed) {
+                                    popUp .fadeIn(200);
+                                    showed = true;
+                                }
+                            });
+                        $('.js-exitPopup__close').click(function() {
+                            popUp.fadeOut(300);
+                        });
+                        $('#startDownload').click(function(){
+                            $body.find('.js-download:first').trigger('click');
+                            popUp.fadeOut(300);
+                        });
+                        $('#startDownload2').click(function(){
+                            $body.find('.js-download:first').trigger('click');
+                            popUp.fadeOut(300);
+                        });
+
+                        $('.download, .js-download').click(function() {
+                            $('.js-exitPopup__trigger').hide();
+                        });
+                    }
+                });
+
+            };
+        }
+        // 53: function() {
+        //     this.name = 'lending_consider_popup';
+        //     this.enabled = this.enabledWithShowed;
+        //     this.run = function() {
+        //         var self = this, browser = alertManager.getBrowser();
+        //         $.get(window.location.protocol + '//' + window.location.hostname + '/landings/libs/alert/alerts/exitpopup27/index.php?lang=' + self.manager.lang, function(data) {
+        //             var popUp,
+        //                 $body = $(document.body),
+        //                 classOpen = 'popup_dialog-open';
+        //             $body.append(data);
+        //             popUp = $('#js-popup_dialog-exit');
+        //
+        //             var link = $body.find('.js-download').attr('href');
+        //             popUp.find('#startDownload').attr('href', link);
+        //
+        //             var showed = false;
+        //
+        //             if (popUp.length) {
+        //
+        //                 $body.find('.js-exitPopup__trigger')
+        //                     .bind('mouseenter', function (event) {
+        //                         posY = event.clientY;
+        //                     })
+        //
+        //                     .bind('mouseleave', function (event) {
+        //                         if (event.clientY < posY && !showed) {
+        //                             popUp .fadeIn(200);
+        //                             showed = true;
+        //                         }
+        //                     });
+        //                 $('.js-exitPopup__close').click(function() {
+        //                     popUp.fadeOut(300);
+        //                 });
+        //                 $('#startDownload').click(function(){
+        //                     $body.find('.js-download:first').trigger('click');
+        //                     popUp.fadeOut(300);
+        //                 });
+        //                 $('.download, .js-download').click(function() {
+        //                     $('.js-exitPopup__trigger').hide();
+        //                 });
+        //             }
+        //         });
+        //
+        //     };
+        // }
+
+    },
+    init: function(alertsData, behavior, lang) {
+
+        window.removeExitPopup = function() {
+            window.exitPopupUnload = false;
+            window.alertManager.abstractPopUp.enabled(false);
+        }
+
+        if (arguments.length) {
+            this.translates = alertsData || this.translates || alertsTranslates;
+            this.behavior = behavior || this.behavior || 0;
+            this.lang = lang || this.lang || this.defaultLang;
+
+        }
+
+        if (!this.initStage) { // first run
+
+            this.initStage = 1;
+
+            if (!/loaded|complete/.test(document.readyState)) { // wait till load, then return
+
+                if (window.addEventListener) { // W3C standard
+                    window.addEventListener('load', alertManagerInit, false); // NB **not** 'onload'
+                } else if (window.attachEvent) { // Microsoft
+                    window.attachEvent('onload', alertManagerInit);
+                }
+
+                return;
+            }
+
+        }
+
+        if (this.initStage === 1 && /loaded|complete/.test(document.readyState)) { // load complete, wait till render
+
+            this.initStage = 2;
+
+            window.setTimeout('alertManager.initStage = 3;alertManagerInit();', 200);
+
+            return;
+        }
+
+        if (this.initStage === 3) { // render complete, init
+
+            this.initStage = 4;
+
+            if (window.lang_param) { // global parameter
+
+                this.lang = window.lang_param; // can be changed while page load
+            }
+
+            this.abstractPopUp.setManager(this);
+
+            for (var i in this.popUpsCollection) {
+                var popUpConstructor = this.popUpsCollection[i];
+                popUpConstructor.prototype = this.abstractPopUp;
+            }
+
+            var popUpsIds = this.getTypes(this.behavior);
+
+            var result = null;
+            for (var i in popUpsIds) {
+                var popUpId = popUpsIds[i];
+                if (popUpId) {
+                    var popUp = this.getPopUp(popUpId);
+                    if (popUp && popUp.enabled()) {
+                        result = popUp.run(result);
+                    }
+                }
+            }
+
+        } else {
+
+
+        }
+
+    },
+    getPopUp: function(type, event) {
+        if (!type || ('function' !== typeof (this.popUpsCollection[type]))) {
+            return null;
+        }
+        return (new this.popUpsCollection[type]);
+    },
+    getText: function(name) {
+        if (undefined === this.translates[name]) {
+            return [];
+        }
+        var translates = this.translates[name];
+
+        return (undefined !== translates[this.lang])
+                ? translates[this.lang]
+                : translates[this.defaultLang];
+    },
+    getTypes: function(behavior) {
+        if (undefined === this.behaviors[behavior]) {
+            return this.behaviors[this.defaultBehavior];
+        }
+        return this.behaviors[behavior];
+    },
+    toUpperCase: function(data) {
+        if (typeof (data) === 'object') {
+            for (var k in data) {
+                data[k] = data[k].toUpperCase();
+            }
+        } else {
+            data = data.toUpperCase();
+        }
+
+        return data;
+    },
+    cookie: function(name, value, options) {
+        if (typeof value != 'undefined') { // name and value given, set cookie
+            options = options || {};
+            if (value === null) {
+                value = '';
+                options.expires = -1;
+            }
+            var expires = '';
+            if (options.expires && (typeof options.expires == 'number' || options.expires.toUTCString)) {
+                var date;
+                if (typeof options.expires == 'number') {
+                    date = new Date();
+                    date.setTime(date.getTime() + (options.expires * 24 * 60 * 60 * 1000));
+                } else {
+                    date = options.expires;
+                }
+                expires = '; expires=' + date.toUTCString(); // use expires attribute, max-age is not supported by IE
+            }
+            // CAUTION: Needed to parenthesize options.path and options.domain
+            // in the following expressions, otherwise they evaluate to undefined
+            // in the packed version for some reason...
+            var path = options.path ? '; path=' + (options.path) : '';
+            var domain = options.domain ? '; domain=' + (options.domain) : '';
+            var secure = options.secure ? '; secure' : '';
+            document.cookie = [name, '=', encodeURIComponent(value), expires, path, domain, secure].join('');
+        } else { // only name given, get cookie
+            var cookieValue = null;
+            if (document.cookie && document.cookie != '') {
+                var cookies = document.cookie.split(';');
+                for (var i = 0; i < cookies.length; i++) {
+                    var cookie = jQuery.trim(cookies[i]);
+                    // Does this cookie string begin with the name we want?
+                    if (cookie.substring(0, name.length + 1) == (name + '=')) {
+                        cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                        break;
+                    }
+                }
+            }
+            return cookieValue;
+        }
+    },
+    getBrowser: function() {
+        var ua = navigator.userAgent.toLowerCase();
+
+        return !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0 ? 'safari' : //for opera safari
+        ua.indexOf('chrome') > -1 ? 'chrome' :
+            ua.indexOf('mozilla') > -1 && ua.indexOf('safari') < 0 && ua.indexOf('compatible') < 0 ? 'firefox' :
+                'safari';
+    }
+};
+
+function alertManagerInit() {
+
+    alertManager.init();
+}

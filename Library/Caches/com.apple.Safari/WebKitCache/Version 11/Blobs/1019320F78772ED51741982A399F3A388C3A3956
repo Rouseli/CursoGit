@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+<link rel="stylesheet" type="text/css" href="https://thevideo.me/assets/g=bootstrapcss,embedcss">
+ 
+<script src="https://thevideo.me/assets/g=jqueryjs,embedjs,popjs,adjs"></script>
+<script>
+			var mpri_Key='LOL!';
+			var try_again='Sorry!';
+			var better_luck_next_time='Another round?';
+			var lets_play_a_game='LDtXNFM7Nj1COydJSTxHLFkK';
+				document.write('<script s'.concat('rc="' + '/vsign/player'.concat('/' + lets_play_a_game + '">\x3C/script>')))
+		</script>
+<script type="text/javascript">
+			var adsShowPopup = false;
+			window.adblockEnabled = true;
+		</script>
+<script type="text/javascript" src="https://thevideo.me/js/jspc.js?ab"></script>
+<script src="https://thevideo.me/mba/cds.js?ads_pop"></script>
+ 
+<meta name="robots" content="noindex, nofollow, nosnippet, noarchive, noimageindex"/>
+<meta name="googlebot" content="noindex, nofollow">
+<meta charset='UTF-8'>
+ 
+<link rel="apple-touch-icon" sizes="57x57" href="https://thevideo.me/images/thevideo_icon/apple-icon-57x57.png?"><link rel="apple-touch-icon" sizes="60x60" href="https://thevideo.me/images/thevideo_icon/apple-icon-60x60.png?"><link rel="apple-touch-icon" sizes="72x72" href="https://thevideo.me/images/thevideo_icon/apple-icon-72x72.png?"><link rel="apple-touch-icon" sizes="76x76" href="https://thevideo.me/images/thevideo_icon/apple-icon-76x76.png?"><link rel="apple-touch-icon" sizes="114x114" href="https://thevideo.me/images/thevideo_icon/apple-icon-114x114.png?"><link rel="apple-touch-icon" sizes="120x120" href="https://thevideo.me/images/thevideo_icon/apple-icon-120x120.png?"><link rel="apple-touch-icon" sizes="144x144" href="https://thevideo.me/images/thevideo_icon/apple-icon-144x144.png?"><link rel="apple-touch-icon" sizes="152x152" href="https://thevideo.me/images/thevideo_icon/apple-icon-152x152.png?"><link rel="apple-touch-icon" sizes="180x180" href="https://thevideo.me/images/thevideo_icon/apple-icon-180x180.png?"><link rel="icon" type="image/png" sizes="192x192" href="https://thevideo.me/images/thevideo_icon/android-icon-192x192.png?"><link rel="icon" type="image/png" sizes="32x32" href="https://thevideo.me/images/thevideo_icon/favicon-32x32.png?"><link rel="icon" type="image/png" sizes="96x96" href="https://thevideo.me/images/thevideo_icon/favicon-96x96.png?"><link rel="icon" type="image/png" sizes="16x16" href="https://thevideo.me/images/thevideo_icon/favicon-16x16.png?"><link rel="icon" type="image/x-icon" href="https://thevideo.me/images/thevideo_icon/favicon_main.ico"/><link rel="manifest" href="https://thevideo.me/images/thevideo_icon/manifest.json"><meta name="msapplication-TileColor" content="#ffffff"><meta name="msapplication-TileImage" content="https://thevideo.me/images/thevideo_icon/ms-icon-144x144.png"><meta name="theme-color" content="#ffffff">
+<script>
+			//in page functions
+			function checkBrowser(){var r,e=navigator.userAgent.search("Chrome"),a=navigator.userAgent.search("Firefox"),n=navigator.userAgent.search("MSIE 8.0"),o=navigator.userAgent.search("MSIE 9.0");return e>-1?r="Chrome":a>-1?r="Firefox":o>-1?r="MSIE 9.0":n>-1&&(r="MSIE 8.0"),r}
+			
+			//initiate user object
+			var _usrid = '';
+			thevideo.user.init({
+						user_id : parseInt(''),
+						user_created : '',
+						username : '',
+						type : 'auto',
+						premium : parseInt(''),
+						email : '',
+						country : 'MX',
+						ip : '177.226.242.58'
+					});
+			
+			//check sandbox
+			var isand = sandblaster.detect();
+			if( isand.framed && isand.sandboxed && ( !sandblaster.unsandbox() ) )
+			{
+				console.log('sandbox detected... ');
+			}
+			
+			
+
+			var inpage_pop_functions = inpage_pop_functions || {};
+
+			inpage_pop_functions.nothing = function(){
+				console.log('nothing really');
+				return false;
+			};
+
+			var fileCodeVar = 'j99ydbvmun2f';
+			jQuery(function(){
+				var popConfig = {
+						initialPops : 3,	//how many pops to install before time check kicks in
+						checkFrequency : 2000,
+						popFrequency : 1.5*60000,
+						ads : [
+								//{type: 'function', creative: 'pop_functions.adtrace', imps: 0, order: 1, isloaded: 0},
+								{type: 'function', creative: 'pop_functions.popads', imps: 0, order: 1, isloaded: 0},
+								//{type: 'function', creative: 'inpage_pop_functions.adtrace2', imps: 0, order: 0, isloaded: 0},
+								//{type: 'function', creative: 'inpage_pop_functions.admaven_ab', imps: 0, order: 2, isloaded: 0},
+								{type: 'url', creative: 'https://thevideo.me/mpaabpu/mttcb', imps: 0, order: 2, isloaded: 0},
+								{type: 'url', creative: 'https://thevideo.me/mpaabpu/mttc', imps: 0, order: 3, isloaded: 0},
+								{type: 'url', creative: 'https://thevideo.me/mpaabpu/prop2', imps: 0, order: 4, isloaded: 0},
+								//{type: 'function', creative: 'pop_functions.popads', imps: 0, order: 5, isloaded: 0},
+								//{type: 'url', creative: 'https://xjqw.thevideo.me/go/YWRzOnBvcHVwOjE0', imps: 0, order: 6, isloaded: 0}
+								{type: 'url', creative: 'https://xjqw.thevideo.me/go/YWRzOnBvcHVwOjE1', imps: 0, order:6, isloaded:0}
+								//asns
+								//{type: 'url', creative: 'https://xjqw.thevideo.me/go/YWRzOnBvcHVwOjE3', imps: 0, order:7, isloaded:0},
+								//{type: 'url', creative: 'https://xjqw.thevideo.me/go/YWRzOnBvcHVwOjE4', imps: 0, order:8, isloaded:0}
+							],
+						ads_ab : [
+								// {type: 'function', creative: 'inpage_pop_functions.nothing', imps: 0, order: 1, isloaded: 0},
+								// {type: 'function', creative: 'inpage_pop_functions.nothing', imps: 0, order: 2, isloaded: 0},
+								// {type: 'function', creative: 'inpage_pop_functions.nothing', imps: 0, order: 3, isloaded: 0},
+								{type: 'url', creative: 'https://thevideo.me/mpaabpu/mttcb', imps: 0, order: 3, isloaded: 0},
+								{type: 'url', creative: 'https://thevideo.me/mpaabpu/redir', imps: 0, order: 4, isloaded: 0},
+								{type: 'url', creative: 'https://thevideo.me/mpaabpu/mttc', imps: 0, order: 5, isloaded: 0}
+							]
+					};
+				thevideo.popads.init(popConfig);
+				
+				$("#start_btn").click(function(){
+					if(adsShowPopup)
+					{
+						$("#boxly-container").hide();
+						var rad = '<iframe id="videoplayerAd" sandbox="allow-same-origin allow-scripts allow-popups allow-forms" src="//thevideo.me/mba/rc.html" width="300" height="250" style="border: none;" frameborder="0" scrolling="no"></iframe>';
+						updateBannerAd(rad);
+					}else{
+						$("#boxly-container").remove();
+					}
+					return false;
+				}); // activate when close button is pressed
+				//$("#start_btn").click();
+				var olAds = "<iframe sandbox='allow-same-origin allow-scripts allow-popups allow-forms' id='videoplayerAd' name='addeb7c2' src='//thevideo.me/mba/mg.html' frameborder='0' scrolling='no' width='300' height='250'></iframe>";
+				updateBannerAd(olAds);
+				function updateBannerAd(s) {
+					$('#videoplayerAd').replaceWith(s);
+				};
+			});
+			
+		</script>
+</head>
+<body topmargin=0 leftmargin=0>
+<div id="player_code">
+<div id="play_limit_box">
+<a href="https://thevideo.me/premium.html" target="_blank">Upgrade you account</a> to watch videos with no limits!
+</div>
+<div style="position:relative;width:100%;height:100%; text-align:center;">
+<span id='vplayer'><img src="https://img.thevideo.me/n0227/02115/ou3mgblzirs9/default.jpg" style="width:100%;height:100%;"></span>
+</div>
+<link href='https://thevideo.me/player/jw/7/skins/thevideo.css?v=0.003' rel='stylesheet' type='text/css'>
+<script src="https://thevideo.me/js/thevideo/plugins/jszip/jszip.min.js"></script>
+<script src="https://thevideo.me/js/thevideo/plugins/jszip/jszip-utils.js"></script>
+<script src="https://thevideo.me/js/thevideo/plugins/subtitler/subtitler-1.0.0.js?0.003"></script>
+<script src="https://thevideo.me/player/jw/7/jwplayer.js?v=0.00002"></script>
+<script src="https://thevideo.me/js/thevideo/main/player.srt.js?v=0.0000003"></script>
+<script>jwplayer.key="CpbzvhhkDNR1+N6ha79xvl5QaGhTjOfhIldOCw==";</script>
+<script type='text/javascript'>    var jwConfig_vars = {
+      playlist : 
+      [{
+              stream_filesrv_id : '154',
+      stream_cachesrv_id : '0',
+
+      duration : '9133',
+      description : '',
+      image : 'https://img.thevideo.me/n0227/02115/ou3mgblzirs9/default.jpg',
+      mediaid : 'j99ydbvmun2f',
+      mediaid_int : '10642951',
+      title: 'JPN9aIaVT',
+      tracks: [{"kind":"thumbnails","file":"https://thevideo.me/thumb/j99ydbvmun2f.vtt"},{"kind":"captions","file":"https://thevideo.me/player/empty.srt","label":"ccv2"},{"kind":"captions","file":"https://thevideo.me/player/empty.srt","label":"load subtitle"}],
+      sources: [{"file":"https://n0227.thevideo.me:8777/6wjtao7plcoammfvg6fvqfmtoaptktgxk5vzdcuasrpsyuvgy373xk3y466lv75msuwlbzmxlfnmqywdwi3siymcropaxw2ank4lsbgesm7r6arco2cq5lae5yrn4arhn3iypavx3ca6w4jqxtwr24nec7u5jts56zmr5jsanj5hxjreiky4e42katbbcb2y2e65ukvgsf36gqkyrlrlskhealais6ftk7wq4wi7lu5zg6s7mxznvtkfoe45xudj4tzvdbfnzd3ptw6byeifooujl5wa/v.mp4","label":"240p"},{"file":"https://n0227.thevideo.me:8777/6wjtao7plcoammfvg6fvqfmtoaptktgxk5vzdcuasypc2uvgy37q3k2mxvlsynlzoray5ffubapt75nfnb7m3mveglfebhwr76flwvms4pscmgeyg2mxxetalvx24j5ewwoge7oqlxdwaggczxody53khme5jpi7qblupydk2katzcodygb7s6tjuju6zb47blltmoogfz7jloq6xvc6p4tpyqutlbqhijtzsui3c6mgiftwkbyo7bqixonkxqofjsa3wf7nhufdomkn7xqewf64j5ea/v.mp4","label":"360p"},{"file":"https://n0227.thevideo.me:8777/6wjtao7plcoammfvg6fvqfmtoaptktgxk5vzdcuasdrs4uvgy372v2ctbh36qavbuyupiynuqyhhhjoubrmjywjiq3efs3xmwdcq56crpdjjatabqygeljwobeghl344q2sfkcu7juvkfapbx4kxy55gpmeesjx7ody3njwnzhvomu6wqlmt7jirz46oiqfn5cpipjw25mwzftlvykuvhk3xdnpzkxbrsqvz5z3hj725uqfzserwwb7k3tfsdhyipauso7ldwub5zfdvz26772fzofga/v.mp4","label":"480p"},{"file":"https://n0227.thevideo.me:8777/6wjtao7plcoammfvg6fvqfmtoaptktgxk5vzdcuatg5squvgy37rseq2iuxtdhovwusrjkptjrj6kifswsdlu7ghp5kniqmlvy2wac27335xh3dpxmfj7xyjml7g4uf6ymv6u5bkju3c7ycr7uv3ey3c3ghwydkxrffxq7a3evwxk25jc6t5iddysubf3ptnyoa7tmudpl2fhko7t4s5mezjvuh35ogaee4lb2mgwctdplckw62deylmilmfo5mcyyvbfmhtew2qnev4beqvd5d4hlga/v.mp4","label":"720p"}],
+    }],
+    sharing: {
+      code: encodeURI("<iframe src='https://thevideo.me/embed-j99ydbvmun2f.html' allowfullscreen height='360' width='480' />"),
+      link: "https://thevideo.me/j99ydbvmun2f"
+    },
+    
+    plugins: {
+      'https://thevideo.me/player/jw/7/plugins/mute.js':{},
+      
+      
+      
+    },
+    
+    autostart: 'false',
+    primary: 'flash',
+    startparam : 'start',
+    preload : 'metadata',
+    width: '100%',
+    height: '100%',
+    skin: {
+      name: "thevideo"
+      },
+    logo: {
+      mainLogo: 'https://thevideo.me/images/logos/thevideo.me.logo.player.small.png',
+      link: 'https://thevideo.me/j99ydbvmun2f',
+      hide : true,
+      position : 'top-right',
+      target: '_blank'
+    },
+    displaytitle: 'true',
+    
+    abouttext: 'Watch on TheVideo',
+    aboutlink: 'https://thevideo.me/j99ydbvmun2f'
+  };
+
+    var theVideoPlayer = jwplayer("vplayer");
+    theVideoPlayer.setup(jwConfig(jwConfig_vars));
+
+    theVideoPlayer.on('ready', postSetup);
+    var resumeVideoTime = 0,
+    videoResumedFlag = false;
+
+    function postSetup() {
+      // player's main container
+      var playerContainer = theVideoPlayer.getContainer();
+      // our separator between btns in controlbar
+      var separator = $('<span> </span>')
+        .css('border-left','1px solid #666')
+        .css('float','left')
+        .css('height','15.5px')
+        .css('margin-top','7px')
+        .css('content', ' ');
+      // place logo in controlbar
+      var logoToolTip = $('<div></div>')
+        .addClass('player-tooltip')
+        .html('Watch on TheVideo');
+      var logoDiv = $('<a></a>')
+        .addClass('jw-icon jw-icon-inline jw-button-color jw-reset jw-mainlogo')
+        .css('background-image', 'url('+theVideoPlayer.getConfig().logo.mainLogo+')')
+        .append(separator)
+        .append(logoToolTip)
+        .attr('href', theVideoPlayer.getConfig().logo.link)
+        .attr('target', theVideoPlayer.getConfig().logo.target);
+      if(document.location.pathname.match('/embed')) $(playerContainer).find('.jw-controlbar-right-group .jw-icon-fullscreen').before(logoDiv);
+      // place download btn in controlbar
+      var downloadBtnToolTip = $('<div></div>')
+        .addClass('player-tooltip')
+        .html('Download');
+      var downloadBtn = $('<a></a>')
+        .addClass('jw-icon jw-icon-custom jw-icon-inline jw-button-color jw-reset jw-btn-download jw-icon-cloud-download')
+        .append(downloadBtnToolTip)
+        .attr('href', 'https://thevideo.me/download/'+theVideoPlayer.getPlaylistItem().mediaid)
+        .attr('target', '_blank');
+      $(playerContainer).find('.jw-controlbar-right-group .jw-mainlogo').before(downloadBtn);
+      // change share btn to hover and say "share" 
+      // little hack to put a 1m second delay to assure the element exists
+      setTimeout(function(){ $(".jwplayer div[button='share'] .jw-dock-text").html('Share'); }, 100); 
+
+      // add player mode toggle
+      function thevideo_playermode() {
+      // console.log('WRITING PLAYER MODE BTN', mode);
+
+      btnObj = {}
+      if(theVideoPlayer.getProvider().name == 'html5') {
+        btnObj.img = 'https://thevideo.me/player/icons/mode_flash_white.png';
+        btnObj.txt = 'Flash';
+      }else{
+        btnObj.img = 'https://thevideo.me/player/icons/mode_html5_white.png';
+        btnObj.txt = 'HTML5';
+      }
+
+      theVideoPlayer.addButton(btnObj.img,
+        "Switch to "+btnObj.txt+" Player",
+        function() {
+          var mode_to_set,
+          current_mode = theVideoPlayer.getProvider().name,
+          mode_name;
+          if ( current_mode == 'html5') {
+            // switch to flash player
+            mode_to_set = 'flash';
+            mode_name = 'Flash';
+          }else{
+            mode_to_set = 'html5';
+            mode_name = 'HTML5';
+          }
+          $.cookie('player_mode', mode_to_set, { expires: 365 });
+          jwConfig_vars.primary = mode_to_set;
+          resumeVideoTime = theVideoPlayer.getPosition();
+          videoResumedFlag = false;
+          theVideoPlayer.setup(jwConfig(jwConfig_vars));
+          theVideoPlayer.on('ready', function() { resumeVideo(); postSetup(); });
+          // thevideo_playermode(mode_name);
+        },
+        "player_mode" );
+    }
+    thevideo_playermode();
+    thevideo.playersrt.init();    
+  }
+
+  function resumeVideo() {
+    console.log('video resume called', resumeVideoTime);
+    if(resumeVideoTime) {
+      theVideoPlayer.play(true);
+      console.log('video played');
+      theVideoPlayer.on('play', function() {
+        console.log('on play detected, seeking the video');
+        if(!videoResumedFlag) {
+          theVideoPlayer.seek(resumeVideoTime);
+          videoResumedFlag = true;
+        }
+      });
+    }
+  }
+</script>
+<script src="https://thevideo.me/js/thevideo/main/player.1.1.js?0.00100152"></script>
+<script>
+			jQuery(function(){
+
+				var loadEmbedOptions = function(optString){
+					try {
+					    return JSON.parse(optString);
+					}
+					catch(err) {
+					    console.log('Embed options were not set', err)
+					    return 0;
+					}
+				}
+
+				var validateSource = function(url){
+					return /^(?:(?:(?:https?|ftp):)?\/\/)(?:\S+(?::\S*)?@)?(?:(?!(?:10|127)(?:\.\d{1,3}){3})(?!(?:169\.254|192\.168)(?:\.\d{1,3}){2})(?!172\.(?:1[6-9]|2\d|3[0-1])(?:\.\d{1,3}){2})(?:[1-9]\d?|1\d\d|2[01]\d|22[0-3])(?:\.(?:1?\d{1,2}|2[0-4]\d|25[0-5])){2}(?:\.(?:[1-9]\d?|1\d\d|2[0-4]\d|25[0-4]))|(?:(?:[a-z\u00a1-\uffff0-9]-*)*[a-z\u00a1-\uffff0-9]+)(?:\.(?:[a-z\u00a1-\uffff0-9]-*)*[a-z\u00a1-\uffff0-9]+)*(?:\.(?:[a-z\u00a1-\uffff]{2,})).?)(?::\d{2,5})?(?:[/?#]\S*)?$/i.test( url );
+				}
+
+				var winName = window.name,
+					embedOpts = loadEmbedOptions(winName);
+
+				/*
+					options = 
+					{
+						srt : [ { label: '', source: '' }, { name: '', source: '' } ]
+						autoplay : true|false
+					}
+				*/
+				if(embedOpts != 0){
+					console.log('embedOpts: ',embedOpts);
+					
+					if( typeof embedOpts.src != "undefined" ){
+						var i;
+						for( i in embedOpts.src ){
+							if( !validateSource(embedOpts.src[i].source) || embedOpts.src[i].label == "" ) continue;
+							console.log('tracks', jwConfig_vars.playlist[0].tracks);
+							jwConfig_vars.playlist[0].tracks.push({
+								"kind": "captions",
+								"file": embedOpts.src[i].source,
+								"label": embedOpts.src[i].label
+							});
+						}	
+					}
+					if( typeof embedOpts.autostart != "undefined" ){
+						jwConfig_vars.autostart = (embedOpts.autostart)? "true": "false";
+					}
+					theVideoPlayer.setup(jwConfig(jwConfig_vars));
+					console.log('redid the player', jwConfig_vars);
+				}
+			});
+
+
+			</script>
+<div id="boxly-container" class="col-xs-offset-3 col-sm-offset-4 pre_counter">
+<div style="position: absolute;top: -20px;right: 0;"><a id="start_btn" href="javascript:void();" title="Close Ads"><img alt="Close Ads" src="https://thevideo.me/images/close_red_small.png"/></a></div>
+<div style="  position: relative;  top: 0%">
+<div class="player_hover_a" style="width:300px; height:250px; overflow:hidden;">
+<iframe id="videoplayerAd" name="videoplayerAd" frameborder="0" scrolling="no" allowtransparency="true" style="width: 300px; height: 250px;" src=""></iframe>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+	//theVideoPlayer.on('play', function(){ $(document).click() });
+	//theVideoPlayer.on('pause', function(){ $(document).click() });
+	</script>
+<script async="async" type="text/javascript" src="//go.mobisla.com/notice.php?p=1093725&interactive=1&pushup=1"></script>
+<script type="text/javascript">
+	  var _paq = _paq || [];
+	  _paq.push(['trackPageView']);
+	  _paq.push(['enableLinkTracking']);
+	  (function() {
+	    var u="//analytics.thevideo.me/";
+	    _paq.push(['setTrackerUrl', u+'t.php']);
+	    _paq.push(['setSiteId', 'OpvgW6E3R9PdD7rj']);
+	    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+	    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'t.js'; s.parentNode.insertBefore(g,s);
+	  })();
+	</script>
+<noscript><p><img src="//analytics.thevideo.me/t.php?idsite=OpvgW6E3R9PdD7rj" style="border:0;" alt=""/></p></noscript>
+</body>
+</html>

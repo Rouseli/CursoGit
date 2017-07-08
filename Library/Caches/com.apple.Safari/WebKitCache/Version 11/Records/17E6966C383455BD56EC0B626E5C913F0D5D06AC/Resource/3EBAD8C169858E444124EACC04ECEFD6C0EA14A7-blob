@@ -1,0 +1,1596 @@
+<!DOCTYPE html>
+<html lang="en-US" class="app-post-download-page app-post-download-page--desktop ">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+	<!-- NREUM: (1) -->
+
+	<!-- In IE9 and less console debug is a Object -->
+	<!--[if lte IE 9]>
+	<script>
+		window.console = {};
+		window.console.debug = function () {};
+	</script>
+	<script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+	<![endif]-->
+
+	
+	
+		<script>
+	function sendRequest(error, source, lineno, colno) {
+		var params = {
+			product: 'web',
+			event: 'error_js',
+			page_type: 'app_post_download',
+			dl_type: '',
+			ph: 'Mac',
+			title: 'xcode-mac',
+			id_file: '3336860',
+			user_agent: navigator.userAgent,
+			page_url: window.location.href,
+			error_line: lineno + ':' + colno,
+			error_source: source,
+			error_stack: error.stack,
+			error_message: error.message,
+			error_name: error.name
+		};
+
+		var queryString = Object.keys(params)
+			.map(function(key) {
+				return key + '=' + encodeURIComponent(params[key]);
+			})
+			.join('&');
+		var url = 'https://softonic-analytics.net/blank.gif?' + queryString;
+		var xmlhttp = new XMLHttpRequest();
+		xmlhttp.open('GET', url, true);
+		xmlhttp.send();
+	}
+
+	window.onerror = function(messageOrEvent, source, lineno, colno, error) {
+		var isSoftonicCdn = /m\.sftcdn\.net/.test(source);
+		if (isSoftonicCdn) {
+			sendRequest(error || {
+				message: messageOrEvent
+			}, source, lineno, colno);
+		}
+	}
+</script>
+
+		
+  <title>Download Xcode for Mac  5.0.1 for Mac - free - latest version</title>
+
+
+  <meta name="title" content="Download Xcode for Mac  5.0.1 for Mac - free - latest version">
+
+  <meta name="description" content="Download Xcode for Mac  5.0.1 for Mac now from Softonic: 100% safe and virus free. More than 1868 downloads this month. Download Xcode latest version 2017">
+
+  <meta name="robots" content="noindex, nofollow">
+
+
+
+
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="theme-color" content="#008ad1">
+		<meta class="js-config" name="baseDomain" content="softonic.com">
+		<meta class="js-config" name="rootUrl" content="https://en.softonic.com">
+		<meta class="js-config" name="staticsBaseUrl" content="https://m.sftcdn.net">
+		<meta class="js-config" name="pageId" content="app-post-download">
+		<meta class="js-config" name="displayType" content="desktop">
+		<meta class="js-config" name="devicePlatformId" content="mac">
+		<meta class="js-config" name="browserName" content="safari">
+		<meta class="js-config" name="browserVersion" content="10">
+		<meta class="js-config" name="countryCode" content="MX">
+		<meta class="js-config" name="externalLoginApiUrl" content="https://cdns.gigya.com/JS/gigya.js?apikey=3_Snkrf0bu_hMVnQj3RNLIYsEbjTRtHHToxPzmTRxO0COCQTXewDpSz526HF8J3hCm&amp;lang=en">
+		<meta class="js-config" name="externalVideoApiUrl" content="https://api.dmcdn.net/all.js">
+		
+<meta class="js-config" name="trackingConfig[config][host]" content="softonic-analytics.net/blank.gif">
+<meta class="js-config" name="trackingConfig[config][product]" content="web">
+
+
+<meta class="js-config" name="trackingConfig[common][product_platform]" content="web">
+<meta class="js-config" name="trackingConfig[common][version]" content="1">
+<meta class="js-config" name="trackingConfig[common][st][app_version]" content="0.1.1717-8810">
+<meta class="js-config" name="trackingConfig[common][st][device_type]" content="desktop">
+<meta class="js-config" name="trackingConfig[common][st][event_type]" content="user_activity">
+<meta class="js-config" name="trackingConfig[common][ua][uaNumber]" content="UA-152357-1">
+<meta class="js-config" name="trackingConfig[common][ua][loginType]" content="no">
+
+
+<meta class="js-config" name="trackingConfig[session][product_session]" content="web">
+<meta class="js-config" name="trackingConfig[session][instance_name]" content="en">
+<meta class="js-config" name="trackingConfig[session][event_type]" content="user_session">
+<meta class="js-config" name="trackingConfig[session][id_common_user]" content="">
+
+		<meta class="js-config" name="ads" content='{&quot;slotDefaultOptions&quot;:{},&quot;providerOptions&quot;:{&quot;netseer&quot;:{&quot;baseUrl&quot;:&quot;https://proxy.softonicads.com/net/web/en/ads&quot;},&quot;gpt&quot;:{&quot;singleRequestEnabled&quot;:true,&quot;targeting&quot;:{&quot;devel&quot;:&quot;&quot;,&quot;ui&quot;:&quot;new&quot;,&quot;compliant&quot;:&quot;1&quot;,&quot;cat&quot;:&quot;20140&quot;,&quot;author&quot;:&quot;Apple&quot;,&quot;file&quot;:&quot;3336860&quot;,&quot;tag&quot;:[&quot;programming&quot;],&quot;tab_content&quot;:&quot;applications&quot;,&quot;plat&quot;:&quot;724&quot;,&quot;country&quot;:&quot;MX&quot;,&quot;kw&quot;:&quot;&quot;,&quot;description_url&quot;:&quot;https://xcode-mac.en.softonic.com/mac/post-download&quot;,&quot;dc_ref&quot;:&quot;https://xcode-mac.en.softonic.com/mac/post-download&quot;,&quot;contentid&quot;:&quot;&quot;,&quot;recat&quot;:[&quot;development&quot;]}}},&quot;slots&quot;:{&quot;related-searches-app-post-download-page-desktop&quot;:{&quot;provider&quot;:&quot;netseer&quot;,&quot;options&quot;:{&quot;pageType&quot;:&quot;postDownload&quot;,&quot;numAds&quot;:9,&quot;country&quot;:&quot;MX&quot;,&quot;referer&quot;:&quot;https://xcode-mac.en.softonic.com/mac/download&quot;}},&quot;wallpaper-app-post-download-page-desktop&quot;:{&quot;provider&quot;:&quot;gpt&quot;,&quot;type&quot;:&quot;wallpaper&quot;,&quot;options&quot;:{&quot;adUnitPath&quot;:&quot;/5302/Desktop/Desktop-Web-EN/Apps/Postdownload&quot;,&quot;outOfPage&quot;:true,&quot;targeting&quot;:{&quot;type&quot;:&quot;wallpaper_background&quot;,&quot;pos&quot;:&quot;top&quot;}}},&quot;top-leaderboard-app-post-download-page-desktop&quot;:{&quot;provider&quot;:&quot;gpt&quot;,&quot;size&quot;:[[728,90],[970,90],[970,250]],&quot;options&quot;:{&quot;adUnitPath&quot;:&quot;/5302/Desktop/Desktop-Web-EN/Apps/Postdownload&quot;,&quot;slotWrapperId&quot;:&quot;top-leaderboard-app-post-download-page-desktop-wrapper&quot;,&quot;targeting&quot;:{&quot;type&quot;:&quot;top_leaderboard&quot;,&quot;pos&quot;:&quot;top&quot;},&quot;bids&quot;:[{&quot;bidder&quot;:&quot;appnexus&quot;,&quot;params&quot;:{&quot;placementId&quot;:9786113}},{&quot;bidder&quot;:&quot;rubicon&quot;,&quot;params&quot;:{&quot;accountId&quot;:10496,&quot;siteId&quot;:44166,&quot;zoneId&quot;:191532}}]}},&quot;bottom-leaderboard-app-post-download-page-desktop&quot;:{&quot;provider&quot;:&quot;gpt&quot;,&quot;size&quot;:[[728,90],[970,90]],&quot;options&quot;:{&quot;adUnitPath&quot;:&quot;/5302/Desktop/Desktop-Web-EN/Apps/Postdownload&quot;,&quot;slotWrapperId&quot;:&quot;bottom-leaderboard-app-post-download-page-desktop-wrapper&quot;,&quot;targeting&quot;:{&quot;type&quot;:&quot;bottom_leaderboard&quot;,&quot;pos&quot;:&quot;bottom&quot;},&quot;bids&quot;:[{&quot;bidder&quot;:&quot;appnexus&quot;,&quot;params&quot;:{&quot;placementId&quot;:9786112}},{&quot;bidder&quot;:&quot;rubicon&quot;,&quot;params&quot;:{&quot;accountId&quot;:10496,&quot;siteId&quot;:44166,&quot;zoneId&quot;:193296}}]}},&quot;top-mpu-app-post-download-page-desktop&quot;:{&quot;provider&quot;:&quot;gpt&quot;,&quot;size&quot;:[[300,250],[300,300],[300,600],&quot;fluid&quot;],&quot;options&quot;:{&quot;adUnitPath&quot;:&quot;/5302/Desktop/Desktop-Web-EN/Apps/Postdownload&quot;,&quot;slotWrapperId&quot;:&quot;top-mpu-app-post-download-page-desktop-wrapper&quot;,&quot;targeting&quot;:{&quot;type&quot;:&quot;top_medium_rectangle&quot;,&quot;pos&quot;:&quot;top&quot;},&quot;bids&quot;:[{&quot;bidder&quot;:&quot;appnexus&quot;,&quot;params&quot;:{&quot;placementId&quot;:9786111}},{&quot;bidder&quot;:&quot;rubicon&quot;,&quot;params&quot;:{&quot;accountId&quot;:10496,&quot;siteId&quot;:44166,&quot;zoneId&quot;:191532}}]}},&quot;bottom-mpu-app-post-download-page-desktop&quot;:{&quot;provider&quot;:&quot;gpt&quot;,&quot;size&quot;:[[300,250]],&quot;options&quot;:{&quot;adUnitPath&quot;:&quot;/5302/Desktop/Desktop-Web-EN/Apps/Postdownload&quot;,&quot;slotWrapperId&quot;:&quot;bottom-mpu-app-post-download-page-desktop-wrapper&quot;,&quot;targeting&quot;:{&quot;type&quot;:&quot;bottom_medium_rectangle&quot;,&quot;pos&quot;:&quot;bottom&quot;},&quot;bids&quot;:[{&quot;bidder&quot;:&quot;appnexus&quot;,&quot;params&quot;:{&quot;placementId&quot;:9786110}},{&quot;bidder&quot;:&quot;rubicon&quot;,&quot;params&quot;:{&quot;accountId&quot;:10496,&quot;siteId&quot;:44166,&quot;zoneId&quot;:193296}}]}},&quot;first-promoted-app-post-download-page-desktop&quot;:{&quot;provider&quot;:&quot;gpt&quot;,&quot;size&quot;:&quot;fluid&quot;,&quot;options&quot;:{&quot;adUnitPath&quot;:&quot;/5302/Desktop/Desktop-Web-EN/sads/post_download&quot;,&quot;targeting&quot;:{&quot;type&quot;:&quot;bottom_native_pdp&quot;}}},&quot;exit-intent-app-post-download-page-desktop&quot;:{&quot;provider&quot;:&quot;gpt&quot;,&quot;type&quot;:&quot;exit-intent&quot;,&quot;options&quot;:{&quot;adUnitPath&quot;:&quot;/5302/Desktop/Desktop-Web-EN/Apps/Postdownload&quot;,&quot;outOfPage&quot;:true,&quot;slotWrapperId&quot;:&quot;exit-intent-app-post-download-page-desktop-wrapper&quot;,&quot;targeting&quot;:{&quot;type&quot;:&quot;eint&quot;,&quot;pos&quot;:&quot;top&quot;}}}}}' />
+
+		<meta class="js-config" name="experiments" content='{&quot;userRandomPosition&quot;:701}' />
+
+
+		
+		
+
+
+
+
+
+
+
+
+		<link rel="shortcut icon" href="https://m.sftcdn.net/images/34fb4-e13e1.ico" type="image/x-icon" />
+		<link rel="apple-touch-icon" href="https://m.sftcdn.net/images/c2038-19f6f.png" />
+		<link rel="apple-touch-icon" sizes="57x57" href="https://m.sftcdn.net/images/ea697-19f6f.png" />
+		<link rel="apple-touch-icon" sizes="72x72" href="https://m.sftcdn.net/images/d9087-f28a2.png" />
+		<link rel="apple-touch-icon" sizes="76x76" href="https://m.sftcdn.net/images/20b59-adf4b.png" />
+		<link rel="apple-touch-icon" sizes="114x114" href="https://m.sftcdn.net/images/2fcab-3e14f.png" />
+		<link rel="apple-touch-icon" sizes="120x120" href="https://m.sftcdn.net/images/4c8fb-336c7.png" />
+		<link rel="apple-touch-icon" sizes="144x144" href="https://m.sftcdn.net/images/92d79-2b208.png" />
+		<link rel="apple-touch-icon" sizes="152x152" href="https://m.sftcdn.net/images/89003-35f3b.png" />
+		<link rel="apple-touch-icon" sizes="180x180" href="https://m.sftcdn.net/images/1b7fb-259c9.png" />
+	
+	<meta class="js-config" name="trackingConfig[common][ua][pageType]" content="/download_success">
+<meta class="js-config" name="trackingConfig[common][ua][programId]" content="3336860">
+<meta class="js-config" name="trackingConfig[common][ua][catLevel1]" content="development-it">
+<meta class="js-config" name="trackingConfig[common][ua][catLevel2]" content="undefined">
+<meta class="js-config" name="trackingConfig[common][ua][catLevel3]" content="undefined">
+<meta class="js-config" name="trackingConfig[common][st][page_type]" content="post_download">
+<meta class="js-config" name="trackingConfig[common][st][id_platform]" content="724">
+<meta class="js-config" name="trackingConfig[common][st][id_file]" content="3336860">
+<meta class="js-config" name="trackingConfig[common][st][title]" content="xcode-mac">
+<meta class="js-config" name="trackingConfig[common][st][cat_level1]" content="development-it">
+<meta class="js-config" name="trackingConfig[common][st][cat_level2]" content="undefined">
+<meta class="js-config" name="trackingConfig[common][st][cat_level3]" content="undefined">
+<meta class="js-config" name="trackingConfig[pageView][st][content_type]" content="applications">
+<meta class="js-config" name="trackingConfig[pageView][st][compliant]" content="1">
+<meta class="js-config" name="trackingConfig[pageView][st][display_download_type]" content="redirect">
+<meta class="js-config" name="trackingConfig[pageView][ua][documentPath]" content="/free/success">
+<meta class="js-config" name="trackingConfig[pageView][ua][section]" content="downloads">
+<meta class="js-config" name="trackingConfig[pageView][ua][platform]" content="mac">
+<meta class="js-config" name="trackingConfig[relatedContent][ua][legacyPlatformId]" content="724">
+<meta class="js-config" name="trackingConfig[relatedContent][ua][appId]" content="3336860">
+<meta class="js-config" name="trackingConfig[relatedContent][ua][appSlug]" content="xcode-mac">
+<meta class="js-config" name="trackingConfig[relatedContent][ua][relatedVideosExist]" content="true">
+<meta class="js-config" name="trackingConfig[relatedContent][ua][relatedAppsExist]" content="true">
+<meta class="js-config" name="trackingConfig[downloadAgain][ua][appSlug]" content="xcode-mac">
+<meta class="js-config" name="trackingConfig[transaction][ua][transactionId]" content="1498317630198">
+<meta class="js-config" name="trackingConfig[transaction][ua][appName]" content="Xcode">
+<meta class="js-config" name="trackingConfig[transaction][ua][appCategories]" content="Mac_Development-&-IT">
+<meta class="js-config" name="trackingConfig[download][externalDownloadUrl]" content="http://target.georiot.com/Proxy.ashx?grid=681&p=24364&a=332534&url=https%3A%2F%2Fitunes.apple.com%2Fes%2Fapp%2Fxcode%2Fid497799835%3Fmt%3D12%26uo%3D4%26partnerId%3D2003">
+<meta class="js-config" name="trackingConfig[download][internalDownloadUrl]" content="">
+<meta class="js-config" name="trackingConfig[download][legacyPlatformId]" content="724">
+<meta class="js-config" name="trackingConfig[download][appId]" content="3336860">
+<meta class="js-config" name="trackingConfig[download][appSlug]" content="xcode-mac">
+<meta class="js-config" name="trackingConfig[download][loggedUserId]" content="">
+<meta class="js-config" name="trackingConfig[download][appDownloadTrackingUrl]" content="https://xcode-mac.en.softonic.com/mac/free-download/launch">
+<meta class="js-config" name="trackingConfig[download][isExternalDownload]" content="true">
+<meta class="js-config" name="trackingConfig[download][isDownloadableFile]" content="">
+
+
+	<script>
+		
+		window['GoogleAnalyticsObject'] = 'ga';
+		window['ga'] = window['ga'] || function() {
+			(window['ga'].q = window['ga'].q || []).push(arguments)
+		};
+		ga('create', 'UA-152357-1', 'en.softonic.com');
+
+		
+		WebFontConfig = { custom: { families: ['Roboto', 'Roboto Slab'] } };
+
+		
+		window.sam = window.sam || {}; sam.cmd = sam.cmd || [];
+		
+	
+	sam.cmd.push(function() {
+		sam.prefetch('top-leaderboard-app-post-download-page-desktop');
+		sam.prefetch('top-mpu-app-post-download-page-desktop');
+		sam.prefetch('bottom-mpu-app-post-download-page-desktop');
+		sam.prefetch('bottom-leaderboard-app-post-download-page-desktop');
+
+		
+			sam.prefetch('related-searches-app-post-download-page-desktop');
+		
+		sam.prefetch('exit-intent-app-post-download-page-desktop');
+		
+			sam.prefetch('first-promoted-app-post-download-page-desktop');
+		
+	});
+
+		sam.cmd.push(function() {
+			sam.dispatch();
+		});
+
+		
+		window.tracker = window.tracker || {}; tracker.cmd = tracker.cmd || [];
+
+		
+		window.blockAdBlock = false;
+	</script>
+
+	
+		<link rel="stylesheet" href="https://m.sftcdn.net/styles/f0d91-be516.css">
+	
+
+	
+	
+		<script crossorigin="anonymous" src="https://m.sftcdn.net/scripts/994e2-7e289.js" async></script>
+		<script src="https://www.googletagservices.com/tag/js/gpt.js" async></script>
+		<script crossorigin="anonymous" src="https://m.sftcdn.net/scripts/fc9eb-847c1.js"></script>
+		<script crossorigin="anonymous" src="https://m.sftcdn.net/scripts/23abc-a94b0.js" defer></script>
+	
+
+	<script>
+	var amznads = amznads || {};
+	amznads.asyncParams = {
+		id: '3177',
+		callbackFn: function() {
+			try {
+				amznads.setTargetingForGPTAsync('amznslots');
+			} catch (e) {}
+		},
+		timeout: 2000
+	};
+
+	(function() {
+		var a, s = document.getElementsByTagName('script')[0];
+		a = document.createElement('script');
+		a.type = 'text/javascript';
+		a.async = true;
+		a.src = 'https://c.amazon-adsystem.com/aax2/amzn_ads.js';
+		s.parentNode.insertBefore(a, s);
+	})();
+</script>
+
+
+</head>
+
+<body data-auto="page" class="">
+	
+		<!-- Google Tag Manager -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5LWWHP"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5LWWHP');</script>
+<!-- End Google Tag Manager -->
+
+	
+
+	
+		
+		
+		
+		
+		
+		<header id="header" class="header">
+	<a href="https://en.softonic.com"
+		class="header__logo"
+		data-auto="header-logo"
+		data-ua="c=click,a=logo" data-st="click_type=logo,e=click">
+		
+
+
+
+<img src="https://m.sftcdn.net/images/b6d3c-be66b.png" alt="Softonic" />
+
+	</a>
+	<nav class="menu" data-auto="menu-sections">
+		
+			
+		
+		<a class="menu__item"
+			href="https://en.softonic.com/mac"
+			data-ua="c=AppPostDownload,a=ClickMenuSection,l=apps" data-st="click_type=sandwich_section,sandwich_element=apps,e=click">Apps</a>
+		<a class="menu__item"
+			href="https://gamers-academy.softonic.com/?utm_source=Cross%20Promotion&amp;utm_medium=Home%20header"
+			data-ua="c=AppPostDownload,a=ClickMenuSection,l=games" data-st="click_type=sandwich_section,sandwich_element=games,e=click">Games</a>
+		<a class="menu__item"
+			href="https://features.en.softonic.com"
+			data-ua="c=AppPostDownload,a=ClickMenuSection,l=features" data-st="click_type=sandwich_section,sandwich_element=features,e=click">Features</a>
+		<a class="menu__item"
+			href="https://videos.en.softonic.com"
+			data-ua="c=AppPostDownload,a=ClickMenuSection,l=videos" data-st="click_type=sandwich_section,sandwich_element=videos,e=click">Videos</a>
+	</nav>
+	<div class="header__actions">
+		
+			
+	
+
+<form class="js-site-search site-search"
+	  action=""
+	  data-url="https://en.softonic.com/s/%7Bquery%7D:mac/"
+	data-ua-common="searchTerm=" data-st-common="search_term=">
+	<input class="site-search__query"
+		   type="search"
+		   autocomplete="off"
+		   placeholder="Search for apps, articles..."
+		   data-auto="search-input">
+	<button class="site-search__button"
+			type="submit"
+			data-auto="search-submit"
+		data-ua="#searchTerm,c=search,a=search" data-st="click_type=search,#search_term,#platform_id,e=search">
+		<i class="icon-search" ></i>
+	</button>
+</form>
+
+		
+
+		<div class="header__button" data-auto="menu-os">
+			<a href="#" onclick="this.classList.toggle('header__button--toggle--selected');" class="header__button--toggle">
+				<i class="icon-all-platforms" ></i>
+				<i class="icon-close" ></i>
+			</a>
+			<div class="dropdown-platforms" data-auto="os-dropdown">
+				
+					<a class="dropdown-platforms__item"
+						href="https://en.softonic.com/mac"
+						data-ua="c=AppPostDownload,a=ClickMenuPlatform,l=mac" data-st="click_type=sandwich_platform,sandwich_element=mac,e=click"><i class="icon-mac" ></i>Mac</a>
+				
+					<a class="dropdown-platforms__item"
+						href="https://en.softonic.com/iphone"
+						data-ua="c=AppPostDownload,a=ClickMenuPlatform,l=iphone" data-st="click_type=sandwich_platform,sandwich_element=iphone,e=click"><i class="icon-iphone" ></i>iPhone</a>
+				
+					<a class="dropdown-platforms__item"
+						href="https://en.softonic.com/android"
+						data-ua="c=AppPostDownload,a=ClickMenuPlatform,l=android" data-st="click_type=sandwich_platform,sandwich_element=android,e=click"><i class="icon-android" ></i>Android</a>
+				
+					<a class="dropdown-platforms__item"
+						href="https://en.softonic.com/windows-phone-7"
+						data-ua="c=AppPostDownload,a=ClickMenuPlatform,l=windows-phone-7" data-st="click_type=sandwich_platform,sandwich_element=windows-phone-7,e=click"><i class="icon-windows-phone-7" ></i>Windows Phone</a>
+				
+					<a class="dropdown-platforms__item"
+						href="https://en.softonic.com/blackberry"
+						data-ua="c=AppPostDownload,a=ClickMenuPlatform,l=blackberry" data-st="click_type=sandwich_platform,sandwich_element=blackberry,e=click"><i class="icon-blackberry" ></i>BlackBerry</a>
+				
+					<a class="dropdown-platforms__item"
+						href="https://en.softonic.com/windows"
+						data-ua="c=AppPostDownload,a=ClickMenuPlatform,l=windows" data-st="click_type=sandwich_platform,sandwich_element=windows,e=click"><i class="icon-windows" ></i>Windows</a>
+				
+					<a class="dropdown-platforms__item"
+						href="https://en.softonic.com/web-apps"
+						data-ua="c=AppPostDownload,a=ClickMenuPlatform,l=web-apps" data-st="click_type=sandwich_platform,sandwich_element=web-apps,e=click"><i class="icon-web-apps" ></i>Web Apps</a>
+				
+			</div>
+		</div>
+		
+		<div class="header__button" data-auto="header-login">
+			<a class="js-login-button" href="https://en.softonic.com/login-page">
+				<i class="icon-avatar" ></i>
+			</a>
+		</div>
+		
+	</div>
+</header>
+
+	
+
+	
+	<div class="wrapper-content wrapper--white wrapper--padded-h wrapper--padded-t">
+		
+		<ul class="list-breadcrumb" data-auto="breadcrumb">
+	<i class="icon-home" ></i>
+	<li>
+		<a
+			title="Mac"
+			href="https://en.softonic.com/mac">Mac</a>
+	</li>
+	
+		><li>
+			<a title="Development &amp; IT" href="https://en.softonic.com/mac/development">Development &amp; IT</a>
+		</li>
+	
+</ul>
+
+
+		
+		
+	
+	
+	<div class="media">
+		<div class="media__image media-app__image">
+			<a title="Xcode" href="https://xcode-mac.en.softonic.com/mac">
+				<img alt="Xcode" src="https://screenshots.en.sftcdn.net/en/scrn/3336000/3336860/xcode-01-100x100.png" width="55" height="55" data-auto="app-icon" itemprop="image" onerror="this.onerror=null;this.src='https://m.sftcdn.net/images/f1936-d9195.png';" />
+			</a>
+		</div>
+		<div class="media__body">
+			<h1 class="media-app__download-title" data-auto="app-name" itemprop="name">
+				<a title="Xcode" href="https://xcode-mac.en.softonic.com/mac">
+					Download <strong>Xcode</strong> for Mac
+				</a>
+			</h1>
+			
+			<ul class="list-app-info list-app-info--inline" data-auto="app-info">
+				
+					<li>Version: for Mac  5.0.1</li>
+				
+				
+				
+			</ul>
+		</div>
+	</div>
+
+
+		
+		
+
+
+
+
+
+<iframe id="iframe-download-launcher" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+<div class="app-post-download-downloading">
+	<div class="media media--top media--reverse">
+		<div class="media__body">
+			
+				<h2 class="app-post-download-downloading__title">Your download from the external website has completed.</h2>
+				<p><a title="Click here" href="#" class='js-launch-download' data-download='{"isExternalDownload":true,"downloadUrl":"http://target.georiot.com/Proxy.ashx?grid=681&p=24364&a=332534&url=https%3A%2F%2Fitunes.apple.com%2Fes%2Fapp%2Fxcode%2Fid497799835%3Fmt%3D12%26uo%3D4%26partnerId%3D2003","launchDownloadOnStart":true}'>Click here</a> to open the external download website again.</p>
+			
+		</div>
+
+		
+	</div>
+</div>
+
+
+		
+		
+
+
+
+<div class="app-post-download-failed is-hidden">
+	<div class="app-post-download-failed__message">
+		<div class="media media--top media--reverse">
+			<div class="media__body">
+				<p>The <a title="Attempting to download the requested file from the publisher's website" href="#" class='js-launch-download' data-download='{"isExternalDownload":true,"downloadUrl":"http://target.georiot.com/Proxy.ashx?grid=681&p=24364&a=332534&url=https%3A%2F%2Fitunes.apple.com%2Fes%2Fapp%2Fxcode%2Fid497799835%3Fmt%3D12%26uo%3D4%26partnerId%3D2003"}'">download link</a> from the publisher's site appears to be broken</p>
+			</div>
+		</div>
+	</div>
+
+
+</div>
+
+	</div>
+
+	<div class="wrapper-content wrapper--white">
+		
+		
+	<div class="leaderboard" id="top-leaderboard-app-post-download-page-desktop-wrapper" data-auto="top-leaderboard-pdp">
+		<p class="banner__title">Advertisement</p>
+		<div id="top-leaderboard-app-post-download-page-desktop"></div>
+	</div>
+	<script>sam.cmd.push(function() { sam.display('top-leaderboard-app-post-download-page-desktop'); });</script>
+	</div>
+
+
+	<div class="wrapper ">
+		<div class="wrapper-content wrapper--padded-h wrapper--spaced-b wrapper--white">
+			
+	<div class="content">
+		<section>
+			<div>
+				
+				
+					
+<div id="box-video" data-auto="video">
+	<h3 class="app-post-download-title">Video: Construct 2 Demo</h3>
+	<iframe id="DM-video" frameborder="0" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" title="" width="100%" height="499" data-video-id="x4crtbo"></iframe>
+</div>
+
+				
+
+				
+				
+					
+
+<section class="app-post-download-related-apps">
+	<h2 class="app-post-download-title">You may also like</h2>
+	<ul>
+	
+	
+	<div class="" id="first-promoted-app-post-download-page-desktop-wrapper" data-auto="">
+		<p class="banner__title">Advertisement</p>
+		<div id="first-promoted-app-post-download-page-desktop"></div>
+	</div>
+	<script>sam.cmd.push(function() { sam.display('first-promoted-app-post-download-page-desktop'); });</script>
+	
+		
+		<li class="app-post-download-related-apps__item media media--top">
+			
+			<div class="media__image">
+				
+				<img data-lazy data-lazy-src="https://screenshots.en.sftcdn.net/en/scrn/69729000/69729230/docs-for-xcode-02-32x32.png" alt="Docs for Xcode" width=55 height=55 data-lazy-condition="viewport:800"><noscript><img src="https://screenshots.en.sftcdn.net/en/scrn/69729000/69729230/docs-for-xcode-02-32x32.png" alt="Docs for Xcode" width=55 height=55></noscript>
+			</div>
+
+			<div class="clearfix media__body">
+				<div>
+					
+					<div class="app-post-download-related-apps__button-container">
+						
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	<a
+		href="https://docs-for-xcode.en.softonic.com/mac/download"
+		class="btn btn--small btn--download btn--download "
+		data-ua="c=AppPostDownload,a=RelatedAppsCTA,l=xcode-mac_docs-for-xcode" 
+		
+		
+		target="_self"
+		
+	>
+		<strong>
+			
+				Download
+				
+			
+		</strong>
+		<i class="icon-download" ></i>
+	</a>
+
+					</div>
+
+					
+					<dl class="media-app__details">
+						<dt>License</dt>
+						<dd class="media-app__license media-app__license--free">
+							Free
+						<dt>Language</dt>
+						<dd class="media-app__language">English</dd>
+						</dd>
+					</dl>
+				</div>
+
+				<div>
+					<h3 class="app-post-download-related-apps__item-title">
+						<a href="https://docs-for-xcode.en.softonic.com/mac"
+							data-ua="c=AppPostDownload,a=ClickRelatedAppsTitle,l=xcode-mac_docs-for-xcode"  >
+							Docs for Xcode
+						</a>
+					</h3>
+					<p class="app-post-download-related-apps__item-summary">A free program for mac</p>
+				</div>
+			</div>
+		</li>
+	
+		
+		<li class="app-post-download-related-apps__item media media--top">
+			
+			<div class="media__image">
+				
+				<img data-lazy data-lazy-src="https://screenshots.en.sftcdn.net/en/scrn/56000/56182/deeper-2.png" alt="Deeper" width=55 height=55 data-lazy-condition="viewport:800"><noscript><img src="https://screenshots.en.sftcdn.net/en/scrn/56000/56182/deeper-2.png" alt="Deeper" width=55 height=55></noscript>
+			</div>
+
+			<div class="clearfix media__body">
+				<div>
+					
+					<div class="app-post-download-related-apps__button-container">
+						
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	<a
+		href="https://deeper.en.softonic.com/mac/download"
+		class="btn btn--small btn--download btn--download "
+		data-ua="c=AppPostDownload,a=RelatedAppsCTA,l=xcode-mac_deeper" 
+		
+		
+		target="_self"
+		
+	>
+		<strong>
+			
+				Download
+				
+			
+		</strong>
+		<i class="icon-download" ></i>
+	</a>
+
+					</div>
+
+					
+					<dl class="media-app__details">
+						<dt>License</dt>
+						<dd class="media-app__license media-app__license--free">
+							Free
+						<dt>Language</dt>
+						<dd class="media-app__language">English</dd>
+						</dd>
+					</dl>
+				</div>
+
+				<div>
+					<h3 class="app-post-download-related-apps__item-title">
+						<a href="https://deeper.en.softonic.com/mac"
+							data-ua="c=AppPostDownload,a=ClickRelatedAppsTitle,l=xcode-mac_deeper"  >
+							Deeper
+						</a>
+					</h3>
+					<p class="app-post-download-related-apps__item-summary">Mac customization utility</p>
+				</div>
+			</div>
+		</li>
+	
+		
+		<li class="app-post-download-related-apps__item media media--top">
+			
+			<div class="media__image">
+				
+				<img data-lazy data-lazy-src="https://screenshots.en.sftcdn.net/en/scrn/69708000/69708980/thumbnail_1465872917-32x32.png" alt="Dynamsoft Barcode Reader for Mac" width=55 height=55 data-lazy-condition="viewport:800"><noscript><img src="https://screenshots.en.sftcdn.net/en/scrn/69708000/69708980/thumbnail_1465872917-32x32.png" alt="Dynamsoft Barcode Reader for Mac" width=55 height=55></noscript>
+			</div>
+
+			<div class="clearfix media__body">
+				<div>
+					
+					<div class="app-post-download-related-apps__button-container">
+						
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	<a
+		href="https://dynamsoft-barcode-reader-for-mac.en.softonic.com/mac/download"
+		class="btn btn--small btn--download btn--download "
+		data-ua="c=AppPostDownload,a=RelatedAppsCTA,l=xcode-mac_dynamsoft-barcode-reader-for-mac" 
+		
+		
+		target="_self"
+		
+	>
+		<strong>
+			
+				Download
+				
+			
+		</strong>
+		<i class="icon-download" ></i>
+	</a>
+
+					</div>
+
+					
+					<dl class="media-app__details">
+						<dt>License</dt>
+						<dd class="media-app__license media-app__license--buy">
+							Trial version
+						<dt>Language</dt>
+						<dd class="media-app__language">English</dd>
+						</dd>
+					</dl>
+				</div>
+
+				<div>
+					<h3 class="app-post-download-related-apps__item-title">
+						<a href="https://dynamsoft-barcode-reader-for-mac.en.softonic.com/mac"
+							data-ua="c=AppPostDownload,a=ClickRelatedAppsTitle,l=xcode-mac_dynamsoft-barcode-reader-for-mac"  >
+							Dynamsoft Barcode Reader for Mac
+						</a>
+					</h3>
+					<p class="app-post-download-related-apps__item-summary">Dynamsoft Barcode Reader enables developers to expedite the creation of applications for the recognition of Barcode formats.</p>
+				</div>
+			</div>
+		</li>
+	
+		
+		<li class="app-post-download-related-apps__item media media--top">
+			
+			<div class="media__image">
+				
+				<img data-lazy data-lazy-src="https://screenshots.en.sftcdn.net/en/scrn/69691000/69691253/thumbnail_1408297006-32x32.png" alt="InternationalizationTool" width=55 height=55 data-lazy-condition="viewport:800"><noscript><img src="https://screenshots.en.sftcdn.net/en/scrn/69691000/69691253/thumbnail_1408297006-32x32.png" alt="InternationalizationTool" width=55 height=55></noscript>
+			</div>
+
+			<div class="clearfix media__body">
+				<div>
+					
+					<div class="app-post-download-related-apps__button-container">
+						
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	<a
+		href="https://internationalizationtool.en.softonic.com/mac/download"
+		class="btn btn--small btn--download btn--download "
+		data-ua="c=AppPostDownload,a=RelatedAppsCTA,l=xcode-mac_internationalizationtool" 
+		
+		
+		target="_self"
+		
+	>
+		<strong>
+			
+				Download
+				
+			
+		</strong>
+		<i class="icon-download" ></i>
+	</a>
+
+					</div>
+
+					
+					<dl class="media-app__details">
+						<dt>License</dt>
+						<dd class="media-app__license media-app__license--buy">
+							Trial version
+						<dt>Language</dt>
+						<dd class="media-app__language">English</dd>
+						</dd>
+					</dl>
+				</div>
+
+				<div>
+					<h3 class="app-post-download-related-apps__item-title">
+						<a href="https://internationalizationtool.en.softonic.com/mac"
+							data-ua="c=AppPostDownload,a=ClickRelatedAppsTitle,l=xcode-mac_internationalizationtool"  >
+							InternationalizationTool
+						</a>
+					</h3>
+					<p class="app-post-download-related-apps__item-summary"> The App helps developers to internationalize their Mac or iOS Apps with more than 80 languages automatically.</p>
+				</div>
+			</div>
+		</li>
+	
+	</ul>
+</section>
+
+				
+			</div>
+		</secion>
+
+		
+		
+			
+	<div class="" id="related-searches-app-post-download-page-desktop-wrapper" data-auto="related-searches-advertisement">
+		<p class="banner__title">Advertisement</p>
+		<div id="related-searches-app-post-download-page-desktop"></div>
+	</div>
+	<script>sam.cmd.push(function() { sam.display('related-searches-app-post-download-page-desktop'); });</script>
+		
+
+	</div>
+
+			
+	<div class="aside aside--sticky">
+		
+		
+	<div class="rectangle" id="top-mpu-app-post-download-page-desktop-wrapper" data-auto="mpu-banner-pdp">
+		<p class="banner__title">Advertisement</p>
+		<div id="top-mpu-app-post-download-page-desktop"></div>
+	</div>
+	<script>sam.cmd.push(function() { sam.display('top-mpu-app-post-download-page-desktop'); });</script>
+
+		
+		
+
+		
+		
+			<section data-auto="top-apps">
+	<h2 class="title-section">
+		— Top downloads —
+	</h2>
+		<ul class="box">
+			
+				<li>
+
+<a title="Cyberduck"
+   href="https://cyberduck.en.softonic.com/mac"
+   class="box box--padded box--background"
+   data-ua="c=AppPostDownload,a=ClickTopDownloadsItem,l=[object Object]_1"  >
+	<div class="media media-app media--top media-app--medium">
+		<div class="media__image media-app__image">
+			<img alt="Cyberduck" data-lazy data-lazy-condition="viewport:800" data-lazy-src="https://screenshots.en.sftcdn.net/en/scrn/20000/20095/cyberduck-03-32x32.png" width="55" height="55" data-auto="app-icon">
+		</div>
+		<div class="media__body">
+			<h3 class="media-app__title" data-auto="app-name" itemprop="name">Cyberduck</h3>
+			<h4 class="media-app__summary" data-auto="app-summary" itemprop="description">Elegant and efficient free FTP client</h4>
+		</div>
+	</div>
+</a>
+</li>
+			
+				<li>
+
+<a title="Xcode"
+   href="https://xcode-mac.en.softonic.com/mac"
+   class="box box--padded box--background"
+   data-ua="c=AppPostDownload,a=ClickTopDownloadsItem,l=[object Object]_2"  >
+	<div class="media media-app media--top media-app--medium">
+		<div class="media__image media-app__image">
+			<img alt="Xcode" data-lazy data-lazy-condition="viewport:800" data-lazy-src="https://screenshots.en.sftcdn.net/en/scrn/3336000/3336860/xcode-01-32x32.png" width="55" height="55" data-auto="app-icon">
+		</div>
+		<div class="media__body">
+			<h3 class="media-app__title" data-auto="app-name" itemprop="name">Xcode</h3>
+			<h4 class="media-app__summary" data-auto="app-summary" itemprop="description">Create your own Mac, iPhone and iPad apps</h4>
+		</div>
+	</div>
+</a>
+</li>
+			
+				<li>
+
+<a title="LogMeIn Hamachi"
+   href="https://logmein-hamachi.en.softonic.com/mac"
+   class="box box--padded box--background"
+   data-ua="c=AppPostDownload,a=ClickTopDownloadsItem,l=[object Object]_3"  >
+	<div class="media media-app media--top media-app--medium">
+		<div class="media__image media-app__image">
+			<img alt="LogMeIn Hamachi" data-lazy data-lazy-condition="viewport:800" data-lazy-src="https://screenshots.en.sftcdn.net/en/scrn/58000/58462/logmein-hamachi-5.png" width="55" height="55" data-auto="app-icon">
+		</div>
+		<div class="media__body">
+			<h3 class="media-app__title" data-auto="app-name" itemprop="name">LogMeIn Hamachi</h3>
+			<h4 class="media-app__summary" data-auto="app-summary" itemprop="description">Safely connect two computers via P2P</h4>
+		</div>
+	</div>
+</a>
+</li>
+			
+				<li>
+
+<a title="Cisco VPN Client"
+   href="https://cisco-vpn-client.en.softonic.com/mac"
+   class="box box--padded box--background"
+   data-ua="c=AppPostDownload,a=ClickTopDownloadsItem,l=[object Object]_4"  >
+	<div class="media media-app media--top media-app--medium">
+		<div class="media__image media-app__image">
+			<img alt="Cisco VPN Client" data-lazy data-lazy-condition="viewport:800" data-lazy-src="https://screenshots.en.sftcdn.net/en/scrn/47000/47892/cisco-vpn-client-01-32x32.png" width="55" height="55" data-auto="app-icon">
+		</div>
+		<div class="media__body">
+			<h3 class="media-app__title" data-auto="app-name" itemprop="name">Cisco VPN Client</h3>
+			<h4 class="media-app__summary" data-auto="app-summary" itemprop="description">One of the world&#39;s leading Virtual Private Network providers</h4>
+		</div>
+	</div>
+</a>
+</li>
+			
+				<li>
+
+<a title="TeamViewer"
+   href="https://teamviewer-mac.en.softonic.com/mac"
+   class="box box--padded box--background"
+   data-ua="c=AppPostDownload,a=ClickTopDownloadsItem,l=[object Object]_5"  >
+	<div class="media media-app media--top media-app--medium">
+		<div class="media__image media-app__image">
+			<img alt="TeamViewer" data-lazy data-lazy-condition="viewport:800" data-lazy-src="https://screenshots.en.sftcdn.net/en/scrn/70000/70178/teamviewer-04-32x32.png" width="55" height="55" data-auto="app-icon">
+		</div>
+		<div class="media__body">
+			<h3 class="media-app__title" data-auto="app-name" itemprop="name">TeamViewer</h3>
+			<h4 class="media-app__summary" data-auto="app-summary" itemprop="description">Simple, fast and secure desktop sharing</h4>
+		</div>
+	</div>
+</a>
+</li>
+			
+		</ul>
+		
+		<a href="https://en.softonic.com/mac/development:top-downloads"
+			title="Top downloads"
+			class="btn-more--outline"
+			data-ua="c=AppPostDownload,a=ClickTopDownloadsSeeAll,l=xcode-mac"  >
+			More
+		</a>
+</section>
+
+		
+
+		
+		
+	<div class="rectangle wrapper--padded-b" id="bottom-mpu-app-post-download-page-desktop-wrapper" data-auto="bottom-mpu-banner-pdp">
+		<p class="banner__title">Advertisement</p>
+		<div id="bottom-mpu-app-post-download-page-desktop"></div>
+	</div>
+	<script>sam.cmd.push(function() { sam.display('bottom-mpu-app-post-download-page-desktop'); });</script>
+
+	</div>
+
+		</div>
+	</div>
+
+	<div class="wrapper-content">
+		
+	
+	
+		<section class="app-post-download-related-videos">
+	<h2 class="title-section">— Related videos —</h2>
+	<ul class="clearfix">
+		
+		
+	</ul>
+</section>
+
+<div id="gallery" class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="pswp__bg"></div>
+	<div class="pswp__scroll-wrap">
+		<div class="pswp__container">
+			<div class="pswp__item"></div>
+			<div class="pswp__item"></div>
+			<div class="pswp__item"></div>
+		</div>
+		<div class="pswp__ui pswp__ui--hidden">
+			<div class="pswp__top-bar">
+				<div class="pswp__counter"></div>
+				<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+				<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+				<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+				<div class="pswp__preloader">
+					<div class="pswp__preloader__icn">
+						<div class="pswp__preloader__cut">
+							<div class="pswp__preloader__donut"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+				<div class="pswp__share-tooltip"></div>
+			</div>
+			<button class="pswp__button pswp__button--arrow--left" title="Prev">
+			</button>
+			<button class="pswp__button pswp__button--arrow--right" title="Next">
+			</button>
+			<div class="pswp__caption">
+				<div class="pswp__caption__center"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+	
+
+	
+	
+		
+<section class="app-related-content clearfix">
+	<h2 class="title-section" data-auto="related-articles-title">
+		— Features — <span>about Xcode</span>
+	</h2>
+	<ul class="clearfix" data-auto="related-articles">
+		
+			<li class="col-4 col--has-actions">
+				<article class="cu-article">
+	<a href="https://features.en.softonic.com/apple-releases-aperture-development-kit"
+		data-ua="c=AppPostDownload,a=ClickRelatedArticlesItem,l=xcode-mac_apple-releases-aperture-development-kit_1" data-st="click_type=feature,feature_name=apple-releases-aperture-development-kit,feature_id=490,feature_position=1,e=click" >
+		
+		<div class="cu-article__image">
+			<img data-lazy data-lazy-src="https://m.sftcdn.net/images/13ca3-c4a08.png" alt="Apple releases Aperture development kit" data-lazy-condition="viewport:800"><noscript><img src="https://m.sftcdn.net/images/13ca3-c4a08.png" alt="Apple releases Aperture development kit"></noscript>
+		</div>
+		<span class="cu-article__label">opinion</span>
+		<h3 class="cu-article__headline">Apple releases Aperture development kit</h3>
+	</a>
+</article>
+
+			</li>
+		
+			<li class="col-4 col--has-actions">
+				<article class="cu-article">
+	<a href="https://features.en.softonic.com/mac-tip-change-ical-default-alarm-sound"
+		data-ua="c=AppPostDownload,a=ClickRelatedArticlesItem,l=xcode-mac_mac-tip-change-ical-default-alarm-sound_2" data-st="click_type=feature,feature_name=mac-tip:-change-ical-default-alarm-sound,feature_id=432,feature_position=2,e=click" >
+		
+		<div class="cu-article__image">
+			<img data-lazy data-lazy-src="https://m.sftcdn.net/images/13ca3-c4a08.png" alt="Mac tip: Change iCal default alarm sound" data-lazy-condition="viewport:800"><noscript><img src="https://m.sftcdn.net/images/13ca3-c4a08.png" alt="Mac tip: Change iCal default alarm sound"></noscript>
+		</div>
+		<span class="cu-article__label">tips</span>
+		<h3 class="cu-article__headline">Mac tip: Change iCal default alarm sound</h3>
+	</a>
+</article>
+
+			</li>
+		
+	</ul>
+	<a href="https://features.en.softonic.com"
+		data-auto="more-related-articles"
+		class="btn-more--outline"
+		data-ua="c=AppPostDownload,a=ClickRelatedArticlesReadMore,l=xcode-mac"  >
+		Read more stories
+	</a>
+</section>
+
+	
+
+	
+	<div class="wrapper--padded-h">
+		
+	<div class="leaderboard" id="bottom-leaderboard-app-post-download-page-desktop-wrapper" data-auto="bottom-leaderboard-pdp">
+		<p class="banner__title">Advertisement</p>
+		<div id="bottom-leaderboard-app-post-download-page-desktop"></div>
+	</div>
+	<script>sam.cmd.push(function() { sam.display('bottom-leaderboard-app-post-download-page-desktop'); });</script>
+	</div>
+
+	</div>
+
+	
+	
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+<footer class="footer">
+	<section class="footer__info">
+		<div class="wrapper-content">
+			<div class="content">
+				<div class="footer__col" data-auto="footer-about">
+					<p class="footer__title">
+						About Us
+					</p>
+					<ul class="footer__list">
+						<li>
+							<a class="footer__link" title="Softonic Info" rel="nofollow" target="_blank"
+								href="https://hello.softonic.com/">
+								Softonic Info
+							</a>
+						</li>
+						<li>
+							<a class="footer__link" title="Help & Support" rel="nofollow" target="_blank"
+								href="https://get-support.softonic.com/">
+								Help & Support
+							</a>
+						</li>
+						<li>
+							<a class="footer__link" title="Jobs" rel="nofollow" target="_blank"
+								href="https://hello.softonic.com/careers/#join-us">
+								Jobs
+							</a>
+						</li>
+						<li>
+							<a class="footer__link" title="Company News" rel="nofollow" target="_blank"
+								href="https://hello.softonic.com/press-room/">
+								Company News
+							</a>
+						</li>
+						<li>
+							<a class="footer__link" title="Legal Information" rel="nofollow" target="_blank"
+								href="https://hello.softonic.com/legal-information/">
+								Legal Information
+							</a>
+						</li>
+						<li>
+							<a class="footer__link" title="Cookie Policy" rel="nofollow" target="_blank"
+								href="https://hello.softonic.com/cookies-policy/">
+								Cookie Policy
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="footer__col" data-auto="footer-developers">
+					<p class="footer__title">
+						Developers
+					</p>
+					<ul class="footer__list">
+						<li>
+							<a class="footer__link" title="Softonic Developer Center"
+							    rel="nofollow"
+								target="_blank" href="http://dev-support.softonic.com/customer/en/portal/articles/2560330-softonic-developer-center-is-no-longer-available">
+								Softonic Developer Center
+							</a>
+						</li>
+						<li>
+							<a class="footer__link" title="Upload and Manage your Software"
+							    rel="nofollow"
+							    target="_blank"
+								href="http://dev-support.softonic.com/customer/en/portal/articles/2567950-how-can-i-publish-my-app-on-softonic">
+								Upload and Manage your Software
+							</a>
+						</li>
+						<li>
+							<a class="footer__link" title="Software Policy" rel="nofollow" target="_blank"
+								href="https://hello.softonic.com/software-policy/">
+								Software Policy
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="footer__col" data-auto="footer-partners">
+					<p class="footer__title">
+						Partners
+					</p>
+					<ul class="footer__list">
+						<li>
+							<a class="footer__link" title="Advertising Opportunities"
+							    rel="nofollow"
+							    target="_blank"
+								href="https://hello.softonic.com/for-advertisers/#advertising-solutions">
+								Advertising Opportunities
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="footer__col" data-auto="footer-users">
+					<p class="footer__title">
+						Users
+					</p>
+					<ul class="footer__list">
+						<li data-auto="footer-social">
+							<ul class="footer__list footer__list--h">
+								<li>
+									<a title="Become a fan of Softonic"
+										class="footer__icon footer__icon--facebook"
+										rel="nofollow" target="_blank"
+										href="https://www.facebook.com/softonic.en/">
+										<span>
+											Become a fan of Softonic
+										</span>
+										<i class="icon-facebook" ></i>
+									</a>
+								</li>
+								<li>
+									<a title="Follow us @Softonic"
+										class="footer__icon footer__icon--twitter"
+										rel="nofollow" target="_blank"
+										href="https://twitter.com/softonic">
+										<span>
+											Follow us @Softonic
+										</span>
+										<i class="icon-twitter" ></i>
+									</a>
+								</li>
+								<li>
+									<a title="Google+"
+										class="footer__icon footer__icon--google-plus"
+										rel="nofollow" target="_blank"
+										href="https://plus.google.com/103976998075187754475/">
+										<span>
+											Google+
+										</span>
+										<i class="icon-google-plus" ></i>
+									</a>
+								</li>
+								<li>
+									<a title="LinkedIn"
+										class="footer__icon footer__icon--linkedin"
+										rel="nofollow" target="_blank"
+										href="https://www.linkedin.com/company/softonic">
+										<span>
+											LinkedIn
+										</span>
+										<i class="icon-linkedin" ></i>
+									</a>
+								</li>
+								<li>
+									<a title="Flickr"
+										class="footer__icon footer__icon--flickr"
+										rel="nofollow" target="_blank"
+										href="https://www.flickr.com/photos/softonic">
+										<span>
+											Flickr
+										</span>
+										<i class="icon-flickr" ></i>
+									</a>
+								</li>
+								<li>
+									<a title="Subscribe to our RSS feeds"
+										class="footer__icon footer__icon--rss"
+										rel="nofollow" target="_blank"
+										href="https://en.softonic.com/feeds">
+										<!-- TODO customize link -->
+										<span>
+											Subscribe to our RSS feeds
+										</span>
+										<i class="icon-rss" ></i>
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a class="footer__link" title="Softonic Solutions"
+								target="_blank" href="https://solutions.softonic.com/?utm_source=Cross%20Promotion&utm_medium=Footer&utm_term=en-US">
+								Softonic Solutions
+							</a>
+						</li>
+						
+						<li>
+							<a class="footer__link" title="Softonic Deals"
+								rel="nofollow" target="_blank"
+								href="https://deals.softonic.com/">
+								Softonic Deals
+							</a>
+						</li>
+						
+						<li>
+							<a class="footer__link" title="Softonic Newsletters"
+								target="_blank"
+								href="https://newsletters.softonic.com?utm_medium=referral&amp;utm_source=en.softonic.com&amp;utm_campaign=footer">
+								Softonic Newsletters
+							</a>
+						</li>
+						
+						<li>
+							<a class="footer__link" title="Looking for mobile apps? Go to AppCrawlr"
+								target="_blank"
+								href="http://appcrawlr.com">
+								AppCrawlr
+							</a>
+						</li>
+						
+						<li>
+							<a class="footer__link" title="Softonic Business"
+								target="_blank"
+								rel="nofollow"
+								href="https://business.softonic.com/">
+								Softonic Business
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="footer__languages" data-auto="footer-languages">
+		<div class="wrapper-content">
+			<div class="content">
+				<div class="footer__break footer__df">
+					<p class="footer__title footer__title--s">
+						Softonic in:
+					</p>
+					
+
+<ul class="footer__list footer__list--h footer__list--languages">
+	
+
+	
+	
+		<li>
+			<a class="footer__link "
+				title="Español" hreflang="es-ES" href="https://www.softonic.com">
+				Español
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link footer__link--current"
+				title="English" hreflang="en-US" href="https://en.softonic.com">
+				English
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="Français" hreflang="fr-FR" href="https://fr.softonic.com">
+				Français
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="Deutsch" hreflang="de-DE" href="https://de.softonic.com">
+				Deutsch
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="Italiano" hreflang="it-IT" href="https://it.softonic.com">
+				Italiano
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="Português" hreflang="pt-BR" href="https://www.softonic.com.br">
+				Português
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="Polski" hreflang="pl-PL" href="https://www.softonic.pl">
+				Polski
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="Nederlands" hreflang="nl-NL" href="https://nl.softonic.com">
+				Nederlands
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="日本語" hreflang="ja-JP" href="https://www.softonic.jp">
+				日本語
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="Türkçe" hreflang="tr-TR" href="https://tr.softonic.com/">
+				Türkçe
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="한국어/조선말" hreflang="ko-KR" href="https://ko.softonic.com/">
+				한국어/조선말
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="Svenska" hreflang="sv-SE" href="https://sv.softonic.com/">
+				Svenska
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="Русский" hreflang="ru-RU" href="https://ru.softonic.com">
+				Русский
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="عربي" hreflang="ar-SA" href="https://ar.softonic.com">
+				عربي
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="עִבְרִית" hreflang="he-IL" href="https://he.softonic.com">
+				עִבְרִית
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="Dansk" hreflang="da-DK" href="https://da.softonic.com">
+				Dansk
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="Suomi" hreflang="fi-FI" href="https://fi.softonic.com">
+				Suomi
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="Bahasa Indonesia" hreflang="id-ID" href="https://id.softonic.com">
+				Bahasa Indonesia
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="Bahasa Melayu" hreflang="ms-MY" href="https://ms.softonic.com">
+				Bahasa Melayu
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="Tiếng Việt" hreflang="vi-VN" href="https://vi.softonic.com">
+				Tiếng Việt
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="Tagalog" hreflang="tl-PH" href="https://tl.softonic.com">
+				Tagalog
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="Română" hreflang="ro-RO" href="https://ro.softonic.com">
+				Română
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="ภาษาไทย" hreflang="th-TH" href="https://th.softonic.com">
+				ภาษาไทย
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="български език" hreflang="bg-BG" href="https://bg.softonic.com">
+				български език
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="Magyar" hreflang="hu-HU" href="https://hu.softonic.com">
+				Magyar
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="Ελληνικά" hreflang="el-GR" href="https://el.softonic.com">
+				Ελληνικά
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="Čeština" hreflang="cs-CZ" href="https://cs.softonic.com">
+				Čeština
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="Svenska" hreflang="sv-SE" href="https://sv.softonic.com">
+				Svenska
+			</a>
+		</li>
+	
+		<li>
+			<a class="footer__link "
+				title="Norsk" hreflang="no-NO" href="https://no.softonic.com">
+				Norsk
+			</a>
+		</li>
+	
+	
+</ul>
+
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="footer__legal" data-auto="footer-legal">
+	<div class="wrapper-content">
+		<div class="content">
+			<img src="https://m.sftcdn.net/images/11521-0098a.png"
+				alt="Softonic logo" width="160" height="34"/>
+			<p>
+				The name and logo of Softonic are registered trademarks of SOFTONIC INTERNATIONAL S.A.
+			</p>
+			<p>
+				Copyright SOFTONIC INTERNATIONAL S.A. © 1997-2016 - All rights reserved
+			</p>
+		</div>
+	</div>
+</section>
+
+</footer>
+
+	
+
+	
+	<div id="wallpaper-app-post-download-page-desktop"></div>
+
+	
+	
+	<div class="exit-intent-modal is-hidden" id="exit-intent-app-post-download-page-desktop-wrapper" data-auto="">
+		<p class="banner__title">Advertisement</p>
+		<div id="exit-intent-app-post-download-page-desktop"></div>
+	</div>
+	<script>sam.cmd.push(function() { sam.display('exit-intent-app-post-download-page-desktop'); });</script>
+	<div class="exit-intent-modal__overlay js-modal-opaque-layer ei-close is-hidden"></div>
+
+
+	
+		
+<div id="message-cookie" class="message-cookie is-hidden" data-auto="message-cookie">
+  <a href="#" class="message-cookie__close" data-dm-hide><i class="icon-close" ></i></a>
+  <p>
+    We use own and third party cookies to improve our services and your experience. This includes to personalise ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners. If you continue browsing, you are considered to have accepted such use. You may change your cookie preferences and obtain more information <a class="message-cookie__link" href="https://corporatev1.softonic.com/legal-information/cookies-policy">here</a>.
+  </p>
+</div>
+
+	
+
+	
+		
+
+<!-- Begin comScore Tag -->
+
+<script>
+	var _comscore = _comscore || [];
+	_comscore.push({ c1: "2", c2: "15548145" });
+	(function() {
+		var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+		s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+		el.parentNode.insertBefore(s, el);
+	})();
+	</script>
+<noscript>
+	<img class="is-hidden" alt="" src="https://sb.scorecardresearch.com/p?c1=2&c2=15548145&cv=2.0&cj=1">
+</noscript>
+<!-- End comScore Tag -->
+
+<!-- Begin Commission Junction Tag -->
+<script src="//www.anrdoezrs.net/am/7074958/include/allCj/impressions/page/am.js"></script>
+<!-- End Commission Junction Tag -->
+
+<!-- Begin Viglink Tag -->
+<script type="text/javascript">
+ 	var vglnk = { key: 'df6d80a1b9f24a97ccf28528d3782d98' };
+	(function(d, t) {
+		var s = d.createElement(t); s.type = 'text/javascript'; s.async = true;
+		s.src = '//cdn.viglink.com/api/vglnk.js';
+		var r = d.getElementsByTagName(t)[0]; r.parentNode.insertBefore(s, r);
+	}(document, 'script'));
+</script>
+<!-- End Viglink Tag -->
+
+	
+
+	
+	
+		<!-- This site is converting visitors into subscribers and customers with OptinMonster - https://optinmonster.com :: Campaign Title: Adblock for Charity --><div id="om-vdgkwytmd3kgzmizdjqo-holder"></div><script>var vdgkwytmd3kgzmizdjqo,vdgkwytmd3kgzmizdjqo_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){vdgkwytmd3kgzmizdjqo_poll(function(){if(window['om_loaded']){if(!vdgkwytmd3kgzmizdjqo){vdgkwytmd3kgzmizdjqo=new OptinMonsterApp();return vdgkwytmd3kgzmizdjqo.init({"u":"9844.590082","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="//a.optnmstr.com/app/js/api.min.js",o.async=true,o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;vdgkwytmd3kgzmizdjqo=new OptinMonsterApp();vdgkwytmd3kgzmizdjqo.init({"u":"9844.590082","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");</script><!-- / OptinMonster -->
+	
+</body>
+</html>

@@ -1,0 +1,348 @@
+        <!DOCTYPE html>
+    <html>
+    <head>
+    <title>Alerta por llegada a Latinoamérica de juego suicida 'La ballena Azul' publimetro 30-04-2017</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta property="og:title" content="Alerta por llegada a Latinoamérica de juego suicida 'La ballena Azul'">
+    <meta property="og:url" content="https://rudo.video/vod/czbai5iiPuJ">
+    <meta property="og:image" content="https://cdn.rudo.video/upload/cl/publimetro/171249/90fcc95a21e0cdab0349d8f9b2935cbb.png">
+    <meta property="og:type" content="video">
+    <!--<meta property="og:video:type" content="text/html">
+    <meta property="og:video:url" content="https://rudo.video/vod/czbai5iiPuJ">
+    <meta property="og:video:secure_url" content="https://rudo.video/vod/czbai5iiPuJ">
+    <meta property="og:video:width" content="640">
+    <meta property="og:video:height" content="400">-->
+    <style type="text/css">
+    <!--
+    body {
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        background-color:#000;
+    }
+    -->
+        </style>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href='//fonts.googleapis.com/css?family=Lato:400,700,400italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="//rudo.video/public/js/jwplayer7/dps/css/main.css?v=20170331131513" type='text/css'>
+    <script type="text/javascript" src="//rudo.video/public/js/jwplayer7/793/jwplayer.js?v=793"></script>
+<script type="text/javascript">jwplayer.key="6fuOgxwy6dTeg6VwzKAFFzAHt+/xctMu9AsMrQ=="</script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-38929304-1', 'auto');
+      ga('send', 'pageview');
+    ga('create', 'UA-62175018-1', 'auto',{'name': 'publimetro'});
+ga('create', 'UA-76778857-13', 'auto',{'name': 'newmetro'});    </script>
+    <script src="//rudo.video/public/js/jquery.min.js"></script>
+    <!--<script src="//rudo.video/public/js/socket.io.js"></script>
+    <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>-->
+    <script src="//rudo.video/public/js/jquery.keepAlive.min.js"></script>
+    <script type="text/javascript">
+    var counter=0;
+    var vkey="czbai5iiPuJ";
+    var fechaUnMes='Tue, 30 May 2017 12:46:39';
+    var apiUrl="//rudo.video";
+    var isMobile=1;    window.addEventListener('message', function(event) {
+        if (~event.origin.indexOf('')) {
+            msg=event.data;
+            if(msg=="start"){
+                startPlayer();
+            }
+            if(msg=="stop"){
+                stopPlayer();
+            }
+        } else {
+            return;
+        }
+    });
+    function stopPlayer(){
+           jwplayer("1899306961").pause();
+        }
+        function startPlayer(){
+            jwplayer("1899306961").play();
+        }
+    function countPlus(){
+        if(counter==0){
+            $.getJSON("//rudo.video/api/countvideo/"+vkey+"?callback=?",function(data){counter=1});
+        }
+      }
+    </script>
+
+    </head>
+
+    
+    <body class="">
+    <div class="tags-overlay">
+        <div class="tags">
+            <a href="#" class="tags-close"><i class="fa fa-times"></i></a>
+            <h3>Notas</h3>
+            <div class="tags-container js-custom-scroll">
+                <ul class="notas-list"></ul>
+            </div>
+        </div>
+    </div>
+
+    
+        <div class="dps-player windows-height dps-without-notas">
+        <div id="1899306961"></div>
+                <div class="dps-player-top-left">
+            <div class="dps-player-title">Alerta por llegada a Latinoamérica de juego suicida 'La ballena Azul'</div>
+            <div class="dps-player-views">
+                <div class="dps-player-views__item">
+                    <strong><i class="fa fa-play-circle-o" title="Plays"></i> 247697</strong>
+                </div>
+                <div class="dps-player-views__item">
+                    <span id="moreLive"></span>
+                </div>
+            </div>
+        </div>
+                    <div class="dps-overlay">
+                <div class="dps-player-preview-text">
+                    <div class="dps-player-preview-left">
+                        <a id="circle-play" href="javascript:void(0);" class="circle-play"><i class="fa fa-play"></i></a>
+                    </div>
+                    <div class="dps-player-preview-right">
+                        <small class="date">24.04.2017</small>
+                        <strong>Alerta por llegada a Latinoamérica de juego suicida 'La ballena Azul'</strong>
+                                                    <span>00:01:57</span></span>
+                                            </div>
+                    <div class="dps-player-preview-text-reactions">
+                        <div class="item">
+                            <span>247697 <i class="fa fa-play-circle-o" aria-hidden="true"></i></span>
+                        </div>
+                                            </div>
+                </div>
+            </div>
+                        <div class="dps-complete"></div>
+    </div>
+    
+    
+    <script type="text/javascript">
+$('.dps-player').removeClass('windows-height')
+var currentUrl = document.referrer;
+var randomNumber = Math.floor(Math.random() * 999999999) + 1 ;
+function initPlayer() {
+var playerInstance = jwplayer('1899306961');
+playerInstance.setup({
+base: '//rudo.video/public/js/jwplayer7/793/',
+width: '100%',
+aspectratio:'16:9',
+skin: "dps-7",
+sharing: {
+sites: ['facebook','twitter', 'email', {"icon":"\/\/rudo.video\/public\/img\/whatsapp.png","src":"whatsapp:\/\/send?text=","label":"Whatsapp"}],
+code: encodeURI('<iframe src="https://rudo.video/vod/czbai5iiPuJ/country/Chile/section/noticias/device/Desktop/type/sitio/origin/site/autostart/false/volume/0" width="600" height="338" allowfullscreen/></iframe>'),
+link: "https://www.publimetro.cl/cl/nacional/2017/04/27/juego-ballena-azul-estos-50-retos-peligroso-viral-llego-chile.html", 
+heading: 'Compartir video'
+},
+events: { onAdPlay:function(){ ga('publimetro.send', 'event', 'advertising','Desktop', 'PLAY'); },
+onAdComplete:function(){ga('publimetro.send', 'event', 'advertising','Desktop', 'Complete');  },
+onAdError:function(){ga('publimetro.send', 'event', 'advertising','Desktop', 'Error'); },
+onAdSkipped:function(){ga('publimetro.send', 'event', 'advertising','Desktop', 'Skip'); },
+onAdClick:function(){ga('publimetro.send', 'event', 'advertising','Desktop', 'Click'); },
+onReady:function(){ga('publimetro.send', 'event', 'Player','Desktop', 'Alerta por llegada a Latinoamérica de juego suicida \'La ballena Azul\''); ga('publimetro.send', 'event', 'Player','sitio', 'Alerta por llegada a Latinoamérica de juego suicida \'La ballena Azul\'');
+if(document.URL.search("autostart/true")>-1)
+ga('newmetro.send', 'event', 'AUTOPLAY','_TRUE', 'Alerta por llegada a Latinoamérica de juego suicida \'La ballena Azul\'');
+else
+ga('newmetro.send', 'event', 'AUTOPLAY','_FALSE', 'Alerta por llegada a Latinoamérica de juego suicida \'La ballena Azul\'');},
+onPlay:function(){if(typeof(window['onPlay']) == "undefined"){ga('newmetro.send', 'event', 'VOD','_site', 'Alerta por llegada a Latinoamérica de juego suicida \'La ballena Azul\'');window['onPlay']= 1;}},
+ onAdImpression:function(){ga('newmetro.send', 'event', 'ADS','_site', 'Alerta por llegada a Latinoamérica de juego suicida \'La ballena Azul\'');}
+ },
+abouttext: "RUDO LIVE|OTT|VOD|CLIPPING  DIGITALPROSERVER.COM @ 2016",
+aboutlink:"http://www.digitalproserver.com",
+volume: 0,
+primary :'html5',
+playlist: {
+image:'//cdn.rudo.video/upload/cl/publimetro/171249/90fcc95a21e0cdab0349d8f9b2935cbb.png',
+sources: [
+{file: 'https://unlimited2-us.dps.live/vod/cl/publimetro/171249/smil:czbai5iiPuJ.smil/playlist.m3u8'},
+{file: 'https://unlimited2-us.dps.live/vod/cl/publimetro/171249/czbai5iiPuJ_720.mp4',
+label: '720'
+},
+{file: 'https://unlimited2-us.dps.live/vod/cl/publimetro/171249/czbai5iiPuJ_480.mp4',
+label: '480'
+},
+{file: 'https://unlimited2-us.dps.live/vod/cl/publimetro/171249/czbai5iiPuJ_240.mp4',
+label: '240'
+}
+],
+},
+tracks: [{file: '//cdn.rudo.video/upload/cl/publimetro/171249/thumbnails.vtt', kind: 'thumbnails'}],
+advertising: {
+admessage: 'Publicidad xx segundos restantes',
+skipoffset: '30',
+autoplayadsmuted:true,
+client: 'googima',
+schedule: {
+adbreak1: {
+offset: 'pre',
+tag: 'https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/59391304/CL/Metro/ad_preroll&impl=s&gdfp_req=1&env=vp&output=xml_vast3&unviewed_position_start=1&url=https://www.publimetro.cl/cl/nacional/2017/04/27/juego-ballena-azul-estos-50-retos-peligroso-viral-llego-chile.html&description_url=URL&correlator='+randomNumber+'9&cust_params=idvideo%3Dczbai5iiPuJ%26ubicacion%3Dsitio%26canal%3Dnoticias%26demo%3Dtv_CL',
+},
+adbreak2: {
+offset: 'post',
+tag: 'https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/59391304/CL/Metro/ad_postroll&impl=s&gdfp_req=1&env=vp&output=xml_vast3&unviewed_position_start=1&url=https://www.publimetro.cl/cl/nacional/2017/04/27/juego-ballena-azul-estos-50-retos-peligroso-viral-llego-chile.html&description_url=URL&correlator='+randomNumber+'9&cust_params=idvideo%3Dczbai5iiPuJ%26ubicacion%3Dsitio%26canal%3Dnoticias%26demo%3Dtv_CL',
+},
+adbreak3: {
+offset: '99999',
+tag: 'https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/59391304/CL/Metro/ad_midroll&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&url=https://www.publimetro.cl/cl/nacional/2017/04/27/juego-ballena-azul-estos-50-retos-peligroso-viral-llego-chile.html&description_url=URL&correlator='+randomNumber+'9&cust_params=idvideo%3Dczbai5iiPuJ%26ubicacion%3Dsitio%26canal%3Dnoticias%26demo%3Dtv_CL',
+},
+}
+},
+});
+$('.dps-like-box .reaction-box ul li a').on('click', function() {
+$('.dps-like-box').removeClass('isHovered');});
+$('.current-reaction').on('click', function() {
+$('.dps-like-box').addClass('isHovered');});
+jwplayer('1899306961').on('adPlay', function() {
+$('.dps-overlay').fadeOut();
+$('.with-simple').addClass('is-played');
+});
+jwplayer('1899306961').on('play', function() {
+$('.dps-complete').hide();
+$('.with-simple').addClass('is-played');
+$('.goog-ui-media-flash').hide();
+});
+jwplayer('1899306961').on('error', function() {
+});
+jwplayer('1899306961').on('adError', function() {
+});
+firstAds=true;
+jwplayer('1899306961').on('adPause', function() {
+console.log('adPause');
+});
+jwplayer('1899306961').on('buffer', function() {
+$('.dps-complete').hide();
+$('.with-simple').addClass('is-played');
+});
+jwplayer('1899306961').on('complete', function() {
+$('.dps-complete').show();
+});
+};
+(function(){
+initPlayer();
+$('.dps-complete').on('click', function(){ jwplayer('1899306961').play(); });$('.dps-overlay').on('click', function(e) {
+e.preventDefault();
+$('.js-notas').css('pointer-events', 'auto');$('.dps-overlay').fadeOut();
+$('.dps-player').addClass('content-visible');
+$('.dps-player-top-left, .dps-like-box').animate({ opacity: 1 }, 400);
+jwplayer('1899306961').play();
+jwplayer().setMute(false);
+jwplayer().setVolume(100);
+});
+})();var second; var sharing;var cont_trigger = 0;jwplayer('1899306961').on('play', function() {if(cont_trigger == 1) {jwplayer('1899306961').seek(second);}});jwplayer('1899306961').on('ready', function() {$('.jw-video').attr('title', 'RUDO VOD | Alerta por llegada a Latinoamérica de juego suicida \'La ballena Azul\'');
+if(0 == 1) {$.getJSON('//cdn.rudo.video/upload/cl/publimetro/171249/timeline_tag.json', function(json, textStatus) {var length = json.length;$('.js-notas').append('<span class=\'bag\'>' + length + '</span>');$.each(json, function(index, val){$('.notas-list').append('<li><a href=\'#\' data-second=\''+ val.second +'\'><i class=\'fa fa-eye\'></i> ' + val.title  +'</a></li>');});});$('body').on('click', '.notas-list a', function(e) {e.preventDefault();second = $(this).data('second');if(cont_trigger == 0) { if( !$('.jwplayer').hasClass('jw-state-playing') ) { jwplayer('1899306961').play(); } else { jwplayer('1899306961').seek(second); } } else { jwplayer('1899306961').seek(second); }cont_trigger++});$('.tags-close').on('click', function(e) { e.preventDefault(); $('.tags-overlay').removeClass('active'); });$('.jw-controls-right').append('<div class=\'jw-dock jw-reset\'><div class=\'js-notas\'></div></div>');$('.notas-list').empty();$('.js-notas').on('click', function(){ $('.tags-overlay').toggleClass('active'); });$('.js-custom-scroll').perfectScrollbar();}$('.tags-overlay').on('click', function(e) { if(e.target != this) return; $(this).removeClass('active'); });$('.jw-controlbar-right-group').append('<div class="dps jw-icon-inline"><a href="http://www.digitalproserver.com/" target="_blank"></a></div>');
+var $jwplayer = $('.dps-player-top-left').siblings('.jwplayer');
+$('.dps-player-top-left').appendTo($jwplayer);
+$('.dps-like-box').appendTo($jwplayer);
+var relatedPlugin = jwplayer('1899306961').getPlugin('related');
+relatedPlugin.on('play',function(data){window.location.href = data.item.link;$('.dps-player-title').html(data.item.title);$('.dps-player-views').html('<strong>'+data.item.mediaid+'</strong> <i class="fa fa-eye"></i>');});
+});
+</script>
+
+    
+    
+    <script src="//rudo.video/public/js/clipboard.min.js"></script>
+
+    <script>
+
+    $(function() {
+        $('.youtube-overlay').on('click', function() {
+            //console.log(0);
+            $('.with-simple').addClass('is-played');
+            $('.youtube-overlay').hide();
+            jwplayer("1899306961").play();
+        });
+
+        function likeBoxTopCalc() {
+            $('.dps-like-box').removeAttr('style');
+            if ($(window).width() < 1700) {
+                $('.dps-like-box').css('top', $('.dps-player-top-left').height() + 15);
+            };
+        };
+
+        $(window).on('load resize', likeBoxTopCalc);
+        var socket;
+        jwplayer().on('firstFrame', function(event){
+            //$.fn.keepAlive({url: 'https://count.rudo.video/?k=czbai5iiPuJ&s=8e13508b69fce307cea49e7d7cc97796r', timer: 5000});
+            // socket = io.connect("https://count.rudo.video");
+            // socket.on('connect', function () {
+            //     //console.log('Socket connected');
+            //     socket.send("czbai5iiPuJ");
+            //     socket.on('rudoview', function (msg) {
+            //         if(msg.video=="czbai5iiPuJ"){
+            //             //console.log(msg.video+" "+msg.current+"/"+msg.total);
+            //             //console.log("rudoViewers:"+msg.total);
+            //             $('#moreLive').html("<i class=\"fa fa-eye\"></i> <strong>"+msg.current+"</strong>");
+            //         }
+            //     });
+            // });
+            countPlus();
+        });
+        jwplayer().on('idle', function(event){
+            console.log("idle");
+            counter=0;
+            // socket.disconnect();
+            //$.fn.keepAlive('stop');
+        });
+        jwplayer().on('adCompanions', function(event){
+            console.log("adCompanions local");
+        });
+        jwplayer().on('play', function(event){
+            var iframe = '<input spellcheck="false" id="iframe_input" data-clipboard-text="<iframe src=\'https://rudo.video/vod/czbai5iiPuJ/country/Chile/section/noticias/device/Desktop/type/sitio/origin/site/autostart/false/volume/0\' width=\'600\' height=\'338\' allowfullscreen></iframe>" value="<iframe src=\'https://rudo.video/vod/czbai5iiPuJ/country/Chile/section/noticias/device/Desktop/type/sitio/origin/site/autostart/false/volume/0\' width=\'600\' height=\'338\' allowfullscreen></iframe>" />';
+            if ($('.jw-sharing-content .clipboard-container').length == 0) {
+                $('.jw-sharing-content').append('<div class="clipboard-container"><span>Codigo</span>' + iframe + '</div>');
+            }
+            //countPlus();
+                        $('.dps-player').addClass('content-visible');
+            $('.dps-overlay').fadeOut();
+            $('.dps-player-top-left, .dps-like-box').animate({ opacity: 1 }, 400);
+                    });
+
+        $(document).on('focus click', '#iframe_input', function() {
+            $(this).focus();
+            $(this).select();
+
+            try {
+                $('.jw-plugin-sharing').removeClass('jw-link-copiado');
+                $('.jw-plugin-sharing.jw-show').addClass('jw-plugin-sharing-textarea-copied');
+                setTimeout(function() {
+                        $('.jw-plugin-sharing.jw-show').removeClass('jw-plugin-sharing-textarea-copied');
+                }, 2000);
+            } catch (err) {
+                console.log('Oops, unable to copy');
+            }
+        });
+
+        $(document).on('click', '.jw-sharing-icon-container', function(e) {
+            var linkbutton = $(this).find('.jw-sharing-icon-link').length;
+            if (linkbutton) {
+                $('.jw-plugin-sharing').addClass('jw-link-copiado');
+            } else {
+                $('.jw-plugin-sharing').removeClass('jw-link-copiado');
+            }
+        });
+
+        var clipboard = new Clipboard('#iframe_input');
+        clipboard.on('success', function(e) {
+            // console.info('Action:', e.action);
+            // console.info('Text:', e.text);
+            // console.info('Trigger:', e.trigger);
+
+            e.clearSelection();
+        });
+
+        clipboard.on('error', function(e) {
+            console.error('Action:', e.action);
+            console.error('Trigger:', e.trigger);
+        });
+
+    });
+    </script>
+    <!-- 67.43.5.172 US https: 04/30/2017 12:46:39 pm -->
+    </body>
+    </html>

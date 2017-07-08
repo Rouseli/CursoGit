@@ -1,0 +1,1384 @@
+
+  
+  
+<div class='customer-ratings'>
+  <h4>Valoraciones de clientes</h4>
+  <div class="ratings-container">
+    <div class="histogram-container">
+      
+      
+<div class="ratings-histogram">
+  <a href="#" aria-label='4 estrellas y media, Promedio de valoración de la versión actual:'>Promedio de valoración de la versión actual:</a>
+
+  
+    <div class='rating' role='img' tabindex='-1' aria-label='4 estrellas y media, 410 valoraciones'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star half">&nbsp;</span></div><span class="rating-count">410 valoraciones</span>
+</div>
+
+  
+
+  <div class="vote" role="text" aria-label='5 estrellas, 284 valoraciones'>
+    <div class='stars' role='img' tabindex='-1' aria-label='5 estrellas'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span></div></div>
+
+    <div class="graph">
+      <span class="bar" style="width: 100%;"></span>
+    </div>
+    <span class="total">284</span>
+  </div>
+
+  <div class="vote" role="text" aria-label='4 estrellas, 110 valoraciones'>
+    <div class='stars' role='img' tabindex='-1' aria-label='4 estrellas'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div></div>
+
+    <div class="graph">
+      <span class="bar" style="width: 38%;"></span>
+    </div>
+    <span class="total">110</span>
+  </div>
+
+  <div class="vote" role="text" aria-label='3 estrellas, 11 valoraciones'>
+    <div class='stars' role='img' tabindex='-1' aria-label='3 estrellas'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div></div>
+
+    <div class="graph">
+      <span class="bar" style="width: 3%;"></span>
+    </div>
+    <span class="total">11</span>
+  </div>
+
+  <div class="vote" role="text" aria-label='2 estrellas, 0 valoraciones'>
+    <div class='stars' role='img' tabindex='-1' aria-label='2 estrellas'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div></div>
+
+    <div class="graph">
+      <span class="bar" style="width: 0%;"></span>
+    </div>
+    <span class="total">0</span>
+  </div>
+
+  <div class="vote" role="text" aria-label='1 estrella, 5 valoraciones'>
+    <div class='stars' role='img' tabindex='-1' aria-label='1 estrella'><div><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div></div>
+
+    <div class="graph">
+      <span class="bar" style="width: 1%;"></span>
+    </div>
+    <span class="total">5</span>
+  </div>
+
+</div>
+
+      
+
+      
+        
+        
+        
+<div class="ratings-histogram">
+  <a href="#" aria-label='4 estrellas y media, Promedio de valoración de todas las versiones:'>Promedio de valoración de todas las versiones:</a>
+
+  
+    <div class='rating' role='img' tabindex='-1' aria-label='4 estrellas y media, 911 valoraciones'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star half">&nbsp;</span></div><span class="rating-count">911 valoraciones</span>
+</div>
+
+  
+
+  <div class="vote" role="text" aria-label='5 estrellas, 587 valoraciones'>
+    <div class='stars' role='img' tabindex='-1' aria-label='5 estrellas'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span></div></div>
+
+    <div class="graph">
+      <span class="bar" style="width: 100%;"></span>
+    </div>
+    <span class="total">587</span>
+  </div>
+
+  <div class="vote" role="text" aria-label='4 estrellas, 259 valoraciones'>
+    <div class='stars' role='img' tabindex='-1' aria-label='4 estrellas'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div></div>
+
+    <div class="graph">
+      <span class="bar" style="width: 44%;"></span>
+    </div>
+    <span class="total">259</span>
+  </div>
+
+  <div class="vote" role="text" aria-label='3 estrellas, 52 valoraciones'>
+    <div class='stars' role='img' tabindex='-1' aria-label='3 estrellas'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div></div>
+
+    <div class="graph">
+      <span class="bar" style="width: 8%;"></span>
+    </div>
+    <span class="total">52</span>
+  </div>
+
+  <div class="vote" role="text" aria-label='2 estrellas, 1 valoración'>
+    <div class='stars' role='img' tabindex='-1' aria-label='2 estrellas'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div></div>
+
+    <div class="graph">
+      <span class="bar" style="width: 0%;"></span>
+    </div>
+    <span class="total">1</span>
+  </div>
+
+  <div class="vote" role="text" aria-label='1 estrella, 12 valoraciones'>
+    <div class='stars' role='img' tabindex='-1' aria-label='1 estrella'><div><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div></div>
+
+    <div class="graph">
+      <span class="bar" style="width: 2%;"></span>
+    </div>
+    <span class="total">12</span>
+  </div>
+
+</div>
+
+      
+    </div>
+
+    <div class="rating-widget-container">
+      <div rating-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/userRateContent?id=963574990&displayable-kind=30' class="rate-stars"><h5 class="rating-label">Valora esta app:</h5><div role=""><span star-count="1" role="radio" aria-checked="false" aria-label="dar 1 estrella: horrible"></span><span star-count="2" role="radio" aria-checked="false" aria-label="evaluar 2 estrellas, no me gusta"></span><span star-count="3" role="radio" aria-checked="false" aria-label="evaluar 3 estrellas, no está mal"></span><span star-count="4" role="radio" aria-checked="false" aria-label="evaluar 4 estrellas, está bien"></span><span star-count="5" role="radio" aria-checked="false" aria-label="evaluar 5 estrellas, está estupendo"></span></div><span class="rating-desc" aria-hidden="true"></span></div>
+
+      <div class="has-not-purchased">Para valorar esta app, debes haberla comprado en Mac App Store.</div>
+    </div>
+  </div>
+</div>
+
+  
+
+
+
+
+<div class="customer-reviews" >
+  <div class="title hidden"><h4>Escribir una reseña</h4></div>
+  <div class="inline-review" content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/writeUserReview?id=963574990&amp;displayable-kind=30'></div>
+  <div class="title">
+    <h4>Reseñas de usuarios</h4>
+  </div>
+  <div class="pill"><button class="active"><span>Versión actual (40)</span></button><button><span>Todas las versiones (106)</span></button></div>
+
+  <div class="paginate all-reviews" goto-page-href='https://itunes.apple.com/mx/customer-reviews?displayable-kind=30&amp;id=963574990&amp;update=1'>
+  
+  <div class="write-a-review">
+    
+    <a href='#' class="write-a-review-link see-all">Escribir una reseña</a>
+    <div class="has-not-purchased">Para reseñar esta app, debes haberla comprado en Mac App Store.</div>
+  </div>
+  
+
+
+
+  <div class="controls-container">
+
+    
+    <div class="select"><label class="select">Ordenar por:<select name="sort">
+      <option value='1'>Más útiles</option><option value='2'>Más favorables</option><option value='3'>Más críticas</option><option value='4'>Más recientes</option>
+    </select></label></div>
+    
+
+    
+    <div class="pagination-controls">
+    </div>
+    
+
+  </div>
+
+  <div class="paginated-container">
+    <div class="paginated-content" page-number='1' sort-key='1' total-number-of-pages='11' pill-identifier="0">
+
+  
+    
+<div class="da-review customer-review">
+
+ <div class="review-header">
+  <div class="review-meta">
+   <h5>
+    <span class="customerReviewTitle">Muy buena.</span>
+    <div class='rating' role='img' tabindex='-1' aria-label='3 estrellas'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div></div>
+
+   </h5>
+   <span class="user-info">por
+    <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=366376235' class="reviewer">Doslssoopoli</a>
+     -
+     Versión
+     3.0.0
+    
+    -
+     27/01/2016
+   </span>
+  </div>
+  <div class="review-see-all">
+   <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=366376235' class="see-all">
+   Todas las reseñas por este usuario
+   </a>
+  </div>
+ </div>
+ <p class="content" data-text-truncate-lines="6">
+  El unico problema es que no puedes mandar notas de voz!! porfavor pongnlo!!!!<br/><br/>Fuera de eso esta excelente.
+ </p>
+ 
+ 
+ 
+ <div class="feedback">
+   <div class="helpful-wrapper">
+    
+     <div class="stats">30 
+      de 
+      33
+      usuarios consideraron útil esta reseña
+     </div>
+    
+    <div class="rate" reviewer-dsid='1890937122' content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?userReviewId=1323364536'>¿Te pareció útil esta reseña? 
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='Sí'
+        class='helpful-vote' vote="1">Sí</a> |
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='No'
+        class='helpful-vote' vote="0">No</a>
+    </div>
+   </div>
+   <div class="report-a-concern" report-a-concern-fragment-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportAConcernFragment?userReviewId=1323364536'>
+    <a href="javascript:void(0)" oncontextmenu="return false;" class="report" alt='Señalar una preocupación'>Señalar una preocupación</a>
+   </div>
+ </div>
+</div>
+
+  
+    
+<div class="da-review customer-review">
+
+ <div class="review-header">
+  <div class="review-meta">
+   <h5>
+    <span class="customerReviewTitle">Buenisima</span>
+    <div class='rating' role='img' tabindex='-1' aria-label='5 estrellas'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span></div></div>
+
+   </h5>
+   <span class="user-info">por
+    <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=505419335' class="reviewer">Armando9999</a>
+     -
+     Versión
+     3.6.1
+    
+    -
+     19/08/2016
+   </span>
+  </div>
+  <div class="review-see-all">
+   <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=505419335' class="see-all">
+   Todas las reseñas por este usuario
+   </a>
+  </div>
+ </div>
+ <p class="content" data-text-truncate-lines="6">
+  Lo único malo es que tiene que estar abierta la app, si la cierras desde el dock ya no te llega la notificación hasta que lo abres, es lo único que cambiaría de ahí en fuera es genial. <br/>Muy satisfecho.
+ </p>
+ 
+ 
+ 
+ <div class="feedback">
+   <div class="helpful-wrapper">
+    
+     <div class="stats">27 
+      de 
+      29
+      usuarios consideraron útil esta reseña
+     </div>
+    
+    <div class="rate" reviewer-dsid='10310304575' content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?userReviewId=1435773072'>¿Te pareció útil esta reseña? 
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='Sí'
+        class='helpful-vote' vote="1">Sí</a> |
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='No'
+        class='helpful-vote' vote="0">No</a>
+    </div>
+   </div>
+   <div class="report-a-concern" report-a-concern-fragment-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportAConcernFragment?userReviewId=1435773072'>
+    <a href="javascript:void(0)" oncontextmenu="return false;" class="report" alt='Señalar una preocupación'>Señalar una preocupación</a>
+   </div>
+ </div>
+</div>
+
+  
+    
+<div class="da-review customer-review">
+
+ <div class="review-header">
+  <div class="review-meta">
+   <h5>
+    <span class="customerReviewTitle">no funcionan los mensajes de voz</span>
+    <div class='rating' role='img' tabindex='-1' aria-label='1 estrella'><div><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div></div>
+
+   </h5>
+   <span class="user-info">por
+    <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=85843893' class="reviewer">ekonishi</a>
+     -
+     Versión
+     3.0.0
+    
+    -
+     03/02/2016
+   </span>
+  </div>
+  <div class="review-see-all">
+   <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=85843893' class="see-all">
+   Todas las reseñas por este usuario
+   </a>
+  </div>
+ </div>
+ <p class="content" data-text-truncate-lines="6">
+  no puedes reproducir los mensajes de voz que te llegan, segun en la descripcion si trae esa funcion pero puro engaño
+ </p>
+ 
+ 
+ 
+ <div class="feedback">
+   <div class="helpful-wrapper">
+    
+     <div class="stats">17 
+      de 
+      19
+      usuarios consideraron útil esta reseña
+     </div>
+    
+    <div class="rate" reviewer-dsid='268085803' content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?userReviewId=1326836768'>¿Te pareció útil esta reseña? 
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='Sí'
+        class='helpful-vote' vote="1">Sí</a> |
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='No'
+        class='helpful-vote' vote="0">No</a>
+    </div>
+   </div>
+   <div class="report-a-concern" report-a-concern-fragment-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportAConcernFragment?userReviewId=1326836768'>
+    <a href="javascript:void(0)" oncontextmenu="return false;" class="report" alt='Señalar una preocupación'>Señalar una preocupación</a>
+   </div>
+ </div>
+</div>
+
+  
+    
+<div class="da-review customer-review">
+
+ <div class="review-header">
+  <div class="review-meta">
+   <h5>
+    <span class="customerReviewTitle">ni tan mala ni tan buena</span>
+    <div class='rating' role='img' tabindex='-1' aria-label='3 estrellas'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div></div>
+
+   </h5>
+   <span class="user-info">por
+    <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=482449191' class="reviewer">ing27</a>
+     -
+     Versión
+     2.0.0
+    
+    -
+     11/12/2015
+   </span>
+  </div>
+  <div class="review-see-all">
+   <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=482449191' class="see-all">
+   Todas las reseñas por este usuario
+   </a>
+  </div>
+ </div>
+ <p class="content" data-text-truncate-lines="6">
+  me parece que al principio es buena, por que cumple con el proposito pero despues no permitio que escuchara los mensajes de voz, la verdad no se que le paso.<br/>me encontre aqui mismo otra y gratuita y esa si cumple con lo requerido.
+ </p>
+ 
+ 
+ 
+ <div class="feedback">
+   <div class="helpful-wrapper">
+    
+     <div class="stats">16 
+      de 
+      20
+      usuarios consideraron útil esta reseña
+     </div>
+    
+    <div class="rate" reviewer-dsid='10060213768' content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?userReviewId=1299079900'>¿Te pareció útil esta reseña? 
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='Sí'
+        class='helpful-vote' vote="1">Sí</a> |
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='No'
+        class='helpful-vote' vote="0">No</a>
+    </div>
+   </div>
+   <div class="report-a-concern" report-a-concern-fragment-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportAConcernFragment?userReviewId=1299079900'>
+    <a href="javascript:void(0)" oncontextmenu="return false;" class="report" alt='Señalar una preocupación'>Señalar una preocupación</a>
+   </div>
+ </div>
+</div>
+
+  
+    
+<div class="da-review customer-review">
+
+ <div class="review-header">
+  <div class="review-meta">
+   <h5>
+    <span class="customerReviewTitle">Se les olvidó un “pequeño” detalle</span>
+    <div class='rating' role='img' tabindex='-1' aria-label='1 estrella'><div><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div></div>
+
+   </h5>
+   <span class="user-info">por
+    <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=200276667' class="reviewer">Heero R8</a>
+     -
+     Versión
+     3.6.1
+    
+    -
+     17/09/2016
+   </span>
+  </div>
+  <div class="review-see-all">
+   <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=200276667' class="see-all">
+   Todas las reseñas por este usuario
+   </a>
+  </div>
+ </div>
+ <p class="content" data-text-truncate-lines="6">
+  Esta App necesita que tu telefono esté conectado a internet para poder sincronizar los datos con la Mac, incluso recomienda que estés mejor en wifi para no utilizar excesivamente tu internet movil… por lo tanto no resuelve gran cosa y tiene constantemente problemas de actualización, está muchísimo mejor el Telegram!! y su aplicación para Desktop funciona a la perfección independientemente de que tengas tu teléfono a la mano o no, esta no funciona así…
+ </p>
+ 
+ 
+ 
+ <div class="feedback">
+   <div class="helpful-wrapper">
+    
+     <div class="stats">15 
+      de 
+      19
+      usuarios consideraron útil esta reseña
+     </div>
+    
+    <div class="rate" reviewer-dsid='430140079' content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?userReviewId=1451036347'>¿Te pareció útil esta reseña? 
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='Sí'
+        class='helpful-vote' vote="1">Sí</a> |
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='No'
+        class='helpful-vote' vote="0">No</a>
+    </div>
+   </div>
+   <div class="report-a-concern" report-a-concern-fragment-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportAConcernFragment?userReviewId=1451036347'>
+    <a href="javascript:void(0)" oncontextmenu="return false;" class="report" alt='Señalar una preocupación'>Señalar una preocupación</a>
+   </div>
+ </div>
+</div>
+
+  
+    
+<div class="da-review customer-review">
+
+ <div class="review-header">
+  <div class="review-meta">
+   <h5>
+    <span class="customerReviewTitle">Notas de voz</span>
+    <div class='rating' role='img' tabindex='-1' aria-label='4 estrellas'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div></div>
+
+   </h5>
+   <span class="user-info">por
+    <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=269991850' class="reviewer">Esta canijo</a>
+     -
+     Versión
+     3.5.0
+    
+    -
+     13/06/2016
+   </span>
+  </div>
+  <div class="review-see-all">
+   <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=269991850' class="see-all">
+   Todas las reseñas por este usuario
+   </a>
+  </div>
+ </div>
+ <p class="content" data-text-truncate-lines="6">
+  El unico defecto que tiene esta APP son los comerciales que aparecen cada rato, si se requiere hacer un pago por la app para que no aparezcan los comerciales por favor me dicen para hacerlo.<br/>Saludos
+ </p>
+ 
+ 
+ 
+ <div class="feedback">
+   <div class="helpful-wrapper">
+    
+     <div class="stats">14 
+      de 
+      16
+      usuarios consideraron útil esta reseña
+     </div>
+    
+    <div class="rate" reviewer-dsid='1963006939' content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?userReviewId=1393812427'>¿Te pareció útil esta reseña? 
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='Sí'
+        class='helpful-vote' vote="1">Sí</a> |
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='No'
+        class='helpful-vote' vote="0">No</a>
+    </div>
+   </div>
+   <div class="report-a-concern" report-a-concern-fragment-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportAConcernFragment?userReviewId=1393812427'>
+    <a href="javascript:void(0)" oncontextmenu="return false;" class="report" alt='Señalar una preocupación'>Señalar una preocupación</a>
+   </div>
+ </div>
+</div>
+
+  
+    
+<div class="da-review customer-review">
+
+ <div class="review-header">
+  <div class="review-meta">
+   <h5>
+    <span class="customerReviewTitle">Muy buena App….</span>
+    <div class='rating' role='img' tabindex='-1' aria-label='5 estrellas'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span></div></div>
+
+   </h5>
+   <span class="user-info">por
+    <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=86362480' class="reviewer">miguel_t77</a>
+     -
+     Versión
+     3.0.0
+    
+    -
+     09/02/2016
+   </span>
+  </div>
+  <div class="review-see-all">
+   <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=86362480' class="see-all">
+   Todas las reseñas por este usuario
+   </a>
+  </div>
+ </div>
+ <p class="content" data-text-truncate-lines="6">
+  Ayuda a trabajar en mi Mac sin distraerme, y aunque tenga cargando el celular en otro lado, asi contesto llamadas y mensajes desde la mac….
+ </p>
+ 
+ 
+ 
+ <div class="feedback">
+   <div class="helpful-wrapper">
+    
+     <div class="stats">10 
+      de 
+      10
+      usuarios consideraron útil esta reseña
+     </div>
+    
+    <div class="rate" reviewer-dsid='282733433' content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?userReviewId=1330453610'>¿Te pareció útil esta reseña? 
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='Sí'
+        class='helpful-vote' vote="1">Sí</a> |
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='No'
+        class='helpful-vote' vote="0">No</a>
+    </div>
+   </div>
+   <div class="report-a-concern" report-a-concern-fragment-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportAConcernFragment?userReviewId=1330453610'>
+    <a href="javascript:void(0)" oncontextmenu="return false;" class="report" alt='Señalar una preocupación'>Señalar una preocupación</a>
+   </div>
+ </div>
+</div>
+
+  
+    
+<div class="da-review customer-review">
+
+ <div class="review-header">
+  <div class="review-meta">
+   <h5>
+    <span class="customerReviewTitle">Excelente</span>
+    <div class='rating' role='img' tabindex='-1' aria-label='5 estrellas'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span></div></div>
+
+   </h5>
+   <span class="user-info">por
+    <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=105388021' class="reviewer">jagm005</a>
+     -
+     Versión
+     3.5.0
+    
+    -
+     17/05/2016
+   </span>
+  </div>
+  <div class="review-see-all">
+   <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=105388021' class="see-all">
+   Todas las reseñas por este usuario
+   </a>
+  </div>
+ </div>
+ <p class="content" data-text-truncate-lines="6">
+  Excelente app, funciona muy bien en mi mac y está muy cómodo escribir en el teclado.
+ </p>
+ 
+ 
+ 
+ <div class="feedback">
+   <div class="helpful-wrapper">
+    
+     <div class="stats">9 
+      de 
+      10
+      usuarios consideraron útil esta reseña
+     </div>
+    
+    <div class="rate" reviewer-dsid='1047442702' content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?userReviewId=1380172475'>¿Te pareció útil esta reseña? 
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='Sí'
+        class='helpful-vote' vote="1">Sí</a> |
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='No'
+        class='helpful-vote' vote="0">No</a>
+    </div>
+   </div>
+   <div class="report-a-concern" report-a-concern-fragment-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportAConcernFragment?userReviewId=1380172475'>
+    <a href="javascript:void(0)" oncontextmenu="return false;" class="report" alt='Señalar una preocupación'>Señalar una preocupación</a>
+   </div>
+ </div>
+</div>
+
+  
+    
+<div class="da-review customer-review">
+
+ <div class="review-header">
+  <div class="review-meta">
+   <h5>
+    <span class="customerReviewTitle">Bueno cuando trabaje y estas pendiente de whatsapp en tu lap</span>
+    <div class='rating' role='img' tabindex='-1' aria-label='3 estrellas'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div></div>
+
+   </h5>
+   <span class="user-info">por
+    <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=106855031' class="reviewer">iReyes</a>
+     -
+     Versión
+     3.0.0
+    
+    -
+     05/02/2016
+   </span>
+  </div>
+  <div class="review-see-all">
+   <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=106855031' class="see-all">
+   Todas las reseñas por este usuario
+   </a>
+  </div>
+ </div>
+ <p class="content" data-text-truncate-lines="6">
+  Facilita mucho si estas en tu lap trabajando, respondes inmediatamente sin cambiarte al iPhone
+ </p>
+ 
+ 
+ 
+ <div class="feedback">
+   <div class="helpful-wrapper">
+    
+     <div class="stats">8 
+      de 
+      8
+      usuarios consideraron útil esta reseña
+     </div>
+    
+    <div class="rate" reviewer-dsid='1046415629' content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?userReviewId=1328423968'>¿Te pareció útil esta reseña? 
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='Sí'
+        class='helpful-vote' vote="1">Sí</a> |
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='No'
+        class='helpful-vote' vote="0">No</a>
+    </div>
+   </div>
+   <div class="report-a-concern" report-a-concern-fragment-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportAConcernFragment?userReviewId=1328423968'>
+    <a href="javascript:void(0)" oncontextmenu="return false;" class="report" alt='Señalar una preocupación'>Señalar una preocupación</a>
+   </div>
+ </div>
+</div>
+
+  
+    
+<div class="da-review customer-review">
+
+ <div class="review-header">
+  <div class="review-meta">
+   <h5>
+    <span class="customerReviewTitle">good app</span>
+    <div class='rating' role='img' tabindex='-1' aria-label='4 estrellas'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div></div>
+
+   </h5>
+   <span class="user-info">por
+    <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=210152991' class="reviewer">bere.rocha</a>
+     -
+     Versión
+     3.0.0
+    
+    -
+     07/02/2016
+   </span>
+  </div>
+  <div class="review-see-all">
+   <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=210152991' class="see-all">
+   Todas las reseñas por este usuario
+   </a>
+  </div>
+ </div>
+ <p class="content" data-text-truncate-lines="6">
+  The app needs to have voicemail. please!!!!!
+ </p>
+ 
+ 
+ 
+ <div class="feedback">
+   <div class="helpful-wrapper">
+    
+     <div class="stats">8 
+      de 
+      9
+      usuarios consideraron útil esta reseña
+     </div>
+    
+    <div class="rate" reviewer-dsid='1066017884' content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?userReviewId=1329249651'>¿Te pareció útil esta reseña? 
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='Sí'
+        class='helpful-vote' vote="1">Sí</a> |
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='No'
+        class='helpful-vote' vote="0">No</a>
+    </div>
+   </div>
+   <div class="report-a-concern" report-a-concern-fragment-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportAConcernFragment?userReviewId=1329249651'>
+    <a href="javascript:void(0)" oncontextmenu="return false;" class="report" alt='Señalar una preocupación'>Señalar una preocupación</a>
+   </div>
+ </div>
+</div>
+
+  
+
+</div>
+  </div>
+
+  <div class="footer">
+
+
+  
+  <div class="pagination-controls">
+  </div>
+  
+
+  </div>
+
+  </div>
+
+  
+  <div class="paginate current-reviews" goto-page-href='https://itunes.apple.com/mx/customer-reviews?displayable-kind=30&amp;id=963574990&amp;update=1&amp;appVersion=current'>
+  
+  <div class="write-a-review">
+    
+    <a href='#' class="write-a-review-link see-all">Escribir una reseña</a>
+    <div class="has-not-purchased">Para reseñar esta app, debes haberla comprado en Mac App Store.</div>
+  </div>
+  
+
+  <div class="controls-container">
+
+    
+    <div class="select"><label class="select">Ordenar por:<select name="sort">
+      <option value='1'>Más útiles</option><option value='2'>Más favorables</option><option value='3'>Más críticas</option><option value='4'>Más recientes</option>
+    </select></label></div>
+    
+
+    
+    <div class="pagination-controls">
+    </div>
+    
+
+  </div>
+
+  <div class="paginated-container">
+    <div class="paginated-content" page-number='1' sort-key='1' total-number-of-pages='4' pill-identifier="0">
+
+  
+    
+<div class="da-review customer-review">
+
+ <div class="review-header">
+  <div class="review-meta">
+   <h5>
+    <span class="customerReviewTitle">Buenisima</span>
+    <div class='rating' role='img' tabindex='-1' aria-label='5 estrellas'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span></div></div>
+
+   </h5>
+   <span class="user-info">por
+    <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=505419335' class="reviewer">Armando9999</a>
+     -
+     Versión
+     3.6.1
+    
+    -
+     19/08/2016
+   </span>
+  </div>
+  <div class="review-see-all">
+   <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=505419335' class="see-all">
+   Todas las reseñas por este usuario
+   </a>
+  </div>
+ </div>
+ <p class="content" data-text-truncate-lines="6">
+  Lo único malo es que tiene que estar abierta la app, si la cierras desde el dock ya no te llega la notificación hasta que lo abres, es lo único que cambiaría de ahí en fuera es genial. <br/>Muy satisfecho.
+ </p>
+ 
+ 
+ 
+ <div class="feedback">
+   <div class="helpful-wrapper">
+    
+     <div class="stats">27 
+      de 
+      29
+      usuarios consideraron útil esta reseña
+     </div>
+    
+    <div class="rate" reviewer-dsid='10310304575' content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?userReviewId=1435773072'>¿Te pareció útil esta reseña? 
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='Sí'
+        class='helpful-vote' vote="1">Sí</a> |
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='No'
+        class='helpful-vote' vote="0">No</a>
+    </div>
+   </div>
+   <div class="report-a-concern" report-a-concern-fragment-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportAConcernFragment?userReviewId=1435773072'>
+    <a href="javascript:void(0)" oncontextmenu="return false;" class="report" alt='Señalar una preocupación'>Señalar una preocupación</a>
+   </div>
+ </div>
+</div>
+
+  
+    
+<div class="da-review customer-review">
+
+ <div class="review-header">
+  <div class="review-meta">
+   <h5>
+    <span class="customerReviewTitle">Se les olvidó un “pequeño” detalle</span>
+    <div class='rating' role='img' tabindex='-1' aria-label='1 estrella'><div><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div></div>
+
+   </h5>
+   <span class="user-info">por
+    <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=200276667' class="reviewer">Heero R8</a>
+     -
+     Versión
+     3.6.1
+    
+    -
+     17/09/2016
+   </span>
+  </div>
+  <div class="review-see-all">
+   <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=200276667' class="see-all">
+   Todas las reseñas por este usuario
+   </a>
+  </div>
+ </div>
+ <p class="content" data-text-truncate-lines="6">
+  Esta App necesita que tu telefono esté conectado a internet para poder sincronizar los datos con la Mac, incluso recomienda que estés mejor en wifi para no utilizar excesivamente tu internet movil… por lo tanto no resuelve gran cosa y tiene constantemente problemas de actualización, está muchísimo mejor el Telegram!! y su aplicación para Desktop funciona a la perfección independientemente de que tengas tu teléfono a la mano o no, esta no funciona así…
+ </p>
+ 
+ 
+ 
+ <div class="feedback">
+   <div class="helpful-wrapper">
+    
+     <div class="stats">15 
+      de 
+      19
+      usuarios consideraron útil esta reseña
+     </div>
+    
+    <div class="rate" reviewer-dsid='430140079' content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?userReviewId=1451036347'>¿Te pareció útil esta reseña? 
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='Sí'
+        class='helpful-vote' vote="1">Sí</a> |
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='No'
+        class='helpful-vote' vote="0">No</a>
+    </div>
+   </div>
+   <div class="report-a-concern" report-a-concern-fragment-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportAConcernFragment?userReviewId=1451036347'>
+    <a href="javascript:void(0)" oncontextmenu="return false;" class="report" alt='Señalar una preocupación'>Señalar una preocupación</a>
+   </div>
+ </div>
+</div>
+
+  
+    
+<div class="da-review customer-review">
+
+ <div class="review-header">
+  <div class="review-meta">
+   <h5>
+    <span class="customerReviewTitle">Excelente aplicación</span>
+    <div class='rating' role='img' tabindex='-1' aria-label='5 estrellas'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span></div></div>
+
+   </h5>
+   <span class="user-info">por
+    <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=354652998' class="reviewer">Maristopheles</a>
+     -
+     Versión
+     3.6.1
+    
+    -
+     28/08/2016
+   </span>
+  </div>
+  <div class="review-see-all">
+   <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=354652998' class="see-all">
+   Todas las reseñas por este usuario
+   </a>
+  </div>
+ </div>
+ <p class="content" data-text-truncate-lines="6">
+  Para aquellos que tengan más comodidad escribiendo en un teclado es una opción muy recomendable!
+ </p>
+ 
+ 
+ 
+ <div class="feedback">
+   <div class="helpful-wrapper">
+    
+     <div class="stats">4 
+      de 
+      4
+      usuarios consideraron útil esta reseña
+     </div>
+    
+    <div class="rate" reviewer-dsid='1836185493' content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?userReviewId=1440836020'>¿Te pareció útil esta reseña? 
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='Sí'
+        class='helpful-vote' vote="1">Sí</a> |
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='No'
+        class='helpful-vote' vote="0">No</a>
+    </div>
+   </div>
+   <div class="report-a-concern" report-a-concern-fragment-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportAConcernFragment?userReviewId=1440836020'>
+    <a href="javascript:void(0)" oncontextmenu="return false;" class="report" alt='Señalar una preocupación'>Señalar una preocupación</a>
+   </div>
+ </div>
+</div>
+
+  
+    
+<div class="da-review customer-review">
+
+ <div class="review-header">
+  <div class="review-meta">
+   <h5>
+    <span class="customerReviewTitle">Hace lo que necesita</span>
+    <div class='rating' role='img' tabindex='-1' aria-label='5 estrellas'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span></div></div>
+
+   </h5>
+   <span class="user-info">por
+    <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=11252559' class="reviewer">tierranoble</a>
+     -
+     Versión
+     3.6.1
+    
+    -
+     29/08/2016
+   </span>
+  </div>
+  <div class="review-see-all">
+   <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=11252559' class="see-all">
+   Todas las reseñas por este usuario
+   </a>
+  </div>
+ </div>
+ <p class="content" data-text-truncate-lines="6">
+  No duden en comprarla, es necesaria y no cuesta mucho
+ </p>
+ 
+ 
+ 
+ <div class="feedback">
+   <div class="helpful-wrapper">
+    
+     <div class="stats">4 
+      de 
+      4
+      usuarios consideraron útil esta reseña
+     </div>
+    
+    <div class="rate" reviewer-dsid='99717530' content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?userReviewId=1441063614'>¿Te pareció útil esta reseña? 
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='Sí'
+        class='helpful-vote' vote="1">Sí</a> |
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='No'
+        class='helpful-vote' vote="0">No</a>
+    </div>
+   </div>
+   <div class="report-a-concern" report-a-concern-fragment-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportAConcernFragment?userReviewId=1441063614'>
+    <a href="javascript:void(0)" oncontextmenu="return false;" class="report" alt='Señalar una preocupación'>Señalar una preocupación</a>
+   </div>
+ </div>
+</div>
+
+  
+    
+<div class="da-review customer-review">
+
+ <div class="review-header">
+  <div class="review-meta">
+   <h5>
+    <span class="customerReviewTitle">La mejor opción</span>
+    <div class='rating' role='img' tabindex='-1' aria-label='5 estrellas'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span></div></div>
+
+   </h5>
+   <span class="user-info">por
+    <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=253334711' class="reviewer">Mnavatru</a>
+     -
+     Versión
+     3.6.1
+    
+    -
+     03/09/2016
+   </span>
+  </div>
+  <div class="review-see-all">
+   <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=253334711' class="see-all">
+   Todas las reseñas por este usuario
+   </a>
+  </div>
+ </div>
+ <p class="content" data-text-truncate-lines="6">
+  Usaba otra app para whatsapp, pero esta se la lleva en todos los aspectos. Muy recomendable.
+ </p>
+ 
+ 
+ 
+ <div class="feedback">
+   <div class="helpful-wrapper">
+    
+     <div class="stats">4 
+      de 
+      4
+      usuarios consideraron útil esta reseña
+     </div>
+    
+    <div class="rate" reviewer-dsid='1392846998' content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?userReviewId=1444084788'>¿Te pareció útil esta reseña? 
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='Sí'
+        class='helpful-vote' vote="1">Sí</a> |
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='No'
+        class='helpful-vote' vote="0">No</a>
+    </div>
+   </div>
+   <div class="report-a-concern" report-a-concern-fragment-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportAConcernFragment?userReviewId=1444084788'>
+    <a href="javascript:void(0)" oncontextmenu="return false;" class="report" alt='Señalar una preocupación'>Señalar una preocupación</a>
+   </div>
+ </div>
+</div>
+
+  
+    
+<div class="da-review customer-review">
+
+ <div class="review-header">
+  <div class="review-meta">
+   <h5>
+    <span class="customerReviewTitle">Muy buena</span>
+    <div class='rating' role='img' tabindex='-1' aria-label='5 estrellas'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span></div></div>
+
+   </h5>
+   <span class="user-info">por
+    <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=428813700' class="reviewer">aAURYYYY👅</a>
+     -
+     Versión
+     3.6.1
+    
+    -
+     13/09/2016
+   </span>
+  </div>
+  <div class="review-see-all">
+   <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=428813700' class="see-all">
+   Todas las reseñas por este usuario
+   </a>
+  </div>
+ </div>
+ <p class="content" data-text-truncate-lines="6">
+  Me gusta la aplicacion es muy practica , solo que deberian de tener la opcion de poder poner contraseña a la App asi como en el celular , de ahi en fuera todo super practico
+ </p>
+ 
+ 
+ 
+ <div class="feedback">
+   <div class="helpful-wrapper">
+    
+     <div class="stats">3 
+      de 
+      3
+      usuarios consideraron útil esta reseña
+     </div>
+    
+    <div class="rate" reviewer-dsid='8108617537' content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?userReviewId=1448838805'>¿Te pareció útil esta reseña? 
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='Sí'
+        class='helpful-vote' vote="1">Sí</a> |
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='No'
+        class='helpful-vote' vote="0">No</a>
+    </div>
+   </div>
+   <div class="report-a-concern" report-a-concern-fragment-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportAConcernFragment?userReviewId=1448838805'>
+    <a href="javascript:void(0)" oncontextmenu="return false;" class="report" alt='Señalar una preocupación'>Señalar una preocupación</a>
+   </div>
+ </div>
+</div>
+
+  
+    
+<div class="da-review customer-review">
+
+ <div class="review-header">
+  <div class="review-meta">
+   <h5>
+    <span class="customerReviewTitle">Excelente Aplicacion.</span>
+    <div class='rating' role='img' tabindex='-1' aria-label='5 estrellas'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span></div></div>
+
+   </h5>
+   <span class="user-info">por
+    <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=143243898' class="reviewer">Leftor</a>
+     -
+     Versión
+     3.6.1
+    
+    -
+     23/08/2016
+   </span>
+  </div>
+  <div class="review-see-all">
+   <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=143243898' class="see-all">
+   Todas las reseñas por este usuario
+   </a>
+  </div>
+ </div>
+ <p class="content" data-text-truncate-lines="6">
+  Excelente Aplicacion de WhatsApp, funciona de forma rapida y fluida con una interfaz muy pulida.<br/><br/>Sin duda alguna, la unica razon por la que utilizo Whatsapp en la computadora.
+ </p>
+ 
+ 
+ 
+ <div class="feedback">
+   <div class="helpful-wrapper">
+    
+     <div class="stats">3 
+      de 
+      4
+      usuarios consideraron útil esta reseña
+     </div>
+    
+    <div class="rate" reviewer-dsid='1086101945' content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?userReviewId=1437888078'>¿Te pareció útil esta reseña? 
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='Sí'
+        class='helpful-vote' vote="1">Sí</a> |
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='No'
+        class='helpful-vote' vote="0">No</a>
+    </div>
+   </div>
+   <div class="report-a-concern" report-a-concern-fragment-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportAConcernFragment?userReviewId=1437888078'>
+    <a href="javascript:void(0)" oncontextmenu="return false;" class="report" alt='Señalar una preocupación'>Señalar una preocupación</a>
+   </div>
+ </div>
+</div>
+
+  
+    
+<div class="da-review customer-review">
+
+ <div class="review-header">
+  <div class="review-meta">
+   <h5>
+    <span class="customerReviewTitle">bien</span>
+    <div class='rating' role='img' tabindex='-1' aria-label='5 estrellas'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span></div></div>
+
+   </h5>
+   <span class="user-info">por
+    <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=519136861' class="reviewer">Marcos o torrescano</a>
+     -
+     Versión
+     3.6.1
+    
+    -
+     17/08/2016
+   </span>
+  </div>
+  <div class="review-see-all">
+   <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=519136861' class="see-all">
+   Todas las reseñas por este usuario
+   </a>
+  </div>
+ </div>
+ <p class="content" data-text-truncate-lines="6">
+  buena me la tengo alejada a mi mujer
+ </p>
+ 
+ 
+ 
+ <div class="feedback">
+   <div class="helpful-wrapper">
+    
+     <div class="stats">3 
+      de 
+      5
+      usuarios consideraron útil esta reseña
+     </div>
+    
+    <div class="rate" reviewer-dsid='10211661305' content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?userReviewId=1434200642'>¿Te pareció útil esta reseña? 
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='Sí'
+        class='helpful-vote' vote="1">Sí</a> |
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='No'
+        class='helpful-vote' vote="0">No</a>
+    </div>
+   </div>
+   <div class="report-a-concern" report-a-concern-fragment-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportAConcernFragment?userReviewId=1434200642'>
+    <a href="javascript:void(0)" oncontextmenu="return false;" class="report" alt='Señalar una preocupación'>Señalar una preocupación</a>
+   </div>
+ </div>
+</div>
+
+  
+    
+<div class="da-review customer-review">
+
+ <div class="review-header">
+  <div class="review-meta">
+   <h5>
+    <span class="customerReviewTitle">Excelente!!</span>
+    <div class='rating' role='img' tabindex='-1' aria-label='5 estrellas'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span></div></div>
+
+   </h5>
+   <span class="user-info">por
+    <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=165574825' class="reviewer">Taavitho</a>
+     -
+     Versión
+     3.6.1
+    
+    -
+     23/08/2016
+   </span>
+  </div>
+  <div class="review-see-all">
+   <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=165574825' class="see-all">
+   Todas las reseñas por este usuario
+   </a>
+  </div>
+ </div>
+ <p class="content" data-text-truncate-lines="6">
+  Todo muy bien, nada que mejorar
+ </p>
+ 
+ 
+ 
+ <div class="feedback">
+   <div class="helpful-wrapper">
+    
+     <div class="stats">2 
+      de 
+      2
+      usuarios consideraron útil esta reseña
+     </div>
+    
+    <div class="rate" reviewer-dsid='1110505026' content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?userReviewId=1437668189'>¿Te pareció útil esta reseña? 
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='Sí'
+        class='helpful-vote' vote="1">Sí</a> |
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='No'
+        class='helpful-vote' vote="0">No</a>
+    </div>
+   </div>
+   <div class="report-a-concern" report-a-concern-fragment-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportAConcernFragment?userReviewId=1437668189'>
+    <a href="javascript:void(0)" oncontextmenu="return false;" class="report" alt='Señalar una preocupación'>Señalar una preocupación</a>
+   </div>
+ </div>
+</div>
+
+  
+    
+<div class="da-review customer-review">
+
+ <div class="review-header">
+  <div class="review-meta">
+   <h5>
+    <span class="customerReviewTitle">GCHH HUICI  EXCELENTE !</span>
+    <div class='rating' role='img' tabindex='-1' aria-label='5 estrellas'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span></div></div>
+
+   </h5>
+   <span class="user-info">por
+    <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=340497548' class="reviewer">StaffGeryStaff</a>
+     -
+     Versión
+     3.6.1
+    
+    -
+     08/09/2016
+   </span>
+  </div>
+  <div class="review-see-all">
+   <a href='https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewUsersUserReviews?userProfileId=340497548' class="see-all">
+   Todas las reseñas por este usuario
+   </a>
+  </div>
+ </div>
+ <p class="content" data-text-truncate-lines="6">
+  Agradezco a todo el equipo de WhatsApp es increible que las notificaciones se encuentren en el Dock y este muetre el numero total de mensajes sin leer.<br/><br/>Bien recibida esta aplicación, sumamente esperada …..    Gracias, WhatsApp 55 1801 8419<br/><br/>Ing. Gerardo C. Hernandez Huici
+ </p>
+ 
+ 
+ 
+ <div class="feedback">
+   <div class="helpful-wrapper">
+    
+     <div class="stats">2 
+      de 
+      2
+      usuarios consideraron útil esta reseña
+     </div>
+    
+    <div class="rate" reviewer-dsid='1785033416' content='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/rateUserReview?userReviewId=1446519771'>¿Te pareció útil esta reseña? 
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='Sí'
+        class='helpful-vote' vote="1">Sí</a> |
+     <a href="javascript:void(0)" oncontextmenu="return false;"
+        alt='No'
+        class='helpful-vote' vote="0">No</a>
+    </div>
+   </div>
+   <div class="report-a-concern" report-a-concern-fragment-url='https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/reportAConcernFragment?userReviewId=1446519771'>
+    <a href="javascript:void(0)" oncontextmenu="return false;" class="report" alt='Señalar una preocupación'>Señalar una preocupación</a>
+   </div>
+ </div>
+</div>
+
+  
+
+</div>
+  </div>
+
+  <div class="footer">
+
+
+  
+  <div class="pagination-controls">
+  </div>
+  
+
+  </div>
+
+  </div>
+  
+</div>
+

@@ -1,0 +1,724 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html prefix="og: http://ogp.me/ns#" xmlns="http://www.apple.com/itms/" lang="es">
+
+
+  <head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="keywords" content="Xcode, Apple, Para desarrolladores, apps para mac, app store, appstore, aplicaciones, itunes" /><meta name="description" content="Lee reseñas, compara valoraciones de clientes, mira capturas de pantalla y obtén más información sobre Xcode. Descargar Xcode para 10.12 o posterior y disfruta en tu Mac." /><meta name="platform-cache-id" content="8" /><meta name="apple:content_id" content="497799835" /><meta content="Xcode en Mac App Store" property="og:title" /><meta content="Lee reseñas, compara valoraciones de clientes, mira capturas de pantalla y obtén más información sobre Xcode. Descargar Xcode para 10.12 o posterior y disfruta en tu Mac." property="og:description" /><meta content="Mac App Store" property="og:site_name" /><meta name="twitter:title" content="Xcode en Mac App Store" /><meta name="twitter:description" content="Lee reseñas, compara valoraciones de clientes, mira capturas de pantalla y obtén más información sobre Xcode. Descargar Xcode para 10.12 o posterior y disfruta en tu Mac." /><meta name="twitter:site" content="@MacAppStore" /><meta name="twitter:domain" content="Mac App Store" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:image" content="http://is3.mzstatic.com/image/thumb/Purple117/v4/72/06/e7/7206e735-a957-ff3c-a706-fa69baf9c761/source/1200x630bb.jpg" /><meta content="http://is3.mzstatic.com/image/thumb/Purple117/v4/72/06/e7/7206e735-a957-ff3c-a706-fa69baf9c761/source/1200x630bb.jpg" property="og:image" /><meta content="https://is3-ssl.mzstatic.com/image/thumb/Purple117/v4/72/06/e7/7206e735-a957-ff3c-a706-fa69baf9c761/source/1200x630bb.jpg" property="og:image:secure_url" /><meta content="image/jpg" property="og:image:type" /><meta content="1200" property="og:image:width" /><meta content="630" property="og:image:height" />
+<link rel="canonical" href="https://itunes.apple.com/mx/app/xcode/id497799835?mt=12" />
+
+
+<title>Xcode en Mac App Store</title>
+
+
+
+
+
+
+<script>
+if (!window.its) {
+    window.its = {};
+}
+its.markupLoadStartTime = new Date().getTime();
+
+if (!window.onerror) window.onerror = function(message, url, lineNumber) {
+    if (!window._earlyOnerrorException) {
+        window._earlyOnerrorException = {message: message,
+                                         url: url,
+                                         lineNumber: lineNumber};
+    }
+};
+</script>
+
+
+    
+    <link charset="utf-8" rel="stylesheet" type="text/css" href="https://s.mzstatic.com/htmlResources/ef5a1c4/web-storefront-base.css" />
+<link charset="utf-8" rel="stylesheet" type="text/css" href="https://s.mzstatic.com/htmlResources/ef5a1c4/web-storefront-preview.css" />
+<link charset="utf-8" rel="stylesheet" type="text/css" href="https://s.mzstatic.com/htmlResources/ef5a1c4/web-storefront-macpreview.css" />
+
+
+
+    
+
+
+
+
+
+
+
+
+    
+<script type="text/javascript" charset="utf-8" src="/htmlResources/ef5a1c4/frameworks-primaryinit01.js"></script>
+
+
+
+
+
+
+
+
+<script type="text/javascript" charset="utf-8">its.serverData={"storePlatformData":{},"pageData":{"BUY_PARAM_PRICETYPE":"STDQ","BUY_PARAM_GENERATION":"default","basePrice":0,"isFree":true,"isCodeEnabledForFree":false,"volumePrice":0,"basePriceForDisplay":"Gratis","inflectionValue":1,"productAdamId":"497799835","productType":"C","BUY_PRODUCT_URL":"https://itunes.apple.com/WebObjects/MZFinance.woa/wa/volumeBuyProduct?cc=mx","jsonSearchUrl":"https://itunes.apple.com/mx/search","jsonLookupUrl":"https://itunes.apple.com/mx/lookup"},"constants":{"Urls":{"upgradeITunesUrl":"http://www.apple.com/itunes/download/","upgradeSafariUrl":"http://www.apple.com/safari/download/"},"MZMediaType":{"MobileSoftware":{"id":8,"name":"MobileSoftwareApplications"},"MacSoftware":{"id":12,"name":"DesktopApps"},"Audiobooks":{"id":3,"name":"Audiobooks"},"MusicVideos":{"id":5,"name":"MusicVideos"},"iTunesU":{"id":10,"name":"iTunesU"},"EBooks":{"id":11,"name":"EBooks"},"Music":{"id":1,"name":"Music"},"Podcasts":{"id":2,"name":"Podcasts"},"ClassicSoftware":{"id":7,"name":"iPodGames"},"TVShows":{"id":4,"name":"TVShows"},"Movies":{"id":6,"name":"Movies"},"Ringtones":{"id":9,"name":"Ringtones"},"Textbooks":{"id":13,"name":"Textbooks"}},"SFSortOrder":{"PlaylistName":{"id":9},"RecentBestSellers":{"id":18},"SeriesOrder":{"id":17},"CmcRecommended":{"id":10},"Popularity":{"id":3},"OriginalReleaseDate":{"id":19},"ArtistName":{"id":8},"Featured":{"id":1},"TopRated":{"id":5},"Duration":{"id":11},"ReleaseDate":{"id":2},"TrackNumber":{"id":13},"Name":{"id":0},"AllTimeBestSellers":{"id":14},"ExpirationDate":{"id":6},"Price":{"id":7},"MostRecent":{"id":16},"PurchaseDate":{"id":4},"DateAdded":{"id":15},"DiscNumber":{"id":12}},"SFEntityType":{"Artist":{"id":1},"Playlist":{"id":4},"TopContents":{"id":7},"MultiRoom":{"id":3},"Search":{"id":6},"WeMix":{"id":8},"Cmc":{"id":2},"Work":{"id":10},"Wishlist":{"id":9},"TopAuthors":{"id":12},"Room":{"id":5},"TheyMix":{"id":11}},"countryCode":"mex","languageCode":"es","SFCustomComponentCountryCode":"mex","IXDisplayableKind":{"Artist":{"id":20,"cssClasses":[],"name":"artist"},"MobileSoftware":{"id":11,"cssClasses":["application"],"name":"iosSoftware","mtId":"8"},"Album":{"id":2,"cssClasses":["album","music"],"name":"album","mtId":"1"},"ShortFilm":{"id":8,"cssClasses":["short-film","movie","video"],"name":"shortFilm","mtId":"6"},"PodcastEpisode":{"id":15,"cssClasses":["podcast-episode"],"name":"podcastEpisode","mtId":"2"},"ApplePubEBook":{"id":36,"cssClasses":["ebook"],"name":"ibook","mtId":"11"},"Song":{"id":1,"cssClasses":["song","music"],"name":"song","mtId":"1"},"MovieBundle":{"id":24,"cssClasses":["bundle","movie","video"],"name":"movieBundle","mtId":"6"},"RingtoneAlbum":{"id":22,"cssClasses":[],"name":"ringtoneAlbum","mtId":"9"},"Book":{"id":3,"cssClasses":["audiobook"],"name":"book","mtId":"3"},"ToneAlbum":{"id":32,"cssClasses":[],"name":"toneAlbum","mtId":"9"},"TVEpisode":{"id":6,"cssClasses":["tv-episode","tv","video"],"name":"tvEpisode","mtId":"4"},"TVSeason":{"id":7,"cssClasses":["tv-season","tv","video"],"name":"tvSeason","mtId":"4"},"Course":{"id":34,"cssClasses":["course","itunes-u"],"name":"course","mtId":"10"},"ClassicSoftwarePackage":{"id":18,"cssClasses":["ipod-game"],"name":"gamePackage","mtId":"7"},"Movie":{"id":9,"cssClasses":["movie","video"],"name":"movie","mtId":"6"},"Booklet":{"id":13,"cssClasses":["booklet","music"],"name":"booklet","mtId":"1"},"SocialArtist":{"id":28,"cssClasses":[],"name":"socialArtist"},"EBook":{"id":25,"cssClasses":["ebook"],"name":"epubBook","mtId":"11"},"MacSoftware":{"id":30,"cssClasses":["application","mac-application"],"name":"desktopApp","mtId":"12"},"MusicVideo":{"id":5,"cssClasses":["music-video","music","video"],"name":"musicVideo","mtId":"5"},"Ringtone":{"id":21,"cssClasses":[],"name":"ringtone","mtId":"9"},"Podcast":{"id":4,"cssClasses":["podcast"],"name":"podcast","mtId":"2"},"Concert":{"id":26,"cssClasses":[],"name":"concert","mtId":"1"},"ApplePubTextbook":{"id":37,"cssClasses":["ebook"],"name":"ibookTextbook","mtId":"13"},"SoftwareAddOn":{"id":16,"cssClasses":["software-add-on","application"],"name":"softwareAddOn","mtId":"8"},"Tone":{"id":31,"cssClasses":[],"name":"tone","mtId":"9"},"WeMix":{"id":19,"cssClasses":["wemix","music"],"name":"itunesMix","mtId":"1"},"SocialPerson":{"id":27,"cssClasses":[],"name":"socialPerson"},"ClassicSoftware":{"id":10,"cssClasses":["ipod-game"],"name":"ipodGame","mtId":"7"},"MetaEBook":{"id":35,"cssClasses":["ebook"],"name":"metaEbook","mtId":"13"},"iTunesPass":{"id":12,"cssClasses":["itunes-pass","album","music"],"name":"itunesPass","mtId":"1"},"Mix":{"id":14,"cssClasses":["mix","music"],"name":"mix","mtId":"1"},"TheyMix":{"id":33,"cssClasses":[],"name":"thirdPartyMix"}},"AddToWishlistResult":{"ItemIsFree":{"id":6},"ListFull":{"id":3},"SomeContentAlreadyOwnedButUnfulfilled":{"id":5},"SomeContentAlreadyInWishlist":{"id":1},"Success":{"id":0},"Failure":{"id":2},"SomeContentAlreadyOwned":{"id":4}},"getEmailUrl":"https://itunes.apple.com/WebObjects/MZStore.woa/wa/generateEmail?cc=mx","resourceImagePathFrameworks":"https://s.mzstatic.com/htmlResources/ef5a1c4/frameworks/images/","resourceBasePath":"https://s.mzstatic.com/htmlResources/ef5a1c4"},"properties":{"clientStatsLoadTimeGroup":"4021","MZHtmlResourcesUtil.allowDeferJsLoad":true,"countryCodeIso2a":"mx","currencyFormat":"$#,##0.00;$#,##0.00;-$#,##0.00","currencySymbol":"$","currencyThousandSeparator":",","currencyDecimalSeparator":".","MZFeatureEnabler.isCadillacEnabled":true,"MZFinance.VolumeBuyQuantityUpperLimit":25000,"iTunesUEnrollLink":"","ITSServerEnvironment":"prod","ITSServerInstance":"1000104","ITSResourceRevNum":"ef5a1c4","resourceUrlPrefix":"https://s.mzstatic.com","ITSLogger.ServerReportingProtocol":"https","ITSLogger.ServerReportingDomain":"metrics.mzstatic.com","ITSLogger.ServerReportingApp":"MZUserXP","ITSLogger.RecordStatsAction":"recordStats","ITSLogger.SenderName":"ITSClient","ITSLogger.mirrorToServerByDefaultOnErrors":true,"DynaLoader.allowDynaLoading":true,"itsLoggerQueueProcessingInterval":10000,"cobaltBundleId":"com.apple.itunesu","getCobaltAppLink":"https://itunes.apple.com/mx/app/id490217893","cobaltLearnMore":"https://itunes.apple.com/mx/learn-more?about=iTunesUUpgradePage&type=2","isCobaltEnabled":true,"isCobaltJavascriptRedirectEnabled":true,"isCobaltUpsellPageEnabled":true,"personalizedButtonsEnabled":true,"SF6.Personalization.isCMAEnabled":true,"SF6.Personalization.isCMSEnabled":false,"SFJ.isNFAEnabledInStorefront":true,"SFJ.isRecommendationsSwooshEnabledInStorefront":true,"SF6.StorePlatform.whitelistParams":["caller","dsid","id","p"],"vendLastSupportedVersionIfAvailable":true,"vendLastSupportedVersionMacOs":true,"isBookGiftingEnabled":true,"metrics":{"metricsUrl":"https://xp.apple.com/report","compoundSeparator":"_","tokenSeparator":"|","postFrequency":60000,"postFrequencyLowLatency":5000,"blacklistedFields":["capacitySystem","capacitySystemAvailable","capacityDisk","capacityData","capacityDataAvailable"],"appInstallSamplingPercentage":0.9995,"impressions":{"viewableThreshold":1000,"viewablePercentage":0.5},"performance":{"samplingPercentageUsers":3.0E-4,"samplingPercentageUsersPageRender":0.01,"samplingPercentageCachedResponses":1,"sessionDuration":60000,"sessionDurationPageRender":60000},"fieldsMap":{"single":{"targetId":["id","adamId","contentId","type","link.adamId","link.id","link.type","fcId","userPreference","label","station-hash","linkIdentifier"]},"custom":{"location":["id","adamId","dataSetId","name","fcKind","kindIds","type","link.type","station-hash","core-seed-name"],"impressions":["id","adamId","link.type","station-hash"],"iAd":[]},"cookies":["itcCt","itscc","xp_ab","xp_abc"],"multi":{}},"metricsBase":{"storeFrontHeader":"","language":"28","platformId":"8","platformName":"ItunesPreview","storeFront":"143468","environmentDataCenter":"NWK"},"Software":{"metricsUrl":"https://xp.apple.com/report","compoundSeparator":"_","tokenSeparator":"|","postFrequency":60000,"postFrequencyLowLatency":5000,"blacklistedFields":["capacitySystem","capacitySystemAvailable","capacityDisk","capacityData","capacityDataAvailable"],"appInstallSamplingPercentage":0.9995,"impressions":{"viewableThreshold":1000,"viewablePercentage":0.5},"performance":{"samplingPercentageUsers":3.0E-4,"samplingPercentageUsersPageRender":0.01,"samplingPercentageCachedResponses":1,"sessionDuration":60000,"sessionDurationPageRender":60000},"fieldsMap":{"single":{"targetId":["id","adamId","contentId","type","link.adamId","link.id","link.type","fcId","userPreference","label","station-hash","linkIdentifier"]},"custom":{"location":["id","adamId","dataSetId","name","fcKind","kindIds","type","link.type","station-hash","core-seed-name"],"impressions":["id","adamId","link.type","station-hash"],"iAd":[]},"cookies":["itcCt","itscc","xp_ab","xp_abc"],"multi":{}},"metricsBase":{"storeFrontHeader":"","language":"28","platformId":"8","platformName":"ItunesPreview","storeFront":"143468","environmentDataCenter":"NWK"}},"ATV":{"metricsUrl":"https://xp.apple.com/report","compoundSeparator":"_","tokenSeparator":"|","postFrequency":60000,"postFrequencyLowLatency":5000,"blacklistedFields":["capacitySystem","capacitySystemAvailable","capacityDisk","capacityData","capacityDataAvailable"],"appInstallSamplingPercentage":0.9995,"impressions":{"viewableThreshold":1000,"viewablePercentage":0.5},"performance":{"samplingPercentageUsers":3.0E-4,"samplingPercentageUsersPageRender":0.01,"samplingPercentageCachedResponses":1,"sessionDuration":60000,"sessionDurationPageRender":60000},"fieldsMap":{"single":{"targetId":["id","adamId","contentId","type","link.adamId","link.id","link.type","fcId","userPreference","label","station-hash","linkIdentifier"]},"custom":{"location":["id","adamId","dataSetId","name","fcKind","kindIds","type","link.type","station-hash","core-seed-name"],"impressions":["id","adamId","link.type","station-hash"],"iAd":[]},"cookies":["itcCt","itscc","xp_ab","xp_abc"],"multi":{}},"metricsBase":{"storeFrontHeader":"","language":"28","platformId":"8","platformName":"ItunesPreview","storeFront":"143468","environmentDataCenter":"NWK"}},"eBooks":{"metricsUrl":"https://xp.apple.com/report","compoundSeparator":"_","tokenSeparator":"|","postFrequency":60000,"postFrequencyLowLatency":5000,"blacklistedFields":["capacitySystem","capacitySystemAvailable","capacityDisk","capacityData","capacityDataAvailable"],"appInstallSamplingPercentage":0.9995,"impressions":{"viewableThreshold":1000,"viewablePercentage":0.5},"performance":{"samplingPercentageUsers":3.0E-4,"samplingPercentageUsersPageRender":0.01,"samplingPercentageCachedResponses":1,"sessionDuration":60000,"sessionDurationPageRender":60000},"fieldsMap":{"single":{"targetId":["id","adamId","contentId","type","link.adamId","link.id","link.type","fcId","userPreference","label","station-hash","linkIdentifier"]},"custom":{"location":["id","adamId","dataSetId","name","fcKind","kindIds","type","link.type","station-hash","core-seed-name"],"impressions":["id","adamId","link.type","station-hash"],"iAd":[]},"cookies":["itcCt","itscc","xp_ab","xp_abc"],"multi":{}},"metricsBase":{"storeFrontHeader":"","language":"28","platformId":"8","platformName":"ItunesPreview","storeFront":"143468","environmentDataCenter":"NWK"}},"iTunes":{"metricsUrl":"https://xp.apple.com/report","compoundSeparator":"_","tokenSeparator":"|","postFrequency":60000,"postFrequencyLowLatency":5000,"blacklistedFields":["capacitySystem","capacitySystemAvailable","capacityDisk","capacityData","capacityDataAvailable"],"appInstallSamplingPercentage":0.9995,"impressions":{"viewableThreshold":1000,"viewablePercentage":0.5},"performance":{"samplingPercentageUsers":3.0E-4,"samplingPercentageUsersPageRender":0.01,"samplingPercentageCachedResponses":1,"sessionDuration":60000,"sessionDurationPageRender":60000},"fieldsMap":{"single":{"targetId":["id","adamId","contentId","type","link.adamId","link.id","link.type","fcId","userPreference","label","station-hash","linkIdentifier"]},"custom":{"location":["id","adamId","dataSetId","name","fcKind","kindIds","type","link.type","station-hash","core-seed-name"],"impressions":["id","adamId","link.type","station-hash"],"iAd":[]},"cookies":["itcCt","itscc","xp_ab","xp_abc"],"multi":{}},"metricsBase":{"storeFrontHeader":"","language":"28","platformId":"8","platformName":"ItunesPreview","storeFront":"143468","environmentDataCenter":"NWK"}},"iTunesU":{"metricsUrl":"https://xp.apple.com/report","compoundSeparator":"_","tokenSeparator":"|","postFrequency":60000,"postFrequencyLowLatency":5000,"blacklistedFields":["capacitySystem","capacitySystemAvailable","capacityDisk","capacityData","capacityDataAvailable"],"appInstallSamplingPercentage":0.9995,"impressions":{"viewableThreshold":1000,"viewablePercentage":0.5},"performance":{"samplingPercentageUsers":3.0E-4,"samplingPercentageUsersPageRender":0.01,"samplingPercentageCachedResponses":1,"sessionDuration":60000,"sessionDurationPageRender":60000},"fieldsMap":{"single":{"targetId":["id","adamId","contentId","type","link.adamId","link.id","link.type","fcId","userPreference","label","station-hash","linkIdentifier"]},"custom":{"location":["id","adamId","dataSetId","name","fcKind","kindIds","type","link.type","station-hash","core-seed-name"],"impressions":["id","adamId","link.type","station-hash"],"iAd":[]},"cookies":["itcCt","itscc","xp_ab","xp_abc"],"multi":{}},"metricsBase":{"storeFrontHeader":"","language":"28","platformId":"8","platformName":"ItunesPreview","storeFront":"143468","environmentDataCenter":"NWK"}},"MacAppStore":{"metricsUrl":"https://xp.apple.com/report","compoundSeparator":"_","tokenSeparator":"|","postFrequency":60000,"postFrequencyLowLatency":5000,"blacklistedFields":["capacitySystem","capacitySystemAvailable","capacityDisk","capacityData","capacityDataAvailable"],"appInstallSamplingPercentage":0.9995,"impressions":{"viewableThreshold":1000,"viewablePercentage":0.5},"performance":{"samplingPercentageUsers":3.0E-4,"samplingPercentageUsersPageRender":0.01,"samplingPercentageCachedResponses":1,"sessionDuration":60000,"sessionDurationPageRender":60000},"fieldsMap":{"single":{"targetId":["id","adamId","contentId","type","link.adamId","link.id","link.type","fcId","userPreference","label","station-hash","linkIdentifier"]},"custom":{"location":["id","adamId","dataSetId","name","fcKind","kindIds","type","link.type","station-hash","core-seed-name"],"impressions":["id","adamId","link.type","station-hash"],"iAd":[]},"cookies":["itcCt","itscc","xp_ab","xp_abc"],"multi":{}},"metricsBase":{"storeFrontHeader":"","language":"28","platformId":"8","platformName":"ItunesPreview","storeFront":"143468","environmentDataCenter":"NWK"}},"Maps":{"metricsUrl":"https://xp.apple.com/report","compoundSeparator":"_","tokenSeparator":"|","postFrequency":60000,"postFrequencyLowLatency":5000,"blacklistedFields":["capacitySystem","capacitySystemAvailable","capacityDisk","capacityData","capacityDataAvailable"],"appInstallSamplingPercentage":0.9995,"impressions":{"viewableThreshold":1000,"viewablePercentage":0.5},"performance":{"samplingPercentageUsers":3.0E-4,"samplingPercentageUsersPageRender":0.01,"samplingPercentageCachedResponses":1,"sessionDuration":60000,"sessionDurationPageRender":60000},"fieldsMap":{"single":{"targetId":["id","adamId","contentId","type","link.adamId","link.id","link.type","fcId","userPreference","label","station-hash","linkIdentifier"]},"custom":{"location":["id","adamId","dataSetId","name","fcKind","kindIds","type","link.type","station-hash","core-seed-name"],"impressions":["id","adamId","link.type","station-hash"],"iAd":[]},"cookies":["itcCt","itscc","xp_ab","xp_abc"],"multi":{}},"metricsBase":{"storeFrontHeader":"","language":"28","platformId":"8","platformName":"ItunesPreview","storeFront":"143468","environmentDataCenter":"NWK"}},"MusicPlayer":{"metricsUrl":"https://xp.apple.com/report","compoundSeparator":"_","tokenSeparator":"|","postFrequency":60000,"postFrequencyLowLatency":5000,"blacklistedFields":["capacitySystem","capacitySystemAvailable","capacityDisk","capacityData","capacityDataAvailable"],"appInstallSamplingPercentage":0.9995,"impressions":{"viewableThreshold":1000,"viewablePercentage":0.5},"performance":{"samplingPercentageUsers":3.0E-4,"samplingPercentageUsersPageRender":0.01,"samplingPercentageCachedResponses":1,"sessionDuration":60000,"sessionDurationPageRender":60000},"fieldsMap":{"single":{"targetId":["id","adamId","contentId","type","link.adamId","link.id","link.type","fcId","userPreference","label","station-hash","linkIdentifier"]},"custom":{"location":["id","adamId","dataSetId","name","fcKind","kindIds","type","link.type","station-hash","core-seed-name"],"impressions":["id","adamId","link.type","station-hash"],"iAd":[]},"cookies":["itcCt","itscc","xp_ab","xp_abc"],"multi":{}},"metricsBase":{"storeFrontHeader":"","language":"28","platformId":"8","platformName":"ItunesPreview","storeFront":"143468","environmentDataCenter":"NWK"}},"Podcasts":{"metricsUrl":"https://xp.apple.com/report","compoundSeparator":"_","tokenSeparator":"|","postFrequency":60000,"postFrequencyLowLatency":5000,"blacklistedFields":["capacitySystem","capacitySystemAvailable","capacityDisk","capacityData","capacityDataAvailable"],"appInstallSamplingPercentage":0.9995,"impressions":{"viewableThreshold":1000,"viewablePercentage":0.5},"performance":{"samplingPercentageUsers":3.0E-4,"samplingPercentageUsersPageRender":0.01,"samplingPercentageCachedResponses":1,"sessionDuration":60000,"sessionDurationPageRender":60000},"fieldsMap":{"single":{"targetId":["id","adamId","contentId","type","link.adamId","link.id","link.type","fcId","userPreference","label","station-hash","linkIdentifier"]},"custom":{"location":["id","adamId","dataSetId","name","fcKind","kindIds","type","link.type","station-hash","core-seed-name"],"impressions":["id","adamId","link.type","station-hash"],"iAd":[]},"cookies":["itcCt","itscc","xp_ab","xp_abc"],"multi":{}},"metricsBase":{"storeFrontHeader":"","language":"28","platformId":"8","platformName":"ItunesPreview","storeFront":"143468","environmentDataCenter":"NWK"}},"Third-Party":{"metricsUrl":"https://xp.apple.com/report","compoundSeparator":"_","tokenSeparator":"|","postFrequency":60000,"postFrequencyLowLatency":5000,"blacklistedFields":["capacitySystem","capacitySystemAvailable","capacityDisk","capacityData","capacityDataAvailable"],"appInstallSamplingPercentage":0.9995,"impressions":{"viewableThreshold":1000,"viewablePercentage":0.5},"performance":{"samplingPercentageUsers":3.0E-4,"samplingPercentageUsersPageRender":0.01,"samplingPercentageCachedResponses":1,"sessionDuration":60000,"sessionDurationPageRender":60000},"fieldsMap":{"single":{"targetId":["id","adamId","contentId","type","link.adamId","link.id","link.type","fcId","userPreference","label","station-hash","linkIdentifier"]},"custom":{"location":["id","adamId","dataSetId","name","fcKind","kindIds","type","link.type","station-hash","core-seed-name"],"impressions":["id","adamId","link.type","station-hash"],"iAd":[]},"cookies":["itcCt","itscc","xp_ab","xp_abc"],"multi":{}},"metricsBase":{"storeFrontHeader":"","language":"28","platformId":"8","platformName":"ItunesPreview","storeFront":"143468","environmentDataCenter":"NWK"}},"VideoPlayer":{"metricsUrl":"https://xp.apple.com/report","compoundSeparator":"_","tokenSeparator":"|","postFrequency":60000,"postFrequencyLowLatency":5000,"blacklistedFields":["capacitySystem","capacitySystemAvailable","capacityDisk","capacityData","capacityDataAvailable"],"appInstallSamplingPercentage":0.9995,"impressions":{"viewableThreshold":1000,"viewablePercentage":0.5},"performance":{"samplingPercentageUsers":3.0E-4,"samplingPercentageUsersPageRender":0.01,"samplingPercentageCachedResponses":1,"sessionDuration":60000,"sessionDurationPageRender":60000},"fieldsMap":{"single":{"targetId":["id","adamId","contentId","type","link.adamId","link.id","link.type","fcId","userPreference","label","station-hash","linkIdentifier"]},"custom":{"location":["id","adamId","dataSetId","name","fcKind","kindIds","type","link.type","station-hash","core-seed-name"],"impressions":["id","adamId","link.type","station-hash"],"iAd":[]},"cookies":["itcCt","itscc","xp_ab","xp_abc"],"multi":{}},"metricsBase":{"storeFrontHeader":"","language":"28","platformId":"8","platformName":"ItunesPreview","storeFront":"143468","environmentDataCenter":"NWK"}},"WiFi-Music":{"metricsUrl":"https://xp.apple.com/report","compoundSeparator":"_","tokenSeparator":"|","postFrequency":60000,"postFrequencyLowLatency":5000,"blacklistedFields":["capacitySystem","capacitySystemAvailable","capacityDisk","capacityData","capacityDataAvailable"],"appInstallSamplingPercentage":0.9995,"impressions":{"viewableThreshold":1000,"viewablePercentage":0.5},"performance":{"samplingPercentageUsers":3.0E-4,"samplingPercentageUsersPageRender":0.01,"samplingPercentageCachedResponses":1,"sessionDuration":60000,"sessionDurationPageRender":60000},"fieldsMap":{"single":{"targetId":["id","adamId","contentId","type","link.adamId","link.id","link.type","fcId","userPreference","label","station-hash","linkIdentifier"]},"custom":{"location":["id","adamId","dataSetId","name","fcKind","kindIds","type","link.type","station-hash","core-seed-name"],"impressions":["id","adamId","link.type","station-hash"],"iAd":[]},"cookies":["itcCt","itscc","xp_ab","xp_abc"],"multi":{}},"metricsBase":{"storeFrontHeader":"","language":"28","platformId":"8","platformName":"ItunesPreview","storeFront":"143468","environmentDataCenter":"NWK"}},"AppStore":{"metricsUrl":"https://xp.apple.com/report","compoundSeparator":"_","tokenSeparator":"|","postFrequency":60000,"postFrequencyLowLatency":5000,"blacklistedFields":["capacitySystem","capacitySystemAvailable","capacityDisk","capacityData","capacityDataAvailable"],"appInstallSamplingPercentage":0.9995,"impressions":{"viewableThreshold":1000,"viewablePercentage":0.5},"performance":{"samplingPercentageUsers":3.0E-4,"samplingPercentageUsersPageRender":0.01,"samplingPercentageCachedResponses":1,"sessionDuration":60000,"sessionDurationPageRender":60000},"fieldsMap":{"single":{"targetId":["id","adamId","contentId","type","link.adamId","link.id","link.type","fcId","userPreference","label","station-hash","linkIdentifier"]},"custom":{"location":["id","adamId","dataSetId","name","fcKind","kindIds","type","link.type","station-hash","core-seed-name"],"impressions":["id","adamId","link.type","station-hash"],"iAd":[]},"cookies":["itcCt","itscc","xp_ab","xp_abc"],"multi":{}},"metricsBase":{"storeFrontHeader":"","language":"28","platformId":"8","platformName":"ItunesPreview","storeFront":"143468","environmentDataCenter":"NWK"}},"MobileStore":{"metricsUrl":"https://xp.apple.com/report","compoundSeparator":"_","tokenSeparator":"|","postFrequency":60000,"postFrequencyLowLatency":5000,"blacklistedFields":["capacitySystem","capacitySystemAvailable","capacityDisk","capacityData","capacityDataAvailable"],"appInstallSamplingPercentage":0.9995,"impressions":{"viewableThreshold":1000,"viewablePercentage":0.5},"performance":{"samplingPercentageUsers":3.0E-4,"samplingPercentageUsersPageRender":0.01,"samplingPercentageCachedResponses":1,"sessionDuration":60000,"sessionDurationPageRender":60000},"fieldsMap":{"single":{"targetId":["id","adamId","contentId","type","link.adamId","link.id","link.type","fcId","userPreference","label","station-hash","linkIdentifier"]},"custom":{"location":["id","adamId","dataSetId","name","fcKind","kindIds","type","link.type","station-hash","core-seed-name"],"impressions":["id","adamId","link.type","station-hash"],"iAd":[]},"cookies":["itcCt","itscc","xp_ab","xp_abc"],"multi":{}},"metricsBase":{"storeFrontHeader":"","language":"28","platformId":"8","platformName":"ItunesPreview","storeFront":"143468","environmentDataCenter":"NWK"}}},"MZStore.shouldAttemptToEvaluateXpathSecondTime":true,"MZStore.shouldCacheElementTypeProtoObjects":true,"isStoweUpgradeDialogEnabled":false,"stoweUpgradeSize":1600000000,"isStopPageOneEnabled":false,"SF.isNotifyMeEnabled":false,"SF.notifyMeIds":[],"SF.notifyMeIdsWithAppleWatchApp":[],"SF.notifyMeIdsWithTvApp":[]}}</script>
+<script type="text/javascript" charset="utf-8">
+if (!window.iTSLocalization) { iTSLocalization = {}; }
+iTSLocalization._strings = {"Js.MyAlerts.GeniusActivationNeeded.Button":"Ir a Genius", "Js.Pagination.NextPage":"Siguiente página", "Js.Wishlist.RemoveTooltip":"Quitar de la lista de deseos", "Js.CNConnections.RequestSent":"Solicitud enviada", "Js.Showcase.Next":"Siguiente artículo", "Js.CNConnections.Dialog.GetStarted":"Comenzar", "Js.ReportAConcern.SigninMessage":"Ingresa tu Apple ID y contraseña, luego haz clic en iniciar sesión.", "CNConnections.Upload.UploadErrorMessage":"Lo sentimos, pero se ha producido un error de carga. ", "Js.InlineReview.SigninMessage":"Ingresa tu Apple ID y contraseña, luego haz clic en iniciar sesión.", "Js.TextTruncation.More":"Más", "Js.QuickView.Unavailable.Title":"Vista rápida no está disponible para este artículo en este momento.", "Less":"Menos", "Js.MyAlerts.GeniusActivationNeeded.Message":"Se necesita Genius.", "CNConnections.Dialog.Post.Review.SignIn.Title":"Inicia sesión para publicar.", "Js.ManageArtistAlerts.CheckAll.Artists":"Seleccionar todos los artistas", "CNConnections.Upload.UploadErrorHeading":"Hay un problema con tu carga", "Js.TellAFriend.SigninMessage":"Ingresa tu Apple ID y contraseña, luego haz clic en iniciar sesión.", "CNConnections.Dialog.StopFollowing.Message":"CNConnections.Dialog.StopFollowing.Message", "CNConnections.Dialog.OptIn.Title":"Ping dejará de estar disponible a partir del 30 de septiembre", "CNConnections.Dialog.StopFollowing.Title":"¿Estás seguro que quieres dejar de seguir a @@fullName@@?", "Js.InlineReview.SigninTitle":"Inicia sesión para escribir una reseña.", "Js.InlineRating.SigninMessage":"Inicia sesión para continuar.", "Js.MyAlerts.GeniusActivationNeeded.Explanation":"Las alertas basadas en el contenido de tu biblioteca no funcionan sin antes activar Genuis. Para más información, haz clic en Ir a Genius.", "_thousandsSeparator":",", "InAppPurchases":"Compras dentro de la app", 
+"Js.CNConnections.LoginRequired.Message":"Se necesita Ping. Ping dejará de estar disponible a partir del 30 de septiembre y ya no aceptamos nuevos miembros. Si ya eres miembro de Ping, inicia sesión aquí debajo para continuar.", "Js.Pagination.PreviousPage":"Página anterior", "Js.TellAFriend.SigninTitle":"Inicia sesión para decírselo a un amigo.", "Js.InlineReview.RateThis":"Valorar esto", "Js.InlineReview.5":"excelente", "Js.InlineReview.4":"bueno", "Js.Pagination.Back":"Regresar", "Js.InlineReview.3":"no está mal", "CNConnections.Dialog.PrivateUser.IllegalAction.Message":"Para realizar esta acción, debes ajustar tu configuración de privacidad.", "Js.InlineReview.2":"no me gusta", "Js.InlineReview.1":"horrible", "Js.InlinePreview.StopPreview":"Detener vista previa de @@title@@", "Js.QuickView.Unavailable.Text":"Vuelve a intentarlo más tarde.", "Js.MyAlerts.ConfirmEmailSignUp.Explanation":"Puedes cambiar esta preferencia en cualquier momento desde tu página de Mis alertas.", "Js.CNConnections.Dialog.Cancel":"Cancelar", "Js.CNConnections.PeoplePopupMore":"y @@count@@ otro@@s@@...", "CNConnections.Dialog.OptIn.Message":"CNConnections.Dialog.OptIn.Message", "Js.CNConnections.Confirmed":"Confirmado", "Js.CNConnections.UserReview.YouLiked":"Te gusta", "Js.CreateAccount":"Crea un Apple ID", "Js.CNConnections.OptInRequired.Title":"Ping", "Js.Pagination.Next":"Siguiente", "Js.ManageArtistAlerts.CheckAll.Actors":"Seleccionar todos los actores", "Js.ManageArtistAlerts.CheckAll":"Seleccionar todo", "Js.ReportAConcern.SigninTitle":"Inicia sesión para señalar una preocupación", "Js.MyAlerts.CancelEmailSignUp.Explanation":"Puedes cambiar esta preferencia en cualquier momento desde tu página de Mis alertas.", "CNConnections.Dialog.PrivateUser.LeakyAction.Message":"Esta acción hará que tu foto de perfil y tu nombre sean visible para todos.", "Js.TextLimit.Remaining":"@@count@@ caracteres sobrantes", "More":"Más", "CNConnections.Dialog.PrivateUser.LeakyAction.Title":"¿Estás seguro de que deseas realizar esta acción?", "Js.Pagination.PageNumberTitle":"página @@num@@", "Js.Pagination.DisabledButtonText":"desactivar @@button_text@@", "Js.MyAlerts.CancelEmailSignUp.Message":"¿Estás seguro que quieres dejar de recibir alertas por correo electrónico?", "JS.errors.requiredLite":"Rellena todos los campos requeridos.", "CNConnections.Dialog.Post.Review.SignIn.Message":"CNConnections.Dialog.Post.Review.SignIn.Message", "Js.InlineReview.Thanks":"¡Gracias!", "Js.InlineReview.Error":"Error", "CNConnections.Dialog.Like.Review.SignIn.Message":"CNConnections.Dialog.Like.Review.SignIn.Message", "Js.ManageArtistAlerts.UncheckAll.Artists":"Eliminar todos los artistas", "Js.List.Item":"artículo", "Js.iTunesStoreError.Explanation":"Hubo un error en iTunes Store. Vuelve a intentarlo más tarde.  (@@errorNum@@)", "Js.InlineReview.ClickToRate":"Haz clic para valorar", "CNConnections.Dialog.PrivateUser.IllegalAction.Title":"Los usuarios privados no pueden realizar esta acción.", "Js.InlineRating.SigninTitle":"Inicia sesión para valorar este artículo.", "Js.MyAlerts.ConfirmEmailSignUp.Message":"¿Estás seguro que quieres recibir alertas por correo electrónico?", "Js.ManageArtistAlerts.UncheckAll.Actors":"Eliminar todos los actores", "CNConnections.Dialog.OptIn.ButtonSubmit":"Más información", "_decimalSeparator":".", "CNConnections.Dialog.OptIn.ButtonCancel":"Cancelar", 
+"Js.CNConnections.OptInRequired.Message":"Se necesita Ping. Ping dejará de estar disponible a partir del 30 de septiembre y ya no aceptamos nuevos miembros. Si ya eres miembro de Ping, inicia sesión aquí debajo para continuar.", "Js.CNConnections.LoginRequired.Title":"Inicia sesión para acceder a Ping.", "CNConnections.Dialog.OptIn.ButtonSignIn":"Iniciar sesión", "Js.Pagination.PageNumber":"Página @@num@@", "Js.Search.HintsTitle":"Sugerencias", "Js.InlinePreview.PlayPreview":"Reproducir vista previa de @@title@@", "CNConnections.Dialog.Like.Review.SignIn.Title":"Inicia sesión para indicar que te gusta una reseña.", "Js.ManageArtistAlerts.UncheckAll":"Eliminar todas las selecciones", "Js.iTunesStoreError.Message":"No hemos podido completar tu solicitud.", "CNConnections.Upload.MaxPhotosErrorMessage":"Sólo se pueden publicar 20 fotos de una vez."}
+</script>
+
+<script type="text/javascript" charset="utf-8" src="/htmlResources/ef5a1c4/web-storefront-base.js"></script>
+<script type="text/javascript" charset="utf-8" src="/htmlResources/ef5a1c4/web-storefront-preview.js"></script>
+
+
+<link charset="utf-8" href="https://www.apple.com/wss/fonts?families=SF+Pro,v1|SF+Pro+Icons,v1" rel="stylesheet" type="text/css" />
+<link charset="utf-8" href="https://www.apple.com/ac/globalnav/3/es_MX/styles/ac-globalnav.fixed.built.css" id="globalheader-stylesheet" rel="stylesheet" type="text/css" />
+<link charset="utf-8" href="https://www.apple.com/ac/globalfooter/3/es_MX/styles/ac-globalfooter.fixed.built.css" rel="stylesheet" type="text/css" />
+
+
+
+
+
+</head>
+
+  <body onload="detectAndOpenMacAppStore();" class="software geo-mx ac-platter-content lang-es-mx lang-es">
+  <script type="text/javascript">
+      checkIfAskPermissionApprovalSheet();
+  </script>
+  
+
+  
+  <aside id="ac-gn-segmentbar" class="ac-gn-segmentbar" lang="es-MX" dir="ltr" data-strings="{ 'exit': 'Salir', 'view': 'Página de inicio de la tienda {%STOREFRONT%}', 'segments': { 'smb': 'Página de inicio - Apple Store para empresas', 'eduInd': 'Página de inicio - Apple Store para la educación', 'other': 'Página de inicio - Apple Store' } }">
+</aside>
+<input type="checkbox" id="ac-gn-menustate" class="ac-gn-menustate" />
+<nav id="ac-globalnav" class="no-js" role="navigation" aria-label="Navegación global" data-hires="false" data-analytics-region="global nav" lang="es-MX" dir="ltr" data-store-locale="mx" data-store-api="//www.apple.com/[storefront]/shop/bag/status" data-search-locale="es_MX" data-search-api="//www.apple.com/search-services/suggestions/">
+	<div class="ac-gn-content">
+		<ul class="ac-gn-header">
+			<li class="ac-gn-item ac-gn-menuicon">
+				<label class="ac-gn-menuicon-label" for="ac-gn-menustate" aria-hidden="true">
+					<span class="ac-gn-menuicon-bread ac-gn-menuicon-bread-top">
+						<span class="ac-gn-menuicon-bread-crust ac-gn-menuicon-bread-crust-top"></span>
+					</span>
+					<span class="ac-gn-menuicon-bread ac-gn-menuicon-bread-bottom">
+						<span class="ac-gn-menuicon-bread-crust ac-gn-menuicon-bread-crust-bottom"></span>
+					</span>
+				</label>
+				<a href="#ac-gn-menustate" class="ac-gn-menuanchor ac-gn-menuanchor-open" id="ac-gn-menuanchor-open">
+					<span class="ac-gn-menuanchor-label">Abrir menú</span>
+				</a>
+				<a href="#" class="ac-gn-menuanchor ac-gn-menuanchor-close" id="ac-gn-menuanchor-close">
+					<span class="ac-gn-menuanchor-label">Cerrar menú</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-apple">
+				<a class="ac-gn-link ac-gn-link-apple" href="//www.apple.com/mx/" data-analytics-title="apple home" id="ac-gn-firstfocus-small">
+					<span class="ac-gn-link-text">Apple</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-bag ac-gn-bag-small" id="ac-gn-bag-small">
+				<a class="ac-gn-link ac-gn-link-bag" href="//www.apple.com/mx/shop/goto/bag" data-analytics-title="bag" data-analytics-click="bag" aria-label="Bolsa de compras" data-string-badge="Bolsa de compras con artículos">
+					<span class="ac-gn-link-text">Bolsa de compras</span>
+					<span class="ac-gn-bag-badge"></span>
+				</a>
+				<span class="ac-gn-bagview-caret ac-gn-bagview-caret-large"></span>
+			</li>
+		</ul>
+		<ul class="ac-gn-list">
+			<li class="ac-gn-item ac-gn-apple">
+				<a class="ac-gn-link ac-gn-link-apple" href="//www.apple.com/mx/" data-analytics-title="apple home" id="ac-gn-firstfocus">
+					<span class="ac-gn-link-text">Apple</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-mac">
+				<a class="ac-gn-link ac-gn-link-mac" href="//www.apple.com/mx/mac/" data-analytics-title="mac">
+					<span class="ac-gn-link-text">Mac</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-ipad">
+				<a class="ac-gn-link ac-gn-link-ipad" href="//www.apple.com/mx/ipad/" data-analytics-title="ipad">
+					<span class="ac-gn-link-text">iPad</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-iphone">
+				<a class="ac-gn-link ac-gn-link-iphone" href="//www.apple.com/mx/iphone/" data-analytics-title="iphone">
+					<span class="ac-gn-link-text">iPhone</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-watch">
+				<a class="ac-gn-link ac-gn-link-watch" href="//www.apple.com/mx/watch/" data-analytics-title="watch">
+					<span class="ac-gn-link-text">Watch</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-tv">
+				<a class="ac-gn-link ac-gn-link-tv" href="//www.apple.com/mx/tv/" data-analytics-title="tv">
+					<span class="ac-gn-link-text">TV</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-music">
+				<a class="ac-gn-link ac-gn-link-music" href="//www.apple.com/mx/music/" data-analytics-title="music">
+					<span class="ac-gn-link-text">Music</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-support">
+				<a class="ac-gn-link ac-gn-link-support" href="https://support.apple.com/es-mx" data-analytics-title="support">
+					<span class="ac-gn-link-text">Soporte</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-search" role="search">
+				<a class="ac-gn-link ac-gn-link-search" href="//www.apple.com/mx/search" data-analytics-title="search" data-analytics-click="search" aria-label="Buscar en apple.com">
+					<span class="ac-gn-search-placeholder" aria-hidden="true">Buscar en apple.com</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-bag" id="ac-gn-bag">
+				<a class="ac-gn-link ac-gn-link-bag" href="//www.apple.com/mx/shop/goto/bag" data-analytics-title="bag" data-analytics-click="bag" aria-label="Bolsa de compras" data-string-badge="Bolsa de compras con artículos">
+					<span class="ac-gn-link-text">Bolsa de compras</span>
+					<span class="ac-gn-bag-badge" aria-hidden="true"></span>
+				</a>
+				<span class="ac-gn-bagview-caret ac-gn-bagview-caret-large"></span>
+			</li>
+		</ul>
+		<aside id="ac-gn-searchview" class="ac-gn-searchview" role="search" data-analytics-region="search">
+			<div class="ac-gn-searchview-content">
+				<form id="ac-gn-searchform" class="ac-gn-searchform" action="//www.apple.com/mx/search" method="get">
+					<div class="ac-gn-searchform-wrapper">
+						<input id="ac-gn-searchform-input" class="ac-gn-searchform-input" type="text" aria-label="Buscar en apple.com" placeholder="Buscar en apple.com" data-placeholder-long="Buscar productos, tiendas y ayuda" autocorrect="off" autocapitalize="off" autocomplete="off" spellcheck="false" />
+						<input id="ac-gn-searchform-src" type="hidden" name="src" value="globalnav" />
+						<button id="ac-gn-searchform-submit" class="ac-gn-searchform-submit" type="submit" disabled aria-label="Enviar"></button>
+						<button id="ac-gn-searchform-reset" class="ac-gn-searchform-reset" type="reset" disabled aria-label="Borrar búsqueda"></button>
+					</div>
+				</form>
+				<aside id="ac-gn-searchresults" class="ac-gn-searchresults" data-string-quicklinks="Enlaces rápidos" data-string-suggestions="Búsquedas sugeridas" data-string-noresults="Presiona enter para buscar."></aside>
+			</div>
+			<button id="ac-gn-searchview-close" class="ac-gn-searchview-close" aria-label="Cerrar búsqueda">
+					<span class="ac-gn-searchview-close-wrapper">
+						<span class="ac-gn-searchview-close-left"></span>
+						<span class="ac-gn-searchview-close-right"></span>
+					</span>
+				</button>
+		</aside>
+		<aside class="ac-gn-bagview" data-analytics-region="bag">
+			<div class="ac-gn-bagview-scrim">
+				<span class="ac-gn-bagview-caret ac-gn-bagview-caret-small"></span>
+			</div>
+			<div class="ac-gn-bagview-content" id="ac-gn-bagview-content">
+			</div>
+		</aside>
+	</div>
+</nav>
+<div id="ac-gn-curtain" class="ac-gn-curtain"></div>
+<div id="ac-gn-placeholder" class="ac-nav-placeholder"></div>
+<script type="text/javascript" src="https://www.apple.com/ac/globalnav/3/es_MX/scripts/ac-globalnav.built.js"></script>
+<nav id="productheader" data-hires="true"><h2><img src="https://s.mzstatic.com/images/web/mac_app_preview/appstorepreview_es-mx@2x.png" alt="iTunes" height="32" width="400"></h2><ul><li id="pn-whats-new"><a href="http://www.apple.com/mx/osx/whats-new/">Novedades</a></li><li id="pn-what-is"><a href="http://www.apple.com/mx/osx/what-is/">Qué es OS X</a></li><li id="pn-apps"><a href="http://www.apple.com/mx/osx/apps/">Apps de OS X</a></li><li id="pn-how-to-upgrade"><a href="http://www.apple.com/mx/osx/how-to-upgrade/">Cómo actualizar</a></li><li id="pn-specs"><a href="http://www.apple.com/mx/osx/specs/">Especificaciones</a></li><li></li></ul></nav>
+
+  <div id="main">
+    
+    <div id="mac-app-store-required"><div class="callout app-store"><div class="left">Mac App Store</div><h2>Mac App Store es la manera más sencilla de encontrar y descargar apps para tu Mac.</h2><p class="intro">Para descargar Xcode del Mac App Store, necesitas una Mac con OS X 10.6.6 o posterior. <a href="http://www.apple.com/mx/mac/app-store/?id=497799835">Más información.</a></p></div></div>
+    
+    
+    
+      <script type="text/javascript">
+        deviceDetect();
+      </script>
+    
+    <div id="desktopContentBlockId" class='platform-content-block display-block'>
+
+      <div id="content">
+
+        <div itemscope itemtype="http://schema.org/SoftwareApplication" class="padder">
+          
+
+          <div id="title" class="intro ">
+            <div class="left">
+              <h1 itemprop="name">Xcode</h1>
+              <h2>De Apple</h2>
+              <div class="editorial-badge">Imprescindibles</div>
+            </div>
+            <div class="right">
+              
+              
+              
+            </div>
+            <p>Abre Mac App Store para comprar y descargar apps.</p>
+          </div>
+
+          <div class="center-stack">
+            
+            <div more-text="Más" metrics-loc="Titledbox_Descripción" class="product-review">
+  
+    <h4>
+      
+      Descripción
+    </h4>
+    
+  
+  
+  
+    <p itemprop="description">Xcode includes everything developers need to create great applications for Mac, iPhone, iPad, Apple TV, and Apple Watch. Xcode provides developers a unified workflow for user interface design, coding, testing, and debugging.  The Xcode IDE combined with the Swift programming language make developing apps easier and more fun than ever before.<br /><br />Xcode includes the Xcode IDE, Swift and Objective-C compilers, Instruments analysis tool, simulators, the latest SDKs, and hundreds of powerful features:<br /><br />Innovative tools help you create great apps<br />• Swift is a revolutionary programming language that is safe, fast, and modern<br />• Playgrounds are a fun way to experiment and interact with Swift code<br />• Interface Builder displays pixel-perfect UI for each target device and can edit at any zoom level<br />• View debugging shows a 3D stack of all your app's UI view layers at runtime<br />• Assistant editors show content related to your primary task<br />• Live Issues display errors as you type, and Fix-its can correct mistakes for you<br /><br />Swift is a powerful, modern, and fun programming language<br />• Safe by design, Swift syntax and features prevent entire categories of bugs<br />• Fast code execution and compile time are powered by the proven LLVM compiler<br />• Modern language features are inspired by leading research, including:<br />- Closures unified with function pointers<br />- Tuples and multiple return values<br />- Structs as value types that support methods, extensions, protocols<br />- Powerful protocols that can extend functionality throughout your codebase<br />- Functional programming patterns including map and filter<br /><br />Interface Builder makes it easy to design your interface without code<br />• Storyboards let you arrange the complete flow of screens within your app<br />• See your custom controls rendered live within the design canvas<br />• Customize your interface for different devices, screen sizes, and orientations<br />• StackViews make it easy to reason about the layout of each section of your interface<br />• Create connections from your GUI design directly to the related source code<br /><br />Professional editor and debugger keep your code front and center<br />• Hit a few keys and Open Quickly will instantly open any file within your project<br />• Message bubbles show errors, warnings, and other issues right beside your code<br />• Data tips show a variable's value by hovering your mouse over the code<br />• Quick Look variables while debugging to see the actual color, bezier path, image, and more<br />• Third party app extensions can add new capabilities to the source editor<br /><br />Test driven development is built right in<br />• Use the Test Navigator to add, edit, or run unit tests or user interface tests with just a click<br />• Test Assistant makes it easy to edit your code and related tests, side-by-side<br />• Create continuous integration bots using macOS Server to automatically build and test your apps<br />• Monitor performance and user interface test data using macOS Server to immediately spot regressions<br />• Analyzer travels countless code paths looking for logical errors before they become bugs<br /><br />Instruments makes performance analysis beautiful<br />• Compare CPU, disk, memory, and OpenGL performance as graphical tracks over time<br />• Identify performance bottlenecks, then dive deep into the code to uncover the cause<br />• Monitor your app directly, or sample the entire system, with very little overhead<br /><br />To test or deploy applications on an iOS device, Apple TV, or on Apple Watch all you need is a free Apple ID. To submit your apps to the App Store you must be a member of the Apple Developer Program. Continuous integration features require a current version of macOS Server. Some features may require Internet access.</p>
+  
+  
+</div>
+
+
+            
+            <div class="app-links"><a rel="nofollow" target="_blank" href="http://developer.apple.com/xcode" class="see-all">Sitio web de Apple</a><a rel="nofollow" target="_blank" href="http://developer.apple.com/support/xcode" class="see-all">Soporte técnico para Xcode</a><a rel="nofollow" href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewEula?id=497799835&amp;mt=12" class="see-all">Acuerdo de licencia de la aplicación</a></div>
+
+            
+            <div more-text="Más" metrics-loc="Titledbox_Novedades de la versión 8.3.3" class="product-review">
+  
+    <h4>
+      
+      Novedades de la versión 8.3.3
+    </h4>
+    
+  
+  
+  
+    <p>Xcode 8.3.3 includes Swift 3.1 and SDKs for iOS 10.3, watchOS 3.2, tvOS 10.2, and macOS Sierra 10.12<br /><br />Xcode 8.3.3 adds Interface Builder support for iPad Pro (10.5-inch)</p>
+  
+  
+</div>
+
+
+            
+            
+
+            
+            
+<div metrics-loc="Swoosh_" rows="1" class="swoosh lockup-container application mac-application large screenshots">
+
+  <div class="title">
+   
+   
+    <h2>Capturas de pantalla</h2>
+   
+       
+    
+    
+    
+  </div>
+
+  
+    
+    <div num-items="5" class="content"><div><div class="lockup"><img alt="Captura de pantalla 1" itemprop="screenshot" class="landscape" src="http://a3.mzstatic.com/us/r30/Purple19/v4/d6/34/59/d634596a-1f1c-c52a-74e1-921a2898cb1f/screen800x500.jpeg" /></div><div class="lockup"><img alt="Captura de pantalla 2" itemprop="screenshot" class="landscape" src="http://a4.mzstatic.com/us/r30/Purple71/v4/bc/d9/61/bcd9610c-80e4-ac68-06e7-0b56f1ca1b71/screen800x500.jpeg" /></div><div class="lockup"><img alt="Captura de pantalla 3" itemprop="screenshot" class="landscape" src="http://a2.mzstatic.com/us/r30/Purple19/v4/63/48/09/63480996-4507-b02f-a79e-9f3d47a6a185/screen800x500.jpeg" /></div><div class="lockup"><img alt="Captura de pantalla 4" itemprop="screenshot" class="landscape" src="http://a5.mzstatic.com/us/r30/Purple19/v4/c7/3a/bc/c73abca9-8f69-134a-ee46-8d0a7211b7ed/screen800x500.jpeg" /></div><div class="lockup"><img alt="Captura de pantalla 5" itemprop="screenshot" class="landscape" src="http://a5.mzstatic.com/us/r30/Purple71/v4/d8/7e/ee/d87eee1c-a458-c923-e98a-ec595f3119c7/screen800x500.jpeg" /></div></div></div>
+  
+</div>
+
+
+            
+            
+
+            
+            
+          </div>
+
+          <div id="left-stack">
+            
+            <div rating-software="100,itunes-games" parental-rating="1" class="lockup product application mac-application">
+  <a href="https://itunes.apple.com/mx/app/xcode/id497799835?mt=12"><div class="artwork">
+    <img width="175" height="175" alt="Xcode" src-swap-high-dpi="http://is3.mzstatic.com/image/thumb/Purple117/v4/72/06/e7/7206e735-a957-ff3c-a706-fa69baf9c761/source/350x350bb.png" src-load-auto-after-dom-load="" src-swap="http://is3.mzstatic.com/image/thumb/Purple117/v4/72/06/e7/7206e735-a957-ff3c-a706-fa69baf9c761/source/175x175bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/d2cc/frameworks/images/p.png" />
+    <meta itemprop="image" content="http://is3.mzstatic.com/image/thumb/Purple117/v4/72/06/e7/7206e735-a957-ff3c-a706-fa69baf9c761/source/175x175bb.png"></meta>
+    
+    
+</div></a>
+  <a onclick="return its.detect.openItunes(&#39;https://itunes.apple.com/mx/app/xcode/id497799835?mt=12&#39;);" href="#" class="action view-in-appstore"><span>Ver en Mac App Store</span></a>
+  <ul class="list"><li><span itemscope itemtype="http://schema.org/Offer" itemprop="offers"><div itemprop="price" content="0" class="price">Gratis</div></span></li><li class="genre"><span class="label">Categoría: </span><a href="https://itunes.apple.com/mx/genre/mac-para-desarrolladores/id12002?mt=12"><span itemprop="applicationCategory">Para desarrolladores</span></a></li><li class="release-date"><span class="label">Actualizado
+: </span><span itemprop="datePublished" content="2012-02-16 14:10:23 Etc/GMT"> 05/06/2017</span></li><li><span class="label">Versión: </span><span itemprop="softwareVersion">8.3.3</span></li><li><span class="label">Tamaño: </span>4.54 GB</li><li class="language"><span class="label">Idioma: </span>Inglés</li><li><span class="label">Vendedor: </span><span itemscope itemtype="http://schema.org/Person" itemprop="author"><span itemprop="name">Apple Inc.</span></span></li><li class="copyright">© 1999–2017 Apple Inc.</li></ul><div class="app-rating"><a onclick="return its.detect.openItunes(&#39;https://itunes.apple.com/WebObjects/MZStore.woa/wa/appRatings?ratingSystem=appsApple&#39;);" href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/appRatings?ratingSystem=appsApple">Clasificación 4+</a></div><p><span class="app-requirements">Compatibilidad: </span><span itemprop="operatingSystem">macOS 10.12 o posterior</span></p>
+</div>
+
+            
+            
+
+            
+            
+<div class='extra-list customer-ratings'>
+  <h4>Valoraciones de clientes</h4>
+
+  
+  
+
+  
+  No hemos recibido suficientes valoraciones para poder mostrar un promedio de la versión actual de este artículo.
+
+  
+    <div>Todas las versiones:</div>
+    <div class='rating' role='img' tabindex='-1' aria-label='4 estrellas, 416 valoraciones'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div><span class="rating-count">416 valoraciones</span>
+</div>
+
+    
+  
+
+</div>
+
+
+            
+            
+
+            
+            <div metrics-loc="Titledbox_Más apps de Apple" class="extra-list more-by">
+  
+    <h4>
+      
+      Más apps de Apple
+    </h4>
+    
+  
+  
+  
+    <ul class="list"><li>
+<div rating-software="100,itunes-games" parental-rating="1" role="group" metrics-loc="Lockup_" adam-id="424389933" preview-artist="Apple" aria-label="Final Cut Pro" preview-title="Final Cut Pro" class="lockup small application mac-application">
+  
+    <a href="https://itunes.apple.com/mx/app/final-cut-pro/id424389933?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Final Cut Pro" src-swap-high-dpi="http://is3.mzstatic.com/image/thumb/Purple127/v4/de/ba/8e/deba8e2f-95c0-71b8-a91e-dd54c14e6393/source/150x150bb.png" src-load-auto-after-dom-load="" src-swap="http://is3.mzstatic.com/image/thumb/Purple127/v4/de/ba/8e/deba8e2f-95c0-71b8-a91e-dd54c14e6393/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/d2cc/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  
+  <div class="lockup-info">
+    
+    
+    
+    <ul role="presentation" class="list"><li><a href="https://itunes.apple.com/mx/app/final-cut-pro/id424389933?mt=12" class="name">Final Cut Pro</a></li><li><a onclick="return its.detect.openItunes(&#39;https://itunes.apple.com/mx/app/final-cut-pro/id424389933?mt=12&#39;);" href="#" class="action view-in-appstore"><span>Ver en Mac App Store</span></a></li></ul>
+  </div>
+</div>
+</li><li>
+<div rating-software="100,itunes-games" parental-rating="1" role="group" metrics-loc="Lockup_" adam-id="634148309" preview-artist="Apple" aria-label="Logic Pro X" preview-title="Logic Pro X" class="lockup small application mac-application">
+  
+    <a href="https://itunes.apple.com/mx/app/logic-pro-x/id634148309?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Logic Pro X" src-swap-high-dpi="http://is3.mzstatic.com/image/thumb/Purple127/v4/16/20/68/16206890-0dac-a201-a859-2fb909f63393/source/150x150bb.png" src-load-auto-after-dom-load="" src-swap="http://is3.mzstatic.com/image/thumb/Purple127/v4/16/20/68/16206890-0dac-a201-a859-2fb909f63393/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/d2cc/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  
+  <div class="lockup-info">
+    
+    
+    
+    <ul role="presentation" class="list"><li><a href="https://itunes.apple.com/mx/app/logic-pro-x/id634148309?mt=12" class="name">Logic Pro X</a></li><li><a onclick="return its.detect.openItunes(&#39;https://itunes.apple.com/mx/app/logic-pro-x/id634148309?mt=12&#39;);" href="#" class="action view-in-appstore"><span>Ver en Mac App Store</span></a></li></ul>
+  </div>
+</div>
+</li><li>
+<div rating-software="100,itunes-games" parental-rating="1" role="group" metrics-loc="Lockup_" adam-id="634159523" preview-artist="Apple" aria-label="MainStage 3" preview-title="MainStage 3" class="lockup small application mac-application">
+  
+    <a href="https://itunes.apple.com/mx/app/mainstage-3/id634159523?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="MainStage 3" src-swap-high-dpi="http://is5.mzstatic.com/image/thumb/Purple111/v4/18/57/3e/18573ec2-41c1-46b5-471d-6c39eae77614/source/150x150bb.png" src-load-auto-after-dom-load="" src-swap="http://is5.mzstatic.com/image/thumb/Purple111/v4/18/57/3e/18573ec2-41c1-46b5-471d-6c39eae77614/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/d2cc/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  
+  <div class="lockup-info">
+    
+    
+    
+    <ul role="presentation" class="list"><li><a href="https://itunes.apple.com/mx/app/mainstage-3/id634159523?mt=12" class="name">MainStage 3</a></li><li><a onclick="return its.detect.openItunes(&#39;https://itunes.apple.com/mx/app/mainstage-3/id634159523?mt=12&#39;);" href="#" class="action view-in-appstore"><span>Ver en Mac App Store</span></a></li></ul>
+  </div>
+</div>
+</li></ul>
+  
+  
+</div>
+
+          </div>
+        </div> 
+      </div>
+    </div>
+    
+  
+  </div>
+
+    
+    
+    
+    <object classID="CLSID:D719897A-B07A-4C0C-AEA9-9B663A28DFCB" width="1" height="1" id="iTunesDetectorIE" ></object>
+    <script type="text/javascript">itms.PageData.itunesDownloadUrl='http://www.apple.com/mx/mac/app-store/?id=497799835';</script>
+
+  
+  
+      <div id="socialwrapper">
+        
+      </div>
+  
+  
+  <footer id="ac-globalfooter" class="no-js" lang="en-US" data-analytics-region="global footer" role="contentinfo"><div class="ac-gf-content"><nav class="ac-gf-breadcrumbs" aria-label="Breadcrumbs" role="navigation">
+	<a href="//www.apple.com/" class="home ac-gf-breadcrumbs-home">
+		<span class="ac-gf-breadcrumbs-home-icon" aria-hidden="true"></span>
+		<span class="ac-gf-breadcrumbs-home-label">Apple</span>
+		<span class="ac-gf-breadcrumbs-home-chevron"></span>
+		<span class="ac-gf-breadcrumbs-home-mask"></span>
+	</a>
+	<div class="ac-gf-breadcrumbs-path">
+		<ol class="ac-gf-breadcrumbs-list" vocab="http://schema.org/" typeof="BreadcrumbList">
+			<li class="ac-gf-breadcrumbs-item" property="itemListElement" typeof="ListItem"><span property="name">Mac</span><meta property="position" content="1" /></li>
+		</ol>
+	</div>
+</nav>
+<nav class="ac-gf-directory with-5-columns" aria-label="" role="navigation">
+	<!--googleoff: all-->
+	<div class="ac-gf-directory-column"><input class="ac-gf-directory-column-section-state" type="checkbox" id="ac-gf-directory-column-section-state-products" />
+		<div class="ac-gf-directory-column-section">
+			<label class="ac-gf-directory-column-section-label" for="ac-gf-directory-column-section-state-products">
+		<h3 class="ac-gf-directory-column-section-title">Descubrir y comprar</h3>
+	</label>
+			<a href="#ac-gf-directory-column-section-state-products" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open">
+				<span class="ac-gf-directory-column-section-anchor-label">Abrir menú</span>
+			</a>
+			<a href="#" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close">
+				<span class="ac-gf-directory-column-section-anchor-label">Cerrar menú</span>
+			</a>
+			<ul class="ac-gf-directory-column-section-list">
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/mx/mac/">Mac</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/mx/ipad/">iPad</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/mx/iphone/">iPhone</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/mx/watch/">Watch</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/mx/tv/">TV</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/mx/music/">Music</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/mx/itunes/">iTunes</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/mx/ipod/">iPod</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/mx/shop/goto/buy_accessories">Accesorios</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/mx/shop/goto/giftcards">Tarjetas de regalo</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="ac-gf-directory-column"><input class="ac-gf-directory-column-section-state" type="checkbox" id="ac-gf-directory-column-section-state-storeservices" />
+		<div class="ac-gf-directory-column-section">
+			<label class="ac-gf-directory-column-section-label" for="ac-gf-directory-column-section-state-storeservices">
+		<h3 class="ac-gf-directory-column-section-title">Apple Store</h3>
+	</label>
+			<a href="#ac-gf-directory-column-section-state-storeservices" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open">
+				<span class="ac-gf-directory-column-section-anchor-label">Abrir menú</span>
+			</a>
+			<a href="#" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close">
+				<span class="ac-gf-directory-column-section-anchor-label">Cerrar menú</span>
+			</a>
+			<ul class="ac-gf-directory-column-section-list">
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/mx/retail/">Busca una tienda</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/mx/retail/geniusbar/">Genius Bar</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/mx/retail/learn/">Talleres y capacitación</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/mx/retail/learn/youth/">Programas para jóvenes</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://itunes.apple.com/mx/app/apple-store/id375380948?pt&#x3D;2003&amp;ct&#x3D;footer&amp;mt&#x3D;8">App Apple Store</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/mx/shop/goto/ww/financing">Financiamiento</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/mx/recycling/">Reciclaje</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/mx/shop/goto/account">Estado del pedido</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/mx/shop/goto/help">Ayuda para comprar</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="ac-gf-directory-column">
+		<input class="ac-gf-directory-column-section-state" type="checkbox" id="ac-gf-directory-column-section-state-education" />
+		<div class="ac-gf-directory-column-section">
+			<label class="ac-gf-directory-column-section-label" for="ac-gf-directory-column-section-state-education">
+								<h3 class="ac-gf-directory-column-section-title">Para la educación</h3>
+							</label>
+			<a href="#ac-gf-directory-column-section-state-education" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open">
+				<span class="ac-gf-directory-column-section-anchor-label">Abrir menú</span>
+			</a>
+			<a href="#" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close">
+				<span class="ac-gf-directory-column-section-anchor-label">Cerrar menú</span>
+			</a>
+			<ul class="ac-gf-directory-column-section-list">
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/mx/education/">Apple y la educación</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/mx/shop/goto/educationrouting">Compra para la universidad</a></li>
+			</ul>
+		</div>
+		<input class="ac-gf-directory-column-section-state" type="checkbox" id="ac-gf-directory-column-section-state-business" />
+		<div class="ac-gf-directory-column-section">
+			<label class="ac-gf-directory-column-section-label" for="ac-gf-directory-column-section-state-business">
+								<h3 class="ac-gf-directory-column-section-title">Para la empresa</h3>
+							</label>
+			<a href="#ac-gf-directory-column-section-state-business" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open">
+				<span class="ac-gf-directory-column-section-anchor-label">Abrir menú</span>
+			</a>
+			<a href="#" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close">
+				<span class="ac-gf-directory-column-section-anchor-label">Cerrar menú</span>
+			</a>
+			<ul class="ac-gf-directory-column-section-list">
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/mx/business/">Apple y la empresa</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/mx/retail/business/">Compra para tu empresa</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="ac-gf-directory-column">
+		<input class="ac-gf-directory-column-section-state" type="checkbox" id="ac-gf-directory-column-section-state-accounts" />
+		<div class="ac-gf-directory-column-section">
+			<label class="ac-gf-directory-column-section-label" for="ac-gf-directory-column-section-state-accounts">
+								<h3 class="ac-gf-directory-column-section-title">Cuenta</h3>
+							</label>
+			<a href="#ac-gf-directory-column-section-state-accounts" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open">
+				<span class="ac-gf-directory-column-section-anchor-label">Abrir menú</span>
+			</a>
+			<a href="#" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close">
+				<span class="ac-gf-directory-column-section-anchor-label">Cerrar menú</span>
+			</a>
+			<ul class="ac-gf-directory-column-section-list">
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://appleid.apple.com/mx/">Administra tu Apple ID</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/mx/shop/goto/account">Cuenta del Apple Store</a></li>
+			</ul>
+		</div>
+		<input class="ac-gf-directory-column-section-state" type="checkbox" id="ac-gf-directory-column-section-state-responsibility" />
+		<div class="ac-gf-directory-column-section">
+			<label class="ac-gf-directory-column-section-label" for="ac-gf-directory-column-section-state-responsibility">
+								<h3 class="ac-gf-directory-column-section-title">Principios de Apple</h3>
+							</label>
+			<a href="#ac-gf-directory-column-section-state-responsibility" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open">
+				<span class="ac-gf-directory-column-section-anchor-label">Abrir menú</span>
+			</a>
+			<a href="#" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close">
+				<span class="ac-gf-directory-column-section-anchor-label">Cerrar menú</span>
+			</a>
+			<ul class="ac-gf-directory-column-section-list">
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/mx/accessibility/">Accesibilidad</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/mx/environment/">Medio ambiente</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/mx/privacy/">Privacidad</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="ac-gf-directory-column">
+		<input class="ac-gf-directory-column-section-state" type="checkbox" id="ac-gf-directory-column-section-state-about" />
+		<div class="ac-gf-directory-column-section">
+			<label class="ac-gf-directory-column-section-label" for="ac-gf-directory-column-section-state-about">
+						<h3 class="ac-gf-directory-column-section-title">Acerca de Apple</h3>
+					</label>
+			<a href="#ac-gf-directory-column-section-state-about" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open">
+				<span class="ac-gf-directory-column-section-anchor-label">Abrir menú</span>
+			</a>
+			<a href="#" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close">
+				<span class="ac-gf-directory-column-section-anchor-label">Cerrar menú</span>
+			</a>
+			<ul class="ac-gf-directory-column-section-list">
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/jobs/mx/">Oportunidades de empleo</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/mx/pr/">Información de prensa</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/mx/apple-events/">Eventos</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/mx/contact/">Contacta a Apple</a></li>
+			</ul>
+		</div>
+	</div>
+	<!--googleon: all-->
+</nav>
+<section class="ac-gf-footer">
+	<div class="ac-gf-footer-shop" x-ms-format-detection="none">
+		Más formas de comprar: visita un <a href="//www.apple.com/mx/retail/">Apple Store</a>, <span class="nowrap">llama al 001-800-692-7753 o <a href="https://locate.apple.com/mx/es/">encuentra un distribuidor</a></span>.
+	</div>
+	<div class="ac-gf-footer-locale">
+		<a class="ac-gf-footer-locale-link" href="//www.apple.com/choose-your-country/" title="Elige tu país o región" aria-label="México. Elige tu país o región"><span class="ac-gf-footer-locale-flag" data-hires="false"></span>México</a>
+	</div>
+	<div class="ac-gf-footer-legal">
+		<div class="ac-gf-footer-legal-copyright">Copyright &copy; 2017 Apple Inc. Todos los derechos reservados.</div>
+		<div class="ac-gf-footer-legal-links">
+			<a class="ac-gf-footer-legal-link" href="//www.apple.com/mx/privacy/privacy-policy/">Política de privacidad</a>
+			<a class="ac-gf-footer-legal-link" href="//www.apple.com/mx/shop/goto/help/sales_refunds">Ventas y reembolsos</a>
+			<a class="ac-gf-footer-legal-link" href="//www.apple.com/mx/legal/">Aviso legal</a>
+			<a class="ac-gf-footer-legal-link" href="//www.apple.com/mx/sitemap/">Mapa del sitio</a>
+		</div>
+	</div>
+</section>
+</div></footer><script type="text/javascript" src="https://www.apple.com/ac/globalfooter/3/es_MX/scripts/ac-globalfooter.built.js"></script>
+  <script language="JavaScript" type="text/javascript"><!--
+
+    var iTSMetricsCallbackFunction = function() {
+	    ITSMetrics.reportingSuite = "appleitmswww,appleitmsmx";
+	    ITSMetrics.omniture = ITSMetrics.createBaselineOmnitureObject();
+	    
+	    
+	    
+	    
+	    
+	
+	    /* Page Metrics */
+	    ITSMetrics.omniture.pageName="SEO-Software-MX-Apple-Xcode-497799835";
+ITSMetrics.omniture.channel="SEO";
+ITSMetrics.omniture.prop22="HTML";
+ITSMetrics.omniture.eVar22="HTML";
+ITSMetrics.omniture.products="Apple-Xcode-497799835";
+
+	    
+	    
+	    
+	    /* User Agent */
+	    var userAgentForMetrics = ITSMetrics.userAgentForMetrics();
+	    ITSMetrics.omniture.prop12 = userAgentForMetrics;
+	    ITSMetrics.omniture.eVar12 = userAgentForMetrics;
+	    
+	    // check if Game Center
+	    var gcUserAgent = "GameCenter";
+	    var isGameCenter = userAgentForMetrics.length >= gcUserAgent.length && userAgentForMetrics.substr(0, gcUserAgent.length) == gcUserAgent;
+	    if (isGameCenter) {
+	        // prepend "GameCenter" to page and channel name
+	        if (ITSMetrics.omniture.pageName) ITSMetrics.omniture.pageName = "GameCenter-" + ITSMetrics.omniture.pageName;
+	        if (ITSMetrics.omniture.channel) ITSMetrics.omniture.channel = "GameCenter-" + ITSMetrics.omniture.channel;
+	    }
+	    
+	    
+	    /* Browser Plugins */
+	    ITSMetrics.shouldTrackBrowserPlugins = false;
+	    
+	    /* Pass-thru query params */
+	    ITSMetrics.processQueryParameterInfoInCurrentRequest(ITSMetrics.omniture);
+	    
+	    if (ITSMetrics.isOmnitureSupportedOnClient()) {
+	        ITSMetrics.emitPagePing = function() {
+				if(ITSMetrics.isPageMetricsEnabled){
+					var s_code=ITSMetrics.omniture.t();
+					if (s_code) {
+						var containingDiv = document.createElement('div');
+						containingDiv.innerHTML = s_code;
+						document.body.appendChild(containingDiv);
+					}
+				}
+                // Even though Omniture is disabled, we still want to make a ping to Figaro for Preview
+				//<rdar://problem/23903484> Disable all Omniture pings sent directly from clients
+                if (window.webPreview) {
+                    var queryParams = {};
+                    queryParams.responseType="image";
+                    queryParams.eventVersion = 1;  // begin query parameters
+                    queryParams.eventType = "page";  // hardcoded
+
+                    var time = new Date();
+                    queryParams.eventTime = time.getTime();
+                    queryParams.pageName = ITSMetrics.omniture.pageName;
+                    queryParams.pageUrl = window.location.href;  // current page url
+                    queryParams.refUrl = document.referrer; //Refer
+                    queryParams.pageType = ITSMetrics.omniture.channel; //Channel
+
+                    queryParams.userAgent = window.navigator.userAgent; //User agent
+
+                    queryParams.screenWidth = screen.width;
+                    queryParams.screenHeight = screen.height; // screen size
+
+                    queryParams.windowInnerWidth = window.innerWidth;  // browser width
+                    queryParams.windowInnerHeight = window.innerHeight;  // browser height
+
+                    queryParams.app = navigator.appName;
+
+                    var url = "https://xp.apple.com/report/2/xp_its_preview";
+
+                    url = its.url.appendUrlParameters(url, queryParams);
+                    var image = new Image();
+                    image.src = url;
+                }
+	        };
+	        its.x.addEventListener(window, 'load', function() { window.setTimeout(ITSMetrics.emitPagePing, 1) }, false );
+	    }
+    };
+
+    if (!window["ITSMetrics"]){ 
+	    iTSDefer.register(function() {
+	        iTSMetricsCallbackFunction();
+	    });
+    } else {
+        iTSMetricsCallbackFunction();
+    }
+--></script>
+    <script>
+        if (!window.its) {
+            window.its = {};
+        }
+        window.its.markupLoadEndTime = new Date().getTime();
+    </script>
+
+
+
+</body>
+
+
+
+</html>

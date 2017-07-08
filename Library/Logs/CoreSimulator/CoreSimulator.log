@@ -1,0 +1,6 @@
+Jun 24 10:58:35 MacBook-Air-de-User CoreSimulatorService[783] <Notice>: com.apple.CoreSimulator.CoreSimulatorService 375.21 starting.
+Jun 24 10:58:42 MacBook-Air-de-User CoreSimulatorService[783] <Error>: Error Domain=com.apple.CoreSimulator.SimError Code=161 "Incompatible device" UserInfo={NSLocalizedDescription=Incompatible device}
+Jun 24 11:01:47 MacBook-Air-de-User CoreSimulatorService[429] <Notice>: com.apple.CoreSimulator.CoreSimulatorService 375.21 starting.
+Jun 24 11:01:47 MacBook-Air-de-User CoreSimulatorService[429] <Error>: Error Domain=com.apple.CoreSimulator.SimError Code=161 "Incompatible device" UserInfo={NSLocalizedDescription=Incompatible device}
+Jul  8 10:40:56 MacBook-Air-de-User CoreSimulatorService[452] <Notice>: com.apple.CoreSimulator.CoreSimulatorService 375.21 starting.
+Jul  8 10:40:56 MacBook-Air-de-User CoreSimulatorService[452] <Error>: Error Domain=com.apple.CoreSimulator.SimError Code=161 "Incompatible device" UserInfo={NSLocalizedDescription=Incompatible device}

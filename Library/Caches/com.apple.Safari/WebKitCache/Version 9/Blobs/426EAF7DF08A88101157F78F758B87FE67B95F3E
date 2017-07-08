@@ -1,0 +1,472 @@
+/**
+ * Context aware handling of the player and thumbnails.
+ * Initialize players on the page using PlayerMgr.
+ */
+(function($) {
+  "use strict";
+
+  Drupal.behaviors.vimn_videoplayer = {
+    //  Player objects
+    m: {},
+    //  Playlist vertical scrollbar swiper objects
+    pl: {},
+    //  Default player configuration
+    defaultConfig: {
+      width: '100%',
+      height: '100%',
+      params: {
+        wmode: 'opaque',
+        allowFullscreen: true
+      },
+      flashVars: {
+        sid: location.href.replace(/#[^#]*$/, "").replace(/\?[^\?]*$/, "").replace(/^https:/, "").replace(/^http:/, "").replace(/www./, "").replace(/./, "").replace(/^https:[^https:]*$/, "").replace(/\/\//g, "").replace(/\./g, "").replace(/\//, "").replace(/\s/g, "").replace(/\:/g, "").replace(/\html/g, "").replace(/\htm/g, ""),
+        autoPlay: false
+      },
+      embedVars: {},
+      test: {}
+    },
+
+    //  Single video autoplay setting
+    videoAutoplay: 'true',
+    embeddedVideoAutoplay: 'false',
+
+    attach: function(context, settings) {
+      var lazyLayoutResize = _.throttle(Drupal.behaviors.vimn_videoplayer.onResizeWindow, 200);
+      //  Check if JS library dependencies exists
+      //  @todo (underscore/matchHeight)
+      if (typeof $.fn.matchHeight != 'function') {
+        return;
+      }
+
+      //  Check if video page and at least one video on page exists
+      if (_.isEmpty(Drupal.settings.vimn_videoplayer)) {
+        return;
+      }
+
+      Drupal.behaviors.vimn_videoplayer.initPlayers(context);
+
+      //  Attach window resize event listener with underscore
+      $(window).resize(lazyLayoutResize);
+      $(window).resize();
+
+    },
+
+    // Build a reporting string from the passed array and string
+    buildKeyValues: function(array, extra) {
+      var reportString = '';
+      for (var key in array) {
+        if (array[key] !== '') {
+          reportString += array[key].split(';').join('&');
+        }
+      }
+      if (extra) {
+        reportString += extra;
+      }
+      return reportString;
+    },
+
+    // Build a ad level string from the passed array
+    buildAdLevels: function(array) {
+      var adLevelString = '';
+      for (var key in array) {
+        if (array[key] !== '') {
+          adLevelString += array[key] + '/';
+        }
+      }
+      return adLevelString.slice( 0, -1);
+    },
+
+    //  Init video players
+    initPlayers: function(context) {
+
+      //  Loop through player instances
+      for (var uuid in Drupal.settings.vimn_videoplayer) {
+        var videoplayerWrapper = $('*[data-videoplayer-uuid="' + uuid + '"]', context);
+        if (videoplayerWrapper.length) {
+          if (Drupal.settings.vimn_videoplayer[uuid].is_playlist) {
+            videoplayerWrapper.once('player', function() {
+              Drupal.behaviors.vimn_videoplayer.initPlaylist($(this), uuid);
+            });
+          } else {
+            videoplayerWrapper.once('player', function() {
+              Drupal.behaviors.vimn_videoplayer.initVideoSingle($(this), uuid);
+            });
+          }
+        }
+      }
+      // Create extra key values including exclusion categories
+      var extraKeyValues = (vmn_page_data.mappings['exclusion-categories']) ? '&excl_cat=' + vmn_page_data.mappings['exclusion-categories'] : 'section=videoplayer';
+
+      // Create ad unit string
+      Drupal.behaviors.vimn_videoplayer.defaultConfig.embedVars.locationPath = (Drupal.settings.vimn_video.ad_unit) ? Drupal.settings.vimn_video.ad_unit : Drupal.behaviors.vimn_videoplayer.buildAdLevels(vmn_page_data.mappings['ad-unit']);
+
+      // Create key value string
+      Drupal.behaviors.vimn_videoplayer.defaultConfig.embedVars.custParams = Drupal.behaviors.vimn_videoplayer.buildKeyValues(Drupal.settings.vimn_coda_gpt, extraKeyValues);
+    },
+
+    //  Single player
+    initVideoSingle: function(videoplayerWrapper, uuid) {
+      var playerContainer = $('.vimn-videoplayer-item', videoplayerWrapper).get(0);
+      var config = Drupal.behaviors.vimn_videoplayer.defaultConfig;
+      config.uri = Drupal.settings.vimn_videoplayer[uuid].video_id;
+
+      var events = {
+          onFullScreenChange: function(event) {
+            if (event.target.isFullScreen) {
+              $('#page-header, #page-footer').hide();
+              $('#page-content').addClass('vimn-videoplayer-fullscreen');
+            } else {
+              $('#page-header, #page-footer').show();
+              $('#page-content').removeClass('vimn-videoplayer-fullscreen');
+              $('.vimn-videoplayer-item').removeAttr('style');
+            }
+          }
+        }
+        //  Check if embedded
+      if (videoplayerWrapper.parents('.view-mode-vimn_embedded').length) {
+        config.test.autoPlay = false;
+        $('.vimn-videoplayer-item', videoplayerWrapper).attr('data-auto-play', Drupal.behaviors.vimn_videoplayer.embeddedVideoAutoplay);
+      } else {
+        config.test.autoPlay = true;
+        $('.vimn-videoplayer-item', videoplayerWrapper).attr('data-auto-play', Drupal.behaviors.vimn_videoplayer.videoAutoplay);
+      }
+      Drupal.behaviors.vimn_videoplayer.m[uuid] = new MTVNPlayer.Player(playerContainer, config, events);
+      //  By default player adds width/height stype attributes - we will remove those
+      $('.vimn-videoplayer-item', videoplayerWrapper).attr('style', '');
+
+    },
+
+    //  Video playlist - Desktop
+    initPlaylist: function(videoplayerWrapper, uuid) {
+      var vimn_videoplayer = Drupal.behaviors.vimn_videoplayer;
+
+      //  Check if corresponding DOM exists
+      if (!videoplayerWrapper.length) {
+        return;
+      }
+
+      //  Init playlist item vertical scrollbar, only when not mobile
+      //  -- Initialization checking / is happening on window resize as well
+      if ($(window).width() > 1019) {
+        Drupal.behaviors.vimn_videoplayer.initPlaylistScrollbar(uuid, videoplayerWrapper);
+      }
+
+      //  Add click event listeners for playlist items
+      //  Process only up to desktop breakpoint
+      $('.playlist-item.video', videoplayerWrapper).click(function(e) {
+        if ($(window).width() < 1020) {
+          var swiperIndex = $('.playlist-item', videoplayerWrapper).index(this),
+            navigationHeight = 60;
+          Drupal.behaviors.vimn_videoplayer.clickPlaylistItem(uuid, videoplayerWrapper, swiperIndex);
+
+          //  Scroll always to container position on mobile & tablet portrait
+          $("html, body").animate({
+            scrollTop: $('.vimn-videoplayer-item', videoplayerWrapper).offset().top - navigationHeight
+          }, 600);
+
+        }
+
+      });
+
+      //  Match height for video playlist items by row
+      $('.playlist-item', videoplayerWrapper).matchHeight();
+
+      var config = Drupal.behaviors.vimn_videoplayer.defaultConfig;
+      config.uri = Drupal.settings.vimn_videoplayer[uuid].video_id;
+      config.uuid = uuid;
+
+      //  If url hash exists, set active playlist item metadata and classes
+      if (window.location.hash) {
+        var hash = window.location.hash.substring(1);
+
+        //  Find the correct playlist item by url hash
+        for (var d in Drupal.settings.vimn_videoplayer[uuid].playlist_items) {
+          if (Drupal.settings.vimn_videoplayer[uuid].playlist_items[d].url_slug === hash) {
+            var playIndex = Drupal.settings.vimn_videoplayer[uuid].playlist_items[d].playlist_item_index;
+            Drupal.behaviors.vimn_videoplayer.setCurrentPlaylistItem(uuid, playIndex);
+            config.startIndex = playIndex;
+          }
+
+        }
+      }
+      //  Check if embedded
+      //  Couldn't manipulate autoplay config setting, data attribute works so using that
+      if (videoplayerWrapper.parents('.view-mode-vimn_embedded').length) {
+        config.test.autoPlay = false;
+        $('.vimn-videoplayer-item', videoplayerWrapper).attr('data-auto-play', Drupal.behaviors.vimn_videoplayer.embeddedVideoAutoplay);
+      } else {
+        config.test.autoPlay = true;
+        $('.vimn-videoplayer-item', videoplayerWrapper).attr('data-auto-play', Drupal.behaviors.vimn_videoplayer.videoAutoplay);
+      }
+
+      var playerContainer = $('.vimn-videoplayer-item', videoplayerWrapper).get(0);
+      Drupal.behaviors.vimn_videoplayer.m[uuid] = new MTVNPlayer.Player(playerContainer, config, vimn_videoplayer.eventListeners);
+
+      //  By default player adds width/height stype attributes - we will remove those
+      $('.vimn-videoplayer-item', videoplayerWrapper).attr('style', '');
+
+      //  Add event listener for previous/next control buttons
+      //Drupal.behaviors.vimn_videoplayer.controlsPreviousNext(uuid, videoplayerWrapper);
+
+    },
+
+    //  Initialise playlist items scrollbar
+    initPlaylistScrollbar: function(uuid, videoplayerWrapper) {
+
+      //  Check if corresponding DOM exists
+      if (!$('.playlist-items.swiper-container', videoplayerWrapper).length) {
+        return;
+      }
+      //  Check if playlist is not already initialised
+      if (videoplayerWrapper.length && _.isEmpty(Drupal.behaviors.vimn_videoplayer.pl[uuid]) === false) {
+        //  Swipe to active item only
+        var activePlaylistItem = $('.playlist-item.active', videoplayerWrapper),
+          playlist_item_index = $('.playlist-item', videoplayerWrapper).index(activePlaylistItem);
+
+        Drupal.behaviors.vimn_videoplayer.pl[uuid].slideTo(playlist_item_index);
+        return;
+      }
+
+      Drupal.behaviors.vimn_videoplayer.pl[uuid] = $('.playlist-items.swiper-container', videoplayerWrapper).swiper({
+        mousewheelControl: true,
+        direction: 'vertical',
+        freeMode: true,
+        slidesPerView: 'auto',
+        slideClass: 'swiper-slide',
+        watchSlidesVisibility: true,
+        scrollbar: '.swiper-scrollbar',
+        scrollbarDraggable: true
+      });
+
+     // Navigating to a different video via scrollbar items
+      $('.playlist-items.swiper-container').find('.swiper-slide').click(function() {
+        Drupal.behaviors.vimn_videoplayer.clickPlaylistItem(uuid, videoplayerWrapper, Drupal.behaviors.vimn_videoplayer.pl[uuid].clickedIndex);
+      });
+
+    },
+    //  Disable/remove playlist items scrollbar
+    removePlaylistScrollbar: function(uuid, videoplayerWrapper) {
+
+      //  Check if corresponding DOM exists and if playlist is already initialised
+      if (!videoplayerWrapper.length ||
+        _.isEmpty(Drupal.behaviors.vimn_videoplayer.pl[uuid])
+      ) {
+        return;
+      }
+
+      Drupal.behaviors.vimn_videoplayer.pl[uuid].destroy();
+      $("[class^='swiper-']", videoplayerWrapper).attr('style', '').removeClass('swiper-free-mode swiper-slide-visible swiper-slide-active');
+      $('.swiper-scrollbar .swiper-scrollbar-drag', videoplayerWrapper).remove();
+      Drupal.behaviors.vimn_videoplayer.pl[uuid] = '';
+
+    },
+
+    //  Add event listener for previous/next control buttons
+    controlsPreviousNext: function(uuid, videoplayerWrapper) {
+
+      $('.controls .previous', videoplayerWrapper).click(function(e) {
+        e.preventDefault();
+
+        var currentIndex = Drupal.behaviors.vimn_videoplayer.m[uuid].currentMetadata.index;
+        //  Play previous item, if not the first one already
+        if (currentIndex > 0) {
+
+          var previousIndex = currentIndex - 1;
+
+          var prevPlaylistItemDOM = $('.playlist-item[data-playlist-item-index="' + previousIndex + '"]', videoplayerWrapper);
+          if (!prevPlaylistItemDOM.length) {
+            return;
+          }
+          var prev_item_delta = prevPlaylistItemDOM.attr('data-playlist-item-delta');
+
+          //  Change URL hash value
+          window.location.hash = Drupal.settings.vimn_videoplayer[uuid].playlist_items[prev_item_delta].url_slug;
+
+          Drupal.behaviors.vimn_videoplayer.m[uuid].playIndex(previousIndex);
+        }
+
+      });
+
+      $('.controls .next', videoplayerWrapper).click(function(e) {
+        e.preventDefault();
+
+        var currentIndex = Drupal.behaviors.vimn_videoplayer.m[uuid].currentMetadata.index;
+
+        var nextIndex = currentIndex + 1;
+
+        var nextPlaylistItemDOM = $('.playlist-item[data-playlist-item-index="' + nextIndex + '"]', videoplayerWrapper);
+        if (!nextPlaylistItemDOM.length) {
+          return;
+        }
+        var next_item_delta = nextPlaylistItemDOM.attr('data-playlist-item-delta');
+
+        //  Play next item, if not next item exists
+        if (_.isEmpty(Drupal.settings.vimn_videoplayer[uuid].playlist_items[next_item_delta]) === false) {
+
+          //  Change URL hash value
+          window.location.hash = Drupal.settings.vimn_videoplayer[uuid].playlist_items[next_item_delta].url_slug;
+
+          Drupal.behaviors.vimn_videoplayer.m[uuid].playIndex(nextIndex);
+
+        }
+      });
+
+    },
+
+    //  Add event listener for click events on playlist items
+    clickPlaylistItem: function(uuid, videoplayerWrapper, swiperIndex) {
+      //  Check if playlist item exists and it is not a placeholder
+      if (!$('.playlist-item', videoplayerWrapper).eq(swiperIndex).length ||
+        !$('.playlist-item', videoplayerWrapper).eq(swiperIndex).hasClass('video') ||
+        _.isEmpty(Drupal.settings.vimn_videoplayer[uuid])
+      ) {
+        return;
+      }
+      var firstLoad = firstLoad || true;
+      var playlist_items = Drupal.settings.vimn_videoplayer[uuid].playlist_items;
+
+      //  Get selected playlist item index
+      var playlist_item = $('.playlist-item', videoplayerWrapper).eq(swiperIndex);
+      var playlist_item_index = playlist_item.attr('data-playlist-item-index');
+      var item_delta = playlist_item.attr('data-playlist-item-delta');
+
+      if (_.isEmpty(Drupal.settings.vimn_videoplayer[uuid].playlist_items[item_delta])) {
+        return;
+      }
+
+      //  Change URL hash value
+      window.location.hash = playlist_items[item_delta].url_slug;
+
+      //  Sets the correct current playlist item (active + metadata)
+      Drupal.behaviors.vimn_videoplayer.setCurrentPlaylistItem(uuid, playlist_item_index);
+
+      //  Play the selected item
+      Drupal.behaviors.vimn_videoplayer.m[uuid].playIndex(parseInt(playlist_item_index));
+    },
+
+    //  Marks the correct playlist item as "active"
+    setCurrentPlaylistItem: function(uuid, playlist_item_index) {
+      var videoplayerWrapper = $('*[data-videoplayer-uuid="' + uuid + '"]');
+      var playlist_items = Drupal.settings.vimn_videoplayer[uuid].playlist_items;
+
+      var activePlaylistItemDOM = $('.playlist-item[data-playlist-item-index="' + playlist_item_index + '"]', videoplayerWrapper);
+      if (!activePlaylistItemDOM.length) {
+        return;
+      }
+      var item_delta = activePlaylistItemDOM.attr('data-playlist-item-delta');
+
+      if (!uuid || playlist_item_index < 0 || !videoplayerWrapper.length ||
+        _.isEmpty(Drupal.settings.vimn_videoplayer[uuid]) ||
+        _.isEmpty(Drupal.settings.vimn_videoplayer[uuid].playlist_items[item_delta])
+      ) {
+        return;
+      } else {
+
+        //  Remove active class and assign new one
+        $('.playlist-item', videoplayerWrapper).removeClass('active');
+        activePlaylistItemDOM.addClass('active');
+
+        //  Scroll to current playlist item, if scrollbar initialised
+        if (_.isEmpty(Drupal.behaviors.vimn_videoplayer.pl[uuid]) === false) {
+          var swiperIndex = $('.playlist-item', videoplayerWrapper).index(activePlaylistItemDOM);
+          Drupal.behaviors.vimn_videoplayer.pl[uuid].slideTo(swiperIndex);
+        }
+
+        //  Set the correct background image for "pause" overlay
+        var overlayImage = activePlaylistItemDOM.attr('data-overlay-image');
+        $('.vimn-videoplayer-pause-overlay', videoplayerWrapper).css({
+          'background-image': 'url(' + overlayImage + ')'
+        });
+
+        //  Update current item metadata
+        var currentItemTitle = playlist_items[item_delta].title;
+        var currentItemSubtitle = playlist_items[item_delta].subtitle;
+        $('.current-metadata .current-title', videoplayerWrapper).html(currentItemTitle);
+        $('.current-metadata .current-subtitle', videoplayerWrapper).html(currentItemSubtitle);
+
+      }
+
+    },
+
+    //
+    onResizeWindow: function() {
+
+      //  Destroy Videoplayer playlist items scrollbar for mobile and tablet, init for desktop
+      //  Loop through player instances
+      for (var uuid in Drupal.settings.vimn_videoplayer) {
+        if (Drupal.settings.vimn_videoplayer[uuid].is_playlist) {
+
+          var videoplayerWrapper = $('*[data-videoplayer-uuid="' + uuid + '"]');
+          if ($(window).width() < 1020) {
+            Drupal.behaviors.vimn_videoplayer.removePlaylistScrollbar(uuid, videoplayerWrapper);
+          } else {
+            Drupal.behaviors.vimn_videoplayer.initPlaylistScrollbar(uuid, videoplayerWrapper);
+          }
+
+        }
+      }
+
+    },
+
+    //  Function that checks if user uses iOS browser
+    iPhoneBrowser: function() {
+      var iOS = (navigator.userAgent.match(/(iPhone|iPod)/g) ? true : false);
+      return iOS;
+    },
+
+    //  Video player event listener
+    eventListeners: {
+      onFullScreenChange: function(event) {
+        if (event.target.isFullScreen) {
+          $('#page-header, #page-footer').hide();
+          $('#page-content, .page').addClass('vimn-videoplayer-fullscreen');
+        } else {
+          $('#page-header, #page-footer').show();
+          $('#page-content, .page').removeClass('vimn-videoplayer-fullscreen');
+          $('.vimn-videoplayer-item').removeAttr('style');
+        }
+      },
+      onIndexChange: function(event) {
+        //console.log("Event: onIndexChange");
+        var uuid = event.target.config.uuid;
+        var videoplayerWrapper = $('*[data-videoplayer-uuid="' + uuid + '"]');
+      },
+      onMediaEnd: function(event) {
+        //console.log("Event: onMediaEnd");
+        var uuid = event.target.config.uuid,
+          videoplayerWrapper = $('*[data-videoplayer-uuid="' + uuid + '"]');
+        $('.playlist-item', videoplayerWrapper).removeClass('active');
+      },
+      onMediaStart: function(event) {
+        //console.log('media start', event);
+        var currentIndex = event.data.index,
+          uuid = event.target.config.uuid,
+          playlist_items = Drupal.settings.vimn_videoplayer[uuid].playlist_items;
+        Drupal.behaviors.vimn_videoplayer.setCurrentPlaylistItem(uuid, currentIndex);
+        if (window.location.hash.substring(1) !== playlist_items[currentIndex].url_slug) {
+          window.location.hash = playlist_items[currentIndex].url_slug;
+        }
+      },
+      onMetadata: function(event) {
+        //console.log("Event:", event);
+      },
+      onPlayheadUpdate: function(event) {
+        //console.log("Event: onPlayHeadUpdate");
+      },
+      onPlaylistComplete: function(event) {
+        //console.log("Event: onPlaylistComplete");
+        var uuid = event.target.config.uuid;
+        Drupal.behaviors.vimn_videoplayer.m[uuid].playIndex(0);
+      },
+      onReady: function(event) {
+        //console.log("Event: onReady");
+      },
+      onStateChange: function(event) {
+        // console.log("Event: onStateChange");
+      },
+      onUiStateChange: function(event) {
+        //console.log("Event: onUiStateChange");
+      },
+    },
+  }
+})(jQuery);

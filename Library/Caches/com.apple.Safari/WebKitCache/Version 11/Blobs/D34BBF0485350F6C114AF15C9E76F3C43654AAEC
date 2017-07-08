@@ -1,0 +1,349 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+    <!-- BC_OBNW -->
+<head>
+<meta content="text/html;charset=utf-8" http-equiv="content-type" />
+<title>JOARJO commercial visits to Palencia and Valladolid</title>
+<link type="text/css" href="/StyleSheets/ModuleStyleSheets.css" rel="StyleSheet" />
+<script type="text/javascript">var jslang='ES';</script>
+<link rel="stylesheet" href="/CatalystStyles/Box.css?vs=b2305.r508882-phase1" type="text/css" media="screen" />
+<script type="text/javascript" src="/CatalystScripts/Java_Box.js?vs=b2305.r508882-phase1"></script>
+<link rel="shortcut icon" href="/images/cssimg/mecanizados.ico" />
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="/js/jquery.scrollTo-min.js"></script>
+<script type="text/javascript" src="/js/local.js"></script>
+<link media="all" type="text/css" rel="stylesheet" href="http://www.joarjo.com/stylesheets/base.css" />
+<link media="all" type="text/css" rel="stylesheet" href="http://www.joarjo.com/stylesheets/screen.css" />
+<link media="all" type="text/css" rel="stylesheet" href="http://www.joarjo.com/stylesheets/responsive.css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="http://www.joarjo.com/js/tinynav.min.js"></script>
+<script type="text/javascript"> 
+
+
+   
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24979432-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = 
+
+true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + 
+
+'.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+			</script>
+<script type="text/javascript">
+		
+// Init for si.files
+		SI.Files.stylizeAll();
+
+		//Zoom fix
+		jQuery(function(){
+			// IPad/IPhone
+		  	var viewportmeta = document.querySelector && 
+
+document.querySelector('meta[name="viewport"]'),
+		    ua = navigator.userAgent,
+		 
+		    gestureStart = function () {
+		        viewportmeta.content = "width=device-width, minimum-scale=0.25, maximum-scale=1.6";
+		    },
+		 
+		    scaleFix = function () {
+		      if (viewportmeta && /iPhone|iPad/.test(ua) && !/Opera Mini/.test(ua)) 
+
+{
+		        viewportmeta.content = "width=device-width, minimum-scale=1.0, maximum-scale=1.0";
+		        document.addEventListener("gesturestart", gestureStart, false);
+		      }
+		    };
+			scaleFix();
+		})
+		</script>
+<script>
+    $(function () {
+
+      // TinyNav.js 1
+      $('#nav').tinyNav({
+        active: 'selected',
+        label: ''
+      });
+      
+
+    });
+  </script>
+<script type="text/javascript">
+    $(document).ready(function(){ 
+ 
+        $(window).scroll(function(){
+            if ($(this).scrollTop() > 100) {
+                $('.scrollup').fadeIn();
+            } else {
+                $('.scrollup').fadeOut();
+            }
+        }); 
+ 
+        $('.scrollup').click(function(){
+            $("html, body").animate({ scrollTop: 0 }, 600);
+            return false;
+        });
+ 
+    });
+			</script>
+<script src="resource://skype_ff_extension-at-jetpack/skype_ff_extension/data/telemetry.js"></script>
+<script src="resource://skype_ff_extension-at-jetpack/skype_ff_extension/data/menu_handler.js"></script>
+<meta content="INDEX,FOLLOW" name="robots" />
+<meta content="Zaragoza, Arag&oacute;n, Espa&ntilde;a, U.E." name="locality" />
+<meta content="http://www.joarjo.com" name="canonical" />
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport" />
+<!--SCRIPTS-->
+<!-- Google Analytics -->
+<!-- SCROLLUP -->
+<!--SCRIPTS END-->
+<style type="text/css" media="print" data-c2c="c2c_print_container_style">
+            span.skype_c2c_print_container {} span.skype_c2c_container {display:none !important;} .skype_c2c_menu_container {display:none !important;}
+        </style>
+</head>
+<body>
+
+    
+        <div class="container">
+        <div class="wrapper">
+        <div class="column span-8"><a href="/en/home.htm" id="logo">
+        <div id="placeholder-logo">
+        <img style="width: 220px;" src="/Joarjo-Gif-Mini.gif" alt="Logo de Joarjo: your machining company partner" />
+        </div>
+        </a>
+        </div>
+        <div class="column span-16 last" id="head-right">
+        <div id="language"> <!-- Mobile Language Menu -->
+        <a href="http://www.joarjo.com/index.html"><img alt="Joarjo Espa&ntilde;ol" src="/images/spain_button.png" /></a>
+        <a href="http://www.joarjo.com/fr/mecanique-de-precision.htm"><img alt="Joarjo English" src="/images/france_button.png" /></a>
+        <a href="http://www.joarjo.com/en/home.htm"><img alt="Joarjo Fran&ccedil;ais" src="/images/usa_button.png" /></a>
+        <a href="http://www.joarjo.de"><img src="/images/Germany_button.png" alt="Joarjo Germany" /></a>
+        <a href="http://www.joarjo.ru/ru/indeks.html"><img alt="Joarjo Russian" src="/images/russia_button.png" /></a>
+        </div>
+        <div id="placeholder-search">
+        <h1>Machining News        </h1>
+        </div>
+        </div>
+        <div class="wrapper">
+        <div class="column span-24">
+        <div class="column span-5">  <br />
+        <br />
+        <script type="text/javascript" src="/CatalystScripts/Java_DynMenus.js?vs=b2305.r508882-phase1"></script><script type="text/javascript" src="/CatalystScripts/Java_DynMenusSelected.js?vs=b2305.r508882-phase1"></script><!-- Dynamic Menu Begin Default Output --><script type="text/javascript">var catDynMenu622353=new FSMenu('catDynMenu622353', false, 'visibility', 'visible', 'hidden');</script><style> .catmain622353 {padding:0px;margin:0px;border-width:1px;border-style:none;border-color:#000000;} .catmain0622353 {font-family:Verdana, Arial;font-size:10pt;text-align:left;color:black;background-color:#ffffff;border-width:0px;border-style:none;border-color:black;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;text-decoration:none;} .catmain1622353 {cursor:pointer;font-family:Verdana, Arial;font-size:10pt;text-align:left;color:#ff0000;border-width:0px;border-style:none;border-color:black;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;text-decoration:none;} .catdiv622353 {position:absolute;visibility:hidden;z-index:1000;padding:0px;margin:0px;} .catsub622353 {padding:0px;margin:0px;border-width:1px;border-style:solid;border-color:black;} .catsub0622353 {font-family:Verdana, Arial;font-size:10pt;text-align:left;color:black;background-color:gray;border-width:0px;border-style:none;border-color:black;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;text-decoration:none;} .catsub1622353 {cursor:pointer;font-family:Verdana, Arial;font-size:10pt;text-align:left;color:black;background-color:blue;border-width:0px;border-style:none;border-color:black;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;text-decoration:none;}</style><div id="cat_622353_divs"><table  id="cat_622353" width="60" cellpadding="0" cellspacing="0" class="catmain622353"><tr><td title="Acceso directo a contenidos en Español de esta Web" valign="top" class="catmain0622353" id="mi_658261" width="30" height="30" onclick="document.location='http://www.joarjo.com/index.html';" style="background:url(/images/cssimg/spain.png) no-repeat;" onmouseover="this.className='catmain1622353';" onmouseout="this.className='catmain0622353';"><img src="/CatalystImages/1x1.gif?vs=b2301.r508822-phase1" width=30 height=30 border="0" alt="" /></td><td title="Click Here to see english copy" valign="top" class="catmain0622353" id="mi_658263" width="30" height="30" onclick="document.location='http://www.joarjo.com/en/home.htm';" style="background:url(/images/cssimg/usa.png) no-repeat;" onmouseover="this.className='catmain1622353';" onmouseout="this.className='catmain0622353';"><img src="/CatalystImages/1x1.gif?vs=b2301.r508822-phase1" width=30 height=30 border="0" alt="" /></td></tr></table></div><script type="text/javascript">var div = document.getElementById('cat_622353_divs');var i=0;var images=new Array();images[0]='/images/cssimg/spain.png';images[1]='/images/cssimg/usa.png';for(i=0;i<2;i++){var img=document.createElement('img');img.src=images[i];img.style.visibility='hidden';img.style.width='0px';img.style.height='0px';div.appendChild(img);}</script><script type="text/javascript">catSetSelectedItem('cat_622353');</script><!-- Dynamic Menu End Default Output -->   </div>
+        <div class="column span-9">
+        <div id="placeholder-rss">
+        <br />
+        <br />
+        <span style="font-size: 16px;">Tel:+34 976 107 078</span>
+        <a href="https://www.facebook.com/joarjozaragoza/"><img alt="" src="/images/cssimg/logo-facebook.gif" style="border: 0px none;" /></a><a href="https://twitter.com/oficialjoarjo"><img alt="" src="/images/cssimg/logo-twitter.gif" style="border: 0px none;" /></a><a href="http://www.linkedin.com/company/joarjo-sl"><img alt="" src="/images/cssimg/linked_in_icon_New.png" style="border: 0px none; width: 26px;" /></a>     <br />
+        <br />
+        </div>
+        </div>
+        <div class="column span-7 resp">
+        <br />
+        <div style="text-align: right;">        <br />
+        <form action="/en/search-results" method="post" name="catsearchform90555">
+            <input type="text" id="CAT_Search" name="CAT_Search" class="cat_textbox_small" /><input type="submit" value="Search" class="cat_button" />
+        </form>
+        </div>
+        </div>
+        <div class="column span-3 last resp"> <img alt="" src="/images/60 aniversario/Logo_60aniversario_girado.jpg" style="width: 120px;" />
+        </div>
+        </div>
+        <div class="column span-24"><br />
+        <div class="wrapper">
+        <ul id="nav">
+            <li class="selected"><a href="http://www.joarjo.com/en/home.htm">Home</a></li>
+            <ul>
+                <li><a href="/en/precision-machining.htm">
+                CNC Machined
+                </a></li>
+                <li><a href="/en/aluminium-cutting.htm">
+                Aluminium Cutting
+                </a></li>
+                <li><a href="/en/turning-parts.htm">
+                Turning Parts
+                </a></li>
+            </ul>
+            <li><a href="#">Specialities</a></li>
+            <ul>
+                <li><a href="/en/automotive-industry.htm">
+                Automotive
+                </a></li>
+                <li><a href="/en/defence-industry.htm">
+                Defence
+                </a></li>
+                <li><a href="/en/aerospace-industry.htm"> Aerospace</a></li>
+                <li><a href="/en/industry.htm">
+                Industry
+                </a></li>
+            </ul>
+            <li><a href="/en/news.htm">News</a></li>
+            <li><a href="/en/catalog-of-services">Company</a></li>
+            <ul>
+                <li><a href="/en/quality-machining.htm">Quality Machining Company</a></li>
+                <li><a href="/en/machining-facilities.htm">Machining Facilities</a></li>
+                <li><a href="/en/machining-process.htm">Machining Process</a></li>
+                <li><a href="/en/machining-company.htm">Machining Company</a></li>
+                <li><a href="/en/international-machining-company.htm">International Machining Company
+                </a></li>
+                <li><a href="/en/social-responsability.htm">Social Responsability</a></li>
+            </ul>
+            <li><a href="/en/contact-us.htm">
+            Contact Us</a></li>
+        </ul>
+        </div>
+        <script type="text/javascript" src="/CatalystScripts/Java_DynMenus.js?vs=b2305.r508882-phase1"></script><script type="text/javascript" src="/CatalystScripts/Java_DynMenusSelected.js?vs=b2305.r508882-phase1"></script><!-- Dynamic Menu Begin Default Output --><script type="text/javascript">var catDynMenu622667=new FSMenu('catDynMenu622667', false, 'visibility', 'visible', 'hidden');</script><style> .catmain622667 {padding:0px;margin:0px;border-width:0px;border-style:none;border-color:black;} .catmain0622667 {font-family:Verdana, Arial;font-size:14pt;text-align:center;color:#ffd100;background-color:#000000;border-width:0px;border-style:none;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;text-decoration:none;} .catmain1622667 {cursor:pointer;font-family:Verdana, Arial;font-size:14pt;text-align:center;color:black;background-color:#ffd100;border-width:0px;border-style:none;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;text-decoration:none;} .catdiv622667 {position:absolute;visibility:hidden;z-index:1000;padding:0px;margin:0px;} .catsub622667 {padding:0px;margin:0px;border-width:1px;border-style:solid;} .catsub0622667 {font-family:Verdana, Arial;font-size:10pt;text-align:left;color:black;background-color:#ffcc33;border-width:0px;border-style:none;border-color:black;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;text-decoration:none;} .catsub1622667 {cursor:pointer;font-family:Verdana, Arial;font-size:10pt;text-align:left;color:#666666;background-color:#cccccc;border-width:0px;border-style:none;border-color:black;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;text-decoration:none;}</style><div id="cat_622667_divs"><table  id="cat_622667" width="1050" cellpadding="0" cellspacing="0" class="catmain622667"><tr><td title="" valign="top" class="catmain0622667" id="mi_671938" width="175" height="45" onclick="document.location='/en/home.htm';" onmouseover="catDynMenu622667.show('catDynMenuSub671938', this, 0, 45);this.className='catmain1622667';" onmouseout="catDynMenu622667.hide('catDynMenuSub671938');this.className='catmain0622667';">Home <img src="/CatalystImages/ArrowMenuRight.gif?vs=b2050.r494698-phase1" width="10" height="10" border="0" alt="" /></td><td title="" valign="top" class="catmain0622667" id="mi_658539" width="175" height="45" onmouseover="catDynMenu622667.show('catDynMenuSub658539', this, 0, 45);this.className='catmain1622667';" onmouseout="catDynMenu622667.hide('catDynMenuSub658539');this.className='catmain0622667';">Specialities <img src="/CatalystImages/ArrowMenuRight.gif?vs=b2050.r494698-phase1" width="10" height="10" border="0" alt="" /></td><td title="" valign="top" class="catmain0622667" id="mi_658541" width="175" height="45" onclick="document.location='/en/catalog-of-services';" onmouseover="catDynMenu622667.show('catDynMenuSub658541', this, 0, 45);this.className='catmain1622667';" onmouseout="catDynMenu622667.hide('catDynMenuSub658541');this.className='catmain0622667';">Company <img src="/CatalystImages/ArrowMenuRight.gif?vs=b2050.r494698-phase1" width="10" height="10" border="0" alt="" /></td><td title="" valign="top" class="catmain0622667" id="mi_658540" width="175" height="45" onclick="document.location='/machining-news';" onmouseover="this.className='catmain1622667';" onmouseout="this.className='catmain0622667';">News</td><td title="" valign="top" class="catmain0622667" id="mi_1124048" width="170" height="45" onmouseover="catDynMenu622667.show('catDynMenuSub1124048', this, 0, 45);this.className='catmain1622667';" onmouseout="catDynMenu622667.hide('catDynMenuSub1124048');this.className='catmain0622667';">Images <img src="/CatalystImages/ArrowMenuRight.gif?vs=b2050.r494698-phase1" width="10" height="10" border="0" alt="" /></td><td title="" valign="top" class="catmain0622667" id="mi_658542" width="180" height="45" onclick="document.location='/en/contact-us.htm';" onmouseover="this.className='catmain1622667';" onmouseout="this.className='catmain0622667';">Contact Us</td></tr></table><div style="width:150px;" id="catDynMenuSub658539" class="catdiv622667"><table width="150" cellpadding="0" cellspacing="0" class="catsub622667"><tr><td title="" valign="top" class="catsub0622667" id="mi_658543" pid="mi_658539" width="150" height="25" onclick="document.location='/en/automotive-industry.htm';" onmouseover="this.className='catsub1622667';" onmouseout="this.className='catsub0622667';">Automotive</td></tr><tr><td title="" valign="top" class="catsub0622667" id="mi_658544" pid="mi_658539" width="150" height="25" onclick="document.location='/en/defence-industry.htm';" onmouseover="this.className='catsub1622667';" onmouseout="this.className='catsub0622667';">Defence</td></tr><tr><td title="" valign="top" class="catsub0622667" id="mi_658545" pid="mi_658539" width="150" height="25" onclick="document.location='/en/aerospace-industry.htm';" onmouseover="this.className='catsub1622667';" onmouseout="this.className='catsub0622667';">Aerospace</td></tr><tr><td title="" valign="top" class="catsub0622667" id="mi_671937" pid="mi_658539" width="150" height="25" onclick="document.location='/en/industry.htm';" onmouseover="this.className='catsub1622667';" onmouseout="this.className='catsub0622667';">Industry</td></tr></table></div><div style="width:200px;" id="catDynMenuSub658541" class="catdiv622667"><table width="200" cellpadding="0" cellspacing="0" class="catsub622667"><tr><td title="" valign="top" class="catsub0622667" id="mi_671651" pid="mi_658541" width="200" height="25" onclick="document.location='/en/quality-machining.htm';" onmouseover="this.className='catsub1622667';" onmouseout="this.className='catsub0622667';">Quality Machining Company</td></tr><tr><td title="" valign="top" class="catsub0622667" id="mi_671796" pid="mi_658541" width="140" height="25" onclick="document.location='/en/machining-facilities.htm';" onmouseover="this.className='catsub1622667';" onmouseout="this.className='catsub0622667';">Machining Facilities</td></tr><tr><td title="" valign="top" class="catsub0622667" id="mi_671797" pid="mi_658541" width="140" height="25" onclick="document.location='/en/machining-process.htm';" onmouseover="this.className='catsub1622667';" onmouseout="this.className='catsub0622667';">Machining Process</td></tr><tr><td title="" valign="top" class="catsub0622667" id="mi_672442" pid="mi_658541" width="140" height="25" onclick="document.location='/en/machining-company.htm';" onmouseover="this.className='catsub1622667';" onmouseout="this.className='catsub0622667';">Our History</td></tr><tr><td title="" valign="top" class="catsub0622667" id="mi_994122" pid="mi_658541" width="180" height="25" onclick="document.location='/en/international-machining-company.htm';" onmouseover="this.className='catsub1622667';" onmouseout="this.className='catsub0622667';">International Market</td></tr><tr><td title="" valign="top" class="catsub0622667" id="mi_1016699" pid="mi_658541" width="180" height="25" onclick="document.location='/en/social-responsability.htm';" onmouseover="this.className='catsub1622667';" onmouseout="this.className='catsub0622667';">Social Responsability</td></tr></table></div><div style="width:180px;" id="catDynMenuSub671938" class="catdiv622667"><table width="180" cellpadding="0" cellspacing="0" class="catsub622667"><tr><td title="" valign="top" class="catsub0622667" id="mi_1046365" pid="mi_671938" width="180" height="25" onclick="document.location='/en/precision-machining.htm';" onmouseover="this.className='catsub1622667';" onmouseout="this.className='catsub0622667';">CNC Machined</td></tr><tr><td title="" valign="top" class="catsub0622667" id="mi_1046366" pid="mi_671938" width="180" height="25" onclick="document.location='/en/aluminium-cutting.htm';" onmouseover="this.className='catsub1622667';" onmouseout="this.className='catsub0622667';">Aluminium Cutting</td></tr><tr><td title="" valign="top" class="catsub0622667" id="mi_1046367" pid="mi_671938" width="180" height="25" onclick="document.location='/en/turning-parts.htm';" onmouseover="this.className='catsub1622667';" onmouseout="this.className='catsub0622667';">Turning Parts</td></tr><tr><td title="" valign="top" class="catsub0622667" id="mi_1124043" pid="mi_671938" width="120" height="25" onclick="document.location='/en/our-clients-products';" onmouseover="this.className='catsub1622667';" onmouseout="this.className='catsub0622667';">Our Clients Products</td></tr><tr><td title="" valign="top" class="catsub0622667" id="mi_1124046" pid="mi_671938" width="120" height="25" onclick="document.location='/en/new-products';" onmouseover="this.className='catsub1622667';" onmouseout="this.className='catsub0622667';">New Products</td></tr></table></div><div style="width:225px;" id="catDynMenuSub1124048" class="catdiv622667"><table width="225" cellpadding="0" cellspacing="0" class="catsub622667"><tr><td title="" valign="top" class="catsub0622667" id="mi_1124050" pid="mi_1124048" width="180" height="25" onclick="document.location='/en/new-products';" onmouseover="this.className='catsub1622667';" onmouseout="this.className='catsub0622667';">New Products</td></tr><tr><td title="" valign="top" class="catsub0622667" id="mi_1124049" pid="mi_1124048" width="180" height="25" onclick="document.location='/en/our-clients-products';" onmouseover="this.className='catsub1622667';" onmouseout="this.className='catsub0622667';">Our Clients Products</td></tr><tr><td title="" valign="top" class="catsub0622667" id="mi_1136745" pid="mi_1124048" width="225" height="25" onclick="document.location='/digitalcatalogue';" onmouseover="this.className='catsub1622667';" onmouseout="this.className='catsub0622667';">Digital Catalogue</td></tr></table></div></div><script type="text/javascript">catSetSelectedItem('cat_622667');</script><!-- Dynamic Menu End Default Output --><br />
+        </div>
+        <div class="column span-18 mainbox">
+        <div class="wrapper clear">
+        <div class="post-list">     <link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.joarjo.com/RSSRetrieve.aspx?ID=15559&amp;Type=RSS20" /><div id="catblogoutput"><div class="wrap_fullwidth" id="main">
+<div class="post-body">
+<h2>JOARJO commercial visits to Palencia and Valladolid</h2>
+<div class="boxamarillo">
+<p style="text-align: justify;">Our General Manager Mr. Armando Mozota 2 and our Commercial Manager, Ms. Yolanda Va, have been in an official visit to Palencia and Valladolid, where they have contacted both with ongoing clients as new leads, in order to further develop and improve trade relations.</p>
+<p style="text-align: justify;">On these days, they have been the opportunity to visit the facilities of <a href="https://nammo.com/who-we-are/locations/spain/nammo-palencia/" target="_blank">Nammo Palencia</a>, <a href="http://www.manteneo.com/" target="_blank">Mant&eacute;neo</a>, <a href="http://www.faymasa.com/" target="_blank">Faymasa</a>, <a href=" http://www.benteler.es/" target="_blank">Benteler</a>, <a href="http://www.inmapa.com/" target="_blank">Inmapa</a> and <a href="www.fasten.es" target="_blank">Fasten Sistemas</a>.</p>
+</div>
+<hr />
+<div class="box">
+<h4><a href="http://www.manteneo.com/" target="_blank">Mant&eacute;neo</a></h4>
+<p style="text-align: justify;">Mant&eacute;neo has extensive experience in the field of mechanical engineering development of technical solutions for the industry.</p>
+</div>
+<div class="column span-7 mainbox texto">
+<div class="box">
+<p style="text-align: justify;">
+Working for different sectors such as automotive, feeding or wind energy allows them to export their expertise from one sector to another, resulting in a better application of mechanical, pneumatic, hydraulic and electric resources.</p>
+</div>
+</div>
+<div class="column span-9 prepend-1 img-resp"><br />
+<img alt="" src="http://www.manteneo.com/images/fondo_manteneo_color.png" style="width: 400px;" />
+</div>
+<hr />
+<div class="column span-9 mainbox texto">
+<div class="box">
+<h4><a href="http://www.faymasa.com/" target="_blank">Faymasa</a></h4>
+<p style="text-align: justify;">Faymasa was founded  in 1989 as an ambitious project leaded by two brothers who already had extensive experience at grinding and motor repairs. Faymasa arises in order to provide customers all the technology it counts on at design and engineering. </p>
+<p style="text-align: justify;">
+During all these years, the company has improved its facilities, and production equipment, being one of its main objectives, process improvement and quality of its services.</p>
+</div>
+</div>
+<div class="column span-7 prepend-1 img-resp"><br />
+<img alt="" src="/noticias/2016/Faymasa.jpg" style="border: 0px solid; width: 300px; height: 338px;" />
+</div>
+<hr />
+<div class="box">
+<h4><a href="https://nammo.com/" target="_blank">Nammo</a></h4>
+<p style="text-align: justify;">Headquartered in Raufoss, Norway, the Nammo Group is a technology-driven aerospace and defense group specializing in high-performance defense and space solutions. </p>
+<p style="text-align: justify;">
+The factory in Palencia is specialized in the manufacture of a wide range of ammunition.</p>
+<div style="text-align: right;"><img alt="" src="/logos/nammo.jpg" style="font-size: 12px; color: #222222; line-height: 1.5;" /></div>
+</div>
+<hr />
+<div class="box">
+<h4><a href="www.fasten.es" target="_blank">Fasten Sistemas</a> </h4>
+<p style="text-align: justify;">Wholesale of machinery, equipment and supplies.</p>
+<p style="text-align: justify;">
+Specialized aluminum fittings, screws, nailing and fixings.</p>
+<img alt="" src="http://www.fasten.es/imagenes/cabecera.JPG" style="border: 0px solid; width: 400px;" />
+</div>
+<hr />
+<div class="column span-9 mainbox texto">
+<div class="box">
+<h4><a href=" http://www.benteler.es/" target="_blank">Benteler</a></h4>
+<p style="text-align: justify;">The BENTELER-Group stands for first-class materials, production, and technological expertise in the areas of Automotive, Steel/Tubes and Distribution.</p>
+<p style="text-align: justify;">
+Ongoing progress is a characteristic of them about 140-year company history.</p>
+</div>
+</div>
+<div class="column span-7 prepend-1 img-resp">
+<img alt="" src="/noticias/2016/Benteler.jpg" style="border: 0px solid; width: 285px;" />
+</div>
+<hr />
+<div class="column span-9 mainbox texto">
+<div class="box">
+<h4><a href="http://www.inmapa.com/" target="_blank">Inmapa</a></h4>
+<p style="text-align: justify;">This company grows and develops in a sustained way and it has become a reference company in the metal-mechanical industry. In the vanguard of technical resources it counts on a highly skilled staff full of experience, youth and professionalism. This allows it to offer a top product and service fulfilling quality standards at a reasonable cost within the stipulated period.</p>
+<p style="text-align: justify;">
+It has taken part in the most important projects/programs within different technological sectors (automotive, aeronautics, railway infrastructure, naval, defence, space, energy, etc), providing comprehensive solutions together with creative and innovative ideas to improve the concept and production systems.</p>
+</div>
+</div>
+<div class="column span-7 prepend-1 img-resp">
+<div style="text-align: center;"><img alt="" src="http://www.inmapa.com/sites/default/files/images/logo.png" style="font-size: 12px; color: #222222; line-height: 1.5; border-style: solid;" /></div>
+<br />
+<img alt="" src="/noticias/2016/Inmapa.jpg" style="border: 0px solid; width: 300px; height: 400px;" />
+</div>
+<div class="column span-19 mainbox texto">
+<script src="http://connect.facebook.net/es_ES/all.js#xfbml=1"></script><fb:like href="" layout="standard" show_faces="true" width="450" action="like" font="" colorscheme="light" send="true"></fb:like>
+<a href="http://twitter.com/share" class="twitter-share-button" data-url="" data-count="vertical" data-text="" data-via="" data-related="" data-lang="es" data-counturl="">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+</div>
+</div>
+</div>
+<!-- END .blog-post --></div>
+        <p class="page-nav"><a id="previouspage" href="#" style="display:none" >Anterior</a>  <span class="pagination" id="pagination" ></span> <a id="nextpage" href="#" style="display:none">Siguiente</a> </p>
+        
+
+        </div>
+        </div>
+        <!-- END .wrapper -->
+        <!-- END .blog-container --> <br />
+        </div>
+        <!-- //Contenido finaliza  aqui -->
+        <div class="ColumnaDerInt">
+        <div class="NoticiasRelacionada">
+        <div class="TituloNoticias">Last News</div>
+        <div class="BlogRecentPost"><ul><li><a href="/machining-news/joarjos-visit-to-sapa-facilities" title="JOARJO's visit to SAPA facilities">JOARJO's visit to SAPA facilities</a></li><li><a href="/machining-news/new-record-in-our-sales-figures" title="New record in our sales figures">New record in our sales figures</a></li><li><a href="/machining-news/pepe-cerda-xvii" title="Pepe Cerdá (XVII)">Pepe Cerdá (XVII)</a></li><li><a href="/machining-news/caring-for-the-last-detail-of-our-shipments" title="Caring for the last detail of our shipments...">Caring for the last detail of our shipments...</a></li></ul></div><br />
+        <div class="TituloNoticias">Labs</div>
+        <div class="BlogTagCloud"> <a href="/machining-news/tag/Quality/" title="Quality" class="BlogTagCloud-X-Large">Quality</a>  <a href="/machining-news/tag/Financial/" title="Financial" class="BlogTagCloud-Large">Financial</a>  <a href="/machining-news/tag/Turning/" title="Turning" class="BlogTagCloud-XX-Small">Turning</a>  <a href="/machining-news/tag/Comercial/" title="Comercial" class="BlogTagCloud-XX-Small">Comercial</a>  <a href="/machining-news/tag/Production/" title="Production" class="BlogTagCloud-Large">Production</a>  <a href="/machining-news/tag/Social_Responsability/" title="Social Responsability" class="BlogTagCloud-XX-Large">Social Responsability</a>  <a href="/machining-news?TagID=176619" title="usinage &amp; decolletage" class="BlogTagCloud-XX-Small">usinage &amp; decolletage</a>  <a href="/machining-news/tag/Responsabilidad_Social/" title="Responsabilidad Social" class="BlogTagCloud-XX-Small">Responsabilidad Social</a>  <a href="/machining-news/tag/General/" title="General" class="BlogTagCloud-Large">General</a>  <a href="/machining-news/tag/cultural_pills/" title="cultural pills" class="BlogTagCloud-Large">cultural pills</a>  <a href="/machining-news/tag/Commercial/" title="Commercial" class="BlogTagCloud-X-Small">Commercial</a>  <a href="/machining-news/tag/Marketing/" title="Marketing" class="BlogTagCloud-Large">Marketing</a>  <a href="/machining-news/tag/Hutchinson/" title="Hutchinson" class="BlogTagCloud-X-Small">Hutchinson</a>  <a href="/machining-news/tag/Machining/" title="Machining" class="BlogTagCloud-Medium">Machining</a> </div>
+        <div class="TituloNoticias">Archive</div>
+        <div class="BlogPostArchive"><ul><li><a href="/machining-news/calendar/2017/4/" title="2017-4">Abril 2017 (2)</a></li><li><a href="/machining-news/calendar/2017/3/" title="2017-3">Marzo 2017 (4)</a></li><li><a href="/machining-news/calendar/2017/2/" title="2017-2">Febrero 2017 (2)</a></li><li><a href="/machining-news/calendar/2017/1/" title="2017-1">Enero 2017 (3)</a></li><li><a href="/machining-news/calendar/2016/12/" title="2016-12">Diciembre 2016 (4)</a></li><li><a href="/machining-news/calendar/2016/11/" title="2016-11">Noviembre 2016 (2)</a></li><li><a href="/machining-news/calendar/2016/10/" title="2016-10">Octubre 2016 (5)</a></li><li><a href="/machining-news/calendar/2016/9/" title="2016-9">Septiembre 2016 (8)</a></li><li><a href="/machining-news/calendar/2016/7/" title="2016-7">Julio 2016 (4)</a></li></ul></div>
+        </div>
+        </div>
+        <hr />
+        <div id="placeholder-footer">
+        <div id="head-left" class="footer-mobile span-24 column">
+        <!-- Dynamic Menu Begin Default Output -->
+        <div id="linkedin">
+        <a href="http://www.linkedin.com/company/joarjo-sl"><img alt="Linked In" src="/images/linkedin_icon.png" /></a>
+        </div>
+        <div class="scrollup">
+        <img alt="To Top" src="/images/to_top.png" />
+        </div>
+        <div class="mobile-footer">
+        <ul>
+            <li><a href="index.html">INICIO</a></li>
+            <li>|</li>
+            <li><a href="aviso-legal.htm">AVISO LEGAL</a></li>
+            <li>|</li>
+            <li><a href="contactar.htm">CONTACTO</a></li>
+        </ul>
+        <script type="text/javascript" src="/CatalystScripts/Java_DynMenus.js?vs=b2305.r508882-phase1"></script><script type="text/javascript" src="/CatalystScripts/Java_DynMenusSelected.js?vs=b2305.r508882-phase1"></script><!-- Dynamic Menu Begin Default Output --><script type="text/javascript">var catDynMenu622670=new FSMenu('catDynMenu622670', false, 'visibility', 'visible', 'hidden');</script><style> .catmain622670 {padding:0px;margin:0px;border-width:0px;border-style:none;border-color:black;} .catmain0622670 {font-family:Verdana, Arial;font-size:10pt;text-align:left;color:black;background-color:gray;border-width:0px;border-style:none;border-color:black;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;text-decoration:none;} .catmain1622670 {cursor:pointer;font-family:Verdana, Arial;font-size:10pt;text-align:left;color:black;background-color:blue;border-width:0px;border-style:none;border-color:black;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;text-decoration:none;} .catdiv622670 {position:absolute;visibility:hidden;z-index:1000;padding:0px;margin:0px;} .catsub622670 {padding:0px;margin:0px;border-width:1px;border-style:solid;border-color:black;} .catsub0622670 {font-family:Verdana, Arial;font-size:10pt;text-align:left;color:black;background-color:gray;border-width:0px;border-style:none;border-color:black;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;text-decoration:none;} .catsub1622670 {cursor:pointer;font-family:Verdana, Arial;font-size:10pt;text-align:left;color:black;background-color:blue;border-width:0px;border-style:none;border-color:black;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;text-decoration:none;}</style><div id="cat_622670_divs"><table  id="cat_622670" width="980" cellpadding="0" cellspacing="0" class="catmain622670"><tr><td title="" valign="top" class="menu-item" id="" width="80" height="36" onclick="document.location='/en/home.htm';" selcss="menu-item-selected" onmouseover="this.className='menu-item-hover';" onmouseout="this.className='menu-item';">Home</td><td title="" valign="top" class="menu-item" id="" width="90" height="36" onclick="document.location='/en/machining-company.htm';" selcss="menu-item-selected" onmouseover="this.className='menu-item-hover';" onmouseout="this.className='menu-item';">Company</td><td title="" valign="top" class="menu-item" id="" width="175" height="36" onclick="document.location='/en/precision-machining.htm';" selcss="menu-item-selected" onmouseover="this.className='menu-item-hover';" onmouseout="this.className='menu-item';">Precision Machining</td><td title="" valign="top" class="menu-item" id="" width="160" height="36" onclick="document.location='/en/aluminium-cutting.htm';" selcss="menu-item-selected" onmouseover="this.className='menu-item-hover';" onmouseout="this.className='menu-item';">Aluminium Cutting</td><td title="" valign="top" class="menu-item" id="" width="135" height="36" onclick="document.location='/en/turning-parts.htm';" selcss="menu-item-selected" onmouseover="this.className='menu-item-hover';" onmouseout="this.className='menu-item';">Turning Parts</td><td title="" valign="top" class="menu-item" id="" width="120" height="36" onclick="document.location='/en/legal-notice.htm';" selcss="menu-item-selected" onmouseover="this.className='menu-item-hover';" onmouseout="this.className='menu-item';">Legal Notice</td><td title="" valign="top" class="menu-item" id="" width="100" height="36" onclick="document.location='/en/site-map.htm';" selcss="menu-item-selected" onmouseover="this.className='menu-item-hover';" onmouseout="this.className='menu-item';">SiteMap</td><td title="" valign="top" class="menu-item" id="" width="120" height="36" onclick="document.location='/en/contact-us.htm';" selcss="menu-item-selected" onmouseover="this.className='menu-item-hover';" onmouseout="this.className='menu-item';">Contact Us</td></tr></table></div><script type="text/javascript">catSetSelectedItem('cat_622670');</script><!-- Dynamic Menu End Default Output -->
+        </div>
+        <div class="credits">
+        Copyright &copy; Joarjo 2017. All Right Reserved. Website &amp;&nbsp;<a href="http://www.marketingdigitalwsi.com" name=" marketing digital ">
+        Marketing Digital</a> por WSI
+        </div>
+        <!-- Fin Footer -->
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class="skype_c2c_menu_container notranslate" id="skype_c2c_menu_container" style="display: none;" onmouseover="SkypeClick2Call.MenuInjectionHandler.showMenu(this, event)" onmouseout="SkypeClick2Call.MenuInjectionHandler.hideMenu(this, event)" data-fp="{1FEA3FB7-5573-4109-9557-67DF622828FD}" data-murl="https://pipe.skype.com/Client/2.0/" data-p2murl="https://c2c-p2m-secure.skype.com/p2m/v1/push" data-uiid="1" data-uilang="en">
+        <div class="skype_c2c_menu_click2call"><a class="skype_c2c_menu_click2call_action" id="skype_c2c_menu_click2call_action" target="_self">Call</a></div>
+        <div class="skype_c2c_menu_click2sms"><a class="skype_c2c_menu_click2sms_action" id="skype_c2c_menu_click2sms_action" target="_self">Send SMS</a></div>
+        <div class="skype_c2c_menu_push_to_mobile"><a class="skype_c2c_menu_push_to_mobile_action" id="skype_c2c_menu_push_to_mobile_action" target="_blank">Call from mobile</a></div>
+        <div class="skype_c2c_menu_add2skype"><a class="skype_c2c_menu_add2skype_text" id="skype_c2c_menu_add2skype_text" target="_self">Add to Skype</a></div>
+        <div class="skype_c2c_menu_toll_info"><span class="skype_c2c_menu_toll_callcredit">You'll need Skype Credit</span><span class="skype_c2c_menu_toll_free">Free via Skype</span></div>
+        </div>
+    
+</body>
+</html>
